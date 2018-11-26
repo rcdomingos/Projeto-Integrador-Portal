@@ -12,7 +12,7 @@ include('../imports/idioma.php');
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-    
+
 <?php
 //importando o head da pagina
 include('../imports/head.php');
@@ -29,14 +29,14 @@ include('../imports/menu-secundario.php');
     <!-- Conteúdo da Página -->
     <br>
     <main>
-        
+
         <!-- Imagem -->
         <div class="container">
 
             <div class="row text-center">
 
                 <div class="col-sm-12 col-md-6 col-lg-12 col-xl-12">
-                    <a href="#"><img class="rounded img-fluid" src="../images/Indie/the-killers.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/indie/the-killers.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <!-- Texto -->
@@ -57,7 +57,7 @@ include('../imports/menu-secundario.php');
             <div class="row">
                 <div class="col-12">
 
-                    <img src="../images/Indie/the-smiths.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/the-smiths.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="https://www.officialsmiths.co.uk/tqid/" class="indietexto">The Smiths</a>
 
@@ -73,7 +73,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 imgindie">
 
-                    <img src="../images/Indie/franz-ferdinand.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/franz-ferdinand.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="http://franzferdinand.com/" class="indietexto">Franz Ferdinand</a>
 
@@ -83,7 +83,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 imgindie">
 
-                    <img src="../images/Indie/the-xx.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/the-xx.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="http://thexx.info/home/" class="indietexto">The XX</a>
 
@@ -94,7 +94,7 @@ include('../imports/menu-secundario.php');
         </div>
 
         <br>
-        
+
     </main>
 
 <!-- FOOTER -->
