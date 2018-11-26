@@ -1,7 +1,8 @@
 <?php
   $hiphop_pt = array("Cifras","2 dias atrás","3 dias atrás","4 dias atrás","5 dias atrás","Albúm","Letra","Artista","Música");
   $hiphop_en = array("Lyrics","2 days ago", "3 days ago", "4 days ago", "5 days ago","Album","Lyrics","Artist","Music");
-  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+  $hiphop_es = array("Cifras", "Hace 2 días", "Hace 3 días", "Hace 4 días", "Hace 5 días", "Álbum", "Carta", "Artistas", "Música");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>
