@@ -1,7 +1,8 @@
 <?php
   $hiphop_pt = array("Origem","PARCERIAS","SHOWS","ACONTECIMENTOS","CURIOSIDADES","NOVIDADES","EVENTOS");
-$hiphop_en = array("Origin","PARTNERSHIPS","SHOWS","DOINGS","CURIOSITIES","NEWS","EVENTS");
-  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+  $hiphop_en = array("Origin","PARTNERSHIPS","SHOWS","DOINGS","CURIOSITIES","NEWS","EVENTS");
+  $hiphop_es = array("Fuente", "ASOCIACIONES", "ESPECTÁCULOS", "EVENTOS", "DATOS CURIOSOS", "NOTICIAS", "EVENTOS");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>
