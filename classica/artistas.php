@@ -104,17 +104,17 @@
         
         <div class="row mb-3" >
                 <nav aria-label="Navegação da página artistas" class="mt-4 alinhar">
-                <ul class="pagination">
-                    <li class="page-item ajustepagina">
+                <ul class="pagination ajustepagina">
+                    <li class="page-item bordinha">
                         <a class="page-link" href="artistas.php" aria-label="Anterior">
                             <span aria-hidden="true">&laquo;</span>
                             <span class="sr-only">Anterior</span>
                         </a>
                     </li>
-                    <li class="page-item ajustepagina"><a class="page-link" href="artistas.php">1</a></li>
-                    <li class="page-item ajustepagina"><a class="page-link" href="artistas.php">2</a></li>
-                    <li class="page-item ajustepagina"><a class="page-link" href="artistas.php">3</a></li>
-                    <li class="page-item ajustepagina">
+                    <li class="page-item"><a class="page-link" href="artistas.php">1</a></li>
+                    <li class="page-item"><a class="page-link" href="artistas.php">2</a></li>
+                    <li class="page-item"><a class="page-link" href="artistas.php">3</a></li>
+                    <li class="page-item">
                         <a class="page-link" href="artistas.php" aria-label="Próximo">
                             <span aria-hidden="true">&raquo;</span>
                             <span class="sr-only">Próximo</span>

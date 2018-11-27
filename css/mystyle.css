@@ -724,8 +724,12 @@ div.tboxmenu:hover {
     display: flex;
     align-items: center;
 }
-.arrumarbordinha {
-    border-width: 2px solid black;
+.alinhar {
+    margin: 0 auto 0 auto;
+}
+.ajustepagina {
+    box-shadow: 5px 3px 10px;
+    border-radius: 10px;
 }
 /*Origem a clássica*/
 .porigem {
@@ -905,13 +909,6 @@ a.marcoshover:hover {
 
 .noticiasajuste {
     width: 100%;
-}
-
-.alinhar {
-    margin: 0 auto 0 auto;
-}
-.ajustepagina {
-    box-shadow: 5px 3px 10px;
 }
 .lnoticias:hover {
     color: black;
