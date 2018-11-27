@@ -943,6 +943,15 @@ h3.titulos-indie {
     background-color: black;
 }
 
+.btn-roxo{
+  background-color: #9b079c;
+  color:#fff;
+}
+
+.btn-roxo:hover{
+  background-color: #79067a;
+}
+
 div.header-contato{
   height: 300px;
   width: 100%;

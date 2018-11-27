@@ -135,7 +135,7 @@ include('imports/idioma.php');
             <div class="row no-gutters align-items-center">
               <div class="col-5">
                 <img class="img-fluid" src="images/principal/ranking.png" alt="Top da Paradas">
-                <p class="tt-rank">Top <img src="images/principal/star-solid.png" 
+                <p class="tt-rank">Top <img src="images/principal/star-solid.png"
                 alt="icone estrela"> 10 <?php echo $home[$ID][20] ?></p>
               </div>
               <div class="col-7">
@@ -149,7 +149,7 @@ include('imports/idioma.php');
             <div class="row no-gutters align-items-center">
               <div class="col-5">
                 <img class="img-fluid" src="images/principal/ranking.png" alt="Top da Paradas">
-                <p class="tt-rank">Top <img src="images/principal/star-solid.png" 
+                <p class="tt-rank">Top <img src="images/principal/star-solid.png"
                 alt="icone estrela"> 10 <?php echo $home[$ID][21] ?></p>
               </div>
               <div class="col-7">
@@ -163,7 +163,7 @@ include('imports/idioma.php');
             <div class="row no-gutters align-items-center">
               <div class="col-5">
                 <img class="img-fluid" src="images/principal/ranking.png" alt="Top da Paradas">
-                <p class="tt-rank">Top <img src="images/principal/star-solid.png" 
+                <p class="tt-rank">Top <img src="images/principal/star-solid.png"
                 alt="icone estrela"> 10 <?php echo $home[$ID][22] ?></p>
               </div>
               <div class="col-7">
@@ -191,31 +191,31 @@ include('imports/idioma.php');
                 <!-- Linha 1 da sugestão -->
                 <div class="row justify-content-md-center text-center">
                   <div class="col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/principal/home-9.jpg" alt="Lorem Ipsummm .">
-                    <p>Lorem Ipsummm.</p>
+                    <img class="rounded img-fluid" src="images/hip-hop/home4.jpg" alt="CD The Weeknd">
+                    <p>The Weeknd</p>
                   </div>
                   <div class="col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/principal/home-4.jpg" alt="Donec sed odio duielit">
-                    <p>Donec sed odio</p>
+                    <img class="rounded img-fluid" src="images/pop/lady.jpg" alt="CD Lady Gaga">
+                    <p>Lady Gaga</p>
                   </div>
                   <div class="no-display col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/principal/home-5.jpg" alt="Donec sed odio duielit.">
-                    <p>Donec sed odio</p>
+                    <img class="rounded img-fluid" src="images/indie/imagine-dragons-destaques.jpg" alt="CD Imagine Dragons">
+                    <p>Imagine Dragons</p>
                   </div>
                 </div>
                 <!-- Linha 2 da sugestão -->
                 <div class="row justify-content-md-center align-items-center text-center">
                   <div class="col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/principal/home-6.jpg" alt="Donec sed odio duielit.">
-                    <p>Donec sed odio</p>
+                    <img class="rounded img-fluid" src="images/indie/nirvana-destaques.jpg" alt="CD Nirvana">
+                    <p>Nirvana</p>
                   </div>
                   <div class="col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/principal/home-7.jpg" alt="Lorem Ipsummm">
-                    <p>Lorem Ipsummm</p>
+                    <img class="rounded img-fluid" src="images/punk/seculo-sinistro.jpg" alt="CD Ratos  de Porão">
+                    <p>Ratos  de Porão</p>
                   </div>
                   <div class="no-display col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/principal/home-8.jpg" alt="Donec sed odio duielit.">
-                    <p>Donec sed odio</p>
+                    <img class="rounded img-fluid" src="images/principal/home-8.jpg" alt="CD Zé Neto e Cristiano">
+                    <p>Zé Neto e Cristiano</p>
                   </div>
                 </div>
               </div>
