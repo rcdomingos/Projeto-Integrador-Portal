@@ -12,7 +12,7 @@ include('../imports/idioma.php');
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-    
+
 <?php
 //importando o head da pagina
 include('../imports/head.php');
@@ -42,7 +42,7 @@ include('../imports/menu-secundario.php');
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img class="first-slide" src="../images/Indie/the-strokes-carrocel.jpg" alt="First slide">
+                        <img class="first-slide" src="../images/indie/the-strokes-carrocel.jpg" alt="First slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>The Strokes</h1>
@@ -52,7 +52,7 @@ include('../imports/menu-secundario.php');
                     </div>
 
                     <div class="carousel-item">
-                        <img class="second-slide" src="../images/Indie/the-killers-carrocel.jpg" alt="Second slide">
+                        <img class="second-slide" src="../images/indie/the-killers-carrocel.jpg" alt="Second slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>The Killers</h1>
@@ -62,7 +62,7 @@ include('../imports/menu-secundario.php');
                     </div>
 
                     <div class="carousel-item">
-                        <img class="third-slide" src="../images/Indie/arctic-monkeys-carrocel.jpg" alt="Third slide">
+                        <img class="third-slide" src="../images/indie/arctic-monkeys-carrocel.jpg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>Arctic Monkeys</h1>
@@ -72,7 +72,7 @@ include('../imports/menu-secundario.php');
                     </div>
 
                     <div class="carousel-item">
-                        <img class="four-slide" src="../images/Indie/florence-and-the-machine-carrocel.jpg" alt="Four slide">
+                        <img class="four-slide" src="../images/indie/florence-and-the-machine-carrocel.jpg" alt="Four slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>Florence and The Machine</h1>
@@ -97,7 +97,7 @@ include('../imports/menu-secundario.php');
         </div>
         <br>
         <!-- Final Carrocel -->
-        
+
         <!-- Imagens -->
         <div class="container">
 
@@ -106,7 +106,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
 
-                    <img src="../images/Indie/the-strokes.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/the-strokes.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="http://thestrokes.com/" class="indietexto">The Strokes</a>
 
@@ -116,7 +116,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
 
-                    <img src="../images/Indie/arctic-monkeys-cover.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/arctic-monkeys-cover.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="https://www.arcticmonkeys.com/" class="indietexto">Arctic Mokeys</a>
 
@@ -126,7 +126,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
 
-                    <img src="../images/Indie/the-neighbourhood-cover.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/the-neighbourhood-cover.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="https://thenbhd.com/" class="indietexto">The Neighbourhood</a>
 
@@ -136,7 +136,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
 
-                    <img src="../images/Indie/muse-cover.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/muse-cover.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="https://simulationtheory.muse.mu/" class="indietexto">MUSE</a>
 
@@ -169,7 +169,7 @@ include('../imports/menu-secundario.php');
             </div>
         </div>
         <br><br><br><br>
-        
+
     </main>
 
     <!-- FOOTER -->

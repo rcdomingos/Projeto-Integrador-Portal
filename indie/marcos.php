@@ -4,7 +4,7 @@ include('../imports/idioma.php');
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-    
+
 <?php
 //importando o head da pagina
 include('../imports/head.php');
@@ -20,7 +20,7 @@ include('../imports/menu-secundario.php');
 
     <!-- Conteúdo da pagina -->
     <main>
-        
+
         <!-- Primeiro Bloco -->
         <br><br>
         <div class="container">
@@ -29,7 +29,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Imagem -->
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <a href="#"><img class=" img-fluid" src="../images/Indie/lab-fantasma.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class=" img-fluid" src="../images/indie/lab-fantasma.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <!-- Texto -->
@@ -56,7 +56,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Imagem -->
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <a href="#"><img class=" img-fluid" src="../images/Indie/marechal.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class=" img-fluid" src="../images/indie/marechal.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <!-- Texto -->
@@ -83,7 +83,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Imagem -->
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <a href="#"><img class=" img-fluid" src="../images/Indie/arcade-fire-marco.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class=" img-fluid" src="../images/indie/arcade-fire-marco.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <!-- Texto -->

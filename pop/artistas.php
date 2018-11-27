@@ -19,16 +19,16 @@ include('../imports/idioma.php');
         <div class="headerpop">
             <div class="jumbotron jumbotron-fluid">
                 <h1 class="display-4 text-white text-center shadow-text">
-                    <?php 
+                    <?php
                     if ($ID=='PT'){
                         echo "Artistas em Alta";
-                    } 
+                    }
                     if ($ID=='EN'){
                         echo "Artists In Top";
                     }
                     if ($ID=='ES'){
                         echo "Artistas en Alta";
-                    } 
+                    }
                     ?>
                 </h1>
             </div>

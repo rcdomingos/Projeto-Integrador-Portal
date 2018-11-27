@@ -13,7 +13,7 @@ include('../imports/idioma.php');
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-    
+
 <?php
 //importando o head da pagina
 include('../imports/head.php');
@@ -44,7 +44,7 @@ include('../imports/menu-secundario.php');
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img class="first-slide" src="../images/Indie/the-strokes-carrocel.jpg" alt="First slide">
+                        <img class="first-slide" src="../images/indie/the-strokes-carrocel.jpg" alt="First slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>The Strokes</h1>
@@ -54,7 +54,7 @@ include('../imports/menu-secundario.php');
                     </div>
 
                     <div class="carousel-item">
-                        <img class="second-slide" src="../images/Indie/the-killers-carrocel.jpg" alt="Second slide">
+                        <img class="second-slide" src="../images/indie/the-killers-carrocel.jpg" alt="Second slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>The Killers</h1>
@@ -64,7 +64,7 @@ include('../imports/menu-secundario.php');
                     </div>
 
                     <div class="carousel-item">
-                        <img class="third-slide" src="../images/Indie/arctic-monkeys-carrocel.jpg" alt="Third slide">
+                        <img class="third-slide" src="../images/indie/arctic-monkeys-carrocel.jpg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>Arctic Monkeys</h1>
@@ -74,7 +74,7 @@ include('../imports/menu-secundario.php');
                     </div>
 
                     <div class="carousel-item">
-                        <img class="four-slide" src="../images/Indie/florence-and-the-machine-carrocel.jpg" alt="Four slide">
+                        <img class="four-slide" src="../images/indie/florence-and-the-machine-carrocel.jpg" alt="Four slide">
                         <div class="container">
                             <div class="carousel-caption text-left">
                                 <h1>Florence and The Machine</h1>
@@ -105,9 +105,9 @@ include('../imports/menu-secundario.php');
             <div class="row text-center">
                 <div class="col-lg-12">
                     <h2> <?php echo $indie[$ID][0]; ?> </h2>
-                    
+
                     <h3 class="titulos-indie"><?php echo $indie[$ID][1]; ?></h3>
-                    
+
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@ include('../imports/menu-secundario.php');
             <div class="row">
                 <div class="col-12">
 
-                    <img src="../images/Indie/drika.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/drika.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="https://www.instagram.com/drikbarbosa/?hl=pt-br" class="indietexto">Drika Barbosa</a>
 
@@ -144,7 +144,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 imgindie">
 
-                    <img src="../images/Indie/emicida.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/emicida.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="http://www.emicida.com/" class="indietexto">E.M.I.C.I.D.A.</a>
 
@@ -154,7 +154,7 @@ include('../imports/menu-secundario.php');
 
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 imgindie">
 
-                    <img src="../images/Indie/rubel.jpg" class="img-fluid" alt="Imagem responsiva">
+                    <img src="../images/indie/rubel.jpg" class="img-fluid" alt="Imagem responsiva">
 
                     <a href="https://pt-br.facebook.com/rubelresponde/" class="indietexto">Rubel</a>
 
@@ -165,7 +165,7 @@ include('../imports/menu-secundario.php');
         </div>
 
         <br>
-        
+
     </main>
 
 <!-- FOOTER -->
