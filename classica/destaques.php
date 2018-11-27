@@ -11,7 +11,7 @@
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-  <?php
+<?php
    //importando o head da pagina
      include('../imports/head.php');
   ?>
@@ -19,7 +19,7 @@
 
 <body>
     <!--NAV-->
-   <?php 
+    <?php 
     include('../imports/menu-secundario.php');
    ?>
     <!--FIM NAV-->
@@ -33,15 +33,16 @@
                     <div class="carousel-inner">
 
                         <div class="carousel-item active destaqueajustar">
-
                             <img src="../images/classica/slide/slide-01.jpg" class="img-fluid d-block destaqueajustar" alt="primeiro slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <a href="#" class="corrosselhover">
-                                    <span class="corrosselhover">
-                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3"><?php echo $classica[$ID][0]?></h3>
-                                    <p class="pcarousel text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
-                                    </span>
-                                </a>
+                                <div class="carrosselhover">
+                                    <a href="#" class="carrosselhover">
+                                        <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
+                                            <?php echo $classica[$ID][0]?>
+                                        </h3>
+                                        <p class="pcarousel text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -50,24 +51,28 @@
 
                             <img src="../images/classica/slide/slide-02.jpg" class="img-fluid d-block destaqueajustar" alt="segundo slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <a href="#">
-                                    <span class="corrosselhover">
-                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3"><?php echo $classica[$ID][1]?></h3>
+                                <div class="carrosselhover">
+                                <a href="#" class="carrosselhover">
+                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
+                                        <?php echo $classica[$ID][1]?>
+                                    </h3>
                                     <p class="pcarousel text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
-                                    </span>
                                 </a>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item destaqueajustar">
-                            
+
                             <img src="../images/classica/slide/slide-03.jpg" class="img-fluid d-block destaqueajustar" alt="terceiro slide">
                             <div class="carousel-caption d-none d-md-block text-white">
-                                <a href="#">
-                                    <span class="corrosselhover">
-                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3"><?php echo $classica[$ID][2]?></h3>
+                                <div class="carrosselhover">
+                                <a href="#" class="carrosselhover">
+                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
+                                        <?php echo $classica[$ID][2]?>
+                                    </h3>
                                     <p class="pcarousel text-left ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
-                                    </span>
                                 </a>
+                                </div>
                             </div>
                         </div>
 
@@ -87,31 +92,39 @@
         <!--ARTICLE-->
         <div class="row mt-4 mb-2">
             <div class="col-12 col-md-4 col-lg-4">
-                <section>
+                <article>
                     <a href="#" class="tdestaqueslink destaqueshover">
-                        <h3 class="tdestaques text-center destaqueshover"><?php echo $classica[$ID][3]?></h3>
+                        <h3 class="tdestaques text-center destaqueshover">
+                            <?php echo $classica[$ID][3]?>
+                        </h3>
                     </a>
                     <img src="../images/classica/destaque-01.jpg" class="img-fluid rounded imagensdestaquesclassica" alt="notícia um: a música clássica hoje">
                     <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][4]?></a></p>
-                </section>
+                </article>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
-                <section>
+                <article>
                     <a href="#" class="tdestaqueslink destaqueshover">
-                        <h3 class="tdestaques text-center destaqueshover"><?php echo $classica[$ID][5]?></h3>
+                        <h3 class="tdestaques text-center destaqueshover">
+                            <?php echo $classica[$ID][5]?>
+                        </h3>
                     </a>
                     <img src="../images/classica/destaque-02.jpg" class="img-fluid  imagensdestaquesclassica" alt="notícia dois: para estudar e ralaxar">
-                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][6]?></a></p>
-                </section>
+                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
+                            <?php echo $classica[$ID][6]?></a></p>
+                </article>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
-                <section>
+                <article>
                     <a href="#" class="tdestaqueslink destaqueshover">
-                        <h3 class="tdestaques text-center destaqueshover"><?php echo $classica[$ID][7]?></h3>
+                        <h3 class="tdestaques text-center destaqueshover">
+                            <?php echo $classica[$ID][7]?>
+                        </h3>
                     </a>
                     <img src="../images/classica/destaque-03.jpg" class="img-fluid rounded imagensdestaquesclassica" alt="notícia três: sucesso nos desenhos">
-                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][8]?></a></p>
-                </section>
+                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
+                            <?php echo $classica[$ID][8]?></a></p>
+                </article>
             </div>
         </div>
         <!--FIM ARTICLE-->

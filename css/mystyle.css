@@ -675,7 +675,9 @@ div.tboxmenu:hover {
     display: flex;
     align-items: center;
 }
-
+.arrumarbordinha {
+    border-width: 2px solid black;
+}
 /*Origem a clássica*/
 .porigem {
     padding: 15px 0px 0px 0px;
@@ -696,7 +698,7 @@ div.tboxmenu:hover {
 #boxorigem {
     background: linear-gradient(to right, #D1913C, #FFD194);
     border-radius: 5px;
-    padding: 2px;
+    padding: 10px;
 }
 .origemajustar {
     width: 100%;
@@ -704,6 +706,8 @@ div.tboxmenu:hover {
 .ajustevejamais {
     padding: 2px;
     margin: 0;
+    color: white;
+    font-size: 25px;
 }
 .artistas-classica .jumbotron {
     background-image: url('../images/classica/jumbotron.jpg');
@@ -713,7 +717,12 @@ a.origemhover h5:hover {
     color: #D1913C;
     transition: color 0.2s;
 }
-
+#titulorigemc {
+    background: linear-gradient(to right, #D1913C, #FFD194);
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
 /*Destaques da clássica*/
 .tcarousel {
     padding: 40px;
@@ -739,11 +748,14 @@ a.destaqueshover h3:hover {
     color: #D1913C;
     transition: color 0.2s;
 }
-span.corrosselhover:hover{
-    color: #FFD194;
+.carrosselhover {
+    color: white;
+}
+.carrosselhover a:hover {
+    color: #D1913C;
     transition: color 0.2s;
 }
-.corrosselhover {
+.cleiamais:hover {
     color: white;
 }
 /*Curiosidades da clássica*/
@@ -804,7 +816,6 @@ a.marcoshover:hover {
 .tnoticias {
     color: black;
 }
-
 .pnoticias {
     padding: 0px 0px 10px 0px;
     margin: 0;
@@ -834,7 +845,16 @@ a.marcoshover:hover {
 .alinhar {
     margin: 0 auto 0 auto;
 }
-
+.ajustepagina {
+    box-shadow: 2px 3px 3px;
+    border-radius: 2px;
+}
+.lnoticias:hover {
+    color: black;
+}
+.hnoticias a:hover{
+    color: black;
+}
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
 #header-indie {

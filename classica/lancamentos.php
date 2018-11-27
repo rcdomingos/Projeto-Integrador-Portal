@@ -1,9 +1,9 @@
 <?php
-    $classica_pt = array("TOP 10","♫ Músicas clássicas mais famosas","Artistas","Composições","Período","Sonata ao Luar","Classicismo","Impressionismo","Romantismo","Classicismo","Romantismo","Século XX e XXI","Classicismo","Romantismo","Romantismo","Barroco");
+    $classica_pt = array("TOP 10","♫ Músicas clássicas mais famosas da história","Artistas","Composições","Período","Sonata ao Luar","Classicismo","Impressionismo","Romantismo","Classicismo","Romantismo","Século XX e XXI","Classicismo","Romantismo","Romantismo","Barroco");
 
-    $classica_en = array("TOP 10","♫ Classical musics most famous","Artists","Compositions","Period","Moonlight Sonata","Classicism","Impressionism","Romanticism","Classicism","Romanticism","20th and 21st Century","Classicism","Romanticism","Romanticism","Baroque",);
+    $classica_en = array("TOP 10","♫ Most famous classical musics of the history","Artists","Compositions","Period","Moonlight Sonata","Classicism","Impressionism","Romanticism","Classicism","Romanticism","20th and 21st Century","Classicism","Romanticism","Romanticism","Baroque",);
 
-    $classica_es = array("TOP 10","♫ Músicas clásicas más famosas","Artistas","Composiciones","Período","Sonata Al Chiaro Di Luna","Classicismo","Impresionismo","Romanticismo","Classicismo","Romanticismo","Siglo XX y XXI","Classicismo","Romanticismo","Romanticismo","Barroco");
+    $classica_es = array("TOP 10","♫ Canciones clásicas más famosas de la historia","Artistas","Composiciones","Período","Sonata Al Chiaro Di Luna","Classicismo","Impresionismo","Romanticismo","Classicismo","Romanticismo","Siglo XX y XXI","Classicismo","Romanticismo","Romanticismo","Barroco");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
