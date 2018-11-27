@@ -806,9 +806,13 @@ a.destaqueshover h3:hover {
     transition: color 0.2s;
 }
 
-span.corrosselhover:hover {
+.carrosselhover a:hover {
     color: #FFD194;
     transition: color 0.2s;
+}
+
+.carrosselhover {
+    color: white;
 }
 
 /*Curiosidades da clássica*/
@@ -907,14 +911,16 @@ a.marcoshover:hover {
     margin: 0 auto 0 auto;
 }
 .ajustepagina {
-    box-shadow: 2px 3px 3px;
-    border-radius: 2px;
+    box-shadow: 5px 3px 10px;
 }
 .lnoticias:hover {
     color: black;
 }
 .hnoticias a:hover{
     color: black;
+}
+.cleiamais:hover{
+    color: white;
 }
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
