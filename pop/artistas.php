@@ -1,91 +1,122 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<!--importando o head da pagina -->
 <?php
-    include('../imports/head.php');
-  ?>
+//Php para verificar o idioma!
+include('../imports/idioma.php');
+?>
+<!DOCTYPE html>
+<html lang="<?php echo $lang?>">
+<?php
+   //Importando o head
+     include('../imports/head.php');
+   ?>
 
 <body>
-    <!--importandoo menu da pagina -->
+    <!--Importando o menu -->
     <?php
     include('../imports/menu-secundario.php');
   ?>
-
     <!-- Conteudo da pagina  -->
     <main>
+        <div class="headerpop">
+            <div class="jumbotron jumbotron-fluid">
+                <h1 class="display-4 text-white text-center shadow-text">
+                    <?php 
+                    if ($ID=='PT'){
+                        echo "Artistas em Alta";
+                    } 
+                    if ($ID=='EN'){
+                        echo "Artists In Top";
+                    }
+                    if ($ID=='ES'){
+                        echo "Artistas en Alta";
+                    } 
+                    ?>
+                </h1>
+            </div>
+        </div>
         <div class="container mt-3">
-            <h1 class="text-center">Artistas em Alta</h1>
             <div class="row">
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/justin.jpg" alt="Justin">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/justin.jpg" alt="Justin">
                 </div>
-                <div class="col-6  col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6  col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Justin Bieber</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6  col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/taylor.jpg" alt="Taylor">
+                <div class="col-6  col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/taylor.jpg" alt="Taylor">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Taylor Swift</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2 ">
-                    <img class="img-fluid" src="../images/pop/lady%20gaga.jpg" alt="Lady Gaga">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 ">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/lady.jpg" alt="Lady Gaga">
                 </div>
-                <div class="col-6  col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6  col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Lady Gaga</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6  col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/zayn-malik.jpg" alt="Zayn">
+                <div class="col-6  col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/rihanna.jpg" alt="Rihanna">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Rihanna</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/Rihanna.jpg" alt="Rihanna">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/taylor.jpg" alt="Taylor">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Taylor Swift</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/justinberlake.jpg" alt="Justimberlake">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/justin.jpg" alt="Justin">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Justin Bieber</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/zayn-malik.jpg" alt="Zayn">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/lady.jpg" alt="Lady Gaga">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Lady Gaga</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/Rihanna.jpg" alt="Rihanna">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/rihanna.jpg" alt="Rihanna">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Rihanna</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/justinberlake.jpg" alt="Justimberlake">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/lady.jpg" alt="Lady Gaga">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Lady Gaga</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/justin.jpg" alt="Justin">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/taylor.jpg" alt="Taylor">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Taylor Swift</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/taylor.jpg" alt="Taylor">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/rihanna.jpg" alt="Rihanna">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Rihanna</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
-                    <img class="img-fluid" src="../images/pop/lady%20gaga.jpg" alt="Lady Gaga">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 mb-4">
+                    <img class="img-fluid shadow mb-5 bg-white rounded" src="../images/pop/justin.jpg" alt="Justin">
                 </div>
-                <div class="col-6 col-md-3 col-lg-2 col-xl-2">
+                <div class="col-6 col-md-3 col-lg-2 col-xl-2 mt-3 pt-2">
+                    <h4>Justin Bieber</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                 </div>
             </div>

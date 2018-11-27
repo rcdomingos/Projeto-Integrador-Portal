@@ -1,7 +1,8 @@
 <?php
   $hiphop_pt = array("Cifras");
   $hiphop_en = array("Lyrics");
-  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+  $hiphop_es = array("Cifras");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>

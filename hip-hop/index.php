@@ -1,7 +1,8 @@
 <?php
   $hiphop_pt = array("Artista","Mais Ouvidas","Lançamentos","Premiações","Marcos");
   $hiphop_en = array("Artist","Most Played","Released","Awards", "History");
-  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+  $hiphop_es = array("Artista", "Más escuchadas", "Comunicados", "Premios", "Marcos");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>
