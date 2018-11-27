@@ -42,7 +42,7 @@
 <?php
     
  
-    $artistas = array("<div class='row mb-3  mt-3' id='box'>
+    $artistas = array("<div class='row mb-3  mt-3'>
             <div class='col-12 col-md-6 col-lg-4'>
                 <img src='../images/classica/artistas-01.jpg' class='img-fluid mt-2 mb-2 rounded imgartistas' alt='Artista Ludwig Van Beethoven'>
             </div>
@@ -53,7 +53,7 @@
                 </div>
             </article>
         </div>",
-            "<div class='row mb-3  mt-3' id='box'>
+            "<div class='row mb-3  mt-3'>
             <div class='col-12 col-md-6 col-lg-4'>
                 <img src='../images/classica/artistas-02.jpg' class='img-fluid mt-2 mb-2 rounded imgartistas' alt='Artista Wolfgang Amadeus Mozart'>
             </div>
@@ -64,7 +64,7 @@
                 </div>
             </article>
         </div>",
-            "<div class='row mb-3  mt-3' id='box'>
+            "<div class='row mb-3  mt-3'>
             <div class='col-12 col-md-6 col-lg-4'>
                 <img src='../images/classica/artistas-03.jpg' class='img-fluid mt-2 mb-2 rounded imgartistas' alt='Artista Fredéric Chopin'>
             </div>
@@ -75,7 +75,7 @@
                 </div>
             </article>
         </div>",
-            "<div class='row mb-3  mt-3' id='box'>
+            "<div class='row mb-3  mt-3'>
             <div class='col-12 col-md-6 col-lg-4'>
                 <img src='../images/classica/artistas-04.jpg' class='img-fluid mt-2 mb-2 rounded imgartistas' alt='Artistas Piotr Ilitch Tchaikovsky'>
             </div>
