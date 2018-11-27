@@ -153,6 +153,8 @@
       </div>
     </article>
     <!-- importando o footer da pagina -->
+    <div class="margim-footer">
+    </div>
     <?php
       include('imports/footer.php');
     ?>
