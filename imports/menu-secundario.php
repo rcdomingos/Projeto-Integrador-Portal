@@ -57,7 +57,15 @@
 		Ecletic.Music
 	</a>
   <!-- Icone de busca -->
-  <a href="#"><i class="form-inline fas fa-search"></i></a>
+	<div class="dropdown dropleft">
+		<a href="#" role="button" id="pesquisar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="form-inline fas fa-search"></i></a>
+		<div class="dropdown-menu" aria-labelledby="pesquisar">
+			<form class="form-inline justify-content-end mx-2">
+				<input class="form-control form-control-lg mb-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+				<button class="btn btn-primary my-2 my-sm-0" type="submit">Pesquisar</button>
+			</form>
+		</div>
+	</div>
 	<!-- sobreposição do resto da pagina -->
   <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
   <div class="side-menu-sec">
