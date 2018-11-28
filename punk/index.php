@@ -1,7 +1,7 @@
 <?php
-$punk_pt = array("Artistas");
-$punk_en = array("Artists");
-$punk_es = array("Artistas");
+$punk_pt = array("Artistas", "Destaques", "Classificacao", "Impacto Social", "Lancamentos");
+$punk_en = array("Artists", "Highlights", "Ranking", "Social Impact", "Releases");
+$punk_es = array("Artistas", "Refrejos", "Classificacion", "Impacto Social", "Comunicados");
 $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 
 ?>
@@ -18,7 +18,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 <body class="corpopunk">
     <?php
     include('../imports/menu-secundario.php')
-    
+
     ?>
 
     <article>
@@ -38,25 +38,25 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                 <div class="col-lg-6 ">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6">
 
                                 <figure class="figure ">
                                     <a href="index.php">
                                         <img src="../images/punk/homemulheres.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3 id="importancia3">Destaques.</h3>
+                                            <h3 id="importancia3"><?php echo $punk[$ID][1] ?></h3>
                                         </figcaption>
                                     </a>
                                 </figure>
 
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6">
 
                                 <figure class="figure">
                                     <a href="index.php">
                                         <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3 id="importancia3">Ranking.</h3>
+                                            <h3 id="importancia3"><?php echo $punk[$ID][2] ?></h3>
                                         </figcaption>
                                     </a>
                                 </figure>
@@ -64,23 +64,23 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                         </div>
                         <div class="row">
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6">
                                 <figure class="figure">
                                     <a href="index.php">
                                         <img src="../images/punk/impacto%20social.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3 id="importancia3">Impacto Social.</h3>
+                                            <h3 id="importancia3"> <?php echo $punk[$ID][3] ?> </h3>
                                         </figcaption>
                                     </a>
                                 </figure>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6">
 
                                 <figure class="figure">
                                     <a href="index.php">
-                                        <img src="../images/punk/homeblindpigs.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
+                                        <img src="../images/punk/homebotas.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3 id="importancia3">lancamentos.</h3>
+                                            <h3 id="importancia3"><?php echo $punk[$ID][4] ?></h3>
                                         </figcaption>
                                     </a>
                                 </figure>
@@ -112,11 +112,8 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 
     <?php
     include('../imports/footer-secundario.php')
-    
+
     ?>
 
 </body>
-
-
-
 </html>

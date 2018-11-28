@@ -12,51 +12,50 @@
 <body class="corpopunk">
     <?php
     include('../imports/menu-secundario.php')
-    
+
     ?>
     <article>
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-6">
+                    <figure class="figure">
+                        <a href="index.php">
+                            <img src="../images/punk/homebotas.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
+                            <figcaption class="figure-caption">
+                                <h3>Conspiração anárquica.</h3>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-6">
+
+                    <figure class="figure">
+                        <a href="index.php">
+                            <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
+                            <figcaption class="figure-caption">
+                                <h3>Cólera.</h3>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-6">
+
+                    <figure class="figure">
+                        <a href="index.php">
+                            <img src="../images/punk/impacto%20social.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
+                            <figcaption class="figure-caption">
+                                <h3>Menstruação anárquica.</h3>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-6">
+
                     <figure class="figure">
                         <a href="index.php">
                             <img src="../images/punk/homemulheres.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                             <figcaption class="figure-caption">
-                                <h3>Destaques.</h3>
-                            </figcaption>
-                        </a>
-                    </figure>
-
-                </div>
-                <div class="col-lg-3">
-
-                    <figure class="figure">
-                        <a href="index.php">
-                            <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
-                            <figcaption class="figure-caption">
-                                <h3>Ranking.</h3>
-                            </figcaption>
-                        </a>
-                    </figure>
-                </div>
-                <div class="col-lg-3">
-
-                    <figure class="figure">
-                        <a href="index.php">
-                            <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
-                            <figcaption class="figure-caption">
-                                <h3>Ranking.</h3>
-                            </figcaption>
-                        </a>
-                    </figure>
-                </div>
-                <div class="col-lg-3">
-
-                    <figure class="figure">
-                        <a href="index.php">
-                            <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
-                            <figcaption class="figure-caption">
-                                <h3>Ranking.</h3>
+                                <h3>D.R.I.</h3>
                             </figcaption>
                         </a>
                     </figure>
@@ -69,46 +68,46 @@
         </div>
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-6">
                     <figure class="figure ">
                         <a href="index.php">
                             <img src="../images/punk/homemulheres.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                             <figcaption class="figure-caption">
-                                <h3>Destaques.</h3>
+                                <h3>Bad Religion.</h3>
                             </figcaption>
                         </a>
                     </figure>
 
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-6">
 
                     <figure class="figure">
                         <a href="index.php">
                             <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                             <figcaption class="figure-caption">
-                                <h3>Ranking.</h3>
+                                <h3>Olho seco.</h3>
                             </figcaption>
                         </a>
                     </figure>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-6">
 
                     <figure class="figure">
                         <a href="index.php">
                             <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                             <figcaption class="figure-caption">
-                                <h3>Ranking.</h3>
+                                <h3>Agrotoxico.</h3>
                             </figcaption>
                         </a>
                     </figure>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-6">
 
                     <figure class="figure">
                         <a href="index.php">
                             <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                             <figcaption class="figure-caption">
-                                <h3>Ranking.</h3>
+                                <h3>Ulster.</h3>
                             </figcaption>
                         </a>
                     </figure>
@@ -117,46 +116,46 @@
         </div>
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-6">
                         <figure class="figure ">
                             <a href="index.php">
                                 <img src="../images/punk/homemulheres.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                 <figcaption class="figure-caption">
-                                    <h3>Destaques.</h3>
+                                    <h3>Gritando HC.</h3>
                                 </figcaption>
                             </a>
                         </figure>
 
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-6">
 
                         <figure class="figure">
                             <a href="index.php">
                                 <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                 <figcaption class="figure-caption">
-                                    <h3>Ranking.</h3>
+                                    <h3>P.O.R.</h3>
                                 </figcaption>
                             </a>
                         </figure>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-6">
 
                         <figure class="figure">
                             <a href="index.php">
                                 <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                 <figcaption class="figure-caption">
-                                    <h3>Ranking.</h3>
+                                    <h3>Madball.</h3>
                                 </figcaption>
                             </a>
                         </figure>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-6">
 
                         <figure class="figure">
                             <a href="index.php">
                                 <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                 <figcaption class="figure-caption">
-                                    <h3>Ranking.</h3>
+                                    <h3>Sex Pistols.</h3>
                                 </figcaption>
                             </a>
                         </figure>
@@ -165,46 +164,46 @@
         </div>
                 <div class="container">
                     <div class="row no-gutters">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-6">
                             <figure class="figure ">
                                 <a href="index.php">
                                     <img src="../images/punk/homemulheres.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                     <figcaption class="figure-caption">
-                                        <h3>Destaques.</h3>
+                                        <h3>Afoite.</h3>
                                     </figcaption>
                                 </a>
                             </figure>
 
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-6">
 
                             <figure class="figure">
                                 <a href="index.php">
                                     <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                     <figcaption class="figure-caption">
-                                        <h3>Ranking.</h3>
+                                        <h3>VCDMSA.</h3>
                                     </figcaption>
                                 </a>
                             </figure>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-6">
 
                             <figure class="figure">
                                 <a href="index.php">
                                     <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                     <figcaption class="figure-caption">
-                                        <h3>Ranking.</h3>
+                                        <h3>Anarquia Oi!.</h3>
                                     </figcaption>
                                 </a>
                             </figure>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-6">
 
                             <figure class="figure">
                                 <a href="index.php">
                                     <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                     <figcaption class="figure-caption">
-                                        <h3>Ranking.</h3>
+                                        <h3>Madness.</h3>
                                     </figcaption>
                                 </a>
                             </figure>
@@ -212,8 +211,8 @@
                     </div>
 
                 </div>
-            
-       
+
+
 
     </article>
 
@@ -230,7 +229,7 @@
 
     <?php
     include('../imports/footer-secundario.php')
-    
+
     ?>
 
 </body>
