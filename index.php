@@ -210,8 +210,8 @@ include('imports/idioma.php');
                     <p>Nirvana</p>
                   </div>
                   <div class="col-6 col-md-4">
-                    <img class="rounded img-fluid" src="images/punk/seculo-sinistro.jpg" alt="CD Ratos  de Porão">
-                    <p>Ratos  de Porão</p>
+                    <img class="rounded img-fluid" src="images/sertanejo/lancamento-01.jpg" alt="CD Luan Santana">
+                    <p>Luan Santana</p>
                   </div>
                   <div class="no-display col-6 col-md-4">
                     <img class="rounded img-fluid" src="images/principal/home-8.jpg" alt="CD Zé Neto e Cristiano">
