@@ -28,12 +28,12 @@
                 echo "<p>Karina Cavalcanti Lucindo, 18 anos de idade. Estudante da FATEC São Roque, cursando Sistemas para Internet. Responsável pela página Notícias e pela sessão Clássica.</p>";
               }
               if ($ID=='EN') {
-                echo "<p>RA:2650831813022 - Developer</p>";
+                echo "<p>RA:2650831813014 - Developer</p>";
                 echo '<p><a href="classica/index.php">Classica</a></p>';
                 echo "<p>Karina Cavalcanti Lucindo, 18 years old. She's student at FATEC São Roque, studying Systems for Internet. She's responsible for the page News and about the Classic session.</p>";
                 }
               if ($ID=='ES') {
-                echo "<p>RA:2650831813022 - Revelador</p>";
+                echo "<p>RA:2650831813014 - Revelador</p>";
                 echo '<p><a href="classica/index.php">Classica</a></p>';
                 echo "<p>Karina Cavalcanti Lucindo, 18 años de edad. Estudiante de FATEC São Roque, cursando Sistemas para Internet. Responsable por la página Noticias y la sesión Clásica.</p>";
                 }
@@ -75,7 +75,7 @@
                 echo "<p>Student of the Internet Systems course at FATEC São Roque, I'm in the 2nd semester. Seizing to develop internet sites. Responsible for assisting in the development of javascripts and PHP of the Portal.</p>";
                 }
               if ($ID=='ES') {
-                echo "<p>RA:2650831813022 - Revelador</p>";
+                echo "<p>RA:2650831813029 - Revelador</p>";
                 echo '<p><a href="sertanejo/index.php">Sertanejo</a></p>';
                 echo "<p>Estudiante del curso de Sistemas para Internet, en la FATEC São Roque, estoy en el 2 semestre. Apreciando a desarrollar sitios para Internet. Responsable por auxiliar en el desarrollo de los javascripts y PHP del Portal.</p>";
                 }
@@ -102,7 +102,7 @@
                   echo "<p>Student of the 2nd semester of the Internet Systems course at FATEC São Roque, 22, is responsible for the part of the creation of the pages Hip Hop, and the page Cifras.</p>";
                 }
               if ($ID=='ES') {
-                echo "<p>RA:2650831813022 - Revelador</p>";
+                echo "<p>RA:2650831813024 - Revelador</p>";
                 echo '<p><a href="hip-hop/index.php">Hip-Hop</a></p>';
                 echo "<p>Estudiante del segundo semestre del curso de Sistemas para Internet en la FATEC São Roque, tiene 22 años, es responsable de la parte de la creación de las páginas Hip Hop, y de la página de Cifras.</p>";
                 }
@@ -118,12 +118,12 @@
                 echo "<p>Aluna de Sistemas para Internet no 2º Semestre da Fatec - São Roque, responsavel pela criação do conteudo POP e da pagina indicações no PORTAL</p>";
               }
               if ($ID=='EN') {
-                echo "<p>RA:2650831813024 - Developer</p>";
+                echo "<p>RA:2650831813025 - Developer</p>";
                 echo '<p><a href="pop/index.php">Pop</a></p>';
                 echo "<p>Student of Internet Systems in the 2nd semester at Fatec-São Roque, responsible for creation of content POP and page indications on the PORTAL</p>";
               }
               if ($ID=='ES') {
-                echo "<p>RA:2650831813022 - Revelador</p>";
+                echo "<p>RA:2650831813025 - Revelador</p>";
                 echo '<p><a href="pop/index.php">Pop</a></p>';
                 echo "<p>Estudiante de Sistemas para Internet en el 2º Semestre de la Fatec - São Roque, responsable por la creación del contenido POP y de la página indicaciones en el PORTAL</p>";
                 }
@@ -136,16 +136,16 @@
               if ($ID=='PT') {
                 echo "<p>RA:2650831813026 - Design (Mock-ups) & Desenvolvedor</p>";
                 echo '<p><a href="indie/index.php">Indie</a></p>';
-                echo "<p>Nascido em 17 de abril de 1996, na cidade de São Roque, bacharel em design gráfico pela FMU FIAM-FAAM na turma de 2013 responsavel pela sessão idie do portal e pela criação dos mockups das páginas gerais do trabalho. Atualmente cursando o segudo semestra em sistemas para internet na FATEC São Roque.</p>";
+                echo "<p>Aluno do 2º semestre de Sistemas para Internet na FATEC São Roque, formado em Design Gráfico pela FMU-Fiam Faamtem 22 anos, é responsável pela criação do padrão visual dos mockups e das páginas Indie.</p>";
               }
               if ($ID=='EN') {
                 echo "<p>RA:2650831813026 - Design (Mock-ups) & Developer</p>";
                 echo '<p><a href="indie/index.php">Indie</a></p>';
-                echo "<p>Born on April 17, 1996, in the city of São Roque, a bachelor's degree in graphic design from FMU FIAM-FAAM in the 2013 class responsible for the session idie of the portal and for the creation of the mockups of the general pages of the work. Currently attending the second semester in internet systems at FATEC São Roque.</p>";
+                echo "<p>Student of the 2nd semester of Internet Systems at FATEC São Roque, graduated in Graphic Design from FMU-Fiam Faamtem, 22, is responsible for creating the visual pattern of mockups and Indie pages.</p>";
               } if ($ID=='ES') {
                 echo "<p>RA:2650831813026 - Design (Mock-up) & Desarrollo</p>";
                 echo '<p><a href="indie/index.php">Indie</a></p>';
-                echo "<p>Nacido el 17 de abril de 1996 en la ciudad de São Roque, bachiller en diseño gráfico por FMU FIAM-FAAM en la clase de 2013 responsable de la sesión idie del portal y por la creación de los mockups de las páginas generales del trabajo. Actualmente cursando el segundo semestre en sistemas para internet en FATEC São Roque.</p>";
+                echo "<p>2º semestre de Sistemas para Internet en FATEC São Roque, formado en Diseño Gráfico, FMU-Fiam Faamtem, 22 años, es responsabilidad de crear imágenes visuales, maquetas y páginas web.</p>";
               }
               ?>
           </div>
