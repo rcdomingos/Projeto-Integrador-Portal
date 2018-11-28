@@ -36,21 +36,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/justin.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Justin">
+                    <img src="../images/pop/justin.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Justin">
                     <div class="px-2 py-2 text-center">
                         <h4>Justin Bieber</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/rihanna.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Rihanna">
+                    <img src="../images/pop/rihanna.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Rihanna">
                     <div class="px-2 py-2 text-center">
                         <h4>Rihanna</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/taylor.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Taylor">
+                    <img src="../images/pop/taylor.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Taylor">
                     <div class="px-2 py-2 text-center">
                         <h4>Taylor Swift</h4>
                         <p>lorem lorem lorem dounp dont</p>
@@ -58,21 +58,21 @@
                 </div>
 
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/lady.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Lady Gaga">
+                    <img src="../images/pop/lady.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Lady Gaga">
                     <div class="px-2 py-2 text-center">
                         <h4>Lady Gaga</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/rihanna.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Rihanna">
+                    <img src="../images/pop/rihanna.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Rihanna">
                     <div class="px-2 py-2 text-center">
                         <h4>Rihanna</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/taylor.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Taylor">
+                    <img src="../images/pop/taylor.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Taylor">
                     <div class="px-2 py-2 text-center">
                         <h4>Taylor Swift</h4>
                         <p>lorem lorem lorem dounp dont</p>
@@ -80,21 +80,21 @@
                 </div>
 
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/lady.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Lady Gaga">
+                    <img src="../images/pop/lady.jpg" class="img-fluid shadow bg-white rounded" alt="Lady Gaga">
                     <div class="px-2 py-2 text-center">
                         <h4>Lady Gaga</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/justin.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Justin">
+                    <img src="../images/pop/justin.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Justin">
                     <div class="px-2 py-2 text-center">
                         <h4>Justin Bieber</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/taylor.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Taylor">
+                    <img src="../images/pop/taylor.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Taylor">
                     <div class="px-2 py-2 text-center">
                         <h4>Taylor Swift</h4>
                         <p>lorem lorem lorem dounp dont</p>
@@ -102,21 +102,21 @@
                 </div>
 
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/lady.jpg" width=350px; class="img-fluid shadow  bg-white rounded" alt="Lady Gaga">
+                    <img src="../images/pop/lady.jpg" class="img-pop img-fluid shadow  bg-white rounded" alt="Lady Gaga">
                     <div class="px-2 py-2 text-center">
                         <h4>Lady Gaga</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/justin.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Justin">
+                    <img src="../images/pop/justin.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Justin">
                     <div class="px-2 py-2 text-center">
                         <h4>Justin Bieber</h4>
                         <p>lorem lorem lorem dounp dont</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/rihanna.jpg" width=350px; class="img-fluid shadow bg-white rounded" alt="Rihanna">
+                    <img src="../images/pop/rihanna.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Rihanna">
                     <div class="px-2 py-2 text-center">
                         <h4>Rihanna</h4>
                         <p>lorem lorem lorem dounp dont</p>

@@ -420,25 +420,27 @@ div.tboxmenu:hover {
     color: #fff;
 }
 
-.quem-somos img, .quem-somos-black img {
+.quem-somos img,
+.quem-somos-black img {
     width: 150px;
     height: 150px;
 }
 
-.quem-somos img{
-  box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.52);
+.quem-somos img {
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.52);
 }
 
-.quem-somos-black img{
-  box-shadow: 0px 4px 8px 4px rgba(148,140,140,0.52);
+.quem-somos-black img {
+    box-shadow: 0px 4px 8px 4px rgba(148, 140, 140, 0.52);
 }
 
-div.margim-footer{
+div.margim-footer {
     width: 100%;
     height: 0.5em;
     background-color: #fff;
     background-image: linear-gradient(to left, #fc00ff, #00dbde);
 }
+
 /********** PAGINA RANKING ******************/
 .tt-rank {
     margin-top: .1em;
@@ -465,45 +467,49 @@ div.margim-footer{
 
 /**************** AJUSTES DAS PAGINAS INDICAÇÕES ***************************/
 .caixaindiq {
-  height: 180px;
-  width: 100%;
-}
-.caixaindiq img{
-  height: 180px;
-  max-width: 160px;
-  padding-left:0.5em;
-  }
-
-div.texto-indiq{
-  height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  text-align: right;
+    height: 180px;
+    width: 100%;
 }
 
-div.texto-indiq p{
-  font-size: 1.6em;
-  margin: 0;
-  padding-right: 0.8em;
-  text-align: right;
+.caixaindiq img {
+    height: 180px;
+    max-width: 160px;
+    padding-left: 0.5em;
 }
 
-.caixa-1{
-  background-color: #EE1C29;
-  color:#fff;
+div.texto-indiq {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
 }
-.caixa-2{
-  background-color: #000;
-  color:#fff;
+
+div.texto-indiq p {
+    font-size: 1.6em;
+    margin: 0;
+    padding-right: 0.8em;
+    text-align: right;
 }
-.caixa-3{
-  background-color: #fff;
-  color:#000;
+
+.caixa-1 {
+    background-color: #EE1C29;
+    color: #fff;
 }
-.caixa-4{
-  background-color: #FFCC00;
-  color: #fff;
+
+.caixa-2 {
+    background-color: #000;
+    color: #fff;
+}
+
+.caixa-3 {
+    background-color: #fff;
+    color: #000;
+}
+
+.caixa-4 {
+    background-color: #FFCC00;
+    color: #fff;
 }
 
 /*****************AJUSTES DAS PAGINAS SERTANEJO *******************************/
@@ -946,35 +952,38 @@ h3.titulos-indie {
 }
 
 /****************************AJUSTES CONTATO******************************/
-.contatinho{
+.contatinho {
     background-color: black;
 }
 
-.btn-roxo{
-  background-color: #9b079c;
-  color:#fff;
+.btn-roxo {
+    background-color: #9b079c;
+    color: #fff;
 }
 
-.btn-roxo:hover{
-  background-color: #79067a;
+.btn-roxo:hover {
+    background-color: #79067a;
 }
 
-div.header-contato{
-  height: 300px;
-  width: 100%;
-  border-radius: 4px;
-  }
-div.header-contato-bg{
-  background: linear-gradient(-45deg,#fc00ff,#00dbde);
-}
-div.header-contato-bg-2{
-  background: linear-gradient(-45deg,#00dbde,#fc00ff);
-}
-div.header-contato-bg-3{
-  background: radial-gradient(#00dbde,#fc00ff);
+div.header-contato {
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
 }
 
-#header-cont{
+div.header-contato-bg {
+    background: linear-gradient(-45deg, #fc00ff, #00dbde);
+}
+
+div.header-contato-bg-2 {
+    background: linear-gradient(-45deg, #00dbde, #fc00ff);
+}
+
+div.header-contato-bg-3 {
+    background: radial-gradient(#00dbde, #fc00ff);
+}
+
+#header-cont {
     /* background: linear-gradient(-45deg,#fc00ff,#00dbde); */
     background: url('../images/principal/header-contat.png') 50% 50%;
     background-size: cover;
@@ -982,61 +991,63 @@ div.header-contato-bg-3{
     opacity: .2;
 }
 
-.header-contato img{
-  background-color: #fff;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  padding: 30%;
-  fill: #0575E6;
-  position:relative;
-  opacity: 1;
+.header-contato img {
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 30%;
+    fill: #0575E6;
+    position: relative;
+    opacity: 1;
 }
 
-#sombra{
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
+#sombra {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
 }
 
-div.contato{
-  margin-top: -110px;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: solid 50px;
-  border-color: rgba(255, 255, 255, 0.3);
+div.contato {
+    margin-top: -110px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid 50px;
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
-.linha2{
-  margin-top: 140px;
-  margin-bottom: 2em;
-  color: #fff;
+.linha2 {
+    margin-top: 140px;
+    margin-bottom: 2em;
+    color: #fff;
 }
 
 
-.cx-contato{
-  background: linear-gradient(-40deg,#D72CF6,#00dbde);
-  height: 320px;
-  width:100%;
-  border-radius: 4px;
-  padding-top: 1.5em;
+.cx-contato {
+    background: linear-gradient(-40deg, #D72CF6, #00dbde);
+    height: 320px;
+    width: 100%;
+    border-radius: 4px;
+    padding-top: 1.5em;
 }
+
 .texto-contato {
-  padding-top: 4em;
-  color: #fff;
+    padding-top: 4em;
+    color: #fff;
 }
-div.icone-contato{
-  width: 100px;
-  height: 100px;
-  background-color: #fff;
-  color:#0575E6;
-  font-size: 2em;
-  border-radius: 50%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+div.icone-contato {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: #0575E6;
+    font-size: 2em;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /****************************** AJUSTES PÁGINAS POP ******************************/
@@ -1053,7 +1064,7 @@ div.icone-contato{
     color: #fff;
 }
 
-/* ======== AJUSTES HOME ======== */
+/* ======== AJUSTES HOME POP ======== */
 
 .caixaT1 {
     transition: background-color 1s;
@@ -1084,7 +1095,9 @@ div.icone-contato{
     background-size: cover;
 }
 
-
+.img-pop {
+    width: 350px;
+}
 
 /************************* HIP-HOP ***************************************/
 /** Header **/
@@ -1096,7 +1109,7 @@ div.icone-contato{
 }
 
 #header-hip-hop a {
-  color: #fff;
+    color: #fff;
 }
 
 /*PÁGINA INDEX - HIP HOP*/
@@ -1134,8 +1147,8 @@ div.icone-contato{
     height: 70px;
 }
 
-#headerpunk a{
-  color:#fff;
+#headerpunk a {
+    color: #fff;
 }
 
 .legenda {
