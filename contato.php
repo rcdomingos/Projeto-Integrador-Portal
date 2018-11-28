@@ -1,3 +1,4 @@
+
 <?php
 $contato_pt = array("Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", "Formulario", "Clique e Preencha",
   "Endereço de email","Nome","Sobrenome","Enviar","Limpar","Seu email");
@@ -102,19 +103,19 @@ include('imports/head.php');
           </a>
         </div>
         <div class="col-12 col-lg-8 mt-5">
-          <form class="collapse" id="fomulario">
+          <form class="collapse" id="fomulario" name="formulario" method="post" action="formulario.php">
             <div class=" form-group">
               <label class="text-white"><?php echo $contato[$ID][6]; ?></label>
-              <input type="email" class="form-control" placeholder="<?php echo $contato[$ID][11]; ?>">
+              <input type="email" class="form-control" name="email" placeholder="<?php echo $contato[$ID][11]; ?>">
             </div>
             <div class="form-row">
               <div class="col">
                 <label class="text-white"><?php echo $contato[$ID][7]; ?></label>
-                <input type="text" class="form-control" placeholder="<?php echo $contato[$ID][7]; ?>">
+                <input type="text" class="form-control" name="nome" placeholder="<?php echo $contato[$ID][7]; ?>">
               </div>
               <div class="col">
                 <label class="text-white"><?php echo $contato[$ID][8]; ?></label>
-                <input type="text" class="form-control" placeholder="<?php echo $contato[$ID][8]; ?>">
+                <input type="text" class="form-control" name ="sobrenome" placeholder="<?php echo $contato[$ID][8]; ?>">
               </div>
             </div>
             <div class="form-group mt-3">

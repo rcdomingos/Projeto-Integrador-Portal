@@ -36,83 +36,83 @@
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
 
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
 
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                 
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                             
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                             
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>>
                 </div>
                                 
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                                 
                 <div class="col-6 col-sm-3 mb-5">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                             
                 <div class="col-6 col-sm-3">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                             
                 <div class="col-6 col-sm-3">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                             
                 <div class="col-6 col-sm-3">
                     <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
                     <h3>Scorpion</h3>
                     <h4 class="text-muted">Drake</h4>
-                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success">Spotify</button></a></p>
+                    <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active" role="button" aria-pressed="true">Spotify</a></p>
                 </div>
                 </div>
                 </div>
