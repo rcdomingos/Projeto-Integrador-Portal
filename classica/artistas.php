@@ -37,9 +37,9 @@
     </section>
 
     <!--ARTICLE-->
-    <div class="container">   
-        
-<?php
+    <div class="container">
+
+        <?php
     
  
     $artistas = array("<div class='row mb-3  mt-3'>
@@ -101,9 +101,9 @@
     
 
    ?>
-        
-        <div class="row mb-3" >
-                <nav aria-label="Navegação da página artistas" class="mt-4 alinhar">
+
+        <div class="row mb-3">
+            <nav aria-label="Navegação da página artistas" class="mt-4 alinhar">
                 <ul class="pagination ajustepagina">
                     <li class="page-item bordinha">
                         <a class="page-link" href="artistas.php" aria-label="Anterior">

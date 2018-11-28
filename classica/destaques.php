@@ -52,12 +52,12 @@
                             <img src="../images/classica/slide/slide-02.jpg" class="img-fluid d-block destaqueajustar" alt="segundo slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="carrosselhover">
-                                <a href="#" class="carrosselhover">
-                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
-                                        <?php echo $classica[$ID][1]?>
-                                    </h3>
-                                    <p class="pcarousel text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
-                                </a>
+                                    <a href="#" class="carrosselhover">
+                                        <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
+                                            <?php echo $classica[$ID][1]?>
+                                        </h3>
+                                        <p class="pcarousel text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -66,12 +66,12 @@
                             <img src="../images/classica/slide/slide-03.jpg" class="img-fluid d-block destaqueajustar" alt="terceiro slide">
                             <div class="carousel-caption d-none d-md-block text-white">
                                 <div class="carrosselhover">
-                                <a href="#" class="carrosselhover">
-                                    <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
-                                        <?php echo $classica[$ID][2]?>
-                                    </h3>
-                                    <p class="pcarousel text-left ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
-                                </a>
+                                    <a href="#" class="carrosselhover">
+                                        <h3 class="tcarousel text-left font-weight-bold pl-0 pb-3">
+                                            <?php echo $classica[$ID][2]?>
+                                        </h3>
+                                        <p class="pcarousel text-left ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque...</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,8 @@
                         </h3>
                     </a>
                     <img src="../images/classica/destaque-01.jpg" class="img-fluid rounded imagensdestaquesclassica" alt="notícia um: a música clássica hoje">
-                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][4]?></a></p>
+                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
+                            <?php echo $classica[$ID][4]?></a></p>
                 </article>
             </div>
             <div class="col-12 col-md-4 col-lg-4">

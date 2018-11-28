@@ -28,14 +28,16 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-12 col-md-8 col-lg-8 mb-4">
-                <article id="artistas">
-                        <a href="artistas.php" >
-                            <div class="tboxmenu">
-                            <h2 class="tmenu"><?php echo $classica[$ID][0]?></h2>
-                            <h6 class="pmenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Donec id pretium leo. Lorem Ipsum.</h6>
-                            </div>
-                        </a>
-                </article>
+                <a href="artistas.php">
+                    <article id="artistas">
+                        <div class="tboxmenu">
+                            <h2 class="tmenu">
+                                <?php echo $classica[$ID][0]?>
+                            </h2>
+                            <p class="pmenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Donec id pretium leo. Lorem Ipsum.</p>
+                        </div>
+                    </article>
+                </a>
 
             </div>
             <div class="col-6 col-md-4 col-lg-4 mb-4">
@@ -45,7 +47,7 @@
                             <h2 class="tmenu">
                                 <?php echo $classica[$ID][1]?>
                             </h2>
-                            <h6 class="pmenu">Lorem ipsum dolor sit amet. Donec id pretium leo. Pellentesque luctus. </h6>
+                            <p class="pmenu">Lorem ipsum dolor sit amet. Donec id pretium leo. Pellentesque luctus. </p>
                         </div>
                     </section>
                 </a>
@@ -57,7 +59,7 @@
                             <h2 class="tmenu">
                                 <?php echo $classica[$ID][2]?>
                             </h2>
-                            <h6 class="pmenu">Lorem ipsum dolor sit amet. Donec id pretium leo. Pellentesque luctus. </h6>
+                            <p class="pmenu">Lorem ipsum dolor sit amet. Donec id pretium leo. Pellentesque luctus. </p>
                         </div>
                     </section>
                 </a>
@@ -69,7 +71,7 @@
                             <h2 class="tmenu">
                                 <?php echo $classica[$ID][3]?>
                             </h2>
-                            <h6 class="pmenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Donec id pretium leo. Lorem Ipsum.</h6>
+                            <p class="pmenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Donec id pretium leo. Lorem Ipsum.</p>
                         </div>
                     </section>
                 </a>
@@ -83,7 +85,7 @@
                             <h2 class="tmenu">
                                 <?php echo $classica[$ID][4]?>
                             </h2>
-                            <h6 class="pmenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet. Donec id pretium leo. Pellentesque luctus. Donec id pretium leo. Pellentesque. </h6>
+                            <p class="pmenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet. Donec id pretium leo. Pellentesque luctus. Donec id pretium leo. Pellentesque. </p>
                         </div>
                     </section>
                 </a> </div>
