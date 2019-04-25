@@ -23,7 +23,7 @@ include('../imports/menu-secundario.php');
         <!-- Primeira Linha -->
         <br>
         <div class="container">
-            <div class="row">
+        <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
@@ -53,7 +53,7 @@ include('../imports/menu-secundario.php');
         <!-- Segunda Linha -->
         <br>
         <div class="container">
-            <div class="row">
+        <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
@@ -83,7 +83,7 @@ include('../imports/menu-secundario.php');
         <!-- Terceira Linha -->
         <br>
         <div class="container">
-            <div class="row">
+        <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
@@ -113,7 +113,7 @@ include('../imports/menu-secundario.php');
         <!-- Quarta Linha -->
         <br>
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
