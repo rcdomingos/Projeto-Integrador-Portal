@@ -36,7 +36,8 @@
                         <div class="hnoticias">
                             <a href="#">
                                 <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][0]?></h3>
-                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
+                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, 
+                                fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                             </a>
                         </div>
                     </div>
@@ -49,7 +50,8 @@
                         <div class="hnoticias">
                             <a href="#">
                                 <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][1]?></h3>
-                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
+                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, 
+                                fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                             </a>
                         </div>
                     </div>
@@ -62,7 +64,8 @@
                         <div class="hnoticias">
                             <a href="#">
                                 <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][2]?></h3>
-                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
+                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, 
+                                fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                             </a>
                         </div>
                     </div>
@@ -75,7 +78,8 @@
                         <div class="hnoticias">
                             <a href="#">
                                 <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][3]?></h3>
-                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
+                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, 
+                                fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                             </a>
                         </div>
                     </div>
@@ -88,7 +92,8 @@
                         <div class="hnoticias">
                             <a href="#">
                                 <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][4]?></h3>
-                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
+                                <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, 
+                                fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                             </a>
                         </div>
                     </div>
@@ -124,7 +129,8 @@
                 <article class="col-12 col-md-6 col-lg-3 ">
                     <div class="hnoticias">
                         <h3 class="tnoticias font-weight-bold mt-3 text-left"><?php echo $classica[$ID][5]?></h3>
-                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][6]?></a></p>
+                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. 
+                        Nam volutpat placerat sit amet... <a href="./noticiaAtual.php?noticia=1" class="lnoticias"><?php echo $classica[$ID][6]?></a></p>
                     </div>
                 </article>
                 
@@ -134,7 +140,8 @@
                 <article class="col-12 col-md-6 col-lg-3">
                     <div>
                         <h3 class="tnoticias font-weight-bold mt-3 noticiasfonte text-left"><?php echo $classica[$ID][7]?></h3>
-                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][8]?></a></p>
+                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. 
+                        Nam volutpat placerat sit amet... <a href="./noticiaAtual.php?noticia=2" class="lnoticias"><?php echo $classica[$ID][8]?></a></p>
                     </div>
                 </article>
             </div>
@@ -149,7 +156,8 @@
                         <h3 class="tnoticias font-weight-bold text-left">
                             <?php echo $classica[$ID][9]?>
                         </h3>
-                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][10]?></a></p>
+                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. 
+                        Nam volutpat placerat sit amet... <a href="./noticiaAtual.php?noticia=3" class="lnoticias"><?php echo $classica[$ID][10]?></a></p>
                     </div>
                 </article>
                 
@@ -159,7 +167,8 @@
                 <article class="col-12 col-md-6 col-lg-3 mt-3 mb-3">
                     <div>
                         <h3 class="tnoticias font-weight-bold text-left"><?php echo $classica[$ID][11]?></h3>
-                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][12]?></a></p>
+                        <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. 
+                        Nam volutpat placerat sit amet... <a href="./noticiaAtual.php?noticia=4" class="lnoticias"><?php echo $classica[$ID][12]?></a></p>
                     </div>
                 </article>
                 
