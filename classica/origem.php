@@ -26,62 +26,18 @@
     ?>
     <!--FIM NAV-->
     <!--ARTICLE-->
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-12">
-            <h3 class="text-center font-weight-bold mt-4 mb-4" id="titulorigemc">
-                <?php echo $classica[$ID][0]?>
-            </h3>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
-
-            <div class="col-12 col-md-12 col-lg-8">
-                <article>
-
-                    <img src="../images/classica/origem-01.jpg" alt="origem" class="img-fluid origemajustar">
-
-                    <p class="porigem text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. Donec blandit metus ut arcu iaculis iaculis. </p>
-
-                    <img src="../images/classica/origem-02.jpg" alt="origem" class="img-fluid origemajustar">
-
-                    <p class="porigem text-justify mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. </p>
-                </article>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2 class="text-center mt-4">A história da música clássica</h2>
             </div>
-
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-                <aside>
-                    <div id="boxorigem">
-                        <h5 class="text-center ajustevejamais font-weight-bold">
-                            <?php echo $classica[$ID][1]?>
-                        </h5>
-                    </div>
-
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <a href="#" class="origemhover">
-                            <h5 class="tboxorigem origemhover">
-                                <?php echo $classica[$ID][2]?>
-                            </h5>
-                            <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <a href="#" class="origemhover">
-                            <h5 class="tboxorigem origemhover">
-                                <?php echo $classica[$ID][3]?>
-                            </h5>
-                            <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <a href="#" class="origemhover">
-                            <h5 class="tboxorigem origemhover">
-                                <?php echo $classica[$ID][4]?>
-                            </h5>
-                            <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
-                        </a>
-                    </div>
-                </aside>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article>
+                    <img src="../images/classica/origem-01.jpg" class="img-fluid">
+                    <p>In nec velit at felis hendrerit bibendum in eu turpis. In ac feugiat purus. Morbi auctor, leo eu fringilla faucibus, magna mi blandit diam, a faucibus lorem libero at eros. Pellentesque leo turpis, ultrices at fermentum ac, mattis id eros. Vestibulum vestibulum laoreet enim eget aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi porttitor iaculis fringilla. Fusce nec rhoncus orci, et fringilla orci. Morbi venenatis, est vehicula semper lobortis, libero lacus venenatis mauris, ut pharetra diam dolor vitae velit. Vestibulum sit amet iaculis nibh, et scelerisque ligula. Donec ut finibus magna, sit amet aliquet ante. Aenean id tempor mauris. Vestibulum vestibulum rutrum sapien, at vehicula lectus venenatis nec. Vivamus ex augue, congue vitae massa quis, congue ultricies lectus. In sit amet magna posuere, porta tellus ultricies, scelerisque odio. Donec ut eros congue, pharetra massa sed, ultrices lorem. Nulla ac rutrum orci, vel placerat neque.</p>
+                </article>
             </div>
         </div>
     </div>

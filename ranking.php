@@ -29,6 +29,7 @@ include('imports/idioma.php');
           </div>
         </div>
       </header> -->
+      <div tabindex='0'>
       <article class="art-ranking">
         <div class="row">
           <div class="col-6 col-lg-2 pt-4 text-center">
@@ -88,6 +89,7 @@ include('imports/idioma.php');
               <li class="text-secondary">Lorem ipsum</li>
             </ol>
           </div>
+        </div>
         </div>
       </article>
     </div>
