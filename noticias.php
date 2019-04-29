@@ -2,7 +2,6 @@
     $noticias_pt = array("Quentinhas","Curiosidades","Novidades","Na imagem várias pessoas estão dançando em uma balada", "Há 2 horas atrás", "Na imagem um clarinete está em cima de um livro de partituras", "Há 1 dia atrás");
     $noticias_en = array("Hot news", "Curiosities", "News", "In the picture many people are dancing in a night club", "2 hours ago", "In the picture one clarinet is on a book of partiture", "1 day ago");
     $noticias_es = array("Noticias calientes", "Curiosidades", "Noticias", "En la imagen varias personas están bailando en una balada", "Hace 2 horas", "En la foto un clarinete está en un libro de partituras", "Hace 1 día");
-
     $noticias = array('PT'=> $noticias_pt,'EN' => $noticias_en,'ES' => $noticias_es);
 ?>
 <?php

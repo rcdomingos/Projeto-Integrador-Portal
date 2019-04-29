@@ -11,7 +11,6 @@ include('../imports/head.php');
 ?>
 
 <body>
-
 <!-- Menu -->
 <?php
 include('../imports/menu-secundario.php');
@@ -20,127 +19,126 @@ include('../imports/menu-secundario.php');
     <!-- Conteúdo da Página -->
     <main>
 
-        <!-- Primeira Linha -->
-        <br>
-        <div class="container">
-        <div class="row text-center">
+        <!-- Contéudo Principal - Título / Suntítulo / Texto / Imagem 1:1 -->
+        <article class="container my-5">
+            <section class="row text-center mb-3">
+                <div class="col-lg-12">
+                    <h1 class="display-9 mb-0">Lorem Ipsun</h1>
+                    <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></blockquote>
+                </div>
+            </section>
+            
+            <section class="row text-justify">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+            </section>
 
-                <!-- Primeira Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a><img class="img-fluid" src="../images/indie/of-monster-and-man.jpg" alt="Generic placeholder image"></a>
+            <section class="row">
+                <div class="text-white col-12">
+                    <img class="card-img shadow" src="../images/indie/sant&kayua.jpg" alt="Foto dos cantores Sant e Kayuá para a promoção da música leõs da norte, foto em preto e branco simulando uma foto de prisão">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/kayua_/" target="_blank" class="text-white"><u>Sant & Kayuá</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>    
+            </section>
+        </article>
+
+        <!-- Colunas de Informação / Título / Sub. / Text / Imagem 1:1 / Texto -->
+        <section class="container">
+            <div class="row">
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img mb-3 shadow" src="../images/indie/menestrel.jpg" alt="Foto do cantor Menestrel de camiseta laranja e óculos escuro, ao fundo o céu azul e um coqueiro">
+                    <p class="mb-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
+
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img mb-3 shadow" src="../images/indie/coruja.jpg" alt="Foto do cantor Coruja BC1 usando uma camisa xadrez vermelha e azul no fundo cinza.">
+                    <p class="mb-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
+
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img mb-3 shadow" src="../images/indie/sant.jpg" alt="Foto do cantor Sant no fundo preto.">
+                    <p class="mb-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
+            </div>    
+        </section>  
+
+        <!-- Segunda e Terceica Imagens / 1:1 -->
+        <section class="container mb-5">
+            <div class="row">
+                <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                    <img class="card-img shadow" src="../images/indie/ret.jpg" alt="Foto do cantor Filipe Ret sentado ao fundo cadeiras de madeira.">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/filiperet/" target="_blank" class="text-white"><u>Filipe Ret</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                    </div>
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Of Monster adn Man</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="http://www.ofmonstersandmen.com/">www.ofmonstersandmen.com</a>
+                <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img class="card-img shadow" src="../images/indie/d2.jpg" alt="Foto do cantor Marcelo D2 em pé com as mãos na cabeça, no fundo cinza.">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/marcelod2/" target="_blank" class="text-white"><u>Marcelo D2</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                    </div>
                 </div>
-
-                <!-- Segunda Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a><img class="img-fluid" src="../images/indie/radio-head.jpg" alt="Generic placeholder image"></a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Radiohead</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="https://www.radiohead.com">www.radiohead.com</a>
-                </div>
-
             </div>
-        </div>
-
-        <!-- Segunda Linha -->
-        <br>
-        <div class="container">
-        <div class="row text-center">
-
-                <!-- Primeira Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/indie/arcade-fire.jpg" alt="Generic placeholder image"></a>
+        </section>
+        
+        <!--  3x - Título / Sub. / Texto / Imagem / Texto -->
+        <section class="container mb-5">
+            <section class="row text-center">
+                <div class="col-lg-12">
+                    <h2 class="display-9 mb-0">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
                 </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Arcade Fire</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="http://arcadefire.com">www.arcadefire.com</a>
+            </section>
+            
+            <section class="row text-justify">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum </p>
                 </div>
-
-                <!-- Segunda Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/indie/the-neighbourhood.jpg" alt="Generic placeholder image"></a>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum </p>
                 </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">The Neighbourhood</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                  <a href="https://thenbhd.com/">www.thenbhd.com/</a>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum </p>
                 </div>
+            </section>
 
-            </div>
-        </div>
-
-        <!-- Terceira Linha -->
-        <br>
-        <div class="container">
-        <div class="row text-center">
-
-                <!-- Primeira Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/indie/tame-impala.jpg" alt="Generic placeholder image"></a>
+            <section class="card text-white mb-3 ">
+                <img class="card-img shadow" src="../images/indie/luz.jpg" alt="Foto da cantora Cynthia Luz com um filtro retro.">
+                <div class="card-img-overlay">
+                    <h5 class="card-title"><a href="https://www.instagram.com/cyssluz/?hl=pt-br" target="_blank" class="text-white"><u>Cynthia Luz</u></a></h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
+            </section>
 
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Tame Impala</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="https://us.tameimpala.com/">us.tameimpala.com/</a>
+            <section class="row text-justify">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum </p>
                 </div>
-
-                <!-- Segunda Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/indie/twenty-one-pilots.jpg" alt="Generic placeholder image"></a>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum </p>
                 </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Twenty One Pilots</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="http://www.twentyonepilots.com/">www.twentyonepilots.com/</a>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus . Lorem ipsum </p>
                 </div>
-
-            </div>
-        </div>
-
-        <!-- Quarta Linha -->
-        <br>
-        <div class="container">
-            <div class="row text-center">
-
-                <!-- Primeira Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/indie/florence-and-the-machine.jpg" alt="Generic placeholder image"></a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Florence and The Machine</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="https://florenceandthemachine.net/">www.florenceandthemachine.net/</a>
-                </div>
-
-                <!-- Segunda Imagem -->
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/indie/kings-of-leon.jpg" alt="Generic placeholder image"></a>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <h2 class="hdois">Kings Of Leon</h2>
-                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                    <a href="http://kingsofleon.com/">www.kingsofleon.com/</a>
-                </div>
-
-            </div>
-        </div>
-
-        <br>
+            </section>
+        </section> 
 
     </main>
 
