@@ -20,7 +20,7 @@
 
             <div class="row mt-3">
                 <div class="col">
-                    <h1 class="text-center">
+                    <h1 class="text-center" tabindex="0">
                         <?php 
                         if ($ID=='PT'){
                         echo "Normas do Site";
@@ -36,20 +36,20 @@
             </div>
             <div class="row mt-3 mb-3">
                 <div class="col-6">
-                    <p>1ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>2ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>3ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>4ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>5ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>6ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>7ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>8ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>9ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
-                    <p>10ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">1ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">2ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">3ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">4ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">5ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">6ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">7ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">8ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">9ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
+                    <p tabindex="0">10ª Loremipsum dolorsit ametconsecetiam ollis euismod dolorsitollis.</p>
                 </div>
                 <div class="col-6">
-                    <h3>Ecletic.Music</h3>
-                    <p>Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit, tiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <h3 tabindex="0">Ecletic.Music</h3>
+                    <p tabindex="0">Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit, tiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
             </div>
 

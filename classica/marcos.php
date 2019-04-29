@@ -26,87 +26,45 @@
     ?>
     <!--FIM NAV-->
     <!--ARTICLE-->
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-12">
-            <h3 class="text-center font-weight-bold mt-4 mb-1" id="titulorigemc">
-                <?php echo $classica[$ID][0]?>
-            </h3>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-01.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                        <h5 class="tmarcos font-weight-bold">
-                            <?php echo $classica[$ID][1]?>
-                        </h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
-                            <?php echo $classica[$ID][2]?></a></p>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <section class="mt-4">
+                    <div id="imgmarcosclassica1">
+                        <div id="posicaotextoclassica">
+                            <a href="#">
+                                <p id="textomarcosclassica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim dapibus enim, non aliquam leo vulputate sed. Cras et quam eget leo euismod aliquet vitae</p>
+                            </a>
+                            <p id="textomarcosclassica2" tabindex="0">Cras tempor tempor rhoncus. Ut in leo congue, scelerisque.</p>
+                        </div>
+                    </div>
                 </section>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-02.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                        <h5 class="tmarcos font-weight-bold">
-                            <?php echo $classica[$ID][3]?>
-                        </h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
-                            <?php echo $classica[$ID][4]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-03.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                        <h5 class="tmarcos font-weight-bold">
-                            <?php echo $classica[$ID][5]?>
-                        </h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
-                            <?php echo $classica[$ID][6]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-04.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                        <h5 class="tmarcos font-weight-bold">
-                            <?php echo $classica[$ID][7]?>
-                        </h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
-                            <?php echo $classica[$ID][8]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-05.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                        <h5 class="tmarcos font-weight-bold">
-                            <?php echo $classica[$ID][9]?>
-                        </h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
-                            <?php echo $classica[$ID][10]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
-                <section>
-                    <img src="../images/classica/curiosidades-06.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                        <h5 class="tmarcos font-weight-bold">
-                            <?php echo $classica[$ID][11]?>
-                        </h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">
-                            <?php echo $classica[$ID][12]?></a></p>
-
-                </section>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <aside class="mt-4 mb-4">
+                    <div id="imgmarcosclassica2">
+                        <div id="posicaotextoclassica2">
+                            <a href="#">
+                                <h2 id="titulomarcosclassica1">Curiosidades</h2>
+                            </a>
+                            <a href="#">
+                                <p id="textomarcosclassica3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="mb-4">
+                    <div id="imgmarcosclassica3">
+                        <div id="posicaotextoclassica3">
+                            <a href="#">
+                                <h2 id="titulomarcosclassica2">Famosas</h2>
+                            </a>
+                            <a href="#">
+                                <p id="textomarcosclassica4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </div>
     </div>
