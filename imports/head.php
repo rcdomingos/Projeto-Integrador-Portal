@@ -3,10 +3,24 @@
   <title>Ecletic.Music | O Portal da Musica</title>
   <meta name="description" content="Portal de Musica-Projeto integrador">
   <meta name="author" content="Karina, Rafael, Reginaldo, Renata, Thais, Victor - Os Ursal">
+
+<?php
+//Import do metatags das redes sociais
+  $paginaSocial = basename($_SERVER['SCRIPT_NAME']);
+  if ($paginaSocial == 'noticiaAtual.php') {
+    include('imports/meta-social-noticia.php');
+    // echo $paginaSocial;
+  }else{
+    (strpos(include('../imports/meta-social-pgs.php'),'meta-social-pgs') === false) ? include('imports/meta-social-pgs.php'):include('../imports/meta-social-pgs.php');
+  }
+?>
+
+
   <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
+
   <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
