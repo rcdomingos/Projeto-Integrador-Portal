@@ -19,7 +19,6 @@ include('../imports/head.php');
 ?>
 
 <body>
-
 <!-- Menu -->
 <?php
 include('../imports/menu-secundario.php');
@@ -27,150 +26,91 @@ include('../imports/menu-secundario.php');
     <!-- Conteúdo da pagina -->
     <main>
 
-        <!-- Carrocel -->
-        <div class="container">
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <ol class="carousel-indicators my-carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img class="first-slide" src="../images/indie/the-strokes-carrocel.jpg" alt="First slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>The Strokes</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="second-slide" src="../images/indie/the-killers-carrocel.jpg" alt="Second slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>The Killers</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="third-slide" src="../images/indie/arctic-monkeys-carrocel.jpg" alt="Third slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>Arctic Monkeys</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="four-slide" src="../images/indie/florence-and-the-machine-carrocel.jpg" alt="Four slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>Florence and The Machine</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
+        <!-- Imagem wide -->
+        <section class="container my-5">
+                <div class="card text-white shadow">
+                    <img class="card-img" src="../images/indie/froid.jpg" alt="Foto do cantor Froid em preto e branco de óculos escuros, ao fundo uma parede de tijolos.">
                 </div>
+        </section>
 
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
+        <!-- Contéudo Principal - Título / Suntítulo / Texto -->
+        <article class="container">
+            <section class="row text-center">
+                    <div class="col-12">
+                        <h1 class="display-9 mt-4 mb-0"><?php echo $indie[$ID][0]; ?></h1>
+                        <blockquote class="blockquote mt-0"><small class="text-muted">Tudo que você precisa saber sobre o mundo Indie em um só lugar.</small></blockquote>
+                        <p class="text-justify mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    </div>
+            </Section>
+        </article>
 
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
-            </div>
-        </div>
-        <br>
-        <!-- Final Carrocel -->
-
-        <!-- Imagens -->
-        <div class="container">
-
-            <!-- Primeria Linha -->
+        <!-- 3x - Título / Sub. / Texto / Imagem / Texto -->
+        <section class="container my-5"> 
             <div class="row">
-
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/the-strokes.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="http://thestrokes.com/" class="indietexto">The Strokes</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
+                <div class="text-white col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
+                    <img class="card-img shadow" src="../images/indie/dalsin.jpg" alt="Foto do cantor Dalsin de perfil em preto e branco no fundo preto.">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/dalsiin_/" target="_blank" class="text-white"><u>Dalsin</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/arctic-monkeys-cover.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="https://www.arcticmonkeys.com/" class="indietexto">Arctic Mokeys</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
+                <div class="text-white col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
+                    <img class="card-img shadow" src="../images/indie/vietna.jpg" alt="Foto do cantor Vietnã no lançamento do seu album de mesmo nome.">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.facebook.com/vietnarap011/" target="_blank" class="text-white"><u>Vietnã</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/the-neighbourhood-cover.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="https://thenbhd.com/" class="indietexto">The Neighbourhood</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
+                <div class="text-white col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img class="card-img shadow" src="../images/indie/rashid.jpg" alt="Foto do cantor Rashid sentado numa ponte">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/mcrashid/" target="_blank" class="text-white"><u>Rashid</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                        
+                    </div>
                 </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/muse-cover.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="https://simulationtheory.muse.mu/" class="indietexto">MUSE</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
-                </div>
-
             </div>
+        </section>
 
-        </div>
-
-        <br><br>
-        <!-- Título & Subtítulo -->
-        <div class="container">
+        <!-- Segundo Text - Título / Sub. / Texto / Imagem wide / Texto -->
+        <section class="container mb-5">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2><?php echo $indie[$ID][0]; ?></h2>
-                    <h3 class="titulos-indie">Tudo que você precisa saber sobre o mundo Indie em um só lugar.</h3>
+                    <h2 class="display-9 mb-0"><?php echo $indie[$ID][0]; ?></h1>
+                    <blockquote class="blockquote mt-0 mb-3"><small class="test-muted">Tudo que você precisa saber sobre o mundo Indie em um só lugar.</small></blockquote>
                 </div>
             </div>
-        </div>
-        <br>
 
-        <!-- Texto -->
-        <div class="container">
             <div class="row text-justify">
-                <div class="col-12" id="tt">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
                 </div>
             </div>
-        </div>
-        <br><br><br><br>
+       
+                <div class="card text-white">
+                    <img class="card-img shadow" src="../images/indie/wc.jpg" alt="Foto do produtor WC no Beat de blusa branca.">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title"><a href="https://www.instagram.com/wcnobeat/?hl=pt-br" target="_blank" class="text-white"><u>WC no Beat</u></a></h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
 
-    </main>
+            <div class="row text-justify">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mt-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER -->
 <?php
