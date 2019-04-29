@@ -10,9 +10,7 @@ include('../imports/idioma.php');
 include('../imports/head.php');
 ?>
 
-
 <body>
-
 <!-- Menu -->
 <?php
 include('../imports/menu-secundario.php');
@@ -20,71 +18,81 @@ include('../imports/menu-secundario.php');
 
     <!-- Conteúdo da pagina -->
     <main>
-    <br><br>
+        <!-- Imagem Wide -->
+        <section class="container my-5">
+            <div class="card text-white">
+                <img class="card-img shadow" src="../images/indie/baco.jpg" alt="Foto do cantor Baco Exu do Blues ao fundo uma porta de aço.">
+            </div>
+        </section>
 
-        <!-- Primeira Linha -->
-        <div class="container">
+        <!-- 3x - Título / Sub. / Texto / Imagem / Texto  -->
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img shadow" src="../images/indie/jean.jpg" alt="Foto do cantor Jean Tassy ao fundo o por do sol.">
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </div>   
 
-            <div class="row text-center home-geral">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img shadow" src="../images/indie/pk.jpg" alt="Foto do cantor PK de boné rosa no fundo preto.">
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </div> 
 
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/emicida-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>E.M.I.C.I.D.A.</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img shadow" src="../images/indie/tiago.jpg" alt="Foto do cantor Tiago Mac em preto e branco de óculos escuro.">
+                    <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </div> 
+            </div>    
+        </section>  
+
+        <!-- Segunda e Terceira Imagem / 1:1 -->
+        <section class="container my-5">
+            <div class="row">
+                <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                    <img class="card-img shadow" src="../images/indie/kayua.jpg" alt="Foto do cantor Kayua rindo de camiseta preta.">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3 text-shadow"><a href="https://www.instagram.com/kayua_/" target="_blank" class="text-white"><u>Kayua</u></a></h5>
+                        <p class="card-text ml-3 text-shadow">Lorem ipsum dolor sit amet.</p>
+                    </div>
                 </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/coruja-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>Coruja BC1</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/rael-destaques.png" alt="Generic placeholder image"></a>
-                    <h3>Rael da Rima</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/sant-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>Sant</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img class="card-img shadow" src="../images/indie/bk.jpg" alt="Foto do cantor Rubel em frente ao microfone em Preto e Branco">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/bkttlapa/" target="_blank" class="text-white"><u>BK</u></a></h5>
+                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
+        </section>
 
-        <!-- Segunda Linha -->
-        <div class="container">
-
-            <div class="row text-center home-geral">
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/imagine-dragons-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>Imagine Dragons</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        
+        <!-- Contéudo Principal - Título / Suntítulo / Texto -->
+        <article class="container mb-5">
+            <section class="row text-center">
+                <div class="col-lg-12">
+                    <h1 class="display-9 mb-0">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
                 </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/nirvana-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>Nirvana</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            </section>
+            
+            <section class="row text-justify">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
                 </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/belle-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>Belle & Sebastian</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
                 </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <a href="#"><img class="img-fluid" src="../images/indie/lorde-destaques.jpg" alt="Generic placeholder image"></a>
-                    <h3>Lorde</h3>
-                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                </div>
-            </div>
-        </div>
-        <br>
+            </section>
+        </article>
 
     </main>
 
