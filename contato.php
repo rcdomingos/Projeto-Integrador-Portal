@@ -5,7 +5,7 @@ $contato_pt = array("Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", 
 $contato_en = array("Music Portal", "Contact Us", "Telephone", "Message", "Form", "Click and Fill in",
   "Email Address", "First Name", "Last Name", "Send", "Clear","Your email","Representative drawing of a person.");
 $contato_es = array("Portal de Musica", "Contáctenos", "Teléfono", "Mensaje", "Formulario", "Haga Clic y Rellene",
-  "Dirección de correo electrónico", "Nombre", "Apellido", "Enviar", "Borrar","Su correo electrónico","Dibujo representativo de una persona.");
+  "Dirección de correo electrónico", "Nombre", "Apellido", "Enviar", "Borrar","Su correo electrónico","Diseño representativo de una persona.");
 $contato = array('PT' => $contato_pt, 'EN' => $contato_en, 'ES' => $contato_es);
 ?>
 <?php

@@ -658,6 +658,12 @@ img.img-destaque {
     background: #D1913C;
     background: linear-gradient(to right, #D1913C, #FFD194);
 }
+#header-classica a{
+    color: white;
+}
+#header-classica:hover{
+    color: black;
+}
 
 /*Home clássica*/
 
