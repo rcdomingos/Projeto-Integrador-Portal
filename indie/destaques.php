@@ -1,7 +1,15 @@
 <?php
+$indie_pt = array("Mundo Indie",);
+$indie_en = array("Indie World",);
+$indie_es = array("El Mondo Indie",);
+$indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
+?>
+
+<?php
  //PHP para verificar qual o idioma do html
 include('../imports/idioma.php');
  ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 
@@ -18,6 +26,7 @@ include('../imports/menu-secundario.php');
 
     <!-- Conteúdo da pagina -->
     <main>
+    
         <!-- Imagem Wide -->
         <section class="container my-5">
             <div class="card text-white">

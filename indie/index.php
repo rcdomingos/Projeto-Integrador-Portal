@@ -1,11 +1,10 @@
 <?php
-$indie_pt = array("Mundo Indie","Tudo que você precisa saber sobre o mundo Indie em um só lugar.");
-$indie_en = array("Indie World","Everithing you need to now about que indie world in one single place.");
-$indie_es = array("El Mondo Indie","Todo lo que necesitas saber sobre el mundo Indie en un solo lugar.");
+$indie_pt = array("Mundo Indie","Tudo que você precisa saber em um só lugar","Criolo","Emicida","Flora Matos","Artista do Ano",'Conheça <a href="https://www.instagram.com/djongador/" target="_blank"><u>Djonga</u></a> a mais nova revelação do rap br');
+$indie_en = array("Indie World","All you need to know in one place","Criolo","Emicida","Flora Matos","Artist of the Year",'Meet <a href="https://www.instagram.com/djongador/" target="_blank"><u>Djonga</u></a> the newest revelation of rap br');
+$indie_es = array("Mondo Indie","Todo lo que necesitas saber en un solo lugar","Criolo","Emicida","Flora Matos","Artista del Año",'Conoce a <a href="https://www.instagram.com/djongador/" target="_blank"><u>Djonga</u></a> la nueva revelación de rap br');
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
-// print_r($sertanejo);
-//usar $ID para os Vetores
 ?>
+
 <?php
  //PHP para verificar qual o idioma do html
 include('../imports/idioma.php');
@@ -49,7 +48,7 @@ include('../imports/menu-secundario.php');
             <div class="card text-white">
                 <img class="card-img shadow" src="../images/indie/criolo.jpg" alt="Foto do rosto do cantor Criolo em preto e branco.">
                 <div class="card-img-overlay">
-                    <h5 class="card-title"><a href="https://www.instagram.com/criolomc/" target="_blank" class="text-white"><u>Criolo</u></a></h5>
+                    <h5 class="card-title"><a href="https://www.instagram.com/criolomc/" target="_blank" class="text-white"><u><?php echo $indie[$ID][2]; ?></u></a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
@@ -62,7 +61,7 @@ include('../imports/menu-secundario.php');
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4">
                     <img class="card-img shadow" src="../images/indie/emicida.jpg" alt="Foto do cantor Emicida de óculos escuro em um fundo vermelho.">
                     <div class="card-img-overlay">
-                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/emicida/" target="_blank" class="text-white"><u>Emicida</u></a></h5>
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/emicida/" target="_blank" class="text-white"><u><?php echo $indie[$ID][3]; ?></u></a></h5>
                         <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -70,7 +69,7 @@ include('../imports/menu-secundario.php');
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <img class="card-img shadow" src="../images/indie/flora.jpg" alt="Foto da cantora Flora Matos sentada em um fundo rosa.">
                     <div class="card-img-overlay">
-                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/floramatos/" target="_blank" class="text-white"><u>Flora Matos</u></a></h5>
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/floramatos/" target="_blank" class="text-white"><u><?php echo $indie[$ID][4]; ?></u></a></h5>
                         <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -81,8 +80,8 @@ include('../imports/menu-secundario.php');
         <section class="container mb-5">
             <section class="row text-center mb-3">
                 <div class="col-lg-12">
-                    <h2 class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h2>
-                    <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small></blockquote>
+                    <h2 class="display-9 mb-0"> <?php echo $indie[$ID][5]; ?> </h2>
+                    <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][6]; ?></small></blockquote>
                 </div>
             </section>
             

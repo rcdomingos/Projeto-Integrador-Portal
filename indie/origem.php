@@ -1,15 +1,15 @@
 <?php
-$indie_pt = array("Conheça a Origem do Estilo");
-$indie_en = array("Know the Origin of Style");
-$indie_es = array("Conozca el origen del estilo");
+$indie_pt = array("Mundo Indie",);
+$indie_en = array("Indie World",);
+$indie_es = array("El Mondo Indie",);
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
-// print_r($sertanejo);
-//usar $ID para os Vetores
 ?>
+
 <?php
  //PHP para verificar qual o idioma do html
 include('../imports/idioma.php');
  ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 
@@ -19,7 +19,6 @@ include('../imports/head.php');
 ?>
 
 <body>
-
 <!-- Menu -->
 <?php
 include('../imports/menu-secundario.php');
