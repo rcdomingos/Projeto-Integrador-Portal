@@ -25,7 +25,7 @@ include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da pagina -->
-    <main>
+    <main id="content">
 
         <!-- Imagem wide -->
         <section class="container my-5">
@@ -38,7 +38,7 @@ include('../imports/menu-secundario.php');
         <article class="container">
             <section class="row text-center">
                     <div class="col-12">
-                        <h1 class="display-9 mt-4 mb-0"><?php echo $indie[$ID][0]; ?></h1>
+                        <h1 tabindex="0" class="display-9 mt-4 mb-0"><?php echo $indie[$ID][0]; ?></h1>
                         <blockquote class="blockquote mt-0"><small class="text-muted">Tudo que você precisa saber sobre o mundo Indie em um só lugar.</small></blockquote>
                         <p class="text-justify mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     </div>
@@ -81,7 +81,7 @@ include('../imports/menu-secundario.php');
         <section class="container mb-5">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2 class="display-9 mb-0"><?php echo $indie[$ID][0]; ?></h1>
+                    <h2 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][0]; ?></h1>
                     <blockquote class="blockquote mt-0 mb-3"><small class="test-muted">Tudo que você precisa saber sobre o mundo Indie em um só lugar.</small></blockquote>
                 </div>
             </div>

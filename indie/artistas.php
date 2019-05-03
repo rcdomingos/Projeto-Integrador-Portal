@@ -25,13 +25,13 @@ include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da Página -->
-    <main>
+    <main id="content">
 
         <!-- Contéudo Principal - Título / Suntítulo / Texto / Imagem 1:1 -->
         <article class="container my-5">
             <section class="row text-center mb-3">
                 <div class="col-lg-12">
-                    <h1 class="display-9 mb-0"><?php echo $indie[$ID][0]; ?></h1>
+                    <h1 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][0]; ?></h1>
                     <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small></blockquote>
                 </div>
             </section>
@@ -60,7 +60,7 @@ include('../imports/menu-secundario.php');
         <section class="container mb-5">
             <div class="row">
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 class="display-9 mb-0 text-center"><?php echo $indie[$ID][3]; ?></h2>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $indie[$ID][3]; ?></h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $indie[$ID][4]; ?></small></blockquote>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img mb-3 shadow" src="../images/indie/menestrel.jpg" alt="Foto do cantor Menestrel de camiseta laranja e óculos escuro, ao fundo o céu azul e um coqueiro">
@@ -69,7 +69,7 @@ include('../imports/menu-secundario.php');
                 </section>
 
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 class="display-9 mb-0 text-center"><?php echo $indie[$ID][5]; ?></h2>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $indie[$ID][5]; ?></h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $indie[$ID][6]; ?></small></blockquote>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img mb-3 shadow" src="../images/indie/coruja.jpg" alt="Foto do cantor Coruja BC1 usando uma camisa xadrez vermelha e azul no fundo cinza.">
@@ -78,7 +78,7 @@ include('../imports/menu-secundario.php');
                 </section>
 
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 class="display-9 mb-0 text-center"><?php echo $indie[$ID][7]; ?></h2>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $indie[$ID][7]; ?></h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $indie[$ID][8]; ?></small></blockquote>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img mb-3 shadow" src="../images/indie/sant.jpg" alt="Foto do cantor Sant no fundo preto.">
@@ -113,7 +113,7 @@ include('../imports/menu-secundario.php');
         <section class="container mb-5">
             <section class="row text-center">
                 <div class="col-lg-12">
-                    <h2 class="display-9 mb-0"><?php echo $indie[$ID][11]; ?></h2>
+                    <h2 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][11]; ?></h2>
                     <blockquote class="blockquote mt-0 mb-3"><small class="text-muted"><?php echo $indie[$ID][12]; ?></small></blockquote>
                 </div>
             </section>

@@ -25,7 +25,7 @@ include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da pagina -->
-    <main>
+    <main id="content">
 
         <!-- Imagem Wide-->
         <section class="container my-5">
@@ -44,7 +44,7 @@ include('../imports/menu-secundario.php');
         <article class="container mb-5">
             <section class="row text-center">
                 <div class="col-12">
-                    <h1 class="display-9 mb-0"> Lorem Ipsum </h1>
+                    <h1 tabindex="0" class="display-9 mb-0"> Lorem Ipsum </h1>
                     <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </small></blockquote>
                 </div>
             </section>
@@ -95,12 +95,12 @@ include('../imports/menu-secundario.php');
         <section class="container my-5">
             <div class="row text-center">
                 <div class="col-lg-12">
-                    <h2 class="display-9 mb-0"> Lorem Ipsum. </h2>
+                    <h2 tabindex="0" class="display-9 mb-0"> Lorem Ipsum. </h2>
                     <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></blockquote>
                 </div>
             </div>
 
-            <div class="row text-justify">
+            <div class="row text-justify mt-3">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
                 </div>

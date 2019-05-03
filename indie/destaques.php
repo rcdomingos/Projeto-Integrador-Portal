@@ -25,7 +25,7 @@ include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da pagina -->
-    <main>
+    <main id="content">
     
         <!-- Imagem Wide -->
         <section class="container my-5">
@@ -38,7 +38,7 @@ include('../imports/menu-secundario.php');
         <section class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
                     <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img shadow" src="../images/indie/jean.jpg" alt="Foto do cantor Jean Tassy ao fundo o por do sol.">
@@ -46,7 +46,7 @@ include('../imports/menu-secundario.php');
                 </div>   
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
                     <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img shadow" src="../images/indie/pk.jpg" alt="Foto do cantor PK de boné rosa no fundo preto.">
@@ -54,7 +54,7 @@ include('../imports/menu-secundario.php');
                 </div> 
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
                     <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img shadow" src="../images/indie/tiago.jpg" alt="Foto do cantor Tiago Mac em preto e branco de óculos escuro.">
@@ -86,10 +86,10 @@ include('../imports/menu-secundario.php');
         
         <!-- Contéudo Principal - Título / Suntítulo / Texto -->
         <article class="container mb-5">
-            <section class="row text-center">
+            <section class="row text-center  mb-3">
                 <div class="col-lg-12">
-                    <h1 class="display-9 mb-0">Lorem Ipsun</h2>
-                    <blockquote class="blockquote mt-0 mb-3"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
+                    <h1 tabindex="0" class="display-9 mb-0">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
                 </div>
             </section>
             

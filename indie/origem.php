@@ -25,7 +25,7 @@ include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da Página -->
-    <main>
+    <main id="content">
         
         <!-- Imagem wide -->
         <section class="container my-5">
@@ -40,7 +40,7 @@ include('../imports/menu-secundario.php');
         <article class="container">
             <section class="row text-center">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" id="indieorigem">
-                    <h1 class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
+                    <h1 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
                     <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in mollis mi. Aenean nec consectetur nisl, et dictum sapien. Sed sed nisi quis augue rhoncus hendrerit. Sed quis tortor ac nunc elementum lacinia eget at orci. Duis id lectus ut arcu tincidunt efficitur. Duis quis erat ultricies, consequat nisi eget, porta augue. Duis placerat a ligula nec convallis. Sed mollis consequat ipsum eget sagittis. Vivamus ut est magna. Phasellus tincidunt leo rutrum, porta urna ac, consectetur dui. Phasellus elit augue, vulputate ut fringilla a, tempus nec nulla. Vivamus id laoreet eros. Fusce ultricies justo in volutpat ultrices. Etiam enim dui, rhoncus et vehicula nec, maximus ut odio. Ut malesuada nulla velit, at consectetur massa faucibus et.</p>
                 </div>
@@ -84,7 +84,7 @@ include('../imports/menu-secundario.php');
         <section class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" id="indieorigem">
-                    <h1 class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
+                    <h2 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
                     <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
                 </div>
             </div>

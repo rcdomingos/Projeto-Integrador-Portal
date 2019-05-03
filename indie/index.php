@@ -25,13 +25,13 @@ include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da Página -->
-    <main>
+    <main id="content">
 
         <!-- Contéudo Principal - Título / Suntítulo / Texto -->
         <article lang="pt-BR" class="container my-5 my-md-5 my-lg-5 my-xl-5">
                 <section class="row text-center">
                     <div class="col-lg-12">
-                        <h1 class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
+                        <h1 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
                         <blockquote class="blockquote mt-0 mb-3"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small></blockquote>
                     </div>
                 </section>
@@ -80,7 +80,7 @@ include('../imports/menu-secundario.php');
         <section class="container mb-5">
             <section class="row text-center mb-3">
                 <div class="col-lg-12">
-                    <h2 class="display-9 mb-0"> <?php echo $indie[$ID][5]; ?> </h2>
+                    <h2 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][5]; ?> </h2>
                     <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][6]; ?></small></blockquote>
                 </div>
             </section>
