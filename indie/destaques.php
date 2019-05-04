@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("Mundo Indie",);
-$indie_en = array("Indie World",);
-$indie_es = array("El Mondo Indie",);
+$indie_pt = array("0","1","2","3","4","5","6","7","8","9","10","11");
+$indie_en = array("0","1","2","3","4","5","6","7","8","9","10","11");
+$indie_es = array("0","1","2","3","4","5","6","7","8","9","10","11");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
@@ -38,24 +38,24 @@ include('../imports/menu-secundario.php');
         <section class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 tabindex="0" class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
-                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $indie[$ID][0]; ?></h2>
+                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small></blockquote>
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img shadow" src="../images/indie/jean.jpg" alt="Foto do cantor Jean Tassy ao fundo o por do sol.">
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                 </div>   
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 tabindex="0" class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
-                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $indie[$ID][2]; ?></h2>
+                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted"><?php echo $indie[$ID][3]; ?></small></blockquote>
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img shadow" src="../images/indie/pk.jpg" alt="Foto do cantor PK de boné rosa no fundo preto.">
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                 </div> 
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2 tabindex="0" class="display-9 mb-0 text-center"> Lorem Ipsun</h2>
-                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $indie[$ID][4]; ?></h2>
+                    <blockquote class="blockquote mt-0 text-center"><small class="text-muted"><?php echo $indie[$ID][5]; ?></small></blockquote>
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
                     <img class="card-img shadow" src="../images/indie/tiago.jpg" alt="Foto do cantor Tiago Mac em preto e branco de óculos escuro.">
                     <p class="my-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
@@ -69,15 +69,15 @@ include('../imports/menu-secundario.php');
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                     <img class="card-img shadow" src="../images/indie/kayua.jpg" alt="Foto do cantor Kayua rindo de camiseta preta.">
                     <div class="card-img-overlay">
-                        <h5 class="card-title ml-3 text-shadow"><a href="https://www.instagram.com/kayua_/" target="_blank" class="text-white"><u>Kayua</u></a></h5>
-                        <p class="card-text ml-3 text-shadow">Lorem ipsum dolor sit amet.</p>
+                        <h5 class="card-title ml-3 text-shadow"><a href="https://www.instagram.com/kayua_/" target="_blank" class="text-white"><u><?php echo $indie[$ID][6]; ?></u></a></h5>
+                        <p class="card-text ml-3 text-shadow"><?php echo $indie[$ID][7]; ?></p>
                     </div>
                 </div>
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <img class="card-img shadow" src="../images/indie/bk.jpg" alt="Foto do cantor Rubel em frente ao microfone em Preto e Branco">
                     <div class="card-img-overlay">
-                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/bkttlapa/" target="_blank" class="text-white"><u>BK</u></a></h5>
-                        <p class="card-text ml-3">Lorem ipsum dolor sit amet.</p>
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/bkttlapa/" target="_blank" class="text-white"><u><?php echo $indie[$ID][8]; ?></u></a></h5>
+                        <p class="card-text ml-3"><?php echo $indie[$ID][9]; ?></p>
                     </div>
                 </div>
             </div>
@@ -88,8 +88,8 @@ include('../imports/menu-secundario.php');
         <article class="container mb-5">
             <section class="row text-center  mb-3">
                 <div class="col-lg-12">
-                    <h1 tabindex="0" class="display-9 mb-0">Lorem Ipsun</h2>
-                    <blockquote class="blockquote mt-0"><small class="text-muted">Lorem ipsum dolor sit amet.</small></blockquote>
+                    <h1 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][10]; ?></h2>
+                    <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][11]; ?></small></blockquote>
                 </div>
             </section>
             
