@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("Racionais Mc's","1","2","3","4","5","6","7","8","9","10","11");
-$indie_en = array("Racionais Mc's","1","2","3","4","5","6","7","8","9","10","11");
-$indie_es = array("Racionais Mc's","1","2","3","4","5","6","7","8","9","10","11");
+$indie_pt = array("Racionais Mc's","A velha guarda ainda vive","Não é só de SP que vive o rap","Conheça as referências de outros estados","Marechal","A lenda sem álbum","Mv Bill","O Falcão do morro","Sabotage","Canão sente falta","O legado que eles deixaram","Conheça o impacto de suas letras imortalizadas em novos versos");
+$indie_en = array("Racionais Mc's","The old school still lives","It's not just SP that lives the rap","Know the references of other states","Marechal","The legend without album","Mv Bill","The Hawk of the Hill","Sabotage","Canão feels lack","The legacy they left behind","Know the impact of your immortalized lyrics on new verses");
+$indie_es = array("Racionais Mc's","La vieja guardia todavía vive","No es sólo de SP que vive el rap","Conozca las referencias de otros estados","Marechal","La leyenda sin álbum","Mv Bill","El Halcón de la colina","Sabotage","Canão siente falta","El legado que dejaron","Conozca el impacto de sus letras inmortalizadas en nuevos versos");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 

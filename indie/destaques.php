@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("0","1","2","3","4","5","6","7","8","9","10","11");
-$indie_en = array("0","1","2","3","4","5","6","7","8","9","10","11");
-$indie_es = array("0","1","2","3","4","5","6","7","8","9","10","11");
+$indie_pt = array("Jean Tassy","Não é só de raiva que vive o rap","PK","A cena do funk no rap","Tiago Mac","O flow que soa como punch line","Kayuá","O leão ao norte","BK","Entre castelos e ruínas","A aparição do rap na cena nacional","Entenda como o rap chegou em todo o território nacional");
+$indie_en = array("Jean Tassy","It's not just about anger that rap lives","PK","The funk scene in rap","Tiago Mac","The flow that sounds like punch line","Kayuá","The lion to the north","BK","Between castles and ruins","The appearance of rap on the national scene","Understand how rap has reached the national territory");
+$indie_es = array("Jean Tassy","No es sólo de raiva que vive el rap","PK","La escena del funk en el rap","Tiago Mac","El flow que suena como punch line","Kayuá","El león al norte","BK","Entre castillos y ruinas","La aparición del rap en la escena nacional","Entiende cómo el rap llegó en todo el territorio nacional");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
