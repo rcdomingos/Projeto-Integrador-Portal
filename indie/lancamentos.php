@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("0","1","2","3","4","5","6","7","8","9","10","11");
-$indie_en = array("0","1","2","3","4","5","6","7","8","9","10","11");
-$indie_es = array("0","1","2","3","4","5","6","7","8","9","10","11");
+$indie_pt = array("Fique por dentro da cena","Os principais laçamentos e apostas do rap br","Dalsin","Conheça o pesadelo de quem não dorme há dias","Vietnã","Inferno Rua","Rashid","Mal com o mundo","Wc-Nobeat","9","10","11");
+$indie_en = array("Stay inside the scene","The main loops and bets of rap","Dalsin","Meet the nightmare of those who do not sleep the days","Vietnã","Inferno Rua","Rashid","Mal com o mundo","Wc-Nobeat","9","10","11");
+$indie_es = array("Mantente dentro de la escena","Los principales lazos y apuestas del rap","Dalsin","Conoce la pesadilla de quien no duerme a días","Vietnã","Inferno Rua","Rashid","Mal com o mundo","Wc-Nobeat","9","10","11");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
