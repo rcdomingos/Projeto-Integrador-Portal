@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("A nova velha guarda","Conheça as referências da nova geração do rap","DK - 47","Consagrado no rap pelo grupo ADL, faz linha de frente para Favela Vive","Rebecca","Destaque no funk se lança no rap ao lado de WC-Nobeat","Sain","Filho de lenda, lenda é!","Da punch line para batida mesclada","Os novos nomes da velha guarda carregando o peso de sua história");
-$indie_en = array("The new old school","Meet the references of the new generation of rap","DK - 47","Consecrated in rap by the ADL group, it makes front line for Favela Vive","Rebecca","Featured in the funk is released on rap next to WC-Nobeat","Sain","Son of a legend, legend!","From the punch line to the mixed beat","The new names of the old guard carrying the weight of their story");
-$indie_es = array("La nueva vieja guardia","Conozca las referencias de la nueva generación del rap","DK - 47","Consagrado en el rap por el grupo ADL, hace línea de frente para Favela Vive","Rebecca","En el funk se lanza al rap al lado de WC-Nobeat","Sain","¡Hijo de leyenda, leyenda es!","De la punch line para batir mezclada","Los nuevos nombres de la vieja guardia cargando el peso de su historia");
+$indie_pt = array("A nova velha guarda"   ,"Conheça as referências da nova geração do rap"         ,"DK - 47","Consagrado no rap pelo grupo ADL, faz linha de frente para Favela Vive"      ,"Rebecca","Destaque no funk se lança no rap ao lado de WC-Nobeat"    ,"Sain","Filho de lenda, lenda é!"     ,"Da punch line para batida mesclada"   ,"Os novos nomes da velha guarda carregando o peso de sua história"      ,"1","2","3","4");
+$indie_en = array("The new old school"    ,"Meet the references of the new generation of rap"      ,"DK - 47","Consecrated in rap by the ADL group, it makes front line for Favela Vive"    ,"Rebecca","Featured in the funk is released on rap next to WC-Nobeat","Sain","Son of a legend, legend!"     ,"From the punch line to the mixed beat","The new names of the old guard carrying the weight of their story"     ,"1","2","3","4");
+$indie_es = array("La nueva vieja guardia","Conozca las referencias de la nueva generación del rap","DK - 47","Consagrado en el rap por el grupo ADL, hace línea de frente para Favela Vive","Rebecca","En el funk se lanza al rap al lado de WC-Nobeat"          ,"Sain","¡Hijo de leyenda, leyenda es!","De la punch line para batir mezclada" ,"Los nuevos nombres de la vieja guardia cargando el peso de su historia","1","2","3","4");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
@@ -31,7 +31,7 @@ include('../imports/menu-secundario.php');
         <section class="container my-5">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <img class="rounded img-fluid shadow" src="../images/indie/karol.jpg" alt="Foto da cantora Karol Conka fantasiada no fund azul.">
+                    <img tabindex="0" class="rounded img-fluid shadow" src="../images/indie/karol.jpg" alt="Foto da cantora Karol Conka fantasiada no fund azul.">
                 </div>
             </div>
         </section>
@@ -50,11 +50,11 @@ include('../imports/menu-secundario.php');
         <!-- Imagem 1:1 -->
         <section class="container mt-5 mb-4">
             <div class="card">
-                <img class="card-img shadow" src="../images/indie/dk.jpg" alt="Foto do cantor DK 47 de boné vermelho e camiseta preta, ao fundo um muro cheio de folhas.">
                 <div class="card-img-overlay">
                     <h5 class="card-title"><a href="https://www.instagram.com/adl_dk/" target="_blank" class="text-white"><u><?php echo $indie[$ID][2]; ?></u></a></h5>
                     <p class="card-text text-white"><?php echo $indie[$ID][3]; ?></p>
                 </div>
+                <img class="card-img shadow" src="../images/indie/dk.jpg" alt="Foto do cantor DK 47 de boné vermelho e camiseta preta, ao fundo um muro cheio de folhas.">
             </div>
         </section>
 
@@ -63,19 +63,19 @@ include('../imports/menu-secundario.php');
         <section class="container mb-5"> 
             <div class="row">
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
-                    <img class="card-img shadow" src="../images/indie/rebecca.jpg" alt="Foto da cantora Rebecca de costas usando uma roupa preta e branca.">
                     <div class="card-img-overlay">
                         <h5 class="card-title ml-3"><a href="https://www.instagram.com/mcrebecca/" target="_blank" class="text-white"><u><?php echo $indie[$ID][4]; ?></u></a></h5>
                         <p class="card-text ml-3"><?php echo $indie[$ID][5]; ?></p>
                     </div>
+                    <img class="card-img shadow" src="../images/indie/rebecca.jpg" alt="Foto da cantora Rebecca de costas usando uma roupa preta e branca.">
                 </div>
 
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <img class="card-img shadow" src="../images/indie/sain.jpg" alt="Foto do cantor Sain fazend careta em preto e branco.">
                     <div class="card-img-overlay">
                         <h5 class="card-title ml-3"><a href="https://www.instagram.com/sainktt/" target="_blank" class="text-white"><u><?php echo $indie[$ID][6]; ?></u></a></h5>
                         <p class="card-text ml-3"><?php echo $indie[$ID][7]; ?></p>
                     </div>
+                    <img class="card-img shadow" src="../images/indie/sain.jpg" alt="Foto do cantor Sain fazend careta em preto e branco.">
                 </div>
             </div>
         </section>

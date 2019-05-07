@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("Jean Tassy","Não é só de raiva que vive o rap","PK","A cena do funk no rap","Tiago Mac","O flow que soa como punch line","Kayuá","O leão ao norte","BK","Entre castelos e ruínas","A aparição do rap na cena nacional","Entenda como o rap chegou em todo o território nacional");
-$indie_en = array("Jean Tassy","It's not just about anger that rap lives","PK","The funk scene in rap","Tiago Mac","The flow that sounds like punch line","Kayuá","The lion to the north","BK","Between castles and ruins","The appearance of rap on the national scene","Understand how rap has reached the national territory");
-$indie_es = array("Jean Tassy","No es sólo de raiva que vive el rap","PK","La escena del funk en el rap","Tiago Mac","El flow que suena como punch line","Kayuá","El león al norte","BK","Entre castillos y ruinas","La aparición del rap en la escena nacional","Entiende cómo el rap llegó en todo el territorio nacional");
+$indie_pt = array("Jean Tassy","Não é só de raiva que vive o rap"        ,"PK","A cena do funk no rap"       ,"Tiago Mac","O flow que soa como punch line"      ,"Kayuá","O leão ao norte"      ,"BK","Entre castelos e ruínas"  ,"A aparição do rap na cena nacional"         ,"Entenda como o rap chegou em todo o território nacional"  ,"1","2","3","4","5","6");
+$indie_en = array("Jean Tassy","It's not just about anger that rap lives","PK","The funk scene in rap"       ,"Tiago Mac","The flow that sounds like punch line","Kayuá","The lion to the north","BK","Between castles and ruins","The appearance of rap on the national scene","Understand how rap has reached the national territory"    ,"1","2","3","4","5","6");
+$indie_es = array("Jean Tassy","No es sólo de raiva que vive el rap"     ,"PK","La escena del funk en el rap","Tiago Mac","El flow que suena como punch line"   ,"Kayuá","El león al norte"     ,"BK","Entre castillos y ruinas" ,"La aparición del rap en la escena nacional" ,"Entiende cómo el rap llegó en todo el territorio nacional","1","2","3","4","5","6");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
@@ -30,7 +30,7 @@ include('../imports/menu-secundario.php');
         <!-- Imagem Wide -->
         <section class="container my-5">
             <div class="card text-white">
-                <img class="card-img shadow" src="../images/indie/baco.jpg" alt="Foto do cantor Baco Exu do Blues ao fundo uma porta de aço.">
+                <img tabindex="0" class="card-img shadow" src="../images/indie/baco.jpg" alt="Foto do cantor Baco Exu do Blues ao fundo uma porta de aço.">
             </div>
         </section>
 
@@ -67,18 +67,19 @@ include('../imports/menu-secundario.php');
         <section class="container my-5">
             <div class="row">
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
-                    <img class="card-img shadow" src="../images/indie/kayua.jpg" alt="Foto do cantor Kayua rindo de camiseta preta.">
                     <div class="card-img-overlay">
                         <h5 class="card-title ml-3 text-shadow"><a href="https://www.instagram.com/kayua_/" target="_blank" class="text-white"><u><?php echo $indie[$ID][6]; ?></u></a></h5>
                         <p class="card-text ml-3 text-shadow"><?php echo $indie[$ID][7]; ?></p>
                     </div>
+                    <img class="card-img shadow" src="../images/indie/kayua.jpg" alt="Foto do cantor Kayua rindo de camiseta preta.">
                 </div>
+
                 <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <img class="card-img shadow" src="../images/indie/bk.jpg" alt="Foto do cantor Rubel em frente ao microfone em Preto e Branco">
                     <div class="card-img-overlay">
                         <h5 class="card-title ml-3"><a href="https://www.instagram.com/bkttlapa/" target="_blank" class="text-white"><u><?php echo $indie[$ID][8]; ?></u></a></h5>
                         <p class="card-text ml-3"><?php echo $indie[$ID][9]; ?></p>
                     </div>
+                    <img class="card-img shadow" src="../images/indie/bk.jpg" alt="Foto do cantor Rubel em frente ao microfone em Preto e Branco">
                 </div>
             </div>
         </section>
