@@ -12,14 +12,14 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
 ?>
 <!-- links de acessibilidade para ir ao conteudo -->
 <div id="skippy">
-  <a class="sr-only sr-only-focusable" href="#content">
-    <div class="container text-center">
-      <span class="skiplink-text">Pular para conteúdo principal</span>
-    </div>
-  </a>
   <a class="sr-only sr-only-focusable" href="#idioma">
     <div class="container text-center">
       <span class="skiplink-text">Selecione o idioma</span>
+    </div>
+  </a>
+  <a class="sr-only sr-only-focusable" href="#content">
+    <div class="container text-center">
+      <span class="skiplink-text">Pular para conteúdo principal</span>
     </div>
   </a>
 </div>

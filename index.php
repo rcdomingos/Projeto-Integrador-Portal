@@ -53,7 +53,7 @@ include('imports/idioma.php');
             <div class="carousel-caption">
               <h1><?php echo $home[$ID][3] ?></h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="<?php echo "ranking.php" . $link ?>"  role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="<?php echo "ranking.php" ?>"  role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
             </div>
           </div>
         </section>
@@ -63,7 +63,7 @@ include('imports/idioma.php');
             <div class="carousel-caption text-right">
               <h1><?php echo $home[$ID][4] ?></h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="<?php echo "indicacoes.php" . $link ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="<?php echo "indicacoes.php" ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
             </div>
           </div>
         </section>
@@ -73,7 +73,7 @@ include('imports/idioma.php');
             <div class="carousel-caption text-right">
               <h1><?php echo $home[$ID][5] ?></h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ,ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="<?php echo "cifras.php" . $link ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="<?php echo "cifras.php" ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
             </div>
           </div>
         </section>
@@ -94,24 +94,24 @@ include('imports/idioma.php');
         <div class="row">
           <div class="col">
             <h2 tabindex="0"><?php echo $home[$ID][7] ?></h2>
-            <p><a href="<?php echo "noticias.php" . $link ?>"  tabindex="0"><?php echo $home[$ID][8] ?></a></p>
+            <p><a href="<?php echo "noticias.php" ?>"  tabindex="0"><?php echo $home[$ID][8] ?></a></p>
           </div>
         </div>
         <div class="row text-center home-geral">
           <div class="col-12 col-lg-4">
-            <a href="<?php echo "noticias.php" . $link ?>"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt='<?php echo $home[$ID][23] ?>'></a>
+            <a href="<?php echo "noticias.php" ?>"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt='<?php echo $home[$ID][23] ?>'></a>
             <h2 tabindex="0"><?php echo $home[$ID][9] ?></h2>
             <p tabindex="0">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
               vehicula ut id elit. <span class="badge badge-info" tabindex="0"><?php echo $home[$ID][12] ?></span></p>
           </div>
           <div class="col-12 col-lg-4">
-            <a href="<?php echo "noticias.php" . $link ?>"><img class="rounded img-fluid" src="images/principal/katyperry.jpg" alt='<?php echo $home[$ID][24] ?>'></a>
+            <a href="<?php echo "noticias.php" ?>"><img class="rounded img-fluid" src="images/principal/katyperry.jpg" alt='<?php echo $home[$ID][24] ?>'></a>
             <h2 tabindex="0"><?php echo $home[$ID][10] ?></h2>
             <p tabindex="0">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
               vehicula ut id elit.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
           </div>
           <div class="col-12 col-lg-4">
-            <a href="<?php echo "noticias.php" . $link ?>"><img class="rounded img-fluid" src="images/principal/home-3.jpg" alt='<?php echo $home[$ID][25] ?>'></a>
+            <a href="<?php echo "noticias.php" ?>"><img class="rounded img-fluid" src="images/principal/home-3.jpg" alt='<?php echo $home[$ID][25] ?>'></a>
             <h2 tabindex="0"><?php echo $home[$ID][11] ?></h2>
             <p tabindex="0">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
               vehicula ut id elit. <span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
@@ -173,7 +173,7 @@ include('imports/idioma.php');
             </div>
             <div class="row">
               <div class="col">
-                <p><a href="<?php echo "ranking.php" . $link ?>" tabindex="0"><?php echo $home[$ID][15] ?></a></p>
+                <p><a href="<?php echo "ranking.php" ?>" tabindex="0"><?php echo $home[$ID][15] ?></a></p>
               </div>
             </div>
           </section>
@@ -184,7 +184,7 @@ include('imports/idioma.php');
             <section class="home-indica">
               <div class="container-fluid">
                 <h2 tabindex="0"><?php echo $home[$ID][16] ?></h2>
-                <p><a href="<?php echo "indicacoes.php" . $link ?>" tabindex="0"><?php echo $home[$ID][17] ?></a></p>
+                <p><a href="<?php echo "indicacoes.php" ?>" tabindex="0"><?php echo $home[$ID][17] ?></a></p>
                 <!-- Linha 1 da sugestão -->
                 <div class="row justify-content-md-center text-center">
                   <div class="col-6 col-md-4">

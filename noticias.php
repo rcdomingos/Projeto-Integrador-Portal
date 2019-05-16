@@ -30,7 +30,7 @@
                     <a href="#" tabindex="0">
                         <h2 class="titulonoticias"><?php echo $noticias[$ID][0]?></h2>
                     </a>
-                    <a href="#" tabindex="0">
+                    <a href="./noticiaAtual.php?noticia=1" tabindex="0">
                         <p class="textonoticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
                     </a>
                         <p id="textonoticias2" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac risus et arcu.</p>
@@ -41,7 +41,7 @@
                     <a href="#" tabindex="0">
                         <h2 class="titulonoticias"><?php echo $noticias[$ID][1]?></h2>
                     </a>
-                    <a href="#" tabindex="0">
+                    <a href="./noticiaAtual.php?noticia=2" tabindex="0">
                         <p class="textolateralnoticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
                     </a>
                 </aside>
@@ -49,7 +49,7 @@
                     <a href="#" tabindex="0">
                         <h2 class="titulonoticias"><?php echo $noticias[$ID][2]?></h2>
                     </a>
-                    <a href="#" tabindex="0">
+                    <a href="./noticiaAtual.php?noticia=3" tabindex="0">
                         <p class="textolateralnoticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
                     </a>
                 </aside>
@@ -60,7 +60,7 @@
                 <img src="images/noticias/pop.jpg" class="img-fluid ajusteimagem w-100" alt="<?php echo $noticias[$ID][3]?>" tabindex="0">
             </div>
             <article class="col-sm-12 col-md-12 col-lg-7 mt-4">
-                    <a href="#" tabindex="0">
+                    <a href="./noticiaAtual.php?noticia=4" tabindex="0">
                         <p class="titulo4">Lorem ipsum dolor: Cit amet, consectetur adipiscing elit</p>
                     </a>
                     <p class="paragrafo6" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
@@ -72,7 +72,7 @@
                 <img src="images/noticias/clarinete.jpg" class="img-fluid ajusteimagem w-100" alt="<?php echo $noticias[$ID][5]?>" tabindex="0">
             </div>
             <article class="col-sm-12 col-md-12 col-lg-7 mt-4">
-                    <a href="#" tabindex="0">
+                    <a href="./noticiaAtual.php?noticia=5" tabindex="0">
                         <p class="titulo4">Lorem ipsum dolor: Cit amet, consectetur adipiscing elit</p>
                     </a>
                     <p class="paragrafo6" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
