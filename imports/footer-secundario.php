@@ -85,9 +85,9 @@
                 </nav>
                 <div id="redes-sociais-footer" class="pt-2">
                   <ul>
-                    <li class="face"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="insta"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li class="twit"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="face"> <a href="https://facebook.com/EclecticMusic" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="insta"> <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Istagran"><i class="fab fa-instagram"></i></a></li>
+                    <li class="twit"> <a href="https://twitter.com/music" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -97,9 +97,9 @@
         <div class="col-2">
           <div id="redes-sociais-footer-mobi">
             <ul>
-              <li class="face"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="insta"><a href="#"><i class="fab fa-instagram"></i></a></li>
-              <li class="twit"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="face"> <a href="https://facebook.com/EclecticMusic" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="insta"> <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Istagran"><i class="fab fa-instagram"></i></a></li>
+              <li class="twit"> <a href="https://twitter.com/music" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
             </ul>
           </div>
         </div>

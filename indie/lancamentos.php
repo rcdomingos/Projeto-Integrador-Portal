@@ -1,15 +1,15 @@
 <?php
-$indie_pt = array("Fique Por Dentro Dos Principais Lançamentos");
-$indie_en = array("Stay tuned for major releases");
-$indie_es = array("Se queda por dentro de los principales lanzamientos");
+$indie_pt = array("Fique por dentro da cena"    ,"Os principais laçamentos e apostas do rap br","Dalsin","Conheça o pesadelo de quem não dorme há dias"          ,"Vietnã","Inferno Rua","Rashid","Mal com o mundo","Voltando as origens do mestre de cerimônia"     ,"Muito mais que 18k","Wc no Beat","Do trap ao funk"   ,"1","2","3","4","5");
+$indie_en = array("Stay inside the scene"       ,"The main loops and bets of rap"              ,"Dalsin","Meet the nightmare of those who do not sleep the days" ,"Vietnã","Inferno Rua","Rashid","Mal com o mundo","Back to the origins of the master of ceremony"  ,"Much more than 18k","Wc no Beat","From trap to funk" ,"1","2","3","4","5");
+$indie_es = array("Mantente dentro de la escena","Los principales lazos y apuestas del rap"    ,"Dalsin","Conoce la pesadilla de quien no duerme a días"         ,"Vietnã","Inferno Rua","Rashid","Mal com o mundo","Volviendo los orígenes del maestro de ceremonia","Mucho más que 18k" ,"Wc no Beat","De lo trap al funk","1","2","3","4","5");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
-// print_r($sertanejo);
-//usar $ID para os Vetores
 ?>
+
 <?php
  //PHP para verificar qual o idioma do html
 include('../imports/idioma.php');
  ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 
@@ -19,158 +19,96 @@ include('../imports/head.php');
 ?>
 
 <body>
-
 <!-- Menu -->
 <?php
 include('../imports/menu-secundario.php');
 ?>
+
     <!-- Conteúdo da pagina -->
-    <main>
+    <main id="content">
 
-        <!-- Carrocel -->
-        <div class="container">
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <ol class="carousel-indicators my-carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img class="first-slide" src="../images/indie/the-strokes-carrocel.jpg" alt="First slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>The Strokes</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="second-slide" src="../images/indie/the-killers-carrocel.jpg" alt="Second slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>The Killers</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="third-slide" src="../images/indie/arctic-monkeys-carrocel.jpg" alt="Third slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>Arctic Monkeys</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img class="four-slide" src="../images/indie/florence-and-the-machine-carrocel.jpg" alt="Four slide">
-                        <div class="container">
-                            <div class="carousel-caption text-left">
-                                <h1>Florence and The Machine</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
+        <!-- Imagem wide -->
+        <section class="container my-5">
+                <div class="card text-white shadow">
+                    <img tabindex="0" class="card-img" src="../images/indie/froid.jpg" alt="Foto do cantor Froid em preto e branco de óculos escuros, ao fundo uma parede de tijolos.">
                 </div>
+        </section>
 
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
+        <!-- Contéudo Principal - Título / Suntítulo / Texto -->
+        <article class="container">
+            <section class="row text-center">
+                    <div class="col-12">
+                        <h1 tabindex="0" class="display-9 mt-4 mb-0"><?php echo $indie[$ID][0]; ?></h1>
+                        <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small></blockquote>
+                        <p class="text-justify mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    </div>
+            </Section>
+        </article>
 
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
-            </div>
-        </div>
-        <br>
-        <!-- Final Carrocel -->
-
-        <!-- Imagens -->
-        <div class="container">
-
-            <!-- Primeria Linha -->
+        <!-- 3x - Título / Sub. / Texto / Imagem / Texto -->
+        <section class="container my-5"> 
             <div class="row">
-
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/the-strokes.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="http://thestrokes.com/" class="indietexto">The Strokes</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
+                <div class="text-white col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/dalsiin_/" target="_blank" class="text-white"><u><?php echo $indie[$ID][2]; ?></u></a></h5>
+                        <p class="card-text ml-3"><?php echo $indie[$ID][3]; ?></p>    
+                    </div>
+                    <img class="card-img shadow" src="../images/indie/dalsin.jpg" alt="Foto do cantor Dalsin de perfil em preto e branco no fundo preto.">
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/arctic-monkeys-cover.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="https://www.arcticmonkeys.com/" class="indietexto">Arctic Mokeys</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
+                <div class="text-white col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.facebook.com/vietnarap011/" target="_blank" class="text-white"><u><?php echo $indie[$ID][4]; ?></u></a></h5>
+                        <p class="card-text ml-3"><?php echo $indie[$ID][5]; ?></p>    
+                    </div>
+                    <img class="card-img shadow" src="../images/indie/vietna.jpg" alt="Foto do cantor Vietnã no lançamento do seu album de mesmo nome.">
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/the-neighbourhood-cover.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="https://thenbhd.com/" class="indietexto">The Neighbourhood</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
+                <div class="text-white col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/mcrashid/" target="_blank" class="text-white"><u><?php echo $indie[$ID][6]; ?></u></a></h5>
+                        <p class="card-text ml-3"><?php echo $indie[$ID][7]; ?></p>    
+                    </div>
+                    <img class="card-img shadow" src="../images/indie/rashid.jpg" alt="Foto do cantor Rashid sentado numa ponte">
                 </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-
-                    <img src="../images/indie/muse-cover.jpg" class="img-fluid" alt="Imagem responsiva">
-
-                    <a href="https://simulationtheory.muse.mu/" class="indietexto">MUSE</a>
-
-                    <p class="indietexto">Lorem ipsum dolor.</p>
-
-                </div>
-
             </div>
+        </section>
 
-        </div>
-
-        <br><br>
-        <!-- Título & Subtítulo -->
-        <div class="container">
+        <!-- Segundo Text - Título / Sub. / Texto / Imagem wide / Texto -->
+        <section class="container mb-5">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2><?php echo $indie[$ID][0]; ?></h2>
-                    <h3 class="titulos-indie">Tudo que você precisa saber sobre o mundo Indie em um só lugar.</h3>
+                    <h2 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][8]; ?></h1>
+                    <blockquote class="blockquote mt-0 mb-3"><small class="test-muted"><?php echo $indie[$ID][9]; ?></small></blockquote>
                 </div>
             </div>
-        </div>
-        <br>
 
-        <!-- Texto -->
-        <div class="container">
             <div class="row text-justify">
-                <div class="col-12" id="tt">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
                 </div>
             </div>
-        </div>
-        <br><br><br><br>
+       
+                <div class="card text-white">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title"><a href="https://www.instagram.com/wcnobeat/?hl=pt-br" target="_blank" class="text-white"><u><?php echo $indie[$ID][10]; ?></u></a></h5>
+                        <p class="card-text"><?php echo $indie[$ID][11]; ?></p>
+                    </div>
+                    <img class="card-img shadow" src="../images/indie/wc.jpg" alt="Foto do produtor WC no Beat de blusa branca.">
+                </div>
 
-    </main>
+            <div class="row text-justify">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mt-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER -->
 <?php

@@ -1,4 +1,10 @@
+<?php
+$punk_pt = array("Artistas", "Destaques", "Classificacao", "Impacto Social", "Lancamentos");
+$punk_en = array("Artists", "Highlights", "Ranking", "Social Impact", "Releases");
+$punk_es = array("Artistas", "Refrejos", "Classificacion", "Impacto Social", "Comunicados");
+$punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 
+?>
  <?php
  //PHP para verificar qual o idioma do html
    include('../imports/idioma.php');
@@ -20,23 +26,23 @@
      <div class="container">
         <div class="row">
              
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-6">
 
 
                     <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
                 </div>
-                <div class="col-lg-3 text-white">
- <h4>Colera</h4>
- <h5>Colera</h5>
+                <div class="col-lg-3 col-6 text-white">
+ <h4>Olho Seco</h4> 
+ <h5>Bostas, Fuzis e Capacetes</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
             </div>
     
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-6">
 
 
                     <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
                 </div>
-                <div class="col-lg-3 text-white">
+                <div class="col-lg-3 col-6 text-white">
  <h4>Colera</h4>
  <h5>Colera</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
@@ -51,36 +57,36 @@
   <div class="container">
         <div class="row">
              
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-6">
 
 
                     <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
                 </div>
-                <div class="col-lg-2 text-white">
- <h4>Colera</h4>
- <h5>Colera</h5>
+                <div class="col-lg-2 col-6 text-white">
+ <h4>Menstruacao Anarquica</h4>
+ <h5>M.A.</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in  mattis.</p>
             </div>
     
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-6">
 
 
                     <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
                 </div>
-                <div class="col-lg-2 text-white">
+                <div class="col-lg-2 col-6 text-white">
  <h4>Colera</h4>
- <h5>Colera</h5>
+ <h5>Vozes de protesto</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mattis.</p>
             </div>
     
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-6">
 
 
                     <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
                 </div>
-                <div class="col-lg-2 text-white">
- <h4>Colera</h4>
- <h5>Colera</h5>
+                <div class="col-lg-2 col-6 text-white">
+ <h4>Ratos de Porao</h4>
+ <h5>Seculo Sinistro</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis.</p>
             </div>
     

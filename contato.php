@@ -1,10 +1,11 @@
+
 <?php
 $contato_pt = array("Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", "Formulario", "Clique e Preencha",
-  "Endereço de email","Nome","Sobrenome","Enviar","Limpar","Seu email");
+  "Endereço de email","Nome","Sobrenome","Enviar","Limpar","Seu email","Desenho representativo de uma pessoa.");
 $contato_en = array("Music Portal", "Contact Us", "Telephone", "Message", "Form", "Click and Fill in",
-  "Email Address", "First Name", "Last Name", "Send", "Clear","Your email");
+  "Email Address", "First Name", "Last Name", "Send", "Clear","Your email","Representative drawing of a person.");
 $contato_es = array("Portal de Musica", "Contáctenos", "Teléfono", "Mensaje", "Formulario", "Haga Clic y Rellene",
-  "Dirección de correo electrónico", "Nombre", "Apellido", "Enviar", "Borrar","Su correo electrónico");
+  "Dirección de correo electrónico", "Nombre", "Apellido", "Enviar", "Borrar","Su correo electrónico","Dibujo representativo de una persona.");
 $contato = array('PT' => $contato_pt, 'EN' => $contato_en, 'ES' => $contato_es);
 ?>
 <?php
@@ -43,7 +44,7 @@ include('imports/head.php');
             </div>
             <div class="contato mx-auto">
               <!-- Circulo Transparente + Foto -->
-              <img class="mx-auto" src="images/principal/user-solid.svg" alt="logo">
+              <img class="mx-auto" src="images/principal/user-solid.svg" tabindex="0" alt="<?php echo $contato[$ID][12];?>">
             </div>
           </div>
         </div>
@@ -51,8 +52,8 @@ include('imports/head.php');
           <div class="col-12 text-center">
             <!-- Título e Sub -->
             <!--  -->
-            <h2><?php echo $contato[$ID][0]; ?></h2>
-            <p><?php echo $contato[$ID][1]; ?></p>
+            <h2 tabindex="0"><?php echo $contato[$ID][0]; ?></h2>
+            <p tabindex="0"><?php echo $contato[$ID][1]; ?></p>
           </div>
         </div>
       </div>
@@ -64,8 +65,8 @@ include('imports/head.php');
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-phone"></i></div>
             <div class="texto-contato">
-              <h3><?php echo $contato[$ID][2]; ?></h3>
-              <p>+55 11 1234 5678</p>
+              <h3 tabindex="0"><?php echo $contato[$ID][2]; ?></h3>
+              <p tabindex="0">+55 11 1234 5678</p>
             </div>
           </section>
         </div>
@@ -73,8 +74,8 @@ include('imports/head.php');
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-envelope"></i></div>
             <div class="texto-contato">
-              <h3>E-mail</h3>
-              <p>contato@ecletic.music.com </p>
+              <h3 tabindex="0">E-mail</h3>
+              <p tabindex="0">contato@ecletic.music.com </p>
             </div>
           </section>
         </div>
@@ -84,8 +85,8 @@ include('imports/head.php');
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-comment"></i></div>
             <div class="texto-contato">
-              <h3><?php echo $contato[$ID][3]; ?></h3>
-              <p>+55 11 1234 5678</p>
+              <h3 tabindex="0"><?php echo $contato[$ID][3]; ?></h3>
+              <p tabindex="0">+55 11 1234 5678</p>
             </div>
           </section>
         </div>
@@ -102,19 +103,19 @@ include('imports/head.php');
           </a>
         </div>
         <div class="col-12 col-lg-8 mt-5">
-          <form class="collapse" id="fomulario">
+          <form class="collapse" id="fomulario" name="formulario" method="post" action="formulario.php">
             <div class=" form-group">
               <label class="text-white"><?php echo $contato[$ID][6]; ?></label>
-              <input type="email" class="form-control" placeholder="<?php echo $contato[$ID][11]; ?>">
+              <input type="email" class="form-control" name="email" placeholder="<?php echo $contato[$ID][11]; ?>">
             </div>
             <div class="form-row">
               <div class="col">
                 <label class="text-white"><?php echo $contato[$ID][7]; ?></label>
-                <input type="text" class="form-control" placeholder="<?php echo $contato[$ID][7]; ?>">
+                <input type="text" class="form-control" name="nome" placeholder="<?php echo $contato[$ID][7]; ?>">
               </div>
               <div class="col">
                 <label class="text-white"><?php echo $contato[$ID][8]; ?></label>
-                <input type="text" class="form-control" placeholder="<?php echo $contato[$ID][8]; ?>">
+                <input type="text" class="form-control" name ="sobrenome" placeholder="<?php echo $contato[$ID][8]; ?>">
               </div>
             </div>
             <div class="form-group mt-3">
