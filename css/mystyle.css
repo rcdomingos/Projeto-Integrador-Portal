@@ -5,19 +5,21 @@ a:hover {
 
 /**** estilo do menu oculto ********************/
 .side-menu-sec {
-    overflow: hidden;
+    /*overflow: hidden*/
     /* background: rgba(0, 0, 0, .95); */
     /* background: linear-gradient(to left, rgba(212, 21, 246, 1), rgba(24, 70, 94, 1)); */
-    background: linear-gradient(to left, #580842, #045B63);
+    /* background: linear-gradient(to left, #580842, #045B63); */
     padding: 40px 0 0 40px;
     position: fixed;
     top: 0;
-    right: -320px;
+    left: -340px;
     height: 100%;
     z-index: 3;
-    transition: 0.5s;
     width: 320px;
     font-size: 1em;
+	background: #333;
+    transition: left 0.3s linear 0s;
+    box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .side-menu-sec ul {
@@ -33,7 +35,6 @@ a:hover {
     display: block;
     padding: 10px 4px 10px 4px;
     color: #FFF;
-    transition: 0.3s;
     text-decoration: none;
     /* border-bottom: solid 1px rgba(255,255,255,.7); */
 }
@@ -65,6 +66,11 @@ a:hover {
     text-transform: uppercase;
 }
 
+#skippy{
+    background-color: #000;
+    text-align: center;
+}
+
 /* Botão hambugue do menu */
 .hamburgue div {
     height: 5px;
@@ -72,11 +78,12 @@ a:hover {
     margin: 5px 0;
     border-radius: 24px;
     transition: 0.3s;
-}
+ }
 
 .hamburgue {
     display: block;
     width: 35px;
+    padding-top: 5px;
 }
 
 .l-um {
@@ -102,16 +109,17 @@ a:hover {
     /* border-bottom: solid 1px rgba(0,0,0,.7); */
 }
 
+#pesquisar form{
+  background: #000;
+
+}
 #redes-sociais ul {
     list-style: none;
-    text-align: left;
-    text-align: justify;
+    text-align: right;
 }
 
 #redes-sociais ul li {
     display: inline;
-    /* margin-right: 4.1em; */
-    text-align: justify;
 }
 
 #redes-sociais ul li a {
@@ -124,7 +132,7 @@ a:hover {
 
 #redes-sociais ul li.twit,
 #redes-sociais ul li.insta {
-    margin-left: 90px;
+    margin-left: 5px;
 }
 
 /*** Hover do icones das redes sociais  ***/
@@ -550,6 +558,7 @@ div.texto-indiq p {
     height: 314px;
     background: #D2EFFF url('../images/sertanejo/marcos.jpg') no-repeat;
     background-size: cover;
+    background-position: 50% 60%;
 }
 
 .fundo-texto {
@@ -651,269 +660,208 @@ img.img-destaque {
 }
 
 /*Home clássica*/
-#artistas {
-    background-image: url('../images/classica/menu-01.jpg');
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-#origem {
-    background-image: url('../images/classica/menu-02.jpg');
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#famosas {
-    background-image: url('../images/classica/menu-03.jpg');
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-#destaques {
-    background-image: url('../images/classica/menu-04.jpg');
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-#curiosidades {
-    background-image: url('../images/classica/menu-05.jpg');
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-.tmenu {
-    font-size: 25px;
-    padding: 10px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    color: white;
-}
-
-.pmenu {
-    font-size: 14px;
-    padding: 0px 0px 10px 10px;
-    color: white;
-}
-
-.tboxmenu {
-    background-color: rgba(0, 0, 0, .5);
-    position: relative;
-    top: 250px;
-    height: 150px;
-}
-
-div.tboxmenu:hover {
-    background-color: #D1913C;
-    transition: background-color 0.5s;
-}
 
 /*Artistas da clássica*/
-.partistas {
-    text-indent: 40px;
-}
 
-.imgartistas {
-    width: 100%;
-}
-
-.artistas-classica .jumbotron {
-    background-image: url('../images/classica/jumbotron.jpg');
-    background-size: cover;
-}
-
-.navartistas {
-    display: flex;
-    align-items: center;
-}
-
-/*Origem a clássica*/
-.porigem {
-    padding: 15px 0px 0px 0px;
-    text-indent: 40px;
-    text-align: justify;
-}
-
-.tboxorigem {
-    padding: 20px 0px 0px 0px;
-    margin: 1px;
-    color: black;
-    font-size: 25px;
-}
-
-.tamanhop {
-    font-size: 15px;
-}
-
-#boxorigem {
-    background: linear-gradient(to right, #D1913C, #FFD194);
-    border-radius: 5px;
-    padding: 2px;
-}
-
-.origemajustar {
-    width: 100%;
-}
-
-.ajustevejamais {
-    padding: 2px;
-    margin: 0;
-}
-
-.artistas-classica .jumbotron {
-    background-image: url('../images/classica/jumbotron.jpg');
-    background-size: cover;
-}
-
-a.origemhover h5:hover {
-    color: #D1913C;
-    transition: color 0.2s;
-}
+/*Origem da clássica*/
 
 /*Destaques da clássica*/
-.tcarousel {
-    padding: 40px;
+.numerodestaques {
+    font-size: 20px;
+    color: gray;
+    padding-right: 10px;
 }
-
-.pdestaques {
-    text-indent: 40px;
-    padding: 10px 0px 0px 0px;
-}
-
-.tdestaques {
+.textodestaquesc {
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
 }
-
-.imagensdestaquesclassica {
-    width: 100%;
-    height: 100%;
+.textodestaquesc:hover {
+    color:gray;
 }
-
-.destaqueajustar {
-    width: 100%;
-}
-
-a.destaqueshover h3:hover {
-    color: #D1913C;
-    transition: color 0.2s;
-}
-
-span.corrosselhover:hover {
-    color: #FFD194;
-    transition: color 0.2s;
-}
-
-.corrosselhover {
-    color: white;
-}
-
-/*Curiosidades da clássica*/
-.tmarcos {
+.linhadestaquesc {
+    border-bottom: 1px lightgray solid;
     padding: 10px;
-    margin: 0;
-    text-align: center;
 }
-
-.cleiamais {
-    background: linear-gradient(to right, #D1913C, #FFD194);
-    border-radius: 5px;
-    padding: 5px;
-    color: black;
+#titulodestaquesc {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
     font-weight: bold;
 }
-
-.imagensmarcosclassica {
-    width: 100%;
-    height: 230px;
-}
-
-a.marcoshover:hover {
-    color: #D1913C;
-    transition: color 0.2s;
-}
-
-.marcoshover {
+.nomedestaquec {
+    font-size: 20px;
     color: black;
+    font-weight:500;
+}
+.nomedestaquec:hover {
+    color: gray;
+}
+.textodestaquec {
+    color: gray;
+}
+.titulolista {
+    font-size: 20px;
+    color: #D1913C;
+    font-weight: bolder;
+    padding: 10px;
+}
+.imagemdestaquesc {
+    width: 100%;
+    height: 200px;
 }
 
-/*Famosas da clássica*/
-.header-famosas .jumbotron {
-    background: url('../images/classica/famosas-01.jpg') 50% 50%;
+/*Lançamentos da clássica*/
+
+/*Destaques da clássica*/
+
+/*Marcos da clássica*/
+#imgmarcosclassica1 {
+    background-image: url(../images/classica/marcos-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    width: 100%;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}
+#posicaotextoclassica {
+    position: absolute;
+    top: 250px;
+    z-index: 10;
+}
+#textomarcosclassica {
+    margin: 20px;
+    font-size: 1.2em;
+    color: #D1913C;
+    font-weight: bold;
+}
+#textomarcosclassica2 {
+    margin: 20px;
+    font-size: 1em;
+    color: gray;
+}
+#imgmarcosclassica2 {
+    background-image: url(../images/classica/marcos-02.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    width: 100%;
+    border-radius: 5px;
 }
-
-.fprimeiracolocada {
-    font-size: 18px;
-    font-weight: bolder;
-    text-shadow: 1px 3px 10px #efbe6b;
+#posicaotextoclassica2 {
+    position: relative;
+    top: 0px;
+    z-index: 10px;
 }
-
-.fcolor {
-    background: linear-gradient(to right, #D1913C, #FFD194);
-}
-
-.linklancamentos {
-    color: black;
-}
-
-.tlancamentos {
-    font-weight: bold;
-    text-align: center;
-}
-
-.tableclassica th {
-    border: 0;
-}
-
-/****************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
-/*NOTICIAS*/
-.tnoticias {
-    color: black;
-}
-
-.pnoticias {
-    padding: 0px 0px 10px 0px;
-    margin: 0;
-    color: black;
-}
-
-.tcarrossel {
-    padding: 0;
-    margin: 0;
-}
-
-.pcarrossel {
-    padding: 0;
-    margin: 0;
-}
-
-.lnoticias {
-    background: linear-gradient(to left, #fc00ff, #00dbde);
-    padding: 5px;
-    border-radius: 10px;
+#titulomarcosclassica1 {
+    padding: 10px;
+    font-size: 1em;
     color: white;
     font-weight: bold;
 }
-
-.noticiasajuste {
+#textomarcosclassica3 {
+    padding-top: 170px;
+    padding-left: 20px;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+#imgmarcosclassica3 {
+    background-image: url(../images/classica/marcos-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+#posicaotextoclassica3 {
+    position: relative;
+    top: 0px;
+    z-index: 10;
+}
+#titulomarcosclassica2 {
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+#textomarcosclassica4 {
+    padding: 20px;
+    padding-top: 170px;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+/****************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
+/*NOTICIAS*/
+#imagemnoticias {
+    background-image: url('../images/noticias/show.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
     width: 100%;
 }
-
-.alinhar {
-    margin: 0 auto 0 auto;
+#imagem2noticias {
+    background-image: url('../images/noticias/alliex.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 385px;
+    margin-bottom: 30px;
+}
+#imagem3noticias {
+    background-image: url('../images/noticias/arcticmonkeys.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 385px;
+}
+.titulonoticias {
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+}
+.textonoticias {
+    margin-top: 270px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#textonoticias2 {
+    padding-left: 10px;
+    color: gray;
+}
+.textolateralnoticias {
+    margin-top: 230px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+.titulo4 {
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.ajusteimagem {
+    height: 300px;
+}
+.linhanot {
+    border-bottom: 2px lightgray solid;
+}
+h2.titulonoticias:hover {
+    color: grey;
+}
+p.textonoticias:hover {
+    color: gray;
+}
+p.textolateralnoticias:hover {
+    color: gray;
+}
+p.titulo4:hover {
+    color: gray;
 }
 
 /****************************AJUSTES DA PAGINA INDIE  ********************/
@@ -1119,22 +1067,9 @@ div.icone-contato {
     background-color: rgba(74, 75, 75, 0.37);
 }
 
-/*PÁGINA ARTISTAS - HIP HOP*/
 
-/*PÁGINA LANÇAMENTOS - HIP HOP*/
-
-/*PÁGINA MAIS CONHECIDAS - HIP HOP*/
-
-/*PÁGINA PREMIAÇÕES - HIP HOP*/
-
-/*PÁGINA DESTAQUES - HIP HOP*/
-
-/*PÁGINA ORIGEM - HIP HOP*/
-
+/************************* AJUSTE PUNK ***************************************/
 /*PÃGINA punk*/
-
-
-
 #headerpunk {
     background: rgba(0, 0, 0, 1);
     background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
@@ -1257,6 +1192,19 @@ div.icone-contato {
         background-color: #000;
         color: #fff;
     }
+
+    /**Ajustes responsivo da pagina indicações**/
+    div#baner-indica.container-fluid{
+      padding: 0;
+    }
+
+    /**Ajustes responsivo da pagina sertanejo**/
+    div#home-sertanejo.container-fluid{
+      padding: 0;
+    }
+    #siga-desk{
+        display: none;
+    }
 }
 
 /* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -1293,6 +1241,20 @@ div.icone-contato {
         color: #fff;
     }
 
+    /**Ajustes responsivo da pagina indicações**/
+    div#baner-indica.container-fluid{
+      padding: 0;
+    }
+
+    /**Ajustes responsivo da pagina sertanejo**/
+    div#home-sertanejo.container-fluid{
+      padding: 0;
+    }
+
+    #siga-desk{
+        display: none;
+    }
+
 }
 
 /* // Dispositivos médios (tablets com 768px ou mais) */
@@ -1313,6 +1275,9 @@ div.icone-contato {
     .pl-xs-3 {
         padding-left: 1.6em;
     }
+
+    /**Ajustes responsivo da pagina indicações**/
+
 }
 
 /* // Dispositivos large (desktops com 992px ou mais) */
