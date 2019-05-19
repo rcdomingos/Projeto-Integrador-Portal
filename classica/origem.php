@@ -1,6 +1,6 @@
 <?php
     $classica_pt = array("A história da música clássica","Veja mais:","Períodos da música clássica","Orquestras mais conhecidas","Por que ouvir música clássica?");
-    $classica_en = array("The classical music's history","See more:","Classical music's periods","The best known orchestras","Why listen classical music?");
+    $classica_en = array("The history of classical music","See more:","Classical music's periods","The best known orchestras","Why listen classical music?");
     $classica_es = array("La historia de la música clásica","Mira más:","Períodos de la música clásica","Las orquestras más populares","¿Por qué escuchar música clásica?");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
@@ -9,13 +9,13 @@
  //PHP para verificar qual o idioma do html
    include('../imports/idioma.php');
  ?>
- <!DOCTYPE html>
- <html lang ="<?php echo $lang?>">
-   <?php
+<!DOCTYPE html>
+<html lang="<?php echo $lang?>">
+<?php
    //importando o head da pagina
      include('../imports/head.php');
    ?>
-     
+
 <!--FINAL DO HEAD-->
 
 <body>
@@ -28,49 +28,16 @@
     <!--ARTICLE-->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-8">
-                <section>
-                    <h3 class="text-center mt-4"><?php echo $classica[$ID][0]?></h3>
-                    <img src="../images/classica/origem-01.jpg" alt="origem" class="img-fluid origemajustar">
-                </section>
-
-                <article>
-                    <p class="porigem text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. Donec blandit metus ut arcu iaculis iaculis. </p>
-                </article>
-
-                <section>
-                    <img src="../images/classica/origem-02.jpg" alt="origem" class="img-fluid origemajustar">
-                </section>
-                <section>
-                    <p class="porigem text-justify mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. </p>
-                </section>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2 class="text-center mt-4">A história da música clássica</h2>
             </div>
-            
-            <div class="col-12 col-md-12 col-lg-4 mt-4 mb-4">
-                <aside>
-                    <div id="boxorigem">
-                        <h5 class="text-center ajustevejamais font-weight-bold"><?php echo $classica[$ID][1]?></h5>
-                    </div>
-                    
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <a href="#" class="origemhover">
-                                <h5 class="tboxorigem origemhover"><?php echo $classica[$ID][2]?></h5>
-                                <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <a href="#" class="origemhover">
-                                <h5 class="tboxorigem origemhover"><?php echo $classica[$ID][3]?></h5>
-                                <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <a href="#" class="origemhover">
-                                <h5 class="tboxorigem origemhover"><?php echo $classica[$ID][4]?></h5>
-                                <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
-                            </a>
-                        </div>
-                </aside>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <article>
+                    <img src="../images/classica/origem-01.jpg" class="img-fluid">
+                    <p>In nec velit at felis hendrerit bibendum in eu turpis. In ac feugiat purus. Morbi auctor, leo eu fringilla faucibus, magna mi blandit diam, a faucibus lorem libero at eros. Pellentesque leo turpis, ultrices at fermentum ac, mattis id eros. Vestibulum vestibulum laoreet enim eget aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi porttitor iaculis fringilla. Fusce nec rhoncus orci, et fringilla orci. Morbi venenatis, est vehicula semper lobortis, libero lacus venenatis mauris, ut pharetra diam dolor vitae velit. Vestibulum sit amet iaculis nibh, et scelerisque ligula. Donec ut finibus magna, sit amet aliquet ante. Aenean id tempor mauris. Vestibulum vestibulum rutrum sapien, at vehicula lectus venenatis nec. Vivamus ex augue, congue vitae massa quis, congue ultricies lectus. In sit amet magna posuere, porta tellus ultricies, scelerisque odio. Donec ut eros congue, pharetra massa sed, ultrices lorem. Nulla ac rutrum orci, vel placerat neque.</p>
+                </article>
             </div>
         </div>
     </div>

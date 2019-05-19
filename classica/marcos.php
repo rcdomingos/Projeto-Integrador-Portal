@@ -1,7 +1,7 @@
 <?php
-    $classica_pt = array("Clássica ou erudita?","Leia mais","Características","Leia mais","Música brega?","Leia mais","Como se vestir em um concerto?","Leia mais","Gioachino Rossini e a embriaguez","Leia mais","A maldição dos compositores","Leia mais");
-    $classica_en = array("Classical or erudite?","Read more","Caracteristics","Read more","Old music?","Read more","What you need wear in a concert?","Read more","Gioachino Rossini and drunkenness","Read more","The compositor's curse","Read more");
-    $classica_es = array("Clásica o erudita?","Leer más","Características","Leer más","Música brega?","Leer más","¿Cómo vestirse en un concierto?","Leer más","Gioachino Rossini y la embriaguez","Leer más","La maldición de los compositores","Leer más");
+    $classica_pt = array("Curiosidades no mundo da música clássica","Clássica ou erudita?","Leia mais","Características","Leia mais","Música brega?","Leia mais","Como se vestir em um concerto?","Leia mais","Gioachino Rossini e a embriaguez","Leia mais","A maldição dos compositores","Leia mais");
+    $classica_en = array("The curiosities in the world of the classical music","Classical or erudite?","Read more","Caracteristics","Read more","Old music?","Read more","What you need wear in a concert?","Read more","Gioachino Rossini and drunkenness","Read more","The compositor's curse","Read more");
+    $classica_es = array("Curiosidades en el mundo de la música clásica","Clásica o erudita?","Leer más","Características","Leer más","Música brega?","Leer más","¿Cómo vestirse en un concierto?","Leer más","Gioachino Rossini y la embriaguez","Leer más","La maldición de los compositores","Leer más");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
@@ -11,7 +11,7 @@
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-  <?php
+<?php
    //importando o head da pagina
      include('../imports/head.php');
   ?>
@@ -28,60 +28,43 @@
     <!--ARTICLE-->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-01.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                    <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][0]?></h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][1]?></a></p>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <section class="mt-4">
+                    <div id="imgmarcosclassica1">
+                        <div id="posicaotextoclassica">
+                            <a href="#">
+                                <p id="textomarcosclassica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim dapibus enim, non aliquam leo vulputate sed. Cras et quam eget leo euismod aliquet vitae</p>
+                            </a>
+                            <p id="textomarcosclassica2" tabindex="0">Cras tempor tempor rhoncus. Ut in leo congue, scelerisque.</p>
+                        </div>
+                    </div>
                 </section>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-02.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                    <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][2]?></h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][3]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-03.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                    <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][4]?></h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][5]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-04.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                    <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][6]?></h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][7]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4">
-                <section>
-                    <img src="../images/classica/curiosidades-05.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                    <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][8]?></h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][9]?></a></p>
-                </section>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
-                <section>
-                    <img src="../images/classica/curiosidades-06.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
-                    <a href="#" class="marcoshover">
-                    <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][10]?></h5>
-                    </a>
-                    <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][11]?></a></p>
-
-                </section>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <aside class="mt-4 mb-4">
+                    <div id="imgmarcosclassica2">
+                        <div id="posicaotextoclassica2">
+                            <a href="#">
+                                <h2 id="titulomarcosclassica1">Curiosidades</h2>
+                            </a>
+                            <a href="#">
+                                <p id="textomarcosclassica3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="mb-4">
+                    <div id="imgmarcosclassica3">
+                        <div id="posicaotextoclassica3">
+                            <a href="#">
+                                <h2 id="titulomarcosclassica2">Famosas</h2>
+                            </a>
+                            <a href="#">
+                                <p id="textomarcosclassica4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </div>
     </div>
