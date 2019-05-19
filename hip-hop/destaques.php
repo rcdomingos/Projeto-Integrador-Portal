@@ -88,7 +88,6 @@
         </div>
              <div class="col-sm-5 mb-2">
                  <h4 class="text-white bg-dark text-center"><?php echo $hiphop[$ID][3]?></h4>
-            <section class="hip-dest-sect">
             <div class="d-flex align-self-center ">
               <div class="text-center p-2 flex-fill flex flex-column items-center justify-center  w-100">
                 <a href="https://www.theamas.com/" class="btn btn btn-outline-warning btn-lg w-100" title="AMA">
@@ -117,7 +116,6 @@
                   <span class="menu-text-dest">Grammy Latino</span>
                 </a>
               </div>
-          </section>
                 </div>
                 
         </div>

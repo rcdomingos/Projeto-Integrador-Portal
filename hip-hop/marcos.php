@@ -28,8 +28,8 @@
                         <h1 class="text-white bg-dark text-center font-italic font-weight-bold mt-4 mb-3"><?php echo $hiphop[$ID][0]?></h1>
                 </div>
             </div>
-<div class="row">
-<div class="col-12">
+            <div class="row">
+                <div class="col-12">
             <table class="table table-striped table-dark">
                 <thead>
                     <tr>
@@ -108,33 +108,33 @@
                 <div class="row">
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Nonstop</h4>
-                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
-                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
-                    </div>
-                    <div class="col-12 col-sm-2">
-                        <h4 class="text-center mt-4">God's Plan</h4>
-                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
-                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
+                        <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
+                        <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active btn-lg btn-block btn btn-success float-none mt-3 mb-4" role="button" aria-pressed="true">Spotify</a></p>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Elevate</h4>
-                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
-                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
+                        <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
+                        <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active btn-lg btn-block btn btn-success float-none mt-3 mb-4" role="button" aria-pressed="true">Spotify</a></p>
                     </div>
                     <div class="col-12 col-sm-2">
-                        <h4 class="text-center mt-4">Mob Ties</h4>
-                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
-                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
-                    </div>
-                    <div class="col-12 col-sm-2">
-                        <h4 class="text-center mt-4">I'm Upset</h4>
-                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
-                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
+                        <h4 class="text-center mt-4">Nonstop</h4>
+                        <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
+                        <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active btn-lg btn-block btn btn-success float-none mt-3 mb-4" role="button" aria-pressed="true">Spotify</a></p>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Elevate</h4>
-                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
-                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
+                        <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
+                        <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active btn-lg btn-block btn btn-success float-none mt-3 mb-4" role="button" aria-pressed="true">Spotify</a></p>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                        <h4 class="text-center mt-4">Nonstop</h4>
+                        <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
+                        <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active btn-lg btn-block btn btn-success float-none mt-3 mb-4" role="button" aria-pressed="true">Spotify</a></p>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                        <h4 class="text-center mt-4">Elevate</h4>
+                        <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
+                        <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active btn-lg btn-block btn btn-success float-none mt-3 mb-4" role="button" aria-pressed="true">Spotify</a></p>
                     </div>
                 </div>
             </div>
