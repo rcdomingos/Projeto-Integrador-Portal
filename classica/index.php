@@ -13,6 +13,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+    $titlePagina = array('PT' => "Clássica | Pagina inicial", 'EN' => "Classic | Home", 'ES' => "Clásico | Pagina principal");
    //importando o head da pagina
      include('../imports/head.php');
    ?>
@@ -75,7 +76,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <section class="mt-4">
-                        <img src="../images/classica/destaques-03.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][10]?>">
+                        <img src="../images/classica/lancamentos-02.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][10]?>">
                         <a href="destaques.php">
                             <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][11]?></h3>
                         </a>
@@ -84,7 +85,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <section class="mt-4">
-                        <img src="../images/classica/marcos-02.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][12]?>">
+                        <img src="../images/classica/origem-03.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][12]?>">
                         <a href="marcos.php">
                             <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][13]?></h3>
                         </a>

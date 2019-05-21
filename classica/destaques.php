@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+    $titlePagina = array('PT' => "Clássica | Destaques", 'EN' => "Classic | Highlights", 'ES' => "Clásico | Reflejos");
    //importando o head da pagina
      include('../imports/head.php');
   ?>

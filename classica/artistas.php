@@ -13,6 +13,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+    $titlePagina = array('PT' => "Clássica | Artistas", 'EN' => "Classic | Artists", 'ES' => "Clásico | Artistas");
    //importando o head da pagina
      include('../imports/head.php');
    ?>
