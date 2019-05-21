@@ -39,20 +39,31 @@ if ($pagina == "sertanejo") {
 // echo '<nav id='.$navheader .' class="navbar navbar-light">';
 ?>
 
-<div id="skippy">
-	<a class="sr-only sr-only-focusable" href="#content">
-		<div class="container">
-			<span class="skiplink-text">Pular para conteúdo principal</span>
-		</div>
-	</a>
+<div class="skippy">
+    
+    <div id="topo"></div>
+    
+    <a class="sr-only sr-only-focusable" href="#idioma">
+        <div class="container text-center">
+            <span class="skiplink-text">Selecione o idioma:</span>
+        </div>
+    </a>
+    
+    <a class="sr-only sr-only-focusable" href="#content">
+        <div class="container text-center">
+            <span class="skiplink-text">Pular para conteúdo principal</span>
+        </div>
+    </a>
+    
 </div>
+
 
 <header id=<?php echo $navheader ?>>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-6 text-center">
 				<a class="navbar-brand" href="../">
-					<img src="../images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" alt="Ecletic ponto Music"> Ecletic.Music </a>
+					<img src="../images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" tabindex="0" alt="Logo do site Ecletic.Music. No logo, dois raios então envolta de uma palheta. No meio da palheta as iniciais E e M, que significa Ecletic.Music"> Ecletic.Music </a>
 			</div>
 
 			<div id="menu-secundario" class="col-3 order-first">
@@ -69,7 +80,7 @@ if ($pagina == "sertanejo") {
 				<div class="side-menu-sec">
 					<!-- <button onclick= "AbrirMenu()"> </button> -->
 					<nav class="btn-acess" hidden="">
-						<a href="#" class="mb-4 text-right pr-4 menu-close" aria-label="Fechar menu secundario"><i class="fas fa-times"></i></a>
+						<a href="#" class="mb-4 text-right pr-4 menu-close" aria-label="Fechar menu secundário"><i class="fas fa-times"></i></a>
 						<p class="mb-2 text-secondary font-weight-bold"><?php echo mb_strtoupper($menu[$ID][9], 'UTF-8') ?></p>
 						<ul class="paginas">
 							<li><a href="../index.php"><i class="mr-3 fas fa-home"> </i> <?php echo $menu[$ID][0] ?></a></li>

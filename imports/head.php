@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>Ecletic.Music | O Portal da Musica</title>
+  <title>Ecletic.Music | O Portal da Música</title>
   <meta name="description" content="Portal de Musica-Projeto integrador">
   <meta name="author" content="Karina, Rafael, Reginaldo, Renata, Thais, Victor - Os Ursal">
 

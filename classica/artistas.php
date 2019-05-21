@@ -1,13 +1,11 @@
 <?php
-    $classica_pt = array("Compositores","Conheça mais sobre os compositores mais famosos");
-    $classica_en = array("Composers","Know more about the most famous composers");
-    $classica_es = array("Compositores","Conoce más sobre los compositores más famosos");
+    $classica_pt = array("Artistas da história", "Jovens talentos", "Artistas atuais");
+    $classica_en = array("Historical artists", "Young talents", "Nowadays artists");
+    $classica_es = array("Artistas de la historia","Jóvenes talentos","Artistas actuales");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
-<?php
-    $testeartistas = array("");
-?>
+
 <?php
  //PHP para verificar qual o idioma do html Conheça um pouco dos vários compositores talentosos da história da música clássica
    include('../imports/idioma.php');
@@ -27,13 +25,50 @@
     <!--NAV ENDS-->
 
     <!--ARTICLE-->
-    <div class="container">
-        <div class="row mt-4 mb-4">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                
+    <main id="content">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <article class="artistas1classica mt-4">
+                        <a href="#" tabindex="0">
+                            <h2 class="titulosartistasclassica">
+                                <?php echo $classica[$ID][0]?>
+                            </h2>
+                        </a>
+                        <a href="#" tabindex="0">
+                            <p id="textoprincipalclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+                        </a>
+                        <p tabindex="0" id="textoprincipal2classicaartistas" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac risus et arcu.</p>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <aside class="artistas2classica mt-4">
+                        <a href="#" tabindex="0">
+                            <h2 class="titulosartistasclassica">
+                                <?php echo $classica[$ID][1]?>
+                            </h2>
+                        </a>
+                        <a href="#" tabindex="0">
+                            <p class="textosecundarioclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+                        </a>
+                    </aside>
+                    <aside class="artistas3classica mt-4">
+                        <a href="#" tabindex="0">
+                            <h2 class="titulosartistasclassica">
+                                <?php echo $classica[$ID][2]?>
+                            </h2>
+                        </a>
+                        <a href="#" tabindex="0">
+                            <p class="textosecundarioclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+                        </a>
+                    </aside>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="skippy">
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+        </div>
+    </main>
     <!--FIM ARTICLE-->
 
     <!--FOOTER-->
