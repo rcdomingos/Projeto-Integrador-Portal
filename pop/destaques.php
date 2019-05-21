@@ -16,114 +16,65 @@
   ?>
     <!-- Conteudo da pagina  -->
     <main>
-        <div class="headerpop">
-            <div class="jumbotron jumbotron-fluid">
-                <h1 class="display-4 text-white text-center">
-                    <?php 
-                    if ($ID=='PT'){
-                        echo "Destaques da Semana";
-                    } 
-                    if ($ID=='EN'){
-                        echo "Highlights of the Week";
-                    }
-                    if ($ID=='ES'){
-                        echo "Destacados de la Semana";
-                    } 
-                    ?>
-                </h1>
-            </div>
+    <article>
+        <div class="container my-5 my-md-5 my-lg-5 my-xl-5">
+        <blockquote class="blockquote text-center">
+                <h1 class="">Destaques da Semana</h1>
+                <p class="text-black-50">Lorem alguma coisa</p>
+            </blockquote>
+                    <div class="col-lg-12">
+                        <p class="mb-0 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla mauris, commodo at nibh ut, luctus sagittis tortor. Duis ut rhoncus mi, in congue lorem. Pellentesque in risus dignissim, cursus turpis ac, auctor magna. Quisque semper, purus pharetra consectetur elementum, risus massa laoreet erat, sed vulputate diam dolor in nisi. Fusce interdum odio eu convallis convallis. Maecenas lorem ex, facilisis luctus posuere sit amet, rhoncus non enim. Maecenas at tellus justo. In ut augue arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt tempor lacinia. Proin et mi sit amet lacus faucibus posuere in sed felis.Quisque sodales, tellus ut aliquet volutpat, magna odio efficitur justo, et pharetra eros sapien consectetur ex. Aliquam varius mauris metus, at fermentum purus lacinia id. Curabitur faucibus sed orci iaculis consectetur.</p>
+                        </div>  
+
+                        <div class="container row">
+        <section class="col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img mb-3 shadow" src="../images/pop/gaga-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna.</p>
+                </section>
+
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img mb-3 shadow" src="../images/pop/rihanna-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna.</p>
+                </section>
+
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/beyonce-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna.</p>
+                </section> 
+                </div>  
+
+                <div class="container row">
+        <section class="col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img mb-3 shadow" src="../images/pop/gaga-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna.</p>
+                </section>
+
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img mb-3 shadow" src="../images/pop/rihanna-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna.</p>
+                </section>
+
+                <section class="col-lg-4 col-md-4 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/beyonce-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna.</p>
+                </section> 
+                </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/justin.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Justin">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Justin Bieber</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/rihanna.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Rihanna">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Rihanna</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/taylor.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Taylor">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Taylor Swift</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
 
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/lady.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Lady Gaga">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Lady Gaga</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/rihanna.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Rihanna">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Rihanna</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/taylor.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Taylor">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Taylor Swift</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/lady.jpg" class="img-fluid shadow bg-white rounded" alt="Lady Gaga">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Lady Gaga</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/justin.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Justin">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Justin Bieber</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/taylor.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Taylor">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Taylor Swift</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/lady.jpg" class="img-pop img-fluid shadow  bg-white rounded" alt="Lady Gaga">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Lady Gaga</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/justin.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Justin">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Justin Bieber</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mt-4">
-                    <img src="../images/pop/rihanna.jpg" class="img-pop img-fluid shadow bg-white rounded" alt="Rihanna">
-                    <div class="px-2 py-2 text-center">
-                        <h4>Rihanna</h4>
-                        <p>lorem lorem lorem dounp dont</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+    </article>
     </main>
 
     <!-- importando o footer da pagina -->

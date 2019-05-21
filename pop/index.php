@@ -1,7 +1,8 @@
 <?php
-    $pop_pt = array("Notícias do mundo POP","Lady Gaga se emociona com a platéia em show.","Justin lota estádio Palestra Itália.", "Rihanna em seu último show no Brasil.", "Taylor canta pela primeira vez música nova em show.");
-    $pop_en = array("POP World News", "Lady Gaga is thrilled with the audience on show.", "Justin looses Palestra Italia stadium.", "Rihanna in his last show in Brazil.", "Taylor sings for the first time new music in show.");
-    $pop_es = array("Noticias Del Mundo POP", "Lady Gaga se emociona con la audiencia en el show.", "Justin lota estadio Palestra Italia.", "Rihanna en su último show en Brasil.", "Taylor canta por primera vez música nueva en el show.");
+    $pop_pt = array("Bem vindo ao Universo POP","Tudo o que você precisa saber sobre os artistas em alta, origens, musicas, lançamentos e muito mais você encontra aqui!","Do universo POP para o mundo");
+    $pop_en = array("Welcome to the POP Universe", "
+    Everything you need to know about the artists in high, origins, musics, releases and much more you find here!", "From the POP universe to the world");
+    $pop_es = array("Bienvenidos al Universo POP", "Todo lo que necesitas saber sobre los artistas en alta, orígenes, música, lanzamientos y mucho más te encuentras aquí!", "Del universo POP al mundo");
 
     $pop = array('PT'=> $pop_pt,'EN' => $pop_en,'ES' => $pop_es);
 ?>
@@ -24,99 +25,42 @@
 
     <!-- Conteudo da pagina  -->
     <main>
-        <div class="headerpop">
-            <div class="jumbotron jumbotron-fluid">
-                <h1 class="display-4 text-white text-center shadow-text">
-                    <?php echo $pop[$ID][0]?>
-                </h1>
+    <article>
+        <section class="container">
+            <blockquote class="blockquote text-center pt-3">
+                <h1 class="pt-4"><?php echo $pop[$ID][0]?></h1>
+                <p class="text-black-50"><?php echo $pop[$ID][1]?></p>
+            </blockquote>
+        <div class="card text-white">
+                <img class="card-img shadow" src="../images/pop/five-pop.jpg" alt="Foto dos integrantes da bando Marron Five">
             </div>
-        </div>
-        <div class="container mt-3">
-            <div class="row no-gutters">
-                <div class="col-12 col-sm-6 mt-3 pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/lady-show.jpg" class="img-fluid " alt="lady gaga">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][1]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
+        </section>
+
+        <section class="container my-5 my-md-5 my-lg-5 my-xl-5">
+                    <div class="col-lg-12">
+                    <h2 class="text-center"><?php echo $pop[$ID][2]?></h2>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla mauris, commodo at nibh ut, luctus sagittis tortor. Duis ut rhoncus mi, in congue lorem. Pellentesque in risus dignissim, cursus turpis ac, auctor magna. Quisque semper, purus pharetra consectetur elementum, risus massa laoreet erat, sed vulputate diam dolor in nisi. Fusce interdum odio eu convallis convallis. Maecenas lorem ex, facilisis luctus posuere sit amet, rhoncus non enim. Maecenas at tellus justo. In ut augue arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt tempor lacinia. Proin et mi sit amet lacus faucibus posuere in sed felis.Quisque sodales, tellus ut aliquet volutpat, magna odio efficitur justo, et pharetra eros sapien consectetur ex. Aliquam varius mauris metus, at fermentum purus lacinia id. Curabitur faucibus sed orci iaculis consectetur. Maecenas imperdiet enim in urna egestas sollicitudin. Nunc tristique nunc sit amet lacinia fermentum. Aliquam nec ipsum quis ligula maximus aliquam at quis diam. Sed eget libero vel tortor feugiat bibendum at a erat. Sed turpis magna, consectetur sed erat nec, suscipit iaculis magna. Nulla eu lorem at dui bibendum finibus sed sed augue. Sed metus mauris, pulvinar nec tellus vitae, mollis egestas mauris. Donec mollis bibendum mi, nec cursus metus. In nec mi lacus. Praesent placerat ac velit at suscipit. Nulla vitae convallis turpis, nec efficitur leo. Ut aliquam metus id diam vulputate venenatis. Integer sagittis metus in enim elementum lacinia vel eu odio. Proin lorem odio, convallis sed rutrum sit amet, tempor ac nisi. Sed fermentum pellentesque libero, vitae tincidunt dui feugiat eget. Sed porttitor elementum nibh vel pretium. Pellentesque vitae ex neque. Integer ultrices fermentum ligula vitae ullamcorper. Phasellus vitae tempor urna, id aliquet lectus. Suspendisse in enim tristique, rutrum mauris id, bibendum nulla. Proin non ultrices lectus.</p>
                     </div>
-                </div>
-                <div class="col-12 col-sm-6 mt-3 pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/justin-show.jpg" class="img-fluid" alt="Justin">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][2]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </section>
+        </article>
+
+        <section class="container">
+            <div class="row">
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
+
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
             </div>
-            <div class="row no-gutters">
-                <div class="col-12 col-sm-6  pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/rihanna-show.jpg" class="img-fluid" alt="Rihanna">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][3]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/taylor-show.jpg" class="img-fluid " alt="Taylor">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][4]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-12 col-sm-6 pr-3">
-                    <div class="card text-white  shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/justin-show.jpg" class="img-fluid" alt="Justin">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][2]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  pr-3 ">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/lady-show.jpg" class="img-fluid" alt="Lady Gaga">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][1]?>
-                                </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 
     <!-- importando o footer da pagina -->
