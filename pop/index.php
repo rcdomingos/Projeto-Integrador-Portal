@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+$titlePagina = array('PT' => "Pop | Pagina Inicial", 'EN' => "Pop | Home", 'ES' => "Pop | Pagina Inicial");
    //importando o head
      include('../imports/head.php');
    ?>

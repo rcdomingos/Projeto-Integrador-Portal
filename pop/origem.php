@@ -12,6 +12,7 @@
 <body>
     <!--importando o menu -->
     <?php
+    $titlePagina = array('PT' => "Pop | Origem", 'EN' => "Pop | Origin", 'ES' => "Pop | Fuente");
     include('../imports/menu-secundario.php');
   ?>
 

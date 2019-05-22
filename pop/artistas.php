@@ -14,6 +14,7 @@ include('../imports/idioma.php');
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+ $titlePagina = array('PT' => "Pop | Artistas", 'EN' => "Pop | Artist", 'ES' => "Pop | Artistas");
    //Importando o head
      include('../imports/head.php');
    ?>

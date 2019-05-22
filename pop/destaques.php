@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+ $titlePagina = array('PT' => "Pop | Destaques", 'EN' => "Pop | Highlights", 'ES' => "Pop | Reflejos");
    //Importando o head
      include('../imports/head.php');
    ?>
