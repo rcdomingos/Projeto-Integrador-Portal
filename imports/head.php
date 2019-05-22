@@ -47,7 +47,6 @@ $titlePadrao = array('PT' => "O Portal da Música", 'EN' => "The Music Portal", 
     echo '<link rel="stylesheet" href="../css/magnific-popup.css">' . "\n";
     echo '<link rel="icon" type="image/png" href="../images/principal/favicon.ico">' . "\n";
     // echo "IF " .$pagina;
-
   } else {
     echo '<link rel="stylesheet" href="css/bootstrap.min.css">' . "\n";
     echo '<link rel="stylesheet" href="css/mystyle.css">' . "\n";

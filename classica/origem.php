@@ -1,7 +1,7 @@
 <?php
-    $classica_pt = array("A história da música clássica","Veja mais:","Períodos da música clássica","Orquestras mais conhecidas","Por que ouvir música clássica?");
-    $classica_en = array("The history of classical music","See more:","Classical music's periods","The best known orchestras","Why listen classical music?");
-    $classica_es = array("La historia de la música clásica","Mira más:","Períodos de la música clásica","Las orquestras más populares","¿Por qué escuchar música clásica?");
+    $classica_pt = array("História: Tudo o que você não sabia sobre a música clássica","Um lugar muito grande de construção luxuosa possui várias poltronas e luzes. É o lugar onde ocorrem os concertos musicais","A origem","Várias folhas de partituras sendo folheadas","Voltar ao topo");
+    $classica_en = array("History: Everything you did not know about classical music","A very large luxurious building has several armchairs and lights. It is the place where musical concerts take place","The origin","Several sheets of sheet music being clad","Back to the top");
+    $classica_es = array("Historia: Todo lo que no sabía acerca de la música clásica","Un lugar muy grande de construcción de lujo tiene varios sillones y luces. Es el lugar donde ocurren los conciertos musicales","El origen","Varias hojas de partituras siendo revestidas","Votar a la cima");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+    $titlePagina = array('PT' => "Clássica | Origem", 'EN' => "Classic | Origin", 'ES' => "Clásico | Fuente");
    //importando o head da pagina
      include('../imports/head.php');
    ?>
@@ -26,21 +27,51 @@
     ?>
     <!--FIM NAV-->
     <!--ARTICLE-->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <h2 class="text-center mt-4">A história da música clássica</h2>
+    <main id="content">
+        <div class="container mb-4">
+            <div class="row linhadestaquesc mb-4">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <article class="mt-4">
+                        <h2 class="text-left titulocorigem" tabindex="0"><?php echo $classica[$ID][0]?></h2>
+                        <p tabindex="0" id="texto2c">Quisque tincidunt blandit viverra. Curabitur maximus sagittis ante sed varius. Donec ac vulputate metus. Maecenas ac facilisis massa, aliquet tincidunt nunc.</p>
+                    </article>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <article>
-                    <img src="../images/classica/origem-01.jpg" class="img-fluid">
-                    <p>In nec velit at felis hendrerit bibendum in eu turpis. In ac feugiat purus. Morbi auctor, leo eu fringilla faucibus, magna mi blandit diam, a faucibus lorem libero at eros. Pellentesque leo turpis, ultrices at fermentum ac, mattis id eros. Vestibulum vestibulum laoreet enim eget aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi porttitor iaculis fringilla. Fusce nec rhoncus orci, et fringilla orci. Morbi venenatis, est vehicula semper lobortis, libero lacus venenatis mauris, ut pharetra diam dolor vitae velit. Vestibulum sit amet iaculis nibh, et scelerisque ligula. Donec ut finibus magna, sit amet aliquet ante. Aenean id tempor mauris. Vestibulum vestibulum rutrum sapien, at vehicula lectus venenatis nec. Vivamus ex augue, congue vitae massa quis, congue ultricies lectus. In sit amet magna posuere, porta tellus ultricies, scelerisque odio. Donec ut eros congue, pharetra massa sed, ultrices lorem. Nulla ac rutrum orci, vel placerat neque.</p>
-                </article>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <section>
+                            <img src="../images/classica/origem-01.jpg" tabindex="0" class="img-fluid rounded mx-auto d-block" alt="<?php echo $classica[$ID][1]?>">
+                        </section>
+                    </div>
+                </div>
+            </div>
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mt-4"><?php echo $classica[$ID][2]?></h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis viverra scelerisque. Vivamus in ipsum quis turpis laoreet.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-4">
+                    <img src="../images/classica/origem-03.jpg" class="img-fluid" alt="<?php echo $classica[$ID][3]?>">
+                </div>
+                <div class="col-6 mt-4">
+                    <p>Etiam et erat consequat, blandit dolor nec, iaculis eros. Nullam ultrices nec felis sit amet finibus. Nulla sed nisl id felis finibus lacinia at et urna. Cras tincidunt blandit urna, eu sagittis ante pretium non. Fusce vitae ligula at nisi cursus tristique. Cras eu odio elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquet felis eu tortor consectetur dignissim. Phasellus sagittis tincidunt efficitur. Sed et dolor diam. Donec posuere velit sed tortor posuere, et scelerisque ante finibus. In in justo in elit laoreet lobortis non a turpis. Mauris non arcu faucibus, interdum eros luctus, ullamcorper quam. Mauris congue nulla efficitur orci sollicitudin posuere. Cras faucibus, magna non fermentum varius, orci tortor dapibus nulla, sit amet tempor turpis purus ut arcu. Nam sagittis mi leo, id tempor leo malesuada et. Donec suscipit purus in est pulvinar, at vestibulum libero efficitur. Vivamus sit amet magna id ante venenatis convallis vel non augue. Cras eu odio elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquet felis eu tortor consectetur dignissim. Phasellus sagittis tincidunt efficitur. Sed et dolor diam. Donec posuere velit sed tortor posuere, et scelerisque ante finibus. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <p>Etiam et erat consequat, blandit dolor nec, iaculis eros. Nullam ultrices nec felis sit amet finibus. Nulla sed nisl id felis finibus lacinia at et urna. Cras tincidunt blandit urna, eu sagittis ante pretium non. Fusce vitae ligula at nisi cursus tristique. Cras eu odio elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquet felis eu tortor consectetur dignissim. Phasellus sagittis tincidunt efficitur. Sed et dolor diam. Donec posuere velit sed tortor posuere, et scelerisque ante finibus. In in justo in elit laoreet lobortis non a turpis. Mauris non arcu faucibus, interdum eros luctus, ullamcorper quam. Mauris congue nulla efficitur orci sollicitudin posuere. Cras faucibus, magna non fermentum varius, orci tortor dapibus nulla, sit amet tempor turpis purus ut arcu. Nam sagittis mi leo, id tempor leo malesuada et. Donec suscipit purus in est pulvinar, at vestibulum libero efficitur. Vivamus sit amet magna id ante venenatis convallis vel non augue. Cras eu odio elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquet felis eu tortor consectetur dignissim. Phasellus sagittis tincidunt efficitur. Sed et dolor diam. Donec posuere velit sed tortor posuere, et scelerisque ante finibus. </p>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="skippy">
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $classica[$ID][4]?></a>
+        </div>
+    </main>
     <!-- ARTICLE ENDS -->
 
     <!--FOOTER-->
