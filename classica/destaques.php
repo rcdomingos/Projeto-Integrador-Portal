@@ -38,9 +38,9 @@
                         </div>
                         <article class="col-sm-12 col-md-7 col-lg-7 mt-2">
                             <a href="#">
-                                <h2 class="nomedestaquec"><?php echo $classica[$ID][1]?></h2>
+                                <h2 class="text-dark nomedestaquec"><strong><?php echo $classica[$ID][1]?></strong></h2>
                             </a>
-                            <p class="textodestaquec" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
+                            <p class="text-muted" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
                             <p tabindex="0"><small><?php echo $classica[$ID][2]?></small></p>
                         </article>
                     </div>
@@ -51,9 +51,9 @@
                         </div>
                         <article class="col-sm-12 col-md-7 col-lg-7 mt-2">
                             <a href="#">
-                                <h2 class="nomedestaquec"><?php echo $classica[$ID][4]?></h2>
+                                <h2 class="text-dark nomedestaquec"><strong><?php echo $classica[$ID][4]?></strong></h2>
                             </a>
-                            <p class="textodestaquec" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
+                            <p class="text-muted" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
                             <p tabindex="0"><small><?php echo $classica[$ID][5]?></small></p>
                         </article>
                     </div>
@@ -64,7 +64,7 @@
                         </div>
                         <article class="col-sm-12 col-md-7 col-lg-7 mt-2">
                             <a href="#">
-                                <h2 class="nomedestaquec"><?php echo $classica[$ID][7]?></h2>
+                                <h2 class="text-dark nomedestaquec"><strong><?php echo $classica[$ID][7]?></strong></h2>
                             </a>
                             <p class="textodestaquec" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
                             <p tabindex="0"><small><?php echo $classica[$ID][8]?></small></p>
@@ -75,23 +75,23 @@
                 <div class="col-sm-12 col-md-12 col-lg-4 mt-2">
                     <aside>
                         <div>
-                            <h2 class="titulolista list-group-item" tabindex="0"><?php echo $classica[$ID][9] ?></h2>
+                            <h2 class="text-dark titulolista list-group-item" tabindex="0"><strong><?php echo $classica[$ID][9] ?></strong></h2>
                         </div>
                         <ul class="list-group bordanegrito">
-                            <li class="list-group-item disabled"><span class="numerodestaques" tabindex="0">1</span><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
-                            <li class="list-group-item disabled"><span class="numerodestaques" tabindex="0">2</span><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
-                            <li class="list-group-item disabled"><span class="numerodestaques" tabindex="0">3</span><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
-                            <li class="list-group-item disabled"><span class="numerodestaques" tabindex="0">4</span><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
+                            <li class="list-group-item disabled"><span class="text-muted numerodestaques" tabindex="0">1</span><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
+                            <li class="list-group-item disabled"><span class="text-muted numerodestaques" tabindex="0">2</span><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
+                            <li class="list-group-item disabled"><span class="text-muted numerodestaques" tabindex="0">3</span><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
+                            <li class="list-group-item disabled"><span class="text-muted numerodestaques" tabindex="0">4</span><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
                         </ul>
                     </aside>
                     <aside class="mt-4 mb-3">
                         <div>
-                            <h2 class="titulolista list-group-item" tabindex="0"><?php echo $classica[$ID][10] ?></h2>
+                            <h2 class="text-dark titulolista list-group-item" tabindex="0"><strong><?php echo $classica[$ID][10] ?></strong></h2>
                         </div>
                         <ul class="list-group bordanegrito">
-                            <li class="list-group-item disabled"><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
-                            <li class="list-group-item disabled"><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
-                            <li class="list-group-item disabled"><a href="#" class="textodestaquesc">Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</a></li>
+                            <li class="list-group-item disabled"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
+                            <li class="list-group-item disabled"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
+                            <li class="list-group-item disabled"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, con se ct ad ipiscing elit. Proin eu odio imperdiet</strong></a></li>
                         </ul>
                     </aside>
                 </div>

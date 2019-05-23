@@ -32,8 +32,8 @@
             <div class="row linhadestaquesc mb-4">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <article class="mt-4">
-                        <h2 class="text-left titulocorigem" tabindex="0"><?php echo $classica[$ID][0]?></h2>
-                        <p tabindex="0" id="texto2c">Quisque tincidunt blandit viverra. Curabitur maximus sagittis ante sed varius. Donec ac vulputate metus. Maecenas ac facilisis massa, aliquet tincidunt nunc.</p>
+                        <h2 class="text-left titulocorigem" tabindex="0"><strong><?php echo $classica[$ID][0]?></strong></h2>
+                        <p tabindex="0" class="text-muted">Quisque tincidunt blandit viverra. Curabitur maximus sagittis ante sed varius. Donec ac vulputate metus. Maecenas ac facilisis massa, aliquet tincidunt nunc.</p>
                     </article>
                 </div>
             </div>

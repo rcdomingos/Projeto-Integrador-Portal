@@ -32,12 +32,12 @@
                 <div class="col-sm-12 col-md-12 col-lg-7">
                     <article class="artistas1classica mt-4">
                         <a href="#" tabindex="0">
-                            <h2 class="titulosartistasclassica">
-                                <?php echo $classica[$ID][0]?>
+                            <h2 class="titulosartistasclassica text-light">
+                                <strong><?php echo $classica[$ID][0]?></strong>
                             </h2>
                         </a>
                         <a href="#" tabindex="0">
-                            <p id="textoprincipalclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+                            <strong><p class="text-light" id="textoprincipalclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p></strong>
                         </a>
                         <p tabindex="0" id="textoprincipal2classicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac risus et arcu.</p>
                     </article>
@@ -45,22 +45,22 @@
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <aside class="artistas2classica mt-4">
                         <a href="#" tabindex="0">
-                            <h2 class="titulosartistasclassica">
-                                <?php echo $classica[$ID][1]?>
+                            <h2 class="text-light titulosartistasclassica">
+                                <strong><?php echo $classica[$ID][1]?></strong>
                             </h2>
                         </a>
                         <a href="#" tabindex="0">
-                            <p class="textosecundarioclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+                            <strong><p class="text-light textosecundarioclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p></strong>
                         </a>
                     </aside>
                     <aside class="artistas3classica mt-4">
                         <a href="#" tabindex="0">
-                            <h2 class="titulosartistasclassica">
-                                <?php echo $classica[$ID][2]?>
+                            <h2 class="text-light titulosartistasclassica">
+                                <strong><?php echo $classica[$ID][2]?></strong>
                             </h2>
                         </a>
                         <a href="#" tabindex="0">
-                            <p class="textosecundarioclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+                            <strong><p class="text-light textosecundarioclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p></strong>
                         </a>
                     </aside>
                 </div>

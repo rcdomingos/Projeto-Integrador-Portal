@@ -33,14 +33,14 @@
             <div class="row mb-4">
                 <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
                     <article>
-                        <h2 class="text-center titulosclancamentos" tabindex="0">Yiruma</h2>
+                        <h2 class="text-center titulosclancamentos" tabindex="0"><strong>Yiruma</strong></h2>
                         <img src="../images/classica/lancamentos-01.jpg" tabindex="0" class="img-fluid rounded shadow" alt="<?php echo $classica[$ID][0]?>">
                         <p class="mt-3 paragrafolancamentos" tabindex="0">Pellentesque varius quis elit quis aliquet. Donec vestibulum enim turpis, non sagittis velit efficitur varius. Quisque egestas dignissim dolor. Morbi id suscipit arcu. Ut et dolor nec magna gravida porttitor non nec nulla. Donec malesuada quam non lacus vestibulum, ac molestie erat rutrum. Aenean mattis commodo laoreet.</p>
                     </article>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
                     <article>
-                        <h2 class="text-center titulosclancamentos" tabindex="0">Alma Deutscher</h2>
+                        <h2 class="text-center titulosclancamentos" tabindex="0"><strong>Alma Deutscher</strong></h2>
                         <img src="../images/classica/lancamentos-02.jpg" tabindex="0" class="img-fluid rounded shadow" alt="<?php echo $classica[$ID][1]?>">
                         <p class="mt-3 paragrafolancamentos" tabindex="0">Pellentesque varius quis elit quis aliquet. Donec vestibulum enim turpis, non sagittis velit efficitur varius. Quisque egestas dignissim dolor. Morbi id suscipit arcu. Ut et dolor nec magna gravida porttitor non nec nulla. Donec malesuada quam non lacus vestibulum, ac molestie erat rutrum. Aenean mattis commodo laoreet.</p>
                     </article>
@@ -49,19 +49,19 @@
             <div class="row mb-4">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <article>
-                        <h2 class="text-center titulosclancamentos" tabindex="0">Jean Goldenbaum</h2>
+                        <h2 class="text-center titulosclancamentos" tabindex="0"><strong>Jean Goldenbaum</strong></h2>
                         <img src="../images/classica/lancamentos-03.jpg" tabindex="0" class="img-fluid rounded shadow" alt="<?php echo $classica[$ID][2]?>">
                         <p class="mt-3 paragrafolancamentos" tabindex="0">Pellentesque varius quis elit quis aliquet. Donec vestibulum enim turpis, non sagittis velit efficitur varius. Quisque egestas dignissim dolor. Morbi id suscipit arcu. Ut et dolor nec magna gravida porttitor non nec nulla. Donec malesuada quam non lacus vestibulum, ac molestie erat rutrum. Aenean mattis commodo laoreet.</p>
                     </article>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <article>
-                        <h2 class="text-center titulosclancamentos" tabindex="0">Graziella Concas</h2>
+                        <h2 class="text-center" tabindex="0"><strong>Graziella Concas</strong></h2>
                         <img src="../images/classica/lancamentos-04.jpg" tabindex="0" class="img-fluid rounded shadow" alt="<?php echo $classica[$ID][3]?>">
                         <p class="mt-3 paragrafolancamentos" tabindex="0">Pellentesque varius quis elit quis aliquet. Donec vestibulum enim turpis, non sagittis velit efficitur varius. Quisque egestas dignissim dolor. Morbi id suscipit arcu. Ut et dolor nec magna gravida porttitor non nec nulla. Donec malesuada quam non lacus vestibulum, ac molestie erat rutrum. Aenean mattis commodo laoreet.</p>
                     </article>
                 </div>
-                <div class="centralizarc mt-4">
+                <div class="p-auto m-auto mt-4">
                     <nav aria-label="Navegação de página">
                         <ul class="pagination">
                             <li class="page-item"><a class="page-link" href="#" tabindex="0"><?php echo $classica[$ID][4]?></a></li>

@@ -27,7 +27,7 @@
     <!--ARTICLE-->
     <main id="content">
         <div class="jumbotron jumbotron-fluid jumbotronimagem">
-            <h1 class="titulo1homeclassica text-center" tabindex="0"><?php echo $classica[$ID][0]?></h1>
+            <h1 class="titulo1homeclassica text-center text-light" tabindex="0"><strong><?php echo $classica[$ID][0]?></strong></h1>
         </div>
         <div class="container mb-5">
             <div class="row">
@@ -48,7 +48,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <section>
                         <a href="artistas.php">
-                            <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][5]?></h3>
+                            <h3 class="mt-3 text-dark ajustandotitulo2homeclassica"><strong><?php echo $classica[$ID][5]?></strong></h3>
                         </a>
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam nunc, aliquam vel malesuada quis.</p>
                         <img src="../images/classica/artistas-03.jpg" tabindex="0" class="img-fluid ajustandoimagenshomeclassica rounded" alt="<?php echo $classica[$ID][4]?>">
@@ -57,7 +57,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <section>
                         <a href="origem.php">
-                            <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][7]?></h3>
+                            <h3 class="mt-3 text-dark ajustandotitulo2homeclassica"><strong><?php echo $classica[$ID][7]?></strong></h3>
                         </a>
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam nunc, aliquam vel malesuada quis.</p>
                         <img src="../images/classica/origem-01.jpg" tabindex="0" class="img-fluid ajustandoimagenshomeclassica rounded" alt="<?php echo $classica[$ID][6]?>">
@@ -68,7 +68,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <section class="mt-4">
                         <a href="lancamentos.php">
-                            <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][8]?></h3>
+                            <h3 class="mt-3 text-dark ajustandotitulo2homeclassica"><strong><?php echo $classica[$ID][8]?></strong></h3>
                         </a>
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam nunc, aliquam vel malesuada quis.</p>
                         <img src="../images/classica/lancamentos-04.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][9]?>">
@@ -77,7 +77,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <section class="mt-4">
                         <a href="destaques.php">
-                            <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][11]?></h3>
+                            <h3 class="mt-3 text-dark ajustandotitulo2homeclassica"><strong><?php echo $classica[$ID][11]?></strong></h3>
                         </a>
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam nunc, aliquam vel malesuada quis.</p>
                         <img src="../images/classica/lancamentos-02.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][10]?>">
@@ -86,7 +86,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <section class="mt-4">
                         <a href="marcos.php">
-                            <h3 class="mt-3 ajustandotitulo2homeclassica"><?php echo $classica[$ID][13]?></h3>
+                            <h3 class="mt-3 text-dark ajustandotitulo2homeclassica"><strong><?php echo $classica[$ID][13]?></strong></h3>
                         </a>
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam nunc, aliquam vel malesuada quis.</p>
                         <img src="../images/classica/origem-03.jpg" tabindex="0" class="img-fluid ajustandoimagens2homeclassica rounded" alt="<?php echo $classica[$ID][12]?>">
