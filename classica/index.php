@@ -94,9 +94,6 @@
                 </div>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $classica[$ID][14]?></a>
-        </div>
     </main>
     <!-- ARTICLE ENDS -->
 

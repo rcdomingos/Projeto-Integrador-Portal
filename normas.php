@@ -59,9 +59,6 @@ $normas = array('PT' => $normas_pt, 'EN' => $normas_en, 'ES' => $normas_es);
                 </div>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $normas[$ID][0]?></a>
-        </div>
     </main>
     <!-- importando o footer da pagina -->
     <?php

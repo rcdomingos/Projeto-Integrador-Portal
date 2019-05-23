@@ -165,9 +165,6 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 </div>
             </div>
         </article>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $quemsomos[$ID][6]?></a>
-        </div>
     </main>
     <!-- importando o footer da pagina -->
     <div class="margim-footer">

@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+$titlePagina = array('PT' => "Pop | Marcos", 'EN' => "Pop | Mark", 'ES' => "Pop | Hitos");
    //Importando o head
      include('../imports/head.php');
    ?>
@@ -23,77 +24,55 @@
   ?>
     <!-- Conteudo da pagina  -->
     <main>
-        <div class="headerpop">
-            <div class="jumbotron jumbotron-fluid">
-                <h1 class="display-4 text-white text-center shadow-text">
-                    <?php echo $pop[$ID][0]?>
-                </h1>
-            </div>
-        </div>
-        <div class="container">
+    <article class="container my-5 my-md-5 my-lg-5 my-xl-5">
             <div class="row">
-                <div class="col-3 mt-3 ">
-                    <img class="img-fluid shadow mb-4 bg-white rounded" src="../images/pop/lady.jpg" alt="Lady Gaga">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h2 tabindex="0" class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img mb-3 shadow" src="../images/pop/taylor-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                 </div>
-                <div class="col-9 mt-3 pt-2">
-                    <h4>
-                        <?php echo $pop[$ID][1]?>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh consectetur adipiscing elit ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh consectetur adipiscing elit ultricies vehicula ut id elit.Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                    <h2 tabindex="0" class="display-12 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    <img class="card-img mb-3 shadow" src="../images/pop/five-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                </section>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-3  col-md-3 mt-3">
-                    <img class="img-fluid shadow mb-4 bg-white rounded" src="../images/pop/justin.jpg" alt="Justin">
+
+                <section class="row text-justify">
+                    <div class="col-lg-12">
+                    <h2 tabindex="0" class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                        <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                    </div>
+                </section>
+<div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/beyonce-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                 </div>
-                <div class="col-9 col-md-3 mt-3 pt-2">
-                    <h4>
-                        <?php echo $pop[$ID][2]?>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. Curabitur id elit diam. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. </p>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/five-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                 </div>
-                <div class="col-3 col-md-3 mt-3">
-                    <img class="img-fluid shadow mb-4 bg-white rounded" src="../images/pop/taylor.jpg" alt="Taylor">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/justin-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                 </div>
-                <div class="col-9 col-md-3 mt-3 pt-2">
-                    <h4>
-                        <?php echo $pop[$ID][3]?>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. Curabitur id elit diam. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. </p>
+</div>
+                <div class="row pt-3">
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                    <h2 tabindex="0" class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
+
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                <h2 tabindex="0" class="display-9 mb-0 text-center">Lorem Ipsun</h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Lorem ipsum dolor sit amet</small></blockquote>
+                    <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </section>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-3 mt-3 ">
-                    <img class="img-fluid shadow mb-4 bg-white rounded" src="../images/pop/lady.jpg" alt="Lady Gaga">
-                </div>
-                <div class="col-9 mt-3 pt-2">
-                    <h4>
-                        <?php echo $pop[$ID][1]?>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh consectetur adipiscing elit ultricies vehicula ut id elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh consectetur adipiscing elit ultricies vehicula ut id elit.Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3  col-md-3 mt-3">
-                    <img class="img-fluid shadow mb-4 bg-white rounded" src="../images/pop/justin.jpg" alt="Justin">
-                </div>
-                <div class="col-9 col-md-3 mt-3 pt-2">
-                    <h4>
-                        <?php echo $pop[$ID][2]?>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. Curabitur id elit diam. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. </p>
-                </div>
-                <div class="col-3 col-md-3 mt-3 mb-3 mb-3">
-                    <img class="img-fluid shadow mb-4 bg-white rounded" src="../images/pop/taylor.jpg" alt="Taylor">
-                </div>
-                <div class="col-9 col-md-3 mt-3 pt-2">
-                    <h4>
-                        <?php echo $pop[$ID][3]?>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. Curabitur id elit diam. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. </p>
-                </div>
-            </div>
-        </div>
+</article>
     </main>
 
     <!-- importando o footer da pagina -->

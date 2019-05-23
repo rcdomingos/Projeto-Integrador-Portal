@@ -1,7 +1,7 @@
 <?php
-    $pop_pt = array("Notícias do mundo POP","Lady Gaga se emociona com a platéia em show.","Justin lota estádio Palestra Itália.", "Rihanna em seu último show no Brasil.", "Taylor canta pela primeira vez música nova em show.");
-    $pop_en = array("POP World News", "Lady Gaga is thrilled with the audience on show.", "Justin looses Palestra Italia stadium.", "Rihanna in his last show in Brazil.", "Taylor sings for the first time new music in show.");
-    $pop_es = array("Noticias Del Mundo POP", "Lady Gaga se emociona con la audiencia en el show.", "Justin lota estadio Palestra Italia.", "Rihanna en su último show en Brasil.", "Taylor canta por primera vez música nueva en el show.");
+    $pop_pt = array("Bem vindo ao Universo POP","Tudo o que você precisa saber sobre os artistas em alta, origens, musicas, lançamentos e muito mais você encontra aqui!","Do universo POP para o mundo", "A história do Maroon 5 começou na época do colegial, em Los Angeles, na Califórnia. Os integrantes eram amigos, tinham 17 anos, e resolveram montar uma banda, inicialmente chamada de Kara's Flowers. Um ano após o seu primeiro show, em 1995, o grupo começou a ser procurado pela indústria fonográfica e, depois, assinou contrato com a Reprise Records. Com o nome Kara's Flowers, a banda lançou o seu disco de estreia, The Fourth World. Kara's Flowers terminou seu contrato com a gravadora em 1999 e o plano A foi assim frustrado. Deixando Dusick e Madden para trás estudando em Los Angeles, Levine e Carmichael colocaram o plano B em ação nos dormitórios da faculdade de Nova York. Nos corredores, tocavam música gospel e as pessoas escutavam música que nunca tinham escutado antes, como Biggie Smalls, Missy Elliot e Jay-Z. Reuniram-se com Madden e Dusick em Los Angeles e, com um novo pensamento musical veio o novo nome - Maroon - e, em 2001, um quinto membro: o guitarrista James Valentine. Alguns meses depois, eles trocam para Maroon 5, devido à já existência do nome anterior. A Octane Records, um novo selo independente de Nova York, contratou o grupo, e em 2001, Maroon 5 entrou em estúdio com o produtor Matt Wallace (The Replacements, Faith No More, Blues Traveler). No ano seguinte (2002), foi lançado Songs About Jane, cujo primeiro single foi Harder to Breathe, o segundo foi This Love, que entrou na trilha da novela Senhora do Destino e logo depois She Will Be Loved. O segundo álbum, It Won't Be Soon Before Long, foi lançado no dia 22 de Maio de 2007. O primeiro single desse foi Makes Me Wonder. O segundo single foi o Wake Up Call. O terceiro foi Won't Go Home Without You. Logo depois veio If I Never See Your Face Again que contou com a participação da cantora Rihanna. A música Goodnight Goodnight teve seu clipe lançado em Novembro de 2008 no Brasil e foi tocada em algumas rádios, mas não teve lançamento oficial nos Estados Unidos. O terceiro álbum de estúdio foi lançado dia 21 de setembro de 2010. Intitulado Hands All Over, o álbum seria uma mistura de pop, rock e R&B. Em um dos shows da turnê Back to School que transcorreu durante o mês de Novembro de 2009, a banda tocou uma música nova chamada Last Chance que veio como faixa bônus na versão deluxe do álbum. A produção do sucessor de It Won't Be Soon Before Long ficou por conta de Robert John Mutt Lange. O novo álbum contém as canções I Can't Lie, Out of Goodbyes, Give a Little More, How, Never Gonna Leave This Bed, Get Back In My Life, Hands All Over, Misery, Don't Know Nothing, Stutter, Runaway e Just a Feeling.", "A diva Lady Gaga","A diva do POP mais amada do momento.", "Stefani Joanne Angelina Germanotta (Nova Iorque, 28 de março de 1986), mais conhecida pelo nome artístico Lady Gaga, é uma cantora, compositora, produtora musical e atriz nascida nos Estados Unidos. Ela começou a apresentar-se no cenário musical de rock no Lower East Side em 2003, e mais tarde matriculou-se na Tisch School of Arts da Universidade de Nova Iorque. No fim de 2007, assinou um contrato com a Streamline Records, um selo da editora discográfica Interscope Records. Durante o seu início na Interscope, trabalhou como compositora para artistas e capturou a atenção do produtor Akon, que reconheceu as suas habilidades vocais e contratou-a para a sua própria gravadora, a Kon Live Distribution. Gaga ganhou proeminência como uma artista após o lançamento do seu álbum de estúdio de estreia, intitulado The Fame, em 2008. O disco foi um sucesso a nível crítico e comercial, tendo atingido o número um no Reino Unido, Canadá, Áustria, Alemanha e Irlanda, enquanto nos Estados Unidos alcançou a posição máxima de número dois na Billboard 200. As canções Just Dance e Poker Face, co-escritas e produzidas por RedOne, tornaram-se sucessos internacionais de número um, atingindo o topo da Billboard Hot 100 nos EUA, bem como em vários outros países. O álbum, mais tarde, conseguiu um total de sete indicações e dois prêmios nos Grammy Awards. No início de 2009, ela embarcou na sua primeira turnê, a The Fame Ball Tour. No quarto trimestre do ano, lançou o extended play (EP) The Fame Monster, que contém os êxitos internacionais Bad Romance, Telephone e Alejandro, e embarcou na sua segunda turnê, a The Monster Ball Tour. The Fame Monster vendeu 6 milhões de cópias e foi o álbum mais vendido de 2010. O seu segundo álbum de estúdio, Born This Way, foi lançado em 23 de Maio de 2011 e vendeu 2,2 milhões de cópias nos EUA e 8 milhões mundialmente. Além disso, produziu os singles Born This Way, Judas e The Edge of Glory, que tornaram-se sucessos mundiais.", "A diva Lady Gaga","A diva do POP mais amada do momento.", "Stefani Joanne Angelina Germanotta (Nova Iorque, 28 de março de 1986), mais conhecida pelo nome artístico Lady Gaga, é uma cantora, compositora, produtora musical e atriz nascida nos Estados Unidos. Ela começou a apresentar-se no cenário musical de rock no Lower East Side em 2003, e mais tarde matriculou-se na Tisch School of Arts da Universidade de Nova Iorque. No fim de 2007, assinou um contrato com a Streamline Records, um selo da editora discográfica Interscope Records. Durante o seu início na Interscope, trabalhou como compositora para artistas e capturou a atenção do produtor Akon, que reconheceu as suas habilidades vocais e contratou-a para a sua própria gravadora, a Kon Live Distribution. Gaga ganhou proeminência como uma artista após o lançamento do seu álbum de estúdio de estreia, intitulado The Fame, em 2008. O disco foi um sucesso a nível crítico e comercial, tendo atingido o número um no Reino Unido, Canadá, Áustria, Alemanha e Irlanda, enquanto nos Estados Unidos alcançou a posição máxima de número dois na Billboard 200. As canções Just Dance e Poker Face, co-escritas e produzidas por RedOne, tornaram-se sucessos internacionais de número um, atingindo o topo da Billboard Hot 100 nos EUA, bem como em vários outros países. O álbum, mais tarde, conseguiu um total de sete indicações e dois prêmios nos Grammy Awards. No início de 2009, ela embarcou na sua primeira turnê, a The Fame Ball Tour. No quarto trimestre do ano, lançou o extended play (EP) The Fame Monster, que contém os êxitos internacionais Bad Romance, Telephone e Alejandro, e embarcou na sua segunda turnê, a The Monster Ball Tour. The Fame Monster vendeu 6 milhões de cópias e foi o álbum mais vendido de 2010. O seu segundo álbum de estúdio, Born This Way, foi lançado em 23 de Maio de 2011 e vendeu 2,2 milhões de cópias nos EUA e 8 milhões mundialmente. Além disso, produziu os singles Born This Way, Judas e The Edge of Glory, que tornaram-se sucessos mundiais.");
+    $pop_en = array("Welcome to the POP Universe", "Everything you need to know about the artists in high, origins, musics, releases and much more you find here!", "From the POP universe to the world", "The story of Maroon 5 began in high school, in Los Angeles, California. The members were friends, they were 17 years old, and they decided to set up a band, initially called Kara's Flowers. One year after his first show, in 1995, the group began to be sought by the music industry and then signed to Reprise Records. With the name Kara's Flowers, the band released their debut album, The Fourth World. Kara's Flowers ended their contract with the label in 1999 and Plan A was so frustrated. Leaving Dusick and Madden back studying in Los Angeles, Levine and Carmichael put Plan B into action in New York college dorms. In the hallways they played gospel music and people listened to music they had never heard before, such as Biggie Smalls, Missy Elliot and Jay-Z. They reunited with Madden and Dusick in Los Angeles and with a new musical thought came the new name - Maroon - and in 2001, a fifth member: guitarist James Valentine. A few months later, they switch to Maroon 5, due to the existence of the previous name. Octane Records, a new independent label from New York, hired the group, and in 2001, Maroon 5 entered studio with producer Matt Wallace (The Replacements, Faith No More, Blues Traveler). The following year (2002) was released Songs About Jane, whose first single was Harder to Breathe, the second was This Love, which entered the trail of the novel Lady of Destiny; and soon after She Will Be Loved. The second album, It Will not Be Soon Before Long, was released on May 22, 2007. The first single from this album was Makes Me Wonder. The second single was the Wake Up Call. The third was Will not Go Home Without You. Soon after came If I Never See Your Face Again which featured the participation of singer Rihanna. The song Goodnight Goodnight had its clip released in November of 2008 in Brazil and was played in some radios, but it did not have official launch in the United States. The third studio album was released on September 21, 2010. Titled Hands All Over, the album would be a mix of pop, rock and R & B. In one of the Back to School tour shows that took place during the month of November 2009, the band played a new song called Last Chance which came as a bonus track on the album's deluxe version. The production of the successor of It Will not Be Soon Before Long was by Robert John Mutt Lange. The new album contains the songs I Can not Lie, Out of Goodbyes, Give a Little More, How, Never Gonna Leave This Bed, Get Back in My Life, Hands All Over, Misery, Do not Know Nothing, Stutter, Runaway and Just a Feeling.", "The Lady Gaga Diva", "The most beloved pop diva of the moment", "Stefani Joanne Angelina Germanotta (New York, March 28, 1986), better known by the stage name Lady Gaga, is a singer, songwriter, music producer and actress born in the United States.He began performing on the rock music scene on the Lower East Side in 2003, and later enrolled in the Tisch School of Arts at New York University. Interscope, worked as a songwriter for artists and captured the attention of producer Akon, who recognized her vocal abilities and hired her for her own label, Kon Live Distribution. Gaga gained prominence as an artist after the release of her studio album The album was a critical and commercial success, having reached the number one in the UK, Canada, Austria, Germany and Ireland, while in the US The Billboard 200 Just Dance and Poker Face songs, co-written and produced by RedOne, have become number one international hits, reaching the top of the Billboard Hot 100 in the US, as well as in several other countries. The album later garnered a total of seven nominations and two Grammy Awards. In early 2009, she embarked on her first tour, The Fame Ball Tour. In the fourth quarter of the year, he released the extended play (EP) The Fame Monster, which contains international hits Bad Romance, Telephone and Alejandro, and embarked on his second tour, The Monster Ball Tour. The Fame Monster sold 6 million copies and was the best-selling album of 2010. Its second studio album, Born This Way, was released on May 23, 2011 and sold 2.2 million copies in the US and 8 million worldwide . In addition, she produced the singles Born This Way, Judas and The Edge of Glory, which became world-wide hits. "," Diva Lady Gaga "," The most beloved POP diva of the moment. ", "Stefani Joanne Angelina Germanotta (New York, March 28, 1986), better known by the stage name Lady Gaga, is a singer, songwriter, music producer and actress born in the United States.He began performing on the rock music scene on the Lower East Side in 2003, and later enrolled in the Tisch School of Arts at New York University. Interscope, worked as a songwriter for artists and captured the attention of producer Akon, who recognized her vocal abilities and hired her for her own label, Kon Live Distribution. Gaga gained prominence as an artist after the release of her studio album The album was a critical and commercial success, having reached the number one in the UK, Canada, Austria, Germany and Ireland, while in the US The Billboard 200 Just Dance and Poker Face songs, co-written and produced by RedOne, have become number one international hits, reaching the top of the Billboard Hot 100 in the US, as well as in several other countries. The album later garnered a total of seven nominations and two Grammy Awards. In early 2009, she embarked on her first tour, The Fame Ball Tour. In the fourth quarter of the year, he released the extended play (EP) The Fame Monster, which contains international hits Bad Romance, Telephone and Alejandro, and embarked on his second tour, The Monster Ball Tour. The Fame Monster sold 6 million copies and was the best-selling album of 2010. Its second studio album, Born This Way, was released on May 23, 2011 and sold 2.2 million copies in the US and 8 million worldwide . In addition, he produced the singles Born This Way, Judas and The Edge of Glory, which became world-wide hits. ");
+    $pop_es = array("Bienvenidos al Universo POP", "Todo lo que necesitas saber sobre los artistas en alta, orígenes, música, lanzamientos y mucho más te encuentras aquí!", "Del universo POP al mundo", "La historia de Maroon 5 comenzó en la escuela secundaria, en Los Ángeles, California. Los miembros eran amigos, tenían 17 años y decidieron establecer una banda, inicialmente llamada Kara's Flowers. Un año después de su primer show, en 1995, el grupo comenzó a ser buscado por la industria musical y luego firmó con Reprise Records. Con el nombre de Kara's Flowers, la banda lanzó su álbum debut, The Fourth World. Las flores de Kara terminaron su contrato con la etiqueta en 1999 y el plan A estaba muy frustrado. Dejando que Dusick y Madden vuelvan a estudiar en Los Ángeles, Levine y Carmichael ponen el Plan B en acción en las residencias universitarias de Nueva York. En los pasillos tocaban música gospel y la gente escuchaba música que nunca antes habían escuchado, como Biggie Smalls, Missy Elliot y Jay-Z. Se reunieron con Madden y Dusick en Los Ángeles y con un nuevo pensamiento musical vino el nuevo nombre, Maroon, y en 2001, un quinto miembro: el guitarrista James Valentine. Unos meses más tarde, cambian a Maroon 5, debido a la existencia del nombre anterior. Octane Records, un nuevo sello independiente de Nueva York, contrató al grupo y, en 2001, Maroon 5 entró en el estudio con el productor Matt Wallace (The Replacements, Faith No More, Blues Traveler). Al año siguiente (2002) se lanzó Songs About Jane, cuyo primer single fue Harder to Breathe, el segundo fue This Love, que entró en el camino de la novela Lady of Destiny, y poco después será amada. El segundo álbum, que no será pronto en poco tiempo, fue lanzado el 22 de mayo de 2007. El primer sencillo de este álbum fue Makes Me Wonder. El segundo single fue el Wake Up Call. El tercero fue No irás a casa sin ti. Poco después vino If I Never See Your Face Again, que contó con la participación de la cantante Rihanna. La canción Goodnight Goodnight lanzó su clip en noviembre de 2008 en Brasil y se escuchó en algunas radios, pero no tuvo un lanzamiento oficial en los Estados Unidos. El tercer álbum de estudio se lanzó el 21 de septiembre de 2010. Titulado Hands All Over, el álbum sería una mezcla de pop, rock y R&B. En uno de los conciertos de regreso a la escuela que tuvieron lugar durante el mes de noviembre de 2009 , la banda tocó una nueva canción llamada Last Chance que llegó como una canción extra en la versión de lujo del álbum. La producción del sucesor de It Will Be Be Before Before Long fue de Robert John Mutt Lange. El nuevo álbum contiene las canciones No puedo mentir, Fuera de despedidas, Dar un poco más, Cómo, Nunca voy a dejar esta cama, Volver a mi vida, Manos a la obra, Miseria, No sé nada, tartamudeo, fugitivo y solo la sensación.", "La diva Lady Gaga", "La diva del POP más querida del momento", "Stefani Joanne Angelina Germanotta (Nueva York, 28 de marzo de 1986), más conocida por el nombre artístico Lady Gaga, es una cantante, compositora, productora musical y actriz nacida en Estados Unidos. Ella comenzó a presentarse en el escenario musical de rock en el Lower East Side en 2003, y más tarde se matriculó en la Tisch School of Arts de la Universidad de Nueva York. A finales de 2007, firmó un contrato con Streamline Records, un sello de la editorial discográfica Interscope Records. Durante su inicio en Interscope, trabajó como compositora para artistas y captó la atención del productor Akon, que reconoció sus habilidades vocales y la contrató para su propia discográfica, Kon Live Distribution. Gaga ganó prominencia como una artista después del lanzamiento de su álbum de estudio de debut, titulado The Fame, en 2008. El disco fue un éxito a nivel crítico y comercial, habiendo alcanzado el número uno en el Reino Unido, Canadá, Austria, Alemania y Alemania Irlanda, mientras que en Estados Unidos alcanzó la posición máxima de número dos en la Billboard 200. Las canciones Just Dance y Poker Face, coescritas y producidas por RedOne, se convirtieron en éxitos internacionales de número uno, alcanzando la cima de la Billboard Hot 100 Estados Unidos, así como en otros países. El álbum, más tarde, consiguió un total de siete nominaciones y dos premios en los premios Grammy. A principios de 2009, se embarcó en su primera gira, The Fame Ball Tour. En el cuarto trimestre del año, lanzó el extendido play (EP) The Fame Monster, que contiene los éxitos internacionales Bad Romance, Telephone y Alejandro, y embarcó en su segunda gira, The Monster Ball Tour. The Fame Monster vendió 6 millones de copias y fue el álbum más vendido de 2010. Su segundo álbum de estudio, Born This Way, fue lanzado el 23 de mayo de 2011 y vendió 2,2 millones de copias en Estados Unidos y 8 millones en todo el mundo . Además, produjo los singles Born This Way, Judas y The Edge of Glory, que se convirtieron en éxitos mundiales. "," La diva Lady Gaga "," La diva del POP más amada del momento.", "Stefani Joanne Angelina Germanotta (Nueva York, 28 de marzo de 1986), más conocida por el nombre artístico Lady Gaga, es una cantante, compositora, productora musical y actriz nacida en Estados Unidos. Ella comenzó a presentarse en el escenario musical de rock en el Lower East Side en 2003, y más tarde se matriculó en la Tisch School of Arts de la Universidad de Nueva York. A finales de 2007, firmó un contrato con Streamline Records, un sello de la editorial discográfica Interscope Records. Durante su inicio en Interscope, trabajó como compositora para artistas y captó la atención del productor Akon, que reconoció sus habilidades vocales y la contrató para su propia discográfica, Kon Live Distribution. Gaga ganó prominencia como una artista después del lanzamiento de su álbum de estudio de debut, titulado The Fame, en 2008. El disco fue un éxito a nivel crítico y comercial, habiendo alcanzado el número uno en el Reino Unido, Canadá, Austria, Alemania y Alemania Irlanda, mientras que en Estados Unidos alcanzó la posición máxima de número dos en la Billboard 200. Las canciones Just Dance y Poker Face, coescritas y producidas por RedOne, se convirtieron en éxitos internacionales de número uno, alcanzando la cima de la Billboard Hot 100 Estados Unidos, así como en otros países. El álbum, más tarde, consiguió un total de siete nominaciones y dos premios en los premios Grammy. A principios de 2009, se embarcó en su primera gira, The Fame Ball Tour. En el cuarto trimestre del año, lanzó el extendido play (EP) The Fame Monster, que contiene los éxitos internacionales Bad Romance, Telephone y Alejandro, y embarcó en su segunda gira, The Monster Ball Tour. The Fame Monster vendió 6 millones de copias y fue el álbum más vendido de 2010. Su segundo álbum de estudio, Born This Way, fue lanzado el 23 de mayo de 2011 y vendió 2,2 millones de copias en Estados Unidos y 8 millones en todo el mundo . Además, produjo los singles Born This Way, Judas y The Edge of Glory, que se convirtieron en éxitos mundiales.");
 
     $pop = array('PT'=> $pop_pt,'EN' => $pop_en,'ES' => $pop_es);
 ?>
@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+$titlePagina = array('PT' => "Pop | Pagina Inicial", 'EN' => "Pop | Home", 'ES' => "Pop | Pagina Inicial");
    //importando o head
      include('../imports/head.php');
    ?>
@@ -24,99 +25,42 @@
 
     <!-- Conteudo da pagina  -->
     <main>
-        <div class="headerpop">
-            <div class="jumbotron jumbotron-fluid">
-                <h1 class="display-4 text-white text-center shadow-text">
-                    <?php echo $pop[$ID][0]?>
-                </h1>
+    <article>
+        <section class="container">
+            <blockquote class="blockquote text-center pt-3">
+                <h1 tabindex="0" class="pt-4"><?php echo $pop[$ID][0]?></h1>
+                <p class="text-black-50"><?php echo $pop[$ID][1]?></p>
+            </blockquote>
+        <div class="card text-white">
+                <img class="card-img shadow" src="../images/pop/five-pop.jpg" alt="Foto dos integrantes da bando Marron Five">
             </div>
-        </div>
-        <div class="container mt-3">
-            <div class="row no-gutters">
-                <div class="col-12 col-sm-6 mt-3 pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/lady-show.jpg" class="img-fluid " alt="lady gaga">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][1]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
+        </section>
+
+        <section class="container my-5 my-md-5 my-lg-5 my-xl-5">
+                    <div class="col-lg-12">
+                    <h2 tabindex="0" class="text-center"><?php echo $pop[$ID][2]?></h2>
+                        <p class="mb-0"><?php echo $pop[$ID][3]?></p>
                     </div>
-                </div>
-                <div class="col-12 col-sm-6 mt-3 pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/justin-show.jpg" class="img-fluid" alt="Justin">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][2]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </section>
+        </article>
+
+        <section class="container">
+            <div class="row">
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $pop[$ID][4]?></h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $pop [$ID][5]?></small></blockquote>
+                    <p class="mb-3 text-justify"><?php echo $pop [$ID][6]?></p>
+                </section>
+
+                <section class="col-lg-6 col-md-6 col-sm-12">
+                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                    <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $pop[$ID][7]?></h2>
+                    <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $pop[$ID][8]?></small></blockquote>
+                    <p class="mb-3 text-justify"><?php echo $pop[$ID][9]?></p>
+                </section>
             </div>
-            <div class="row no-gutters">
-                <div class="col-12 col-sm-6  pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/rihanna-show.jpg" class="img-fluid" alt="Rihanna">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][3]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  pr-3">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/taylor-show.jpg" class="img-fluid " alt="Taylor">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][4]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-12 col-sm-6 pr-3">
-                    <div class="card text-white  shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/justin-show.jpg" class="img-fluid" alt="Justin">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][2]?>
-                                </h5>
-                                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  pr-3 ">
-                    <div class="card text-white shadow mb-5 bg-white rounded">
-                        <img src="../images/pop/lady-show.jpg" class="img-fluid" alt="Lady Gaga">
-                        <div class="card-img-overlay">
-                            <div class="caixaT1 pt-3 px-3">
-                                <h5>
-                                    <?php echo $pop[$ID][1]?>
-                                </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
 
     <!-- importando o footer da pagina -->

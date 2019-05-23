@@ -96,9 +96,6 @@ include('imports/idioma.php');
                 </div>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $indicacoes[$ID][5]?></a>
-        </div>
     </main>
     <!-- Importando footer da página -->
     <?php

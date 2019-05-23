@@ -197,9 +197,6 @@
                 </div>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $hiphop[$ID][10]?></a>
-        </div>
     </main>
 
     <!-- FOOTER -->

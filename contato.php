@@ -131,9 +131,6 @@ include('imports/head.php');
                 </div>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $contato[$ID][13]; ?></a>
-        </div>
     </main>
     <!-- Footer -->
     <?php

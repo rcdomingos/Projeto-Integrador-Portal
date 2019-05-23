@@ -38,9 +38,6 @@ $formulario = array('PT' => $formulario_pt, 'EN' => $formulario_en, 'ES' => $for
         <br><br>
         <button type="button" value="voltar" class="btn btn-secondary btn-lg" onclick="window.history.back();"><?php echo $formulario[$ID][2]?></button>
     </div>
-    <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $formulario[$ID][3]?></a>
-        </div>
     </main>
     <!-- importando o footer da pagina -->
     <?php

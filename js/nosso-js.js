@@ -23,3 +23,7 @@ slide_close_btn.click(function(e){
 });
 
 });
+//tirando a rotação do carrosel
+$('.carousel').carousel({
+    interval: false
+  });

@@ -81,9 +81,6 @@
                 </article>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $noticias[$ID][7] ?></a>
-        </div>
     </main>
     <!--ARTICLE ENDS-->
 

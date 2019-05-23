@@ -43,9 +43,6 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
             </div>
         </div>
     </article>
-    <div class="skippy">
-        <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $punk[$ID][1]?></a>
-    </div>
     </main>
     <?php
     include('../imports/footer-secundario.php')

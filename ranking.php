@@ -89,9 +89,6 @@ include('imports/idioma.php');
                 </div>
             </article>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $ranking[$ID][7]?></a>
-        </div>
     </main>
     <!-- importando o footer da pagina -->
     <?php

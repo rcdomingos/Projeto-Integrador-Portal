@@ -66,9 +66,6 @@
                 </div>
             </div>
         </div>
-        <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $classica[$ID][3]?></a>
-        </div>
     </main>
     <!--FIM ARTICLE-->
 
