@@ -1,1172 +1,1172 @@
 /* Remover o hover padrão do bootstrap */
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /**** estilo do menu oculto ********************/
 .side-menu-sec {
-    /*overflow: hidden*/
-    /* background: rgba(0, 0, 0, .95); */
-    /* background: linear-gradient(to left, rgba(212, 21, 246, 1), rgba(24, 70, 94, 1)); */
-    /* background: linear-gradient(to left, #580842, #045B63); */
-    padding: 40px 0 0 40px;
-    position: fixed;
-    top: 0;
-    left: -340px;
-    height: 100%;
-    z-index: 3;
-    width: 320px;
-    font-size: 1em;
-	background: #333;
-    transition: left 0.3s linear 0s;
-    box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+  /*overflow: hidden*/
+  /* background: rgba(0, 0, 0, .95); */
+  /* background: linear-gradient(to left, rgba(212, 21, 246, 1), rgba(24, 70, 94, 1)); */
+  /* background: linear-gradient(to left, #580842, #045B63); */
+  padding: 40px 0 0 40px;
+  position: fixed;
+  top: 0;
+  left: -340px;
+  height: 100%;
+  z-index: 3;
+  width: 320px;
+  font-size: 1em;
+background: #333;
+  transition: left 0.3s linear 0s;
+  box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .side-menu-sec ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    overflow-y: auto;
-    width: 100%;
-    height: 80%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  width: 100%;
+  height: 80%;
 }
 
 .side-menu-sec ul li a {
-    display: block;
-    padding: 10px 4px 10px 4px;
-    color: #FFF;
-    text-decoration: none;
-    /* border-bottom: solid 1px rgba(255,255,255,.7); */
+  display: block;
+  padding: 10px 4px 10px 4px;
+  color: #FFF;
+  text-decoration: none;
+  /* border-bottom: solid 1px rgba(255,255,255,.7); */
 }
 
 .side-menu-sec a.menu-close {
-    padding: 8px 0 4px 23px;
-    color: #6B6B6B;
-    display: block;
-    margin: -30px 0 -10px -20px;
-    font-size: 35px;
-    text-decoration: none;
+  padding: 8px 0 4px 23px;
+  color: #6B6B6B;
+  display: block;
+  margin: -30px 0 -10px -20px;
+  font-size: 35px;
+  text-decoration: none;
 }
 
 .side-menu-overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .7);
-    overflow-y: auto;
-    overflow-x: hidden;
-    opacity: 0;
-    transition: opacity 1s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .paginas {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.skippy{
-    background-color: #000;
-    text-align: center;
+#skippy{
+  background-color: #000;
+  text-align: center;
+  color:#fff;
 }
 
 /* Botão hambugue do menu */
 .hamburgue div {
-    height: 5px;
-    background-color: #fff;
-    margin: 5px 0;
-    border-radius: 24px;
-    transition: 0.3s;
- }
+  height: 5px;
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 24px;
+  transition: 0.3s;
+}
 
 .hamburgue {
-    display: block;
-    width: 35px;
-    padding-top: 5px;
+  display: block;
+  width: 35px;
+  padding-top: 5px;
 }
 
 .l-um {
-    width: 35px;
+  width: 35px;
 }
 
 .l-dois {
-    width: 20px;
+  width: 20px;
 }
 
 .l-tres {
-    width: 26px;
+  width: 26px;
 }
 
 .hamburgue:hover div {
-    width: 35px;
-    background-color: #000;
+  width: 35px;
+  background-color: #fff;
 }
 
 .paginas li a:hover {
-    background-color: rgba(0, 0, 0, .7);
-    color: #9C9C9C !important;
-    /* border-bottom: solid 1px rgba(0,0,0,.7); */
+  background-color: rgba(0, 0, 0, .7);
+  color: #9C9C9C !important;
+  /* border-bottom: solid 1px rgba(0,0,0,.7); */
 }
 
 #pesquisar form{
-  background: #000;
+background: #000;
 
 }
 #redes-sociais ul {
-    list-style: none;
-    text-align: right;
+  list-style: none;
+  text-align: right;
 }
 
 #redes-sociais ul li {
-    display: inline;
+  display: inline;
 }
 
 #redes-sociais ul li a {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 0.1em;
-    font-size: 1.5em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.1em;
+  font-size: 1.5em;
 }
 
 #redes-sociais ul li.twit,
 #redes-sociais ul li.insta {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 /*** Hover do icones das redes sociais  ***/
 #redes-sociais ul li.face a:hover,
 #redes-sociais-footer ul li.face a:hover,
 #redes-sociais-footer-mobi ul li.face a:hover {
-    transition: color 0.3s;
-    color: #3b5998;
+  transition: color 0.3s;
+  color: #3b5998;
 }
 
 #redes-sociais ul li.twit a:hover,
 #redes-sociais-footer ul li.twit a:hover,
 #redes-sociais-footer-mobi ul li.twit a:hover {
-    transition: color 0.3s;
-    color: #1da1f2;
+  transition: color 0.3s;
+  color: #1da1f2;
 }
 
 #redes-sociais ul li.insta a:hover,
 #redes-sociais-footer ul li.insta a:hover,
 #redes-sociais-footer-mobi ul li.insta a:hover {
-    transition: color 0.3s;
-    color: #c13584;
+  transition: color 0.3s;
+  color: #c13584;
 }
 
 /************************************************/
 .fa-bars,
 .fa-search {
-    font-size: 1.7em;
-    color: #fff;
+  font-size: 1.7em;
+  color: #fff;
 }
 
 /******* ajuste do carrosel *******************************************/
 div.slide-carrocel {
-    width: 100%;
-    height: 520px;
+  width: 100%;
+  height: 520px;
 }
 
 div.slide-1 {
-    background: #222 url(../images/principal/carrossel-01.jpg) 50% 50%;
-    background-size: cover;
+  background: #222 url(../images/principal/carrossel-01.jpg) 50% 50%;
+  background-size: cover;
 }
 
 div.slide-2 {
-    background: #222 url(../images/principal/carrossel-02.jpg) 50% 50%;
-    background-size: cover;
+  background: #222 url(../images/principal/carrossel-02.jpg) 50% 50%;
+  background-size: cover;
 }
 
 div.slide-3 {
-    background: #222 url(../images/principal/carrossel-03.jpg) 50% 50%;
-    background-size: cover;
+  background: #222 url(../images/principal/carrossel-03.jpg) 50% 50%;
+  background-size: cover;
 }
 
 div.slide-4 {
-    background: #222 url(../images/principal/carrossel-04.jpg) 50% 50%;
-    background-size: cover;
+  background: #222 url(../images/principal/carrossel-04.jpg) 50% 50%;
+  background-size: cover;
 }
 
 .my-carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 10px;
-    left: inherit;
-    z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: inherit;
+  z-index: 1;
 }
 
 .my-carousel-indicators li {
-    text-indent: 0;
-    margin: 0 2px;
-    width: 20px;
-    height: 20px;
-    border: none;
-    border-radius: 100%;
-    line-height: 20px;
-    color: #fff;
-    background-color: #fff;
-    transition: all 0.25s ease;
+  text-indent: 0;
+  margin: 0 2px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 100%;
+  line-height: 20px;
+  color: #fff;
+  background-color: #fff;
+  transition: all 0.25s ease;
 }
 
 .my-carousel-indicators li.active {
-    color: #3A01DF;
-    background-color: #3A01DF;
-    width: 20px;
-    height: 20px;
+  color: #3A01DF;
+  background-color: #3A01DF;
+  width: 20px;
+  height: 20px;
 }
 
 .my-carousel-indicators li:hover {
-    color: #999;
-    background-color: #999;
-    width: 20px;
-    height: 20px;
+  color: #999;
+  background-color: #999;
+  width: 20px;
+  height: 20px;
 }
 
 #myCarousel p,
 #myCarousel h1 {
-    /* text-shadow: #000 3px 3px 6px; */
-    text-shadow: 2px 1px 1px #000;
+  /* text-shadow: #000 3px 3px 6px; */
+  text-shadow: 2px 1px 1px #000;
 }
 
 /**************** FONTES DO SITE ****************************************/
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .shadow-text {
-    text-shadow: 3px 3px 6px #888;
+  text-shadow: 3px 3px 6px #888;
 }
 
 /*************   Header das paginas *****************************************/
 #navheader {
-    background: #fc00ff;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #fc00ff, #00dbde);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #fc00ff, #00dbde);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #fff;
+  background: #000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000, #000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000, #000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
 }
 
 #navheader a {
-    color: #fff;
+  color: #fff;
 }
 
 #navheader a:hover,
 #header-sert a:hover {
-    transition: color 0.4s;
-    color: #000;
+  transition: color 0.4s;
+  color: #000;
 }
 
 #navprincipal {
-    text-decoration: none;
-    background-color: #000;
-    color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
 }
 
 #navprincipal a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 #navprincipal a:hover {
-    transition: color 0.3s;
-    color: #9C9C9C;
+  transition: color 0.3s;
+  color: #9C9C9C;
 }
 
 #navprincipal a.paginaAtual {
-    color: #9C9C9C;
+  color: #9C9C9C;
 }
 
 /********** AJUSTE DO FOOTER ******************************/
 #footer {
-    padding-top: 2em;
-    background-color: #000;
-    color: #fff;
+  padding-top: 2em;
+  background-color: #000;
+  color: #fff;
 }
 
 #redes-sociais-footer-mobi {
-    display: none;
-    text-align: center;
-    padding-right: 1.5em;
+  display: none;
+  text-align: center;
+  padding-right: 1.5em;
 }
 
 #redes-sociais-footer-mobi ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 #redes-sociais-footer-mobi ul li {
-    font-size: 3em;
-    margin-bottom: 0.5em;
+  font-size: 3em;
+  margin-bottom: 0.5em;
 }
 
 #redes-sociais-footer ul {
-    list-style: none;
-    padding: 0;
-    text-align: right;
+  list-style: none;
+  padding: 0;
+  text-align: right;
 }
 
 #redes-sociais-footer ul li {
-    display: inline;
+  display: inline;
 }
 
 #redes-sociais-footer ul li a {
-    padding-right: 1.1em;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 2em;
+  padding-right: 1.1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
 }
 
 #footer a {
-    color: #fff;
+  color: #fff;
 }
 
 #footer a:hover {
-    transition: color 0.3s;
-    color: #9C9C9C;
+  transition: color 0.3s;
+  color: #9C9C9C;
 }
 
 .lista-conteudo {
-    list-style: none;
+  list-style: none;
 }
 
 .logo-footer {
-    margin-left: 1em;
-    width: 6em;
-    height: 6em;
+  margin-left: 1em;
+  width: 6em;
+  height: 6em;
 }
 
 .copy {
-    padding-top: 0.5em;
-    text-align: center;
+  padding-top: 0.5em;
+  text-align: center;
 }
 
 img.idiomaatual {
-    /* box-shadow: inset 0px 0px 5px 1px rgba(196,196,196,1); */
-    opacity: 0.3;
+  /* box-shadow: inset 0px 0px 5px 1px rgba(196,196,196,1); */
+  opacity: 0.3;
 }
 
 img.idiomaatual:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 img.selidioma {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 img.selidioma:hover {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 /********************* HOME PRINCIPAL *****************************************/
 .home-cifras h3,
 .home-ritmo h3 {
-    max-width: 100%;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    background: linear-gradient(to left, #fc00ff, #00dbde);
-    color: #fff;
-    border: none;
-    text-decoration: none;
+  max-width: 100%;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background: linear-gradient(to left, #fc00ff, #00dbde);
+  color: #fff;
+  border: none;
+  text-decoration: none;
 }
 
 a.home-cifras,
 a.home-ritmo {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .home-cifras h3 {
-    background: url('../images/principal/cifras.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url('../images/principal/cifras.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home-cifras h3:hover,
 .home-ritmo h3:hover {
-    background: linear-gradient(to right, #fc00ff, #00dbde);
-    color: #000;
-    text-decoration: none;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  color: #000;
+  text-decoration: none;
 }
 
 .home-indica {
-    padding-top: 2em;
+  padding-top: 2em;
 }
 
 .r-item {
-    padding: .9em 0 0.9em 0;
+  padding: .9em 0 0.9em 0;
 }
 
 .rank {
-    /* box-shadow: 3px 2px 6px 3px #999; */
-    background-color: #f1f1f1;
-    padding: 1em 0em 1em 1.5em;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  /* box-shadow: 3px 2px 6px 3px #999; */
+  background-color: #f1f1f1;
+  padding: 1em 0em 1em 1.5em;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
 div.tboxmenu:hover {
-    background-color: #00dbde;
+  background-color: #00dbde;
 }
 
 .home-geral img {
-    height: 250px;
+  height: 250px;
 }
 
 .playlists img {
-    max-height: 130px;
+  max-height: 130px;
 }
 
 /***********  PAGINA QUEM SOMOS **************/
 .quem-somos-black {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .quem-somos img,
 .quem-somos-black img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .quem-somos img {
-    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.52);
 }
 
 .quem-somos-black img {
-    box-shadow: 0px 4px 8px 4px rgba(148, 140, 140, 0.52);
+  box-shadow: 0px 4px 8px 4px rgba(148, 140, 140, 0.52);
 }
 
 div.margim-footer {
-    width: 100%;
-    height: 0.5em;
-    background-color: #fff;
-    background-image: linear-gradient(to left, #fc00ff, #00dbde);
+  width: 100%;
+  height: 0.5em;
+  background-color: #fff;
+  background-image: linear-gradient(to left, #fc00ff, #00dbde);
 }
 
 /********** PAGINA RANKING ******************/
 .tt-rank {
-    margin-top: .1em;
-    font-size: 1.3em;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 100;
-    text-shadow: 2px 2px 3px #888;
+  margin-top: .1em;
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-shadow: 2px 2px 3px #888;
 }
 
 .tt-rank img {
-    width: 18px;
-    height: 17px;
-    margin-top: -10px;
+  width: 18px;
+  height: 17px;
+  margin-top: -10px;
 }
 
 .art-ranking ol {
-    text-align: left;
+  text-align: left;
 }
 
 .art-ranking ol li {
-    padding: 1em 0 1em 0;
+  padding: 1em 0 1em 0;
 }
 
 /**************** AJUSTES DAS PAGINAS INDICAÇÕES ***************************/
 .caixaindiq {
-    height: 180px;
-    width: 100%;
+  height: 180px;
+  width: 100%;
 }
 
 .caixaindiq img {
-    height: 180px;
-    max-width: 160px;
-    padding-left: 0.5em;
+  height: 180px;
+  max-width: 160px;
+  padding-left: 0.5em;
 }
 
 div.texto-indiq {
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    text-align: right;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
 }
 
 div.texto-indiq p {
-    font-size: 1.6em;
-    margin: 0;
-    padding-right: 0.8em;
-    text-align: right;
+  font-size: 1.6em;
+  margin: 0;
+  padding-right: 0.8em;
+  text-align: right;
 }
 
 .caixa-1 {
-    background-color: #EE1C29;
-    color: #fff;
+  background-color: #EE1C29;
+  color: #fff;
 }
 
 .caixa-2 {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .caixa-3 {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 .caixa-4 {
-    background-color: #FFCC00;
-    color: #fff;
+  background-color: #FFCC00;
+  color: #fff;
 }
 
 /*****************AJUSTES DAS PAGINAS SERTANEJO *******************************/
 /** Header **/
 #header-sert,
 .list-sertanejo {
-    background: #782710;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #782711, #FF9100);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #782711, #FF9100);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #fff;
+  background: #782710;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #782711, #FF9100);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #782711, #FF9100);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
 }
 
 #header-sert a {
-    color: #fff;
+  color: #fff;
 }
 
 /*** Sertanejo home ***/
 #carouselSertanejo {
-    background-color: #000;
+  background-color: #000;
 }
 
 .sect-1-home-sert {
-    height: 310px;
-    background: #D2EFFF url('../images/sertanejo/historia.jpg') no-repeat;
-    background-size: cover;
+  height: 310px;
+  background: #D2EFFF url('../images/sertanejo/historia.jpg') no-repeat;
+  background-size: cover;
 }
 
 .sect-2-home-sert {
-    height: 314px;
-    background: #D2EFFF url('../images/sertanejo/artistas.jpg') no-repeat;
-    background-size: cover;
+  height: 314px;
+  background: #D2EFFF url('../images/sertanejo/artistas.jpg') no-repeat;
+  background-size: cover;
 }
 
 .sect-3-home-sert {
-    height: 314px;
-    background: #D2EFFF url('../images/sertanejo/marcos.jpg') no-repeat;
-    background-size: cover;
-    background-position: 50% 60%;
+  height: 314px;
+  background: #D2EFFF url('../images/sertanejo/marcos.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
 }
 
 .fundo-texto {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    color: #fff;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(185, 90, 9, .4);
-    width: 90%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(185, 90, 9, .4);
+  width: 90%;
 }
 
 .fundo-texto a {
-    color: #fff;
-    font-size: 1em;
+  color: #fff;
+  font-size: 1em;
 }
 
 a div.fundo-texto:hover {
-    transition: background-color 0.5s;
-    background-color: #B95A09;
+  transition: background-color 0.5s;
+  background-color: #B95A09;
 }
 
 /*** Sertanejo artistas ***/
 .list-albuns {
-    list-style: none;
+  list-style: none;
 }
 
 .list-albuns li {
-    display: inline;
+  display: inline;
 }
 
 .bk-sertanejo {
-    background: linear-gradient(to right, #782711, #FF9100, #782711);
+  background: linear-gradient(to right, #782711, #FF9100, #782711);
 }
 
 .bk-sertanejo-2 {
-    background: linear-gradient(to bottom, #782711 0%, #FF9100 100%);
+  background: linear-gradient(to bottom, #782711 0%, #FF9100 100%);
 }
 
 .bk-sertanejo-3 {
-    background: radial-gradient(ellipse at center, #782711 0%, #FF9100 100%);
+  background: radial-gradient(ellipse at center, #782711 0%, #FF9100 100%);
 }
 
 .bk-sertanejo-4 {
-    background-color: #782711;
+  background-color: #782711;
 }
 
 /*** Sertanejo origem ***/
 .origem-sert .jumbotron {
-    background: url('../images/sertanejo/historia.jpg') no-repeat;
-    background-size: cover;
-    color: #fff;
+  background: url('../images/sertanejo/historia.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 /***sertanejo lacamentos  **/
 #img-lancamento {
-    width: 21.875em;
-    height: 21.875em;
+  width: 21.875em;
+  height: 21.875em;
 }
 
 .lancamento {
-    background: url('../images/sertanejo/textura.jpg');
+  background: url('../images/sertanejo/textura.jpg');
 }
 
 /***sertanejo destaque**/
 img.img-destaque {
-    width: 1140px;
-    height: auto;
+  width: 1140px;
+  height: auto;
 }
 
 .sert-dest-aside h3,
 .sert-dest-sect h3 {
-    background-color: #B95A09;
-    color: #FFF;
+  background-color: #B95A09;
+  color: #FFF;
 }
 
 .sert-dest-aside {
-    /* background-color: rgba(185, 90, 9, 0.49); */
-    /* background-color: rgba(255, 145, 0, 0.6); */
-    min-height: 30em;
+  /* background-color: rgba(185, 90, 9, 0.49); */
+  /* background-color: rgba(255, 145, 0, 0.6); */
+  min-height: 30em;
 }
 
 .sert-dest-aside span:hover {
-    color: #B95A09;
+  color: #B95A09;
 }
 
 .menu-icon-dest {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .menu-text-dest {
-    font-size: .9em;
+  font-size: .9em;
 }
 
 /****************************AJUSTES CLASSICA*****************************/
 #header-classica {
-    background: #D1913C;
-    background: linear-gradient(to right, #D1913C, #FFD194);
+  background: #D1913C;
+  background: linear-gradient(to right, #D1913C, #FFD194);
 }
 #header-classica a{
-    color: white;
+  color: white;
 }
 #header-classica:hover{
-    color: black;
+  color: black;
 }
 .textohomeclassica {
-    color: lightgray;
+  color: lightgray;
 }
 /*Home clássica*/
 .jumbotronimagem {
-    background-image: url(../images/classica/home-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 570px;
+  background-image: url(../images/classica/home-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 570px;
 }
 .titulo1homeclassica {
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
-    margin-top: 150px;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  margin-top: 150px;
 }
 .ajustandoimagenshomeclassica {
-    height: 500px;
-    width: 100%;
+  height: 500px;
+  width: 100%;
 }
 .ajustandoimagens2homeclassica {
-    height: 300px;
-    width: 100%;
+  height: 300px;
+  width: 100%;
 }
 .ajustandotitulo2homeclassica {
-    font-weight: bolder;
-    color: black;
+  font-weight: bolder;
+  color: black;
 }
 .ajustandotitulo2homeclassica:hover {
-    color: gray;
+  color: gray;
 }
 /*Artistas da clássica*/
 .artistas1classica {
-    background-image: url('../images/classica/artistas-01.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-    width: 100%;
+  background-image: url('../images/classica/artistas-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
 }
 .artistas2classica {
-    background-image: url('../images/classica/artistas-02.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 312px;
-    width: 100%;
+  background-image: url('../images/classica/artistas-02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 312px;
+  width: 100%;
 }
 .artistas3classica {
-    background-image: url('../images/classica/artistas-03.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 312px;
-    width: 100%;
+  background-image: url('../images/classica/artistas-03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 312px;
+  width: 100%;
 }
 .titulosartistasclassica {
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
 }
 .titulosartistasclassica:hover {
-    color: gray;
+  color: gray;
 }
 #textoprincipalclassicaartistas:hover {
-    color: gray;
+  color: gray;
 }
 .textosecundarioclassicaartistas:hover {
-    color: gray;
+  color: gray;
 }
 
 #textoprincipalclassicaartistas {
-    color: white;
-    font-size: 25px;
-    padding: 0px 10px 0px 10px;
-    margin-top: 230px;
-    font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding: 0px 10px 0px 10px;
+  margin-top: 230px;
+  font-weight: bold;
 }
 #textoprincipal2classicaartistas {
-    color: gray;
-    padding: 0px 10px 0px 10px;
+  color: gray;
+  padding: 0px 10px 0px 10px;
 }
 .textosecundarioclassicaartistas {
-    color: white;
-    font-weight: bold;
-    margin-top: 180px;
-    padding: 0px 10px 0px 10px;
-    font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 180px;
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
 }
 /*Origem da clássica*/
 .titulocorigem {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
 #texto2c {
-    color: gray;
+  color: gray;
 }
 /*Destaques da clássica*/
 .numerodestaques {
-    font-size: 20px;
-    color: gray;
-    padding-right: 10px;
+  font-size: 20px;
+  color: gray;
+  padding-right: 10px;
 }
 .textodestaquesc {
-    color: black;
-    font-weight: bolder;
+  color: black;
+  font-weight: bolder;
 }
 .textodestaquesc:hover {
-    color: gray;
+  color: gray;
 }
 .linhadestaquesc {
-    border-bottom: 1px lightgray solid;
-    padding: 10px;
+  border-bottom: 1px lightgray solid;
+  padding: 10px;
 }
 #titulodestaquesc {
-    font-size: 18px;
-    padding-left: 15px;
-    padding-top: 15px;
-    font-weight: bold;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-weight: bold;
 }
 .nomedestaquec {
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: black;
-    font-weight:bolder;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  font-weight:bolder;
 }
 .nomedestaquec:hover {
-    color: gray;
+  color: gray;
 }
 .textodestaquec {
-    color: gray;
+  color: gray;
 }
 .titulolista {
-    font-size: 18px;
-    color: black;
-    font-weight: bolder;
-    padding: 10px;
+  font-size: 18px;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
 }
 .imagemdestaquesc {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 /*Lançamentos da clássica*/
 .centralizarc {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .titulosclancamentos {
-    font-weight: bold;
+  font-weight: bold;
 }
 .paragrafolancamentos  {
-    text-indent: 40px;
+  text-indent: 40px;
 }
 
 /*Marcos da clássica*/
 #imagem1marcosc {
-    background-image: url('../images/classica/marcos-01.jpg');
-    height: 400px;
-    width: 100%;
-    border: 1px lightgray solid;
-    border-radius: 5px;
+  background-image: url('../images/classica/marcos-01.jpg');
+  height: 400px;
+  width: 100%;
+  border: 1px lightgray solid;
+  border-radius: 5px;
 }
 #blocotexto1marcos {
-    margin-top: 100px;
-    padding: 10px;
+  margin-top: 100px;
+  padding: 10px;
 }
 .negritotitutoc {
-    font-weight: bold;
-    color:black;
+  font-weight: bold;
+  color:black;
 }
 .negritotitutoc:hover{
-    color: grey;
+  color: grey;
 }
 /***************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
 /*NOTICIAS*/
 #imagemnoticias {
-    background-image: url('../images/noticias/show.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
-    width: 100%;
+  background-image: url('../images/noticias/show.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
 }
 #imagem2noticias {
-    background-image: url('../images/noticias/alliex.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 385px;
-    margin-bottom: 30px;
+  background-image: url('../images/noticias/alliex.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 385px;
+  margin-bottom: 30px;
 }
 #imagem3noticias {
-    background-image: url('../images/noticias/arcticmonkeys.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 385px;
+  background-image: url('../images/noticias/arcticmonkeys.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 385px;
 }
 .titulonoticias {
-    padding: 20px;
-    font-size: 18px;
-    color: white;
-    font-weight: bolder;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
 }
 .textonoticias {
-    margin-top: 270px;
-    font-size: 30px;
-    color: white;
-    font-weight: bolder;
-    padding-left: 10px;
+  margin-top: 270px;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  padding-left: 10px;
 }
 #textonoticias2 {
-    padding-left: 10px;
-    color: gray;
+  padding-left: 10px;
+  color: gray;
 }
 .textolateralnoticias {
-    margin-top: 230px;
-    font-size: 20px;
-    color: white;
-    font-weight: bolder;
-    padding: 10px;
+  margin-top: 230px;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
 }
 .titulo4 {
-    color: black;
-    font-weight: bolder;
-    font-size: 25px;
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
 }
 .ajusteimagem {
-    height: 300px;
+  height: 300px;
 }
 .linhanot {
-    border-bottom: 2px lightgray solid;
+  border-bottom: 2px lightgray solid;
 }
 h2.titulonoticias:hover {
-    color: grey;
+  color: grey;
 }
 p.textonoticias:hover {
-    color: gray;
+  color: gray;
 }
 p.textolateralnoticias:hover {
-    color: gray;
+  color: gray;
 }
 p.titulo4:hover {
-    color: gray;
+  color: gray;
 }
 
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
 #header-indie {
-    background: #00F260;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00F260;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #header-indie a {
-    color: #fff;
+  color: #fff;
 }
 
 h3.titulos-indie {
-    font-size: 16px;
-    color: #a0a0a0 !important;
+  font-size: 16px;
+  color: #a0a0a0 !important;
 }
 
 .indietexto {
-    color: white;
-    position: relative;
-    top: -100px;
-    margin-left: 4em;
+  color: white;
+  position: relative;
+  top: -100px;
+  margin-left: 4em;
 }
 
 .imgindie {
-    top: -35px;
+  top: -35px;
 }
 
 .hdois {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 /****************************AJUSTES CONTATO******************************/
 .contatinho {
-    background-color: black;
+  background-color: black;
 }
 
 .btn-roxo {
-    background-color: #9b079c;
-    color: #fff;
+  background-color: #9b079c;
+  color: #fff;
 }
 
 .btn-roxo:hover {
-    background-color: #79067a;
+  background-color: #79067a;
 }
 
 div.header-contato {
-    height: 300px;
-    width: 100%;
-    border-radius: 4px;
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
 }
 
 div.header-contato-bg {
-    background: linear-gradient(-45deg, #fc00ff, #00dbde);
+  background: linear-gradient(-45deg, #fc00ff, #00dbde);
 }
 
 div.header-contato-bg-2 {
-    background: linear-gradient(-45deg, #00dbde, #fc00ff);
+  background: linear-gradient(-45deg, #00dbde, #fc00ff);
 }
 
 div.header-contato-bg-3 {
-    background: radial-gradient(#00dbde, #fc00ff);
+  background: radial-gradient(#00dbde, #fc00ff);
 }
 
 #header-cont {
-    /* background: linear-gradient(-45deg,#fc00ff,#00dbde); */
-    background: url('../images/principal/header-contat.png') 50% 50%;
-    background-size: cover;
-    width: 100%;
-    opacity: .2;
+  /* background: linear-gradient(-45deg,#fc00ff,#00dbde); */
+  background: url('../images/principal/header-contat.png') 50% 50%;
+  background-size: cover;
+  width: 100%;
+  opacity: .2;
 }
 
 .header-contato img {
-    background-color: #fff;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    padding: 30%;
-    fill: #0575E6;
-    position: relative;
-    opacity: 1;
+  background-color: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 30%;
+  fill: #0575E6;
+  position: relative;
+  opacity: 1;
 }
 
 #sombra {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 div.contato {
-    margin-top: -110px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: solid 50px;
-    border-color: rgba(255, 255, 255, 0.3);
+  margin-top: -110px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid 50px;
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .linha2 {
-    margin-top: 140px;
-    margin-bottom: 2em;
-    color: #fff;
+  margin-top: 140px;
+  margin-bottom: 2em;
+  color: #fff;
 }
 
 
 .cx-contato {
-    background: linear-gradient(-40deg, #D72CF6, #00dbde);
-    height: 320px;
-    width: 100%;
-    border-radius: 4px;
-    padding-top: 1.5em;
+  background: linear-gradient(-40deg, #D72CF6, #00dbde);
+  height: 320px;
+  width: 100%;
+  border-radius: 4px;
+  padding-top: 1.5em;
 }
 
 .texto-contato {
-    padding-top: 4em;
-    color: #fff;
+  padding-top: 4em;
+  color: #fff;
 }
 
 div.icone-contato {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    color: #0575E6;
-    font-size: 2em;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  color: #0575E6;
+  font-size: 2em;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /****************************** AJUSTES PÁGINAS POP ******************************/
 #header-pop {
-    background: #FF0080;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7D00F9, #FF0080);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #7D00F9, #FF0080);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FF0080;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7D00F9, #FF0080);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7D00F9, #FF0080);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #header-pop a {
-    color: #fff;
+  color: #fff;
 }
 
 /* ======== AJUSTES HOME POP ======== */
 
 .caixaT1 {
-    transition: background-color 1s;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(169, 169, 169, 0.57);
+  transition: background-color 1s;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(169, 169, 169, 0.57);
 }
 
 
 .caixaT1:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .caixaT2 {
-    transition: background-color 1s;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(169, 169, 169, 0.57);
+  transition: background-color 1s;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(169, 169, 169, 0.57);
 }
 
 
 .caixaT2:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .headerpop .jumbotron {
-    background: url('../images/pop/origem.jpg');
-    background-size: cover;
+  background: url('../images/pop/origem.jpg');
+  background-size: cover;
 }
 
 .img-pop {
-    width: 350px;
+  width: 350px;
 }
 
 /************************* HIP-HOP ***************************************/
 /** Header **/
 #header-hip-hop {
-    background: #070707;
-    background: -webkit-linear-gradient(to right, #222222, #2c2c2c);
-    background: linear-gradient(to right, #000000, #333333);
-    color: #fff;
+  background: #070707;
+  background: -webkit-linear-gradient(to right, #222222, #2c2c2c);
+  background: linear-gradient(to right, #000000, #333333);
+  color: #fff;
 }
 
 #header-hip-hop a {
-    color: #fff;
+  color: #fff;
 }
 
 /*PÁGINA INDEX - HIP HOP*/
 .posi {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(74, 75, 75, 0.37);
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(74, 75, 75, 0.37);
 }
 
 
 /************************* AJUSTE PUNK ***************************************/
 /*PÃGINA punk*/
 #headerpunk {
-    background: rgba(0, 0, 0, 1);
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(231, 56, 39, 1)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#e73827', GradientType=1);
-    height: 70px;
+  background: rgba(0, 0, 0, 1);
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(231, 56, 39, 1)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#e73827', GradientType=1);
+  height: 70px;
 }
 
 #headerpunk a {
-    color: #fff;
+  color: #fff;
 }
 
 .legenda {
-    position: relative;
-    bottom: 120px;
-    left: 20px;
-    color: white;
+  position: relative;
+  bottom: 120px;
+  left: 20px;
+  color: white;
 }
 
 .artistas {
-    border-top: 50px;
+  border-top: 50px;
 }
 
 .corpopunk {
-    background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
 
 }
 
 .figure-caption {
-    position: relative;
-    top: -70px;
-    color: white;
+  position: relative;
+  top: -70px;
+  color: white;
 }
 
 #importancia3 {
-    background-color: black;
-    text-emphasis-color: white;
+  background-color: black;
+  text-emphasis-color: white;
 }
 
 .meurodape {
-    position: relative;
-    top: -20px;
+  position: relative;
+  top: -20px;
 }
-
 /************* AJUSTE PAGINAS JAZZ *********************************/
 #headerjazz {
   background: #bdc3c7; /* fallback for old browsers */

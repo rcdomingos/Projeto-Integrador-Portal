@@ -5,118 +5,143 @@ $indie_es = array("Racionais Mc's","La vieja guardia todavía vive","No es sólo
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
-<?php
- //PHP para verificar qual o idioma do html
-include('../imports/idioma.php');
- ?>
+<!-- PHP para adicionar o titulo da página -->
+<?php $titlePagina = array('PT' => "Indie | Marcos", 'EN' => "Indie | Mark", 'ES' => "Indie | Hitos"); ?>
+
+<!-- PHP para verificar qual o idioma do html -->
+<?php include('../imports/idioma.php'); ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 
-<?php
-//importando o head da pagina
-include('../imports/head.php');
-?>
+<!-- Importando o head da página -->
+<?php include('../imports/head.php'); ?>
 
 <body>
-<!-- Menu -->
-<?php
-include('../imports/menu-secundario.php');
-?>
 
-    <!-- Conteúdo da pagina -->
-    <main id="content">
+  <!-- Menu -->
+  <?php include('../imports/menu-secundario.php'); ?>
 
-        <!-- Imagem Wide-->
-        <section class="container my-5">
-            <div class="row">
-                <div class="text-white col-12">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/racionaiscn/" target="_blank" class="text-white"><u><?php echo $indie[$ID][0]; ?></u></a></h5>
-                        <p class="card-text ml-3"><?php echo $indie[$ID][1]; ?></p>
-                    </div>
-                    <img class="card-img shadow" src="../images/indie/racionais.jpg" alt="Foto do Racionais Mc's em preto e branco">
-                </div>
-            </div>    
-        </section>
+  <!-- Conteúdo da pagina -->
+  <main id="content">
 
-        <!-- Contéudo Principal - Título / Suntítulo / Texto / Imagem Wide / Texto -->
-        <article class="container mb-5">
-            <section class="row text-center">
-                <div class="col-12">
-                    <h1 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][2]; ?> </h1>
-                    <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][3]; ?></small></blockquote>
-                </div>
-            </section>
+    <!-- Imagem Wide-->
+    <section class="container my-5">
+      <div class="row">
+        <div class="text-white col-12">
+          <div class="card-img-overlay">
+            <h5 class="card-title ml-3"><a href="https://www.instagram.com/racionaiscn/" target="_blank"
+                class="text-white"><u><?php echo $indie[$ID][0]; ?></u></a></h5>
+            <p class="card-text ml-3"><?php echo $indie[$ID][1]; ?></p>
+          </div>
+          <img class="card-img shadow" src="../images/indie/racionais.jpg"
+            alt="Foto do Racionais Mc's em preto e branco">
+        </div>
+      </div>
+    </section>
 
-            <section class="row text-justify mt-3">
-                <div class="col-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
-                </div>
-            </section>
+    <!-- Contéudo Principal - Título / Suntítulo / Texto / Imagem Wide / Texto -->
+    <article class="container mb-5">
+      <section class="row text-center">
+        <div class="col-12">
+          <h1 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][2]; ?> </h1>
+          <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][3]; ?></small>
+          </blockquote>
+        </div>
+      </section>
 
-            <section class="card text-white my-3">
-                <div class="card-img-overlay">
-                    <h5 class="card-title"><a href="https://www.instagram.com/mcmarechal/?hl=pt-br" target="_blanbk" class="text-white"><u><?php echo $indie[$ID][4]; ?></u></a></h5>
-                    <p class="card-text"><?php echo $indie[$ID][5]; ?></p>
-                </div>
-                <img class="card-img shadow" src="../images/indie/marechal.jpg" alt="Foto da cantor Marechal em um show cantando.">
-            </section>
+      <section class="row text-justify mt-3">
+        <div class="col-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
+            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
+            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
+            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
+            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
+            sagittis, egestas tellus eget, faucibus .</p>
+        </div>
+      </section>
 
-            <section class="row text-justify">
-                <div class="col-lg-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
-                </div>
-            </section>
-        </article>
+      <section class="card text-white my-3">
+        <div class="card-img-overlay">
+          <h5 class="card-title"><a href="https://www.instagram.com/mcmarechal/?hl=pt-br" target="_blanbk"
+              class="text-white"><u><?php echo $indie[$ID][4]; ?></u></a></h5>
+          <p class="card-text"><?php echo $indie[$ID][5]; ?></p>
+        </div>
+        <img class="card-img shadow" src="../images/indie/marechal.jpg"
+          alt="Foto da cantor Marechal em um show cantando.">
+      </section>
 
-        <!-- Segunda e Terceira Imagem 1:1  -->
-        <section class="container">
-            <div class="row">
-                <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/mvbill/" target="_blank" class="text-white"><u><?php echo $indie[$ID][6]; ?></u></a></h5>
-                        <p class="card-text ml-3"><?php echo $indie[$ID][7]; ?></p>                    
-                    </div>
-                    <img class="card-img shadow" src="../images/indie/bill.jpg" alt="Foto do cantor Mv Bill de preta na frente de um muro de tijolos vermelhos.">
-                </div>  
+      <section class="row text-justify">
+        <div class="col-lg-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
+            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
+            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
+            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
+            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
+            sagittis, egestas tellus eget, faucibus .</p>
+        </div>
+      </section>
+    </article>
 
-                <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title ml-3"><a href="https://www.instagram.com/sabotageoficial/" target="_blank" class="text-white"><u><?php echo $indie[$ID][8]; ?></u></a></h5>
-                        <p class="card-text ml-3"><?php echo $indie[$ID][9]; ?></p>
-                    </div>
-                    <img class="card-img shadow" src="../images/indie/sabotage.jpg" alt="Foto do cantor Rubel em frente ao microfone em Preto e Branco">
-                </div>
-            </div>
-        </section>
+    <!-- Segunda e Terceira Imagem 1:1  -->
+    <section class="container">
+      <div class="row">
+        <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+          <div class="card-img-overlay">
+            <h5 class="card-title ml-3"><a href="https://www.instagram.com/mvbill/" target="_blank"
+                class="text-white"><u><?php echo $indie[$ID][6]; ?></u></a></h5>
+            <p class="card-text ml-3"><?php echo $indie[$ID][7]; ?></p>
+          </div>
+          <img class="card-img shadow" src="../images/indie/bill.jpg"
+            alt="Foto do cantor Mv Bill de preta na frente de um muro de tijolos vermelhos.">
+        </div>
 
-        <!-- Último Texto -->
-        <section class="container my-5">
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h2 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][10]; ?></h2>
-                    <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][11]; ?></small></blockquote>
-                </div>
-            </div>
+        <div class="text-white col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="card-img-overlay">
+            <h5 class="card-title ml-3"><a href="https://www.instagram.com/sabotageoficial/" target="_blank"
+                class="text-white"><u><?php echo $indie[$ID][8]; ?></u></a></h5>
+            <p class="card-text ml-3"><?php echo $indie[$ID][9]; ?></p>
+          </div>
+          <img class="card-img shadow" src="../images/indie/sabotage.jpg"
+            alt="Foto do cantor Rubel em frente ao microfone em Preto e Branco">
+        </div>
+      </div>
+    </section>
 
-            <div class="row text-justify mt-3">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet  quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
-                </div>
-            </div>
-        </section>
+    <!-- Último Texto -->
+    <section class="container my-5">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h2 tabindex="0" class="display-9 mb-0"><?php echo $indie[$ID][10]; ?></h2>
+          <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][11]; ?></small>
+          </blockquote>
+        </div>
+      </div>
 
-    </main>
+      <div class="row text-justify mt-3">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
+            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
+            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
+            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
+            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
+            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
+            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
+            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
+            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
+            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
+            sagittis, egestas tellus eget, faucibus .</p>
+        </div>
+      </div>
+    </section>
 
-<!-- FOOTER -->
-<br>
-<?php
-include('../imports/footer-secundario.php');
-?>
+  </main>
+
+  <!-- FOOTER -->
+  <?php include('../imports/footer-secundario.php'); ?>
 
 </body>
 

@@ -28,8 +28,8 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
   <div class="container-fluid">
     <div class="row">
       <div class="col-6 text-center">
-        <a class="navbar-brand" href="./">
-          <img src="images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" alt="Ecletic ponto Music"> Ecletic.Music </a>
+        <a class="navbar-brand" href="./" aria-label="Logo do site Ecletic.Music. No logo, dois raios então envolta de uma palheta. No meio da palheta as iniciais E e M, que significa Ecletic.Music">
+          <img src="images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" alt=""> Ecletic.Music </a>
       </div>
 
       <div id="menu-secundario" class="col-3 order-first">
@@ -46,7 +46,7 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
         <div class="side-menu-sec">
           <!-- <button onclick= "AbrirMenu()"> </button> -->
           <nav class="btn-acess" hidden="">
-            <a href="#" class="mb-4 text-right pr-4 menu-close" aria-label="Fechar menu secundario"><i class="fas fa-times"></i></a>
+            <a href="#" class="mb-4 text-right pr-4 menu-close" c><i class="fas fa-times"></i></a>
             <p class="mb-2 text-secondary font-weight-bold"><?php echo mb_strtoupper($menu[$ID][8], 'UTF-8') ?></p>
             <ul class="paginas">
               <li><a href="classica/index.php"><i class="mr-3 fas fa-play"></i> Classica</a></li>
@@ -54,7 +54,7 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
               <li><a href="indie/index.php"><i class="mr-3 fas fa-play"></i> Indie</a></li>
               <li><a href="pop/index.php"><i class="mr-3 fas fa-play"></i> Pop</a></li>
               <li><a href="punk/index.php"><i class="mr-3 fas fa-play"></i> Punk</a></li>
-              <li><a href="sertanejo/index.php"><i class="mr-3 fas fa-play"></i> Sertanejo</a></li>
+              <!-- <li><a href="sertanejo/index.php"><i class="mr-3 fas fa-play"></i> Sertanejo</a></li> -->
               <li><a href="jazz/index.php"><i class="mr-3 fas fa-play"></i> Jazz</a></li>
             </ul>
           </nav>
