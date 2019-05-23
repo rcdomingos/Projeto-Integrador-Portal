@@ -1124,8 +1124,249 @@ div.icone-contato {
     top: -20px;
 }
 
-/*PÃGINA punk*/
+/************* AJUSTE PAGINAS JAZZ *********************************/
+#headerjazz {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,#2c3e50, #bdc3c7 ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#FFF;
+}
 
+#headerjazz a {
+  color: #FFF;
+}
+
+/*font padrao das paginas jazz*/
+.font-jazz{
+  font-size: 1.2rem;
+}
+
+div.home-jazz {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/jazz/fundo-home.jpg) #000;
+  background-size: cover;
+  background-position: center;
+}
+
+div.jazz-home-sct {
+  width: 100%;
+  height: 400px;
+  background-color: #333333;
+  color: #fff;
+  text-shadow: 1px 2px 1px #222222;
+}
+
+div#jazz-home-1 {
+  background: url(../images/jazz/Eagle_Band_1916_New_Orleans.jpg) #000;
+  background-size: cover;
+  background-position: center;
+}
+div#jazz-home-2 {
+  background: url(../images/jazz/negros-jazz.jpg) #000;
+  background-size: cover;
+  background-position: center;
+}
+div#jazz-home-3 {
+  background: url(../images/jazz/disco-miles-davis-pb.jpg) #000;
+  background-size: cover;
+  background-position: center;
+}
+
+.jazz-home-sct:hover,
+.destaque-jazz div.card:hover {
+  box-shadow: 0 18px 32px -18px #000;
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+}
+
+.jazz-home-sct {
+  transition: all 0.2s ease-in-out;
+}
+
+p.texto-home {
+  position: absolute;
+  bottom: -1px;
+}
+
+.card-artista {
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .container div.card-artista:nth-child(1) {
+margin-top: 50px;
+}
+
+.container div.card-artista:nth-child(3) {
+    margin-top: 80px;
+    } */
+
+/* .artista {
+    display: inline-block;
+    width: calc(72% - 76px);
+}  */
+
+/* .card-artista:nth-child(even) h3  */
+
+.artista {
+  width: 90%;
+}
+
+.card-artista:nth-child(even) h3 {
+  top: -36px;
+  left: -36px;
+}
+
+.card-artista:nth-child(odd) h3 {
+  bottom: -36px;
+  right: -36px;
+}
+
+.artista-image {
+  position: relative;
+  display: inline-grid;
+}
+
+.card-artista img {
+  width: 100%;
+}
+
+.card-artista h3,
+div.box-texto h2 {
+  font-size: 1.17em;
+  text-transform: uppercase;
+  line-height: 1.15em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  position: absolute;
+  padding: 20px 32px 20px 32px;
+  margin: 0px;
+  display: inline-block;
+  background-color: #161616;
+  color: #ffffff;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+/*par*/
+.card-artista:nth-child(even) p {
+  text-align: right;
+  margin-left: 20%;
+}
+
+/*impar*/
+.card-artista:nth-child(odd) p {
+  text-align: left;
+}
+
+.card-artista p {
+  margin-top: 10px;
+  display: inline-block;
+  width: 80%;
+}
+
+/* .social-links {
+  position: absolute;
+  transform: none;
+  left: 16px;
+  bottom: 16px;
+  background-color: #ffffff;
+} */
+
+/*paginas origem */
+
+h1.jazz-h1 {
+  position: relative;
+  font-size: 2.5rem;
+  top: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-transform: uppercase;
+  line-height: 1.15em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  padding: 20px 32px 20px 32px;
+  margin: 0;
+  display: inline-block;
+  background-color: #161616;
+  color: #ffffff;
+}
+
+#body-jazz-origem {
+  background-color: #fff;
+}
+
+img.img-box-jazz {
+  width: 100%;
+}
+
+.box-texto {
+  padding: 80px 40px 40px 40px;
+  margin: 40px 0px 40px 0px;
+}
+
+.body-origem-jazz .row:nth-of-type(even) h2 {
+  font-size: 2rem;
+  top: -60px;
+  right: -20px;
+}
+
+.body-origem-jazz .row:nth-of-type(odd) h2 {
+  font-size: 2rem;
+  top: -60px;
+  left: -20px;
+}
+
+.body-origem-jazz .row:nth-of-type(even) div.box-texto {
+  background-color: #d3d3d3;
+}
+
+.body-origem-jazz figcaption {
+  font-size: 0.8rem;
+}
+
+
+/*paginas destaque jazz*/
+.destaque-jazz a{
+color:#000;
+}
+
+.destaque-jazz .card-body {
+  padding: 5px 5px 10px 5px;
+}
+/*Ajuste paginas Lançamento*/
+.lancamento-jazz .card-body {
+  padding: 1rem 1.10rem 0 1.10rem;
+}
+
+.lancamento-jazz  .card-img {
+  height: 100%;
+  width: 100%;
+}
+
+h5.jazz-h5, h2.jazz-h2{
+  position: relative;
+  font-size: 1.3rem;
+  top: 0;
+  text-transform: uppercase;
+  line-height: 1.15em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  padding: 10px 5px 10px 5px;
+  margin: 0;
+  display: inline-block;
+  background-color: #161616;
+  color: #ffffff;
+}
+
+.card-lancamentos{
+  background-color: #000;
+  color: #fff;
+}
 
 
 
@@ -1205,6 +1446,32 @@ div.icone-contato {
     #siga-desk{
         display: none;
     }
+  
+    /*Ajustes paginas JAZZ*/
+  .card-artista {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .artista {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .body-origem-jazz .row:nth-of-type(even) h2 {
+    right: 0px;
+  }
+
+  .body-origem-jazz .row:nth-of-type(odd) h2 {
+    left: 0px;
+  }
+  .card-artista:nth-child(even) h3 {
+    left: -15px;
+  }
+
+  .card-artista:nth-child(odd) h3 {
+    right: -15px;
+  }
 }
 
 /* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -1281,10 +1548,40 @@ div.icone-contato {
 }
 
 /* // Dispositivos large (desktops com 992px ou mais) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*AJustes paginas JAZZ*/
+    .box-img {
+      z-index: 2;
+      margin-top: 100px;
+    }
+
+
+}
+
+
 
 /* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  /*AJustes paginas JAZZ*/
+  .box-img {
+    z-index: 2;
+    margin-right: -170px;
+    margin-left: 35px;
+  }
+
+  .body-origem-jazz .row:nth-of-type(even) div.box-texto {
+    padding: 80px 40px 40px 65px;
+    margin: 40px 20px 40px 110px;
+  }
+
+  .body-origem-jazz .row:nth-of-type(odd) div.box-texto {
+    padding: 80px 65px 40px 40px;
+    margin: 40px 90px 20px 40px;
+  }
+
+
+
+}
 
 /**** HELPS **********************************************/
 /** cores **/

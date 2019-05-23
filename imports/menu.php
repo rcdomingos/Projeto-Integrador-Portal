@@ -55,6 +55,7 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
               <li><a href="pop/index.php"><i class="mr-3 fas fa-play"></i> Pop</a></li>
               <li><a href="punk/index.php"><i class="mr-3 fas fa-play"></i> Punk</a></li>
               <li><a href="sertanejo/index.php"><i class="mr-3 fas fa-play"></i> Sertanejo</a></li>
+              <li><a href="jazz/index.php"><i class="mr-3 fas fa-play"></i> Jazz</a></li>
             </ul>
           </nav>
         </div>
@@ -80,18 +81,22 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
                                                                 } ?>>
           <span class="menu-icon"><i class="fas fa-home"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][0] ?></span>
-          <?php if ($paginaAtual == 'index.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>                                                     
+          <?php if ($paginaAtual == 'index.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
       <li class="nav-item icone">
         <a href="noticias.php" title="<?php echo $menu[$ID][1] ?>" <?php if ($paginaAtual == 'noticias.php') {
-                                                                    echo 'class="nav-link paginaAtual disabled"';
-                                                                  } else {
-                                                                    echo 'class="nav-link"';
-                                                                  } ?>>
+                                                                      echo 'class="nav-link paginaAtual disabled"';
+                                                                    } else {
+                                                                      echo 'class="nav-link"';
+                                                                    } ?>>
           <span class="menu-icon"><i class="far fa-newspaper"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][1] ?></span>
-          <?php if ($paginaAtual == 'noticias.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>   
+          <?php if ($paginaAtual == 'noticias.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
       <li class="nav-item">
@@ -102,40 +107,48 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
                                                                   } ?>>
           <span class="menu-icon"><i class="fas fa-chart-line"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][2] ?></span>
-          <?php if ($paginaAtual == 'ranking.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>   
+          <?php if ($paginaAtual == 'ranking.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
       <li class="nav-item">
         <a href="cifras.php" title="<?php echo $menu[$ID][3] ?>" <?php if ($paginaAtual == 'cifras.php') {
-                                                                  echo 'class="nav-link paginaAtual disabled"';
-                                                                } else {
-                                                                  echo 'class="nav-link"';
-                                                                } ?>>
+                                                                    echo 'class="nav-link paginaAtual disabled"';
+                                                                  } else {
+                                                                    echo 'class="nav-link"';
+                                                                  } ?>>
           <span class="menu-icon"><i class="fas fa-music"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][3] ?></span>
-          <?php if ($paginaAtual == 'cifras.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>   
+          <?php if ($paginaAtual == 'cifras.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
       <li class="nav-item">
         <a href="indicacoes.php" title="<?php echo $menu[$ID][4] ?>" <?php if ($paginaAtual == 'indicacoes.php') {
-                                                                      echo 'class="nav-link paginaAtual disabled"';
-                                                                    } else {
-                                                                      echo 'class="nav-link"';
-                                                                    } ?>>
+                                                                        echo 'class="nav-link paginaAtual disabled"';
+                                                                      } else {
+                                                                        echo 'class="nav-link"';
+                                                                      } ?>>
           <span class="menu-icon"><i class="fas fa-headphones"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][4] ?></span>
-          <?php if ($paginaAtual == 'indicacoes.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>   
+          <?php if ($paginaAtual == 'indicacoes.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
       <li class="nav-item">
         <a href="quem-somos.php" title="<?php echo $menu[$ID][5] ?>" <?php if ($paginaAtual == 'quem-somos.php') {
-                                                                      echo 'class="nav-link paginaAtual disabled"';
-                                                                    } else {
-                                                                      echo 'class="nav-link"';
-                                                                    } ?>>
+                                                                        echo 'class="nav-link paginaAtual disabled"';
+                                                                      } else {
+                                                                        echo 'class="nav-link"';
+                                                                      } ?>>
           <span class="menu-icon"><i class="fas fa-users"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][5] ?></span>
-          <?php if ($paginaAtual == 'quem-somos.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>   
+          <?php if ($paginaAtual == 'quem-somos.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
       <li class="nav-item">
@@ -146,7 +159,9 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
                                                                   } ?>>
           <span class="menu-icon"><i class="fas fa-phone"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][6] ?></span>
-          <?php if ($paginaAtual == 'contato.php') {echo '<span class="sr-only">(Página Atual)</span>';} ?>   
+          <?php if ($paginaAtual == 'contato.php') {
+            echo '<span class="sr-only">(Página Atual)</span>';
+          } ?>
         </a>
       </li>
     </ul>
