@@ -1,7 +1,7 @@
 <?php
-  $hiphop_pt = array("Cifras","2 dias atrás","3 dias atrás","4 dias atrás","5 dias atrás","Albúm","Letra","Artista","Música", "Imagem ilustrativa representando um botão para iniciar a música.");
-  $hiphop_en = array("Lyrics","2 days ago", "3 days ago", "4 days ago", "5 days ago","Album","Lyrics","Artist","Music", "Illustrative image representing a button to start music.");
-  $hiphop_es = array("Cifras", "Hace 2 días", "Hace 3 días", "Hace 4 días", "Hace 5 días", "Álbum", "Carta", "Artistas", "Música", "Imagen ilustrativa que representa un botón para iniciar la música.");
+  $hiphop_pt = array("Cifras","2 dias atrás","3 dias atrás","4 dias atrás","5 dias atrás","Albúm","Letra","Artista","Música", "Imagem ilustrativa representando um botão para iniciar a música.","Voltar ao topo");
+  $hiphop_en = array("Lyrics","2 days ago", "3 days ago", "4 days ago", "5 days ago","Album","Lyrics","Artist","Music", "Illustrative image representing a button to start music.","Back to the top");
+  $hiphop_es = array("Cifras", "Hace 2 días", "Hace 3 días", "Hace 4 días", "Hace 5 días", "Álbum", "Carta", "Artistas", "Música", "Imagen ilustrativa que representa un botón para iniciar la música.","Volver al principio");
   $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
@@ -198,7 +198,7 @@
             </div>
         </div>
         <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $hiphop[$ID][10]?></a>
         </div>
     </main>
 

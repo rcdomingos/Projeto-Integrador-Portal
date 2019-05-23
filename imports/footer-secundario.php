@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="text-right">
+          <div id="idioma" class="text-right">
             <!-- Alterar  o Idioma do conteudo nos icones do footer -->
             <?php
             $urlidioma = basename (dirname($_SERVER['PHP_SELF'])) .'/'.basename($_SERVER['SCRIPT_FILENAME']);
@@ -145,7 +145,7 @@
       </div>
       <div class="row copy">
         <div class="col-12">
-          <p tabindex="0" tabindex="0"><small> <?php echo $footer[$ID][2] ?></small> </p>
+          <p tabindex="0"><small> <?php echo $footer[$ID][2] ?></small> </p>
         </div>
       </div>
     </div>

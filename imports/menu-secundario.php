@@ -1,8 +1,8 @@
 <?php
 //definição em PHP para alterar o idioma, OBS: USAR 0 = Pt-BR, 1 = En-US, 2 = ES
-$menu_pt = array("Home", "Noticias", "Ranking", "Cifras", "Indicações", "Quem Somos", "Contato", "Normas do Site", "Conteudo", "Menu Principal");
-$menu_en = array("Home", "News", "Ranking", "Chords", "Indications", "About Us", "Contact", "Site Rules", "Content", "Main Menu");
-$menu_es = array("Home", "Noticias", "Clasificación", "Cifras musicales", "Indicaciones", "Sobre nosotros", "Contacto", "Normas", "Contenido", "Menú principal");
+$menu_pt = array("Home", "Noticias", "Ranking", "Cifras", "Indicações", "Quem Somos", "Contato", "Normas do Site", "Conteudo", "Menu Principal","Selecione o idioma:","Pular para conteúdo principal","Menu Gênero","Fechar menu secundário","Siga-nos nas redes sociais");
+$menu_en = array("Home", "News", "Ranking", "Chords", "Indications", "About Us", "Contact", "Site Rules", "Content", "Main Menu","Select the language: ","Skip to main content","Menu Gênero","Fechar menu secundário","Follow us on the social networks");
+$menu_es = array("Home", "Noticias", "Clasificación", "Cifras musicales", "Indicaciones", "Sobre nosotros", "Contacto", "Normas", "Contenido", "Menú principal","Seleccione el idioma:", "Saltar al contenido principal", "Menú Género", "Cerrar menú secundario", "Seguir en las redes sociales");
 //$menu = array($menu_pt, $menu_en);
 $menu = array('PT' => $menu_pt, 'EN' => $menu_en, 'ES' => $menu_es);
 //menu das paginas secundarias
@@ -45,13 +45,13 @@ if ($pagina == "sertanejo") {
     
     <a class="sr-only sr-only-focusable" href="#idioma">
         <div class="container text-center">
-            <span class="skiplink-text">Selecione o idioma:</span>
+            <span class="skiplink-text"><?php echo $menu[$ID][10] ?></span>
         </div>
     </a>
     
     <a class="sr-only sr-only-focusable" href="#content">
         <div class="container text-center">
-            <span class="skiplink-text">Pular para conteúdo principal</span>
+            <span class="skiplink-text"><?php echo $menu[$ID][11] ?></span>
         </div>
     </a>
     
@@ -63,14 +63,14 @@ if ($pagina == "sertanejo") {
 		<div class="row">
 			<div class="col-6 text-center">
 				<a class="navbar-brand" href="../">
-					<img src="../images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" tabindex="0" alt="Logo do site Ecletic.Music. No logo, dois raios então envolta de uma palheta. No meio da palheta as iniciais E e M, que significa Ecletic.Music"> Ecletic.Music </a>
+					<img src="../images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" alt="Ecletic . music">Ecletic.music</a>
 			</div>
 
 			<div id="menu-secundario" class="col-3 order-first">
 				<!-- botão hamburgue do menu secundario com as paginas -->
 				<!-- <button class="slide-menu-open" aria-expanded="false"> MENU </button> -->
 				<div class="navbar-nav slide-menu-open">
-					<a href="#" class="hamburgue slide-menu-open" role="button" aria-expanded="false" aria-label="Menu Gênero">
+					<a href="#" class="hamburgue slide-menu-open" role="button" aria-expanded="false" aria-label="<?php echo $menu[$ID][12] ?>">
 						<div class="l-um"> </div>
 						<div class="l-dois"> </div>
 						<div class="l-tres"> </div>
@@ -80,7 +80,7 @@ if ($pagina == "sertanejo") {
 				<div class="side-menu-sec">
 					<!-- <button onclick= "AbrirMenu()"> </button> -->
 					<nav class="btn-acess" hidden="">
-						<a href="#" class="mb-4 text-right pr-4 menu-close" aria-label="Fechar menu secundário"><i class="fas fa-times"></i></a>
+						<a href="#" class="mb-4 text-right pr-4 menu-close" aria-label="<?php echo $menu[$ID][13] ?>"><i class="fas fa-times"></i></a>
 						<p class="mb-2 text-secondary font-weight-bold"><?php echo mb_strtoupper($menu[$ID][9], 'UTF-8') ?></p>
 						<ul class="paginas">
 							<li><a href="../index.php"><i class="mr-3 fas fa-home"> </i> <?php echo $menu[$ID][0] ?></a></li>
@@ -95,7 +95,7 @@ if ($pagina == "sertanejo") {
 				</div>
 			</div>
 			<div id="redes-sociais" class="col-3 order-last align-top">
-				<span class="sr-only">Siga nas redes sociais</span>
+				<span tabindex="0" class="sr-only"><?php echo $menu[$ID][14] ?></span>
 				<ul id="siga-desk">
 					<li class="face"> <a href="https://facebook.com/EclecticMusic" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
 					<li class="insta"> <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Istagran"><i class="fab fa-instagram"></i></a></li>

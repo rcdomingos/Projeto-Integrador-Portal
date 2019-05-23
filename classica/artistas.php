@@ -1,7 +1,7 @@
 <?php
-    $classica_pt = array("Artistas da história", "Jovens talentos", "Artistas atuais");
-    $classica_en = array("Historical artists", "Young talents", "Nowadays artists");
-    $classica_es = array("Artistas de la historia","Jóvenes talentos","Artistas actuales");
+    $classica_pt = array("Artistas da história", "Jovens talentos", "Artistas atuais","Voltar ao topo");
+    $classica_en = array("Historical artists", "Young talents", "Nowadays artists","Back to the top");
+    $classica_es = array("Artistas de la historia","Jóvenes talentos","Artistas actuales","Volver al principio");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
@@ -39,7 +39,7 @@
                         <a href="#" tabindex="0">
                             <p id="textoprincipalclassicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
                         </a>
-                        <p tabindex="0" id="textoprincipal2classicaartistas" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac risus et arcu.</p>
+                        <p tabindex="0" id="textoprincipal2classicaartistas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac risus et arcu.</p>
                     </article>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $classica[$ID][3]?></a>
         </div>
     </main>
     <!--FIM ARTICLE-->

@@ -1,8 +1,8 @@
 <?php
 //Arrays com os idiomas da pagina
-$ranking_pt = array("semanal","mensal", "anual", "Desenho de uma estrela", "As 10 músicas mais escutadas da semana. A imagem ilustra vários quadrados empilhados em sequência. Existem algumas pilhas altas e outras baixas.", "As 10 músicas mais escutadas do mês. Possui a mesma imagem que a anterior.", "As 10 músicas mais escutadas do ano. Possui a mesma imagem que a anterior.");
-$ranking_en = array("weekly","monthly", "annual", "drawing of a star","The 10 most listened songs of the week. The image illustrates several squares stacked in sequence, with some ups and downs. "," The 10 most listened songs of the month, it has the same image as the interior. "," The 10 most listened songs of the year, it has the same image as the interior. ");
-$ranking_es = array("semanal","mensuales","anual", "Diseño de una estrella", "Las 10 canciones más escuchadas de la semana. La imagen ilustra varios cuadrados apilados en secuencia, con algunos altibajos. ", "Las 10 canciones más escuchadas del mes. Tiene la misma imagen que el interior. ", " Las 10 canciones más escuchadas del año. Tiene la misma imagen que el interior. ");
+$ranking_pt = array("semanal","mensal", "anual", "Desenho de uma estrela", "As 10 músicas mais escutadas da semana. A imagem ilustra vários quadrados empilhados em sequência. Existem algumas pilhas altas e outras baixas.", "As 10 músicas mais escutadas do mês. Possui a mesma imagem que a anterior.", "As 10 músicas mais escutadas do ano. Possui a mesma imagem que a anterior.","Voltar ao topo");
+$ranking_en = array("weekly","monthly", "annual", "drawing of a star","The 10 most listened songs of the week. The image illustrates several squares stacked in sequence, with some ups and downs. "," The 10 most listened songs of the month, it has the same image as the interior. "," The 10 most listened songs of the year, it has the same image as the interior. ","Back to the top");
+$ranking_es = array("semanal","mensuales","anual", "Diseño de una estrella", "Las 10 canciones más escuchadas de la semana. La imagen ilustra varios cuadrados apilados en secuencia, con algunos altibajos. ", "Las 10 canciones más escuchadas del mes. Tiene la misma imagen que el interior. ", " Las 10 canciones más escuchadas del año. Tiene la misma imagen que el interior. ","Volver al principio");
 $ranking = array('PT' => $ranking_pt, 'EN' => $ranking_en, 'ES' => $ranking_es);
 ?>
 <?php
@@ -90,7 +90,7 @@ include('imports/idioma.php');
             </article>
         </div>
         <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $ranking[$ID][7]?></a>
         </div>
     </main>
     <!-- importando o footer da pagina -->

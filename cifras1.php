@@ -1,7 +1,7 @@
 <?php
-  $hiphop_pt = array("Cifras");
-  $hiphop_en = array("Lyrics");
-  $hiphop_es = array("Cifras");
+  $hiphop_pt = array("Cifras","Voltar ao topo");
+  $hiphop_en = array("Lyrics","Back to the top");
+  $hiphop_es = array("Cifras","Volver al principio");
   $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
@@ -24,7 +24,7 @@
   ?>
 
 
-    <main>
+    <main id="content">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-4 mb-4">
@@ -58,7 +58,9 @@
                 </div>
             </div>
         </div>
-
+        <div class="skippy">
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $home[$ID][1] ?></a>
+        </div>
     </main>
 
     <!-- FOOTER -->

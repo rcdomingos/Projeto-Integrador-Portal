@@ -1,10 +1,10 @@
 <?php
 $contato_pt = array("Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", "Formulario", "Clique e Preencha",
-  "Endereço de email","Nome","Sobrenome","Enviar","Limpar","Seu email","Desenho representativo de uma pessoa.");
+  "Endereço de email","Nome","Sobrenome","Enviar","Limpar","Seu email","Desenho representativo de uma pessoa.","Voltar ao topo");
 $contato_en = array("Music Portal", "Contact Us", "Telephone", "Message", "Form", "Click and Fill in",
-  "Email Address", "First Name", "Last Name", "Send", "Clear","Your email","Representative drawing of a person.");
+  "Email Address", "First Name", "Last Name", "Send", "Clear","Your email","Representative drawing of a person.","Back to the top");
 $contato_es = array("Portal de Musica", "Contáctenos", "Teléfono", "Mensaje", "Formulario", "Haga Clic y Rellene",
-  "Dirección de correo electrónico", "Nombre", "Apellido", "Enviar", "Borrar","Su correo electrónico","Diseño representativo de una persona.");
+  "Dirección de correo electrónico", "Nombre", "Apellido", "Enviar", "Borrar","Su correo electrónico","Diseño representativo de una persona.","Volver al principio");
 $contato = array('PT' => $contato_pt, 'EN' => $contato_en, 'ES' => $contato_es);
 ?>
 <?php
@@ -132,7 +132,7 @@ include('imports/head.php');
             </div>
         </div>
         <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $contato[$ID][13]; ?></a>
         </div>
     </main>
     <!-- Footer -->

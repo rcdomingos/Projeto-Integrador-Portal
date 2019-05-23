@@ -1,8 +1,8 @@
 <?php
 //Arrays com os idiomas da pagina
-$indicacoes_pt = array("Nossas Indicações", "Logo da Coca-Cola FM. O logo contém um desenho de uma garrafa com o nome coca-cola nela.","Logo da Kiss FM. O logo contém um círculo que no meio se encontra o nome kiss fm, abaixo do nome, o número 102.1 fm e ao lado esquerdo o desenho de uma guitarra.","Logo da 89 a Rádio Rock. O logo contém o número 89 grande e o texto a rádio rock ao lado do número.","Logo Rádio MIX FM. O logo contém um círculo e dentro o nome mix, dentro de faixas pretas abaixo do nome o número da rádio 106.3 fm e logo abaixo do número da rádio o local que se encontra a rádio que é em são paulo.");
-$indicacoes_en = array("Our Indications","Logo of Coca-Cola FM. The logo contains a drawing of a bottle with the name coca-cola in it.","Kiss FM Logo. The logo contains a circle that in the middle is the name kiss fm, below the name, the number 102.1 fm and to the left the drawing of a guitar.","Logo of 89 to Radio Rock. The logo contains the big number 89 and the rock radio text next to the number.","Logo Radio MIX FM. The logo contains a circle and inside the name mix, in black bands under the name the radio number 106.3 fm and the place are paulo just below the number.");
-$indicacoes_es = array("Nuestras indicaciones","Logo de Coca-Cola FM. El logo contiene un dibujo de una botella con el nombre coca-cola en ella.","Logotipo de Kiss FM. El logo contiene un círculo que en el medio es el nombre kiss fm, debajo del número 102.1 fm ya la izquierda el dibujo de una guitarra.","Logo del 89 a Radio Rock. El logotipo contiene el número grande 89 y el texto de radio de rock junto al número.","Logo Radio MIX FM. El logo contiene un círculo y dentro el nombre mix, dentro de bandas negras debajo del nombre el número de la radio 106.3 fm y el local son paulo justo debajo del número.");
+$indicacoes_pt = array("Nossas Indicações", "Logo da Coca-Cola FM. O logo contém um desenho de uma garrafa com o nome coca-cola nela.","Logo da Kiss FM. O logo contém um círculo que no meio se encontra o nome kiss fm, abaixo do nome, o número 102.1 fm e ao lado esquerdo o desenho de uma guitarra.","Logo da 89 a Rádio Rock. O logo contém o número 89 grande e o texto a rádio rock ao lado do número.","Logo Rádio MIX FM. O logo contém um círculo e dentro o nome mix, dentro de faixas pretas abaixo do nome o número da rádio 106.3 fm e logo abaixo do número da rádio o local que se encontra a rádio que é em são paulo.","Voltar ao topo");
+$indicacoes_en = array("Our Indications","Logo of Coca-Cola FM. The logo contains a drawing of a bottle with the name coca-cola in it.","Kiss FM Logo. The logo contains a circle that in the middle is the name kiss fm, below the name, the number 102.1 fm and to the left the drawing of a guitar.","Logo of 89 to Radio Rock. The logo contains the big number 89 and the rock radio text next to the number.","Logo Radio MIX FM. The logo contains a circle and inside the name mix, in black bands under the name the radio number 106.3 fm and the place are paulo just below the number.","Back to the top");
+$indicacoes_es = array("Nuestras indicaciones","Logo de Coca-Cola FM. El logo contiene un dibujo de una botella con el nombre coca-cola en ella.","Logotipo de Kiss FM. El logo contiene un círculo que en el medio es el nombre kiss fm, debajo del número 102.1 fm ya la izquierda el dibujo de una guitarra.","Logo del 89 a Radio Rock. El logotipo contiene el número grande 89 y el texto de radio de rock junto al número.","Logo Radio MIX FM. El logo contiene un círculo y dentro el nombre mix, dentro de bandas negras debajo del nombre el número de la radio 106.3 fm y el local son paulo justo debajo del número.","Volver al principio");
 $indicacoes = array('PT' => $indicacoes_pt, 'EN' => $indicacoes_en, 'ES' => $indicacoes_es);
 ?>
 <?php
@@ -12,6 +12,7 @@ include('imports/idioma.php');
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 <?php
+    
     include('imports/head.php');
     ?>
 
@@ -96,7 +97,7 @@ include('imports/idioma.php');
             </div>
         </div>
         <div class="skippy">
-            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $indicacoes[$ID][5]?></a>
         </div>
     </main>
     <!-- Importando footer da página -->

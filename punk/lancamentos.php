@@ -1,122 +1,115 @@
 <?php
-$punk_pt = array("Artistas", "Destaques", "Classificacao", "Impacto Social", "Lancamentos");
-$punk_en = array("Artists", "Highlights", "Ranking", "Social Impact", "Releases");
-$punk_es = array("Artistas", "Refrejos", "Classificacion", "Impacto Social", "Comunicados");
+$punk_pt = array("Lançamentos","Voltar ao topo");
+$punk_en = array("Releases","Back to the top");
+$punk_es = array("Comunicados","Volver al principio");
 $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 
 ?>
- <?php
+<?php
  //PHP para verificar qual o idioma do html
    include('../imports/idioma.php');
  ?>
- <!DOCTYPE html>
- <html lang ="<?php echo $lang?>">
-   <?php
+<!DOCTYPE html>
+<html lang="<?php echo $lang?>">
+<?php
+    $titlePagina = array('PT' => "Punk | Lançamentos", 'EN' => "Punk | Releases", 'ES' => "Punk | Lanzamientos");
    //importando o head da pagina
      include('../imports/head.php');
    ?>
 <body class="corpopunk">
     <?php
-    include('../imports/menu-secundario.php')
+    include('../imports/menu-secundario.php');
     
     ?>
-
-    <article>
-
-     <div class="container">
-        <div class="row">
-             
-            <div class="col-lg-3 col-6">
-
-
-                    <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
+    <main id="content">
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 tabindex="0" class="text-center p-4"><?php echo $punk[$ID][0] ?></h1>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-6 text-white">
- <h4>Olho Seco</h4> 
- <h5>Bostas, Fuzis e Capacetes</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
-            </div>
-    
-            <div class="col-lg-3 col-6">
-
-
-                    <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-bad-religion.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Bad Religion</h4>
+                        <h5 tabindex="0">Suffer</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-colera.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Colera</h4>
+                        <h5 tabindex="0">Tente mudar o amanha</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-6 text-white">
- <h4>Colera</h4>
- <h5>Colera</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-dk.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Dead Kennedys</h4>
+                        <h5 tabindex="0">Holiday in Cambodia</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-dri.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">D.R.I</h4>
+                        <h5 tabindex="0">Dirty Rotten Imbecilles</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-flicts.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Flicts</h4>
+                        <h5 tabindex="0">Sonhos Corrompidos</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorme ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-kaos64.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Kaos-64</h4>
+                        <h5 tabindex="0">Kaos Total</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-olhoseco.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Olho Seco</h4>
+                        <h5 tabindex="0">Bostas, Fuzis e Capacetes</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-ramones.jpg">
+                    </div>
+                    <div class="col-lg-3 col-6 text-black">
+                        <h4 tabindex="0">Ramones</h4>
+                        <h5 tabindex="0">Pet Cematery</h5>
+                        <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis.</p>
+                    </div>
+                </div>
             </div>
-    
-         
-         
-         </div>
-        
-        
+        </article>
+        <div class="skippy">
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo"><?php echo $punk[$ID][1]?></a>
         </div>
-  <div class="container">
-        <div class="row">
-             
-            <div class="col-lg-2 col-6">
-
-
-                    <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
-                </div>
-                <div class="col-lg-2 col-6 text-white">
- <h4>Menstruacao Anarquica</h4>
- <h5>M.A.</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in  mattis.</p>
-            </div>
-    
-            <div class="col-lg-2 col-6">
-
-
-                    <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
-                </div>
-                <div class="col-lg-2 col-6 text-white">
- <h4>Colera</h4>
- <h5>Vozes de protesto</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mattis.</p>
-            </div>
-    
-            <div class="col-lg-2 col-6">
-
-
-                    <img alt="#" class="img-fluid" src="../images/punk/homemulheres.jpg">
-                </div>
-                <div class="col-lg-2 col-6 text-white">
- <h4>Ratos de Porao</h4>
- <h5>Seculo Sinistro</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis.</p>
-            </div>
-    
-         
-         
-         </div>
-        
-        
-        </div>
-
-    </article>
-
-
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-
-
-
-<?php
-    include('../imports/footer-secundario.php')
+    </main>
+    <?php
+    include('../imports/footer-secundario.php');
     
     ?>
-   
 </body>
-
-
-
 </html>
