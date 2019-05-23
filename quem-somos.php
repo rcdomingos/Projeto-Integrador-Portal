@@ -14,25 +14,27 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
   include('imports/idioma.php');
 ?>
 <!DOCTYPE html>
-<html lang ="<?php echo $lang?>">
-  <?php
+<html lang="<?php echo $lang?>">
+<?php
   //importando o head da pagina
     include('imports/head.php');
   ?>
-  <body>
+
+<body>
     <!-- Menu top das paginas -->
     <?php
       include('imports/menu.php');
     ?>
     <!-- Conteúdo do pagina -->
     <!--article com as informações de cada aluno -->
-    <article class="quem-somos">
-      <div class="container">
-        <div class="row pb-2">
-          <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle" src="images/principal/karina-quem-somos.jpeg" tabindex="0" alt="<?php echo $quemsomos[$ID][0]?>">
-              <h2 class="shadow-text font-weight-bold" tabindex="0">Karina Lucindo</h2>
-              <?php
+    <main id="content">
+        <article class="quem-somos">
+            <div class="container">
+                <div class="row pb-2">
+                    <div class="text-center col-lg-4 mt-4">
+                        <img class="mb-2 rounded-circle" src="images/principal/karina-quem-somos.jpeg" tabindex="0" alt="<?php echo $quemsomos[$ID][0]?>">
+                        <h2 class="shadow-text font-weight-bold" tabindex="0">Karina Lucindo</h2>
+                        <?php
               if ($ID=='PT') {
                 echo "<p tabindex='0'>RA:2650831813014 - Desenvolvedora</p>";
                 echo '<p><a href="classica/index.php" tabindex="0">Classica</a></p>';
@@ -49,11 +51,11 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 echo "<p tabindex='0'>Karina Cavalcanti Lucindo, 18 años de edad. Estudiante de FATEC São Roque, cursando Sistemas para Internet. Responsable por la página Noticias y la sesión Clásica.</p>";
                 }
               ?>
-          </div>
-          <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle" src="images/principal/rafael-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][1]?>">
-              <h2 class="shadow-text font-weight-bold" tabindex="0">Rafael Jacome</h2>
-              <?php
+                    </div>
+                    <div class="text-center col-lg-4 mt-4">
+                        <img class="mb-2 rounded-circle" src="images/principal/rafael-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][1]?>">
+                        <h2 class="shadow-text font-weight-bold" tabindex="0">Rafael Jacome</h2>
+                        <?php
               if ($ID=='PT') {
                 echo "<p tabindex='0'>RA:2650831813022 - Desenvolvedor</p>";
                 echo '<p><a href="punk/index.php" tabindex="0">Punk/Hardcore</a></p>';
@@ -70,11 +72,11 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 echo "<p tabindex='0'>Soy Rafael Jacome, 24 años de edad, estudiante de Fatec São Roque del curso Sistemas para Internet. Mi elección de curso es debido a mi situación de pobreza. Estoy cansado de ser pobre, quiero ser muy rico, Inchalah.</p>";
                 }
               ?>
-          </div>
-          <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle" src="images/principal/reginaldo-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][2]?>">
-              <h2 class="shadow-text font-weight-bold" tabindex="0">Reginaldo Domingos</h2>
-              <?php
+                    </div>
+                    <div class="text-center col-lg-4 mt-4">
+                        <img class="mb-2 rounded-circle" src="images/principal/reginaldo-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][2]?>">
+                        <h2 class="shadow-text font-weight-bold" tabindex="0">Reginaldo Domingos</h2>
+                        <?php
               if ($ID=='PT') {
                 echo "<p tabindex='0'>RA:2650831813029 - Desenvolvedor</p>";
                 echo '<p><a href="sertanejo/index.php" tabindex="0">Sertanejo</a></p>';
@@ -91,17 +93,17 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 echo "<p tabindex='0'>Estudiante del curso de Sistemas para Internet, en la FATEC São Roque, estoy en el 2 semestre. Apreciando a desarrollar sitios para Internet. Responsable por auxiliar en el desarrollo de los javascripts y PHP del Portal.</p>";
                 }
               ?>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="quem-somos-black">
-      <div class="container">
-        <div class="row pb-2">
-          <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle" src="images/principal/renata-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][3]?>">
-              <h2 class="shadow-text font-weight-bold" tabindex="0">Renata Carrillo</h2>
-                <?php
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="quem-somos-black">
+            <div class="container">
+                <div class="row pb-2">
+                    <div class="text-center col-lg-4 mt-4">
+                        <img class="mb-2 rounded-circle" src="images/principal/renata-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][3]?>">
+                        <h2 class="shadow-text font-weight-bold" tabindex="0">Renata Carrillo</h2>
+                        <?php
                 if ($ID=='PT') {
                   echo "<p tabindex='0'>RA:2650831813024 - Desenvolvedora</p>";
                   echo '<p><a href="hip-hop/index.php" tabindex="0">Hip-Hop</a></p>';
@@ -118,11 +120,11 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 echo "<p tabindex='0'>Estudiante del segundo semestre del curso de Sistemas para Internet en la FATEC São Roque, tiene 22 años, es responsable de la parte de la creación de las páginas Hip Hop, y de la página de Cifras.</p>";
                 }
                 ?>
-          </div>
-          <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle" src="images/principal/thais-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][4]?>">
-              <h2 class="shadow-text font-weight-bold" tabindex="0">Thais Machado</h2>
-              <?php
+                    </div>
+                    <div class="text-center col-lg-4 mt-4">
+                        <img class="mb-2 rounded-circle" src="images/principal/thais-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][4]?>">
+                        <h2 class="shadow-text font-weight-bold" tabindex="0">Thais Machado</h2>
+                        <?php
               if ($ID=='PT') {
                 echo "<p tabindex='0'>RA:2650831813025 - Desenvolvedora</p>";
                 echo '<p><a href="pop/index.php" tabindex="0">Pop</a></p>';
@@ -139,11 +141,11 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 echo "<p tabindex='0'>Estudiante de Sistemas para Internet en el 2º Semestre de la Fatec - São Roque, responsable por la creación del contenido POP y de la página indicaciones en el PORTAL</p>";
                 }
               ?>
-          </div>
-          <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle" src="images/principal/victor_campos-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][5]?>">
-              <h2 class="shadow-text font-weight-bold" tabindex="0">Victor Campos</h2>
-              <?php
+                    </div>
+                    <div class="text-center col-lg-4 mt-4">
+                        <img class="mb-2 rounded-circle" src="images/principal/victor_campos-quem-somos.jpg" tabindex="0" alt="<?php echo $quemsomos[$ID][5]?>">
+                        <h2 class="shadow-text font-weight-bold" tabindex="0">Victor Campos</h2>
+                        <?php
               if ($ID=='PT') {
                 echo "<p tabindex='0'>RA:2650831813026 - Design (Mock-ups) & Desenvolvedor</p>";
                 echo '<p><a href="indie/index.php" tabindex="0">Indie</a></p>';
@@ -159,15 +161,20 @@ $quemsomos_es = array("En la imagen Karina Lucindo, uno de los desarrolladores d
                 echo "<p tabindex='0'>2º semestre de Sistemas para Internet en FATEC São Roque, formado en Diseño Gráfico, FMU-Fiam Faamtem, 22 años, es responsabilidad de crear imágenes visuales, maquetas y páginas web.</p>";
               }
               ?>
-          </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="skippy">
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
         </div>
-      </div>
-    </article>
+    </main>
     <!-- importando o footer da pagina -->
     <div class="margim-footer">
     </div>
     <?php
       include('imports/footer.php');
     ?>
-  </body>
+</body>
+
 </html>

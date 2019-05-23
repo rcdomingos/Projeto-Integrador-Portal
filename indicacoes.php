@@ -10,17 +10,18 @@ $indicacoes = array('PT' => $indicacoes_pt, 'EN' => $indicacoes_en, 'ES' => $ind
 include('imports/idioma.php');
 ?>
 <!DOCTYPE html>
-<html lang ="<?php echo $lang ?>">
-  <?php
+<html lang="<?php echo $lang ?>">
+<?php
     include('imports/head.php');
     ?>
-  <body>
+
+<body>
     <!-- Importanto menu da página -->
     <?php
     include('imports/menu.php');
     ?>
     <!-- Conteúdo do página -->
-    <main>
+    <main id="content">
         <div class="container mt-2 mb-3">
             <div class="row">
                 <div class=" mt-1 col-md-6">
@@ -62,7 +63,7 @@ include('imports/idioma.php');
                             <div class="row no-gutters caixaindiq caixa-2">
                                 <div class="col-6 col-md-4">
                                     <div>
-                                    <img src="images/principal/logo_kiss.png" alt="<?php echo $indicacoes[$ID][2] ?>" tabindex="0">
+                                        <img src="images/principal/logo_kiss.png" alt="<?php echo $indicacoes[$ID][2] ?>" tabindex="0">
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-8 texto-indiq">
@@ -94,10 +95,14 @@ include('imports/idioma.php');
                 </div>
             </div>
         </div>
+        <div class="skippy">
+            <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
+        </div>
     </main>
     <!-- Importando footer da página -->
     <?php
     include('imports/footer.php');
     ?>
 </body>
+
 </html>

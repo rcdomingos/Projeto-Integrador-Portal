@@ -49,12 +49,13 @@ if ($pagina == "sertanejo") {
   </a>
 </div>
 
+
 <header id=<?php echo $navheader ?>>
   <div class="container-fluid">
     <div class="row">
       <div class="col-6 text-center">
         <a class="navbar-brand" href="../">
-          <img src="../images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" alt="Ecletic ponto Music"> Ecletic.Music </a>
+          <img src="../images/principal/LOGO.svg" width="40" height="40" class="d-inline-block align-center" tabindex="0" alt="Logo do site Ecletic.Music. No logo, dois raios então envolta de uma palheta. No meio da palheta as iniciais E e M, que significa Ecletic.Music"> Ecletic.Music </a>
       </div>
 
       <div id="menu-secundario" class="col-3 order-first">
