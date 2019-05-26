@@ -6,10 +6,15 @@ $footer_es = array("Servicios", "Mapa del sitio", "Todos los derechos reservados
 //$footer = array($footer_pt, $footer_en);
 $footer = array('PT' => $footer_pt, 'EN' => $footer_en, 'ES' => $footer_es);
 ?>
-<div id="skippy">
+<div class="skippy">
   <a class="sr-only sr-only-focusable" href="#navprincipal">
     <div class="container">
       <span class="skiplink-text">Voltar ao menu </span>
+    </div>
+  </a>
+  <a class="sr-only sr-only-focusable" href="#topo">
+    <div class="container">
+      <span class="skiplink-text">Voltar ao topo da página</span>
     </div>
   </a>
 </div>
@@ -155,6 +160,13 @@ $footer = array('PT' => $footer_pt, 'EN' => $footer_en, 'ES' => $footer_es);
         <p tabindex="0"><small> <?php echo $footer[$ID][2] ?></small> </p>
       </div>
     </div>
+  </div>
+  <div class="skippy">
+    <a class="sr-only sr-only-focusable" href="#topo">
+      <div class="container">
+        <span class="skiplink-text">Voltar ao topo da página</span>
+      </div>
+    </a>
   </div>
 </footer>
 <!-- Importanto os scripts JAVA -->

@@ -1,8 +1,8 @@
 <?php
 //definição em PHP para alterar o idioma, OBS: USAR 0 = Pt-BR, 1 = En-US, 2 = ES
-$menu_pt = array("Home", "Noticias", "Ranking", "Cifras", "Indicações", "Quem Somos", "Contato", "Normas do Site", "Conteudo", "Menu Principal");
-$menu_en = array("Home", "News", "Ranking", "Chords", "Indications", "About Us", "Contact", "Site Rules", "Content", "Main Menu");
-$menu_es = array("Home", "Noticias", "Clasificación", "Cifras musicales", "Indicaciones", "Sobre nosotros", "Contacto", "Normas", "Contenido", "Menú principal");
+$menu_pt = array("Home", "Noticias", "Ranking", "Cifras", "Indicações", "Quem Somos", "Contato", "Normas do Site", "Conteudo", "Menu Principal", "Selecione o idioma:", "Pular para conteúdo principal", "Menu Gênero", "Fechar menu secundário", "Siga-nos nas redes sociais");
+$menu_en = array("Home", "News", "Ranking", "Chords", "Indications", "About Us", "Contact", "Site Rules", "Content", "Main Menu", "Select the language: ", "Skip to main content", "Menu Gênero", "Fechar menu secundário", "Follow us on the social networks");
+$menu_es = array("Home", "Noticias", "Clasificación", "Cifras musicales", "Indicaciones", "Sobre nosotros", "Contacto", "Normas", "Contenido", "Menú principal", "Seleccione el idioma:", "Saltar al contenido principal", "Menú Género", "Cerrar menú secundario", "Seguir en las redes sociales");
 //$menu = array($menu_pt, $menu_en);
 $menu = array('PT' => $menu_pt, 'EN' => $menu_en, 'ES' => $menu_es);
 //menu das paginas secundarias
@@ -19,38 +19,40 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
 //pegar o diretorio do arquivo atual
 $pagina = basename(dirname($_SERVER['PHP_SELF']), "/");
 // echo $pagina;
+
 if ($pagina == "sertanejo") {
-  $navheader = '"header-sert"';
+  $linha_dois = '"header-sert"';
 } elseif ($pagina == "indie") {
-  $navheader = '"header-indie"';
+  $linha_dois = '"header-indie"';
 } elseif ($pagina == "pop") {
-  $navheader = '"header-pop"';
+  $linha_dois = '"header-pop"';
 } elseif ($pagina == "classica") {
-  $navheader = '"header-classica"';
+  $linha_dois = '"header-classica"';
 } elseif ($pagina == "punk") {
-  $navheader = '"headerpunk"';
+  $linha_dois = '"headerpunk"';
 } elseif ($pagina == "hip-hop") {
-  $navheader = '"header-hip-hop"';
+  $linha_dois = '"header-hip-hop"';
 } elseif ($pagina == "jazz") {
-  $navheader = '"headerjazz"';
+  $linha_dois = '"headerjazz"';
 } else {
-  $navheader = '"navheader"';
+  $linha_dois = '"navheader"';
 }
+
+$navheader = '"navheader"';
 // echo $pagina;
 // echo $navheader;
 // echo '<nav id='.$navheader .' class="navbar navbar-light">';
 ?>
 
-<div id="skippy">
+<div div id="topo" class="skippy">
   <a class="sr-only sr-only-focusable" href="#content">
     <div class="container">
       <span class="skiplink-text">Pular para conteúdo principal</span>
     </div>
   </a>
 </div>
-
-
 <header id=<?php echo $navheader ?>>
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-6 text-center">
@@ -72,7 +74,7 @@ if ($pagina == "sertanejo") {
         <div class="side-menu-sec">
           <!-- <button onclick= "AbrirMenu()"> </button> -->
           <nav class="btn-acess" hidden="">
-            <a href="#" class="mb-4 text-right pr-4 menu-close" aria-label="Fechar menu secundario"><i class="fas fa-times"></i></a>
+            <a tabindex="-1" href="#" class="mb-4 text-right pr-4 menu-close" aria-label="Fechar menu secundario"><i class="fas fa-times"></i></a>
             <p class="mb-2 text-secondary font-weight-bold"><?php echo mb_strtoupper($menu[$ID][9], 'UTF-8') ?></p>
             <ul class="paginas">
               <li><a href="../index.php"><i class="mr-3 fas fa-home"> </i> <?php echo $menu[$ID][0] ?></a></li>
@@ -83,6 +85,7 @@ if ($pagina == "sertanejo") {
               <li><a href="../quem-somos.php"><i class="mr-3 far fa-address-card"> </i> <?php echo $menu[$ID][5] ?></a></li>
               <li><a href="../contato.php"><i class="mr-3 fas fa-phone"> </i> <?php echo $menu[$ID][6] ?></a></li>
             </ul>
+            <a class="sr-only sr-only-focusable menu-close mt-4" href="#"><small>Fechar menu</small></a>
           </nav>
         </div>
       </div>
@@ -182,3 +185,6 @@ if ($pagina == "sertanejo") {
   </nav>
 </header>
 <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
+
+
+<div id=<?php echo $linha_dois ?> class="linha_dois"></div>

@@ -1,9 +1,9 @@
 <!-- Menu top das paginas -->
 <!-- definição em PHP para alterar o idioma, OBS: USAR PT = Pt-BR EN = En-US usar a variavel $ID  para definicar a posição da linha da Matriz-->
 <?php
-$menu_pt = array("Home", "Noticias", "Ranking", "Cifras", "Indicações", "Quem Somos", "Contato", "Normas do Site", "Páginas", "Idioma:");
-$menu_en = array("Home", "News", "Ranking", "Chords", "Indications", "About Us", "Contact", "Site Rules", "Pages", "Language:");
-$menu_es = array("Home", "Noticias", "Clasificación", "Cifras musicales", "Indicaciones", "Sobre nosotros", "Contacto", "Normas", "páginas", "Idioma:");
+$menu_pt = array("Home", "Noticias", "Ranking", "Cifras", "Indicações", "Quem Somos", "Contato", "Normas do Site", "Páginas", "Idioma:", "Selecione o idioma:", "Pular para conteúdo principal", "Menu outras Páginas", "Fechar menu secundário", "Siga-nos nas redes sociais");
+$menu_en = array("Home", "News", "Ranking", "Chords", "Indications", "About Us", "Contact", "Site Rules", "Pages", "Language:", "Select the language:", "Skip to main content", "Menu other pages", "Close secondary menu", "Follow us on social networks");
+$menu_es = array("Home", "Noticias", "Clasificación", "Cifras musicales", "Indicaciones", "Sobre nosotros", "Contacto", "Normas", "páginas", "Idioma:", "Seleccione el idioma:", "Saltar al contenido principal", "Menú otras paginas", "Cerrar menú secundario", "Siguenos en las redes sociales");
 //$menu = array($menu_pt, $menu_en);
 $menu = array('PT' => $menu_pt, 'EN' => $menu_en, 'ES' => $menu_es);
 // print_r($menu);
@@ -11,15 +11,17 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
 //echo $paginaAtual;
 ?>
 <!-- links de acessibilidade para ir ao conteudo -->
-<div id="skippy">
+<div id="topo" class="skippy">
+
   <a class="sr-only sr-only-focusable" href="#idioma">
     <div class="container text-center">
-      <span class="skiplink-text">Selecione o idioma</span>
+      <span class="skiplink-text"><?php echo $menu[$ID][10] ?></span>
     </div>
   </a>
+
   <a class="sr-only sr-only-focusable" href="#content">
     <div class="container text-center">
-      <span class="skiplink-text">Pular para conteúdo principal</span>
+      <span class="skiplink-text"><?php echo $menu[$ID][11] ?></span>
     </div>
   </a>
 </div>
@@ -36,7 +38,7 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
         <!-- botão hamburgue do menu secundario com as paginas -->
         <!-- <button class="slide-menu-open" aria-expanded="false"> MENU </button> -->
         <div class="navbar-nav slide-menu-open">
-          <a href="#" class="hamburgue slide-menu-open" role="button" aria-expanded="false" aria-label="Menu outras Páginas">
+          <a href="#" class="hamburgue slide-menu-open" role="button" aria-expanded="false" aria-label="<?php echo $menu[$ID][12] ?>">
             <div class="l-um"> </div>
             <div class="l-dois"> </div>
             <div class="l-tres"> </div>
@@ -46,7 +48,7 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
         <div class="side-menu-sec">
           <!-- <button onclick= "AbrirMenu()"> </button> -->
           <nav class="btn-acess" hidden="">
-            <a href="#" class="mb-4 text-right pr-4 menu-close" c><i class="fas fa-times"></i></a>
+            <a tabindex="-1" href="#" class="mb-4 text-right pr-4 menu-close"><i class="fas fa-times"></i></a>
             <p class="mb-2 text-secondary font-weight-bold"><?php echo mb_strtoupper($menu[$ID][8], 'UTF-8') ?></p>
             <ul class="paginas">
               <li><a href="classica/index.php"><i class="mr-3 fas fa-play"></i> Classica</a></li>
@@ -57,11 +59,12 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
               <!-- <li><a href="sertanejo/index.php"><i class="mr-3 fas fa-play"></i> Sertanejo</a></li> -->
               <li><a href="jazz/index.php"><i class="mr-3 fas fa-play"></i> Jazz</a></li>
             </ul>
+            <a class="sr-only sr-only-focusable menu-close mt-4" href="#"><small>Fechar menu</small></a>
           </nav>
         </div>
       </div>
       <div id="redes-sociais" class="col-3 order-last align-top">
-        <span class="sr-only">Siga nas redes sociais</span>
+        <span tabindex="0" class="sr-only"><?php echo $menu[$ID][14] ?></span>
         <ul id="siga-desk">
           <li class="face"> <a href="https://facebook.com/EclecticMusic" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
           <li class="insta"> <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Istagran"><i class="fab fa-instagram"></i></a></li>
@@ -168,3 +171,4 @@ $paginaAtual = basename($_SERVER['SCRIPT_NAME']);
   </nav>
 </header>
 <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
+<div class="linha_um"></div>

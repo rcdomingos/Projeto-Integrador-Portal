@@ -14,23 +14,32 @@ $noticia1_pt = array("Gusttavo Lima e o sucesso do Momento", "Gusttavo Lima lan�
 $noticia2_pt = array("TITULO2", "SUBTITULO2", "images/noticias/slide/slide-01.jpg", "Foto da fulana de tal");
 $noticia3_pt = array("TITULO3", "SUBTITULO3", "LINK DA IMAGEM3", "ALT DA IMAGEM");
 $noticia4_pt = array("TITULO4", "SUBTITULO4", "LINK DA IMAGEM4", "ALT DA IMAGEM");
+$noticia5_pt = array("Daniel Realiza sonho de família em Ibiúna", "Daniel visita familia para atender desejo de garoto que queria cantar", "images/principal/home-1.jpg", "Na imagem uma mulher tira foto junto de sua família com o cantor Daniel. Todos estão sorrindo.");
+$noticia6_pt = array("KATY PERRY JÁ ESTÁ PLANEJANDO SEU PRÓXIMO ÁLBUM", "Não chame de retorno, mas estaria Katy Perry preparando um… retorno?", "images/principal/katyperry.jpg", "Na imagem a cantora Katy Perry se encontra séria. Ao fundo da imagem encontra-se uma parede branca com propagandas.");
+$noticia7_pt = array("The Strokes dá sua primeira entrevista em dez anos", "Integrantes conversaram sobre novidades da banda, Brasil e Internet", "images/principal/home-3.jpg", "Na imagem está o logo da banda The Strokes. O logo contém um círculo e o nome da banda dentro.");
 
 //Noticias em ingles
 $noticia1_en = array("Gusttavo Lima and the success of Moment", "Gusttavo Lima releases single that will be part of his new album", "images/noticias/Gustavo-Lima.jpg", "Photo of so-and-so");
 $noticia2_en = array("TITLE2", "SUBTITLEO2", "LINK DA IMAGEM2");
 $noticia3_en = array("TITLE3", "SUBTITLEO3", "LINK DA IMAGEM3");
 $noticia4_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia5_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia6_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia7_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
 
 //Noticias em espanhol
 $noticia1_es = array("Gusttavo Lima y el éxito del Momento", "Gusttavo Lima lanza single que formará parte de su nuevo álbum", "images/noticias/Gustavo-Lima.jpg", "Foto de fulano de tal");
 $noticia2_es = array("TITULOss2", "SUBTITULOs2", "LINK DA IMAGEM2");
 $noticia3_es = array("TITULOss3", "SUBTITULOs3", "LINK DA IMAGEM3");
 $noticia4_es = array("TITULOss4", "SUBTITULOs4", "LINK DA IMAGEM4");
+$noticia5_es = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia6_es = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia7_es = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
 
 // Matriz com as noticias
-$noticia_pt = array('1' => $noticia1_pt, '2' => $noticia2_pt, '3' => $noticia3_pt, '4' => $noticia4_pt,);
-$noticia_en = array('1' => $noticia1_en, '2' => $noticia2_en, '3' => $noticia3_en, '4' => $noticia4_en,);
-$noticia_es = array('1' => $noticia1_es, '2' => $noticia2_es, '3' => $noticia3_es, '4' => $noticia4_es,);
+$noticia_pt = array('1' => $noticia1_pt, '2' => $noticia2_pt, '3' => $noticia3_pt, '4' => $noticia4_pt, '5' => $noticia5_pt, '6' => $noticia6_pt, '7' => $noticia7_pt,);
+$noticia_en = array('1' => $noticia1_en, '2' => $noticia2_en, '3' => $noticia3_en, '4' => $noticia4_en, '5' => $noticia5_en, '6' => $noticia6_en, '7' => $noticia7_en,);
+$noticia_es = array('1' => $noticia1_es, '2' => $noticia2_es, '3' => $noticia3_es, '4' => $noticia4_es, '5' => $noticia5_es, '6' => $noticia6_es, '7' => $noticia7_es,);
 
 // Matriz com as noticias por idioma
 $noticia = array('PT' => $noticia_pt, 'EN' => $noticia_en, 'ES' => $noticia_es);
@@ -64,13 +73,13 @@ include('imports/head.php');
   ?>
   <!--NAV ENDS-->
 
-  <div class="container mt-3">
+  <div class="container mt-5">
     <div class="row">
       <div class="col">
         <article id="content">
           <!-- cabeçalho da noticia -->
           <header class="text-center">
-            <h1 class="display-4"><?php echo $noticia[$ID][$NTC][0] ?></h1>
+            <h1 tabindex="0" class="display-5 text-uppercase"><?php echo $noticia[$ID][$NTC][0] ?></h1>
             <p class="lead"><?php echo $noticia[$ID][$NTC][1] ?></p>
           </header>
           <!-- Imagem da noticia -->
