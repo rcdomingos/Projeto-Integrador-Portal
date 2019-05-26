@@ -1,4 +1,10 @@
 <?php
+$formulario_pt = array("Seus dados foram enviados com sucesso", "Sua mensagem foi entregue para a nossa equipe!", "Voltar", "Voltar ao topo", "Email incorreto, preencha novamente.", "Olá, ");
+$formulario_en = array("Your data was successfully sent", "Your message was delivered to our team!", "Back", "Back to the top", "Incorrect email, fill it again.", "Hello, ");
+$formulario_es = array("Sus datos se enviaron con éxito", "Su mensaje fue entregado a nuestro equipo!", "Volver", "Volver al principio", "Correo electrónico incorrecto, rellene de nuevo.", "Hola, ");
+$formulario = array('PT' => $formulario_pt, 'EN' => $formulario_en, 'ES' => $formulario_es);
+?>
+<?php
 //PHP para verificar qual o idioma do html
 include('imports/idioma.php');
 ?>
@@ -17,7 +23,7 @@ include('imports/head.php');
   <main id="content">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <title>Fomulário</title>
-    <h3 class="text-black bg-white text-center font-italic font-weight-bold mt-4">Seus dados foram enviados com sucesso</h3>
+    <h3 class="text-black bg-white text-center font-italic font-weight-bold mt-4" tabindex="0"><?php echo $formulario[$ID][0] ?></h3>
     <div class="text-center mt-2 mb-4">
       <?php
       $nome = explode(" ", $_POST['nome']);

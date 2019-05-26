@@ -1,4 +1,10 @@
 <?php
+$normas_pt = array("Voltar ao topo");
+$normas_en = array("Back to the top");
+$normas_es = array("Volver al principio");
+$normas = array('PT' => $normas_pt, 'EN' => $normas_en, 'ES' => $normas_es);
+?>
+<?php
 //PHP para verificar qual o idioma do html
 include('imports/idioma.php');
 ?>

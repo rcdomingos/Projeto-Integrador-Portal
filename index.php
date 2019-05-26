@@ -31,7 +31,6 @@ $home_es = array(
 );
 
 $home = array('PT' => $home_pt, 'EN' => $home_en, 'ES' => $home_es);
-
 //usar $ID para os Vetores
 ?>
 <?php
@@ -268,12 +267,3 @@ include('imports/head.php');
 </body>
 
 </html>
-
-
-<!-- ajustes na paginas:
-
-INDEX.PHP
-NOTICIASATUAL.PHP
-FOOTER-SECUNDARIO.PHP
-menus
--->

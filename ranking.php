@@ -89,9 +89,6 @@ include('imports/head.php');
         </div>
       </article>
     </div>
-    <div class="skippy">
-      <a class="sr-only sr-only-focusable text-light text-center" href="#topo">Voltar ao topo</a>
-    </div>
   </main>
   <!-- importando o footer da pagina -->
   <?php

@@ -674,10 +674,6 @@ img.img-destaque {
 #header-classica:hover{
   color: black;
 }
-.textohomeclassica {
-  color: lightgray;
-}
-/*Home clássica*/
 .jumbotronimagem {
   background-image: url(../images/classica/home-01.jpg);
   background-repeat: no-repeat;
@@ -685,9 +681,7 @@ img.img-destaque {
   height: 570px;
 }
 .titulo1homeclassica {
-  font-size: 60px;
-  color: white;
-  font-weight: bold;
+  font-size: 70px;
   margin-top: 150px;
 }
 .ajustandoimagenshomeclassica {
@@ -698,14 +692,6 @@ img.img-destaque {
   height: 300px;
   width: 100%;
 }
-.ajustandotitulo2homeclassica {
-  font-weight: bolder;
-  color: black;
-}
-.ajustandotitulo2homeclassica:hover {
-  color: gray;
-}
-/*Artistas da clássica*/
 .artistas1classica {
   background-image: url('../images/classica/artistas-01.jpg');
   background-repeat: no-repeat;
@@ -729,121 +715,47 @@ img.img-destaque {
 }
 .titulosartistasclassica {
   font-size: 18px;
-  font-weight: bold;
-  color: white;
   padding: 10px;
 }
-.titulosartistasclassica:hover {
-  color: gray;
-}
-#textoprincipalclassicaartistas:hover {
-  color: gray;
-}
-.textosecundarioclassicaartistas:hover {
-  color: gray;
-}
-
 #textoprincipalclassicaartistas {
-  color: white;
   font-size: 25px;
   padding: 0px 10px 0px 10px;
   margin-top: 230px;
-  font-weight: bold;
 }
 #textoprincipal2classicaartistas {
   color: gray;
   padding: 0px 10px 0px 10px;
 }
 .textosecundarioclassicaartistas {
-  color: white;
-  font-weight: bold;
   margin-top: 180px;
   padding: 0px 10px 0px 10px;
   font-size: 20px;
 }
-/*Origem da clássica*/
 .titulocorigem {
   font-size: 50px;
-  font-weight: bold;
 }
-#texto2c {
-  color: gray;
-}
-/*Destaques da clássica*/
 .numerodestaques {
   font-size: 20px;
-  color: gray;
   padding-right: 10px;
-}
-.textodestaquesc {
-  color: black;
-  font-weight: bolder;
-}
-.textodestaquesc:hover {
-  color: gray;
 }
 .linhadestaquesc {
   border-bottom: 1px lightgray solid;
   padding: 10px;
 }
-#titulodestaquesc {
-  font-size: 18px;
-  padding-left: 15px;
-  padding-top: 15px;
-  font-weight: bold;
-}
 .nomedestaquec {
   margin-bottom: 20px;
   font-size: 20px;
-  color: black;
-  font-weight:bolder;
-}
-.nomedestaquec:hover {
-  color: gray;
-}
-.textodestaquec {
-  color: gray;
 }
 .titulolista {
   font-size: 18px;
-  color: black;
-  font-weight: bolder;
   padding: 10px;
 }
 .imagemdestaquesc {
   width: 300px;
   height: 200px;
 }
-/*Lançamentos da clássica*/
-.centralizarc {
-  margin-left: auto;
-  margin-right: auto;
-}
-.titulosclancamentos {
-  font-weight: bold;
-}
-.paragrafolancamentos  {
-  text-indent: 40px;
-}
-
-/*Marcos da clássica*/
-#imagem1marcosc {
-  background-image: url('../images/classica/marcos-01.jpg');
-  height: 400px;
-  width: 100%;
-  border: 1px lightgray solid;
-  border-radius: 5px;
-}
-#blocotexto1marcos {
-  margin-top: 100px;
-  padding: 10px;
-}
-.negritotitutoc {
-  font-weight: bold;
-  color:black;
-}
-.negritotitutoc:hover{
-  color: grey;
+.imgmarcosclassica {
+    height: 600px;
 }
 /***************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
 /*NOTICIAS*/
@@ -1252,7 +1164,6 @@ p.texto-home {
 /* .container div.card-artista:nth-child(1) {
 margin-top: 50px;
 }
-
 .container div.card-artista:nth-child(3) {
     margin-top: 80px;
     } */
