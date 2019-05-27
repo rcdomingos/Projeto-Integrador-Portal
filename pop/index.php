@@ -24,7 +24,7 @@ $titlePagina = array('PT' => "Pop | Pagina Inicial", 'EN' => "Pop | Home", 'ES' 
   ?>
 
     <!-- Conteudo da pagina  -->
-    <main>
+    <main id="content">
     <article>
         <section class="container">
             <blockquote class="blockquote text-center pt-3">

@@ -17,7 +17,7 @@
   ?>
 
     <!-- Conteúdo do pagina -->
-    <main>
+    <main id="content">
     <article lang="pt-BR" class="container my-5 my-md-5 my-lg-5 my-xl-5">
                 <section class="row text-center">
                     <div class="col-lg-12">

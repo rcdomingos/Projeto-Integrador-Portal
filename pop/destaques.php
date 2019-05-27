@@ -16,7 +16,7 @@
     include('../imports/menu-secundario.php');
   ?>
     <!-- Conteudo da pagina  -->
-    <main>
+    <main id="content">
     <article>
         <div class="container my-5 my-md-5 my-lg-5 my-xl-5">
         <blockquote class="blockquote text-center">
