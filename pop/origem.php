@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
 <?php
+$titlePagina = array('PT' => "Pop | Origem", 'EN' => "Pop | Origin", 'ES' => "Pop | Fuente");
    //importando o head
      include('../imports/head.php');
    ?>
@@ -12,7 +13,6 @@
 <body>
     <!--importando o menu -->
     <?php
-    $titlePagina = array('PT' => "Pop | Origem", 'EN' => "Pop | Origin", 'ES' => "Pop | Fuente");
     include('../imports/menu-secundario.php');
   ?>
 
