@@ -25,7 +25,7 @@ include('../imports/idioma.php');
     include('../imports/menu-secundario.php');
   ?>
     <!-- Conteudo da pagina  -->
-    <main>
+    <main id="content">
         <article class="container">
             <div class="row pt-4">
                 <section class="col-lg-4 col-md-4 col-sm-12">
