@@ -52,12 +52,15 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <section class="row text-justify mt-3">
         <div class="col-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
-            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
-            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
-            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
-            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
-            sagittis, egestas tellus eget, faucibus .</p>
+          <p>Policiais comuns. Reguladores eram mais discretos, mais sinistros e muito mais perigosos. O grandalhão fez
+            mira e disparou seus dardos elétricos contra Ozob. O pós-humano se jogou no meio da multidão. A gritaria
+            aumentou, com o fogo cruzado dos dois reguladores e dos agentes do DAA, e logo ninguém sabia mais quais
+            tiros evitar, para onde fugir e quem era o principal inimigo. Um agente do DAA pegou Ozob desprevenido —
+            chutou sua nuca com o coturno, deixando o pós-humano atordoado. Ozob começou a se virar, então recebeu uma
+            pancada forte do bastão de densidade variável. A arma parecia um mero cassetete, mas era mesmo perigosa: em
+            contato com o crânio branco, o material se tornou mais duro que aço, e Ozob sentiu a pele formigar por baixo
+            da dor, então sangue escorrer. Escorou-se na multidão de corpos que, em pânico, tentavam fugir ou resistir.
+            Dois agentes do DAA estavam sobre ele. Os reguladores ainda </p>
         </div>
       </section>
 
@@ -73,12 +76,7 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <section class="row text-justify">
         <div class="col-lg-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
-            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
-            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
-            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
-            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
-            sagittis, egestas tellus eget, faucibus .</p>
+          <p>estavam longe, mas abriram caminho por entre o povo, seus olhos já brilhando com a recompensa pela morte do criminoso. — Abaixe-se! — ouviu uma voz de mulher dizer e teve reflexo suficiente apenas para fazer o que ela ordenava. Era a guarda-costas dos músicos e ela saltou por sobre a multidão, passando a um centímetro da cabeça de Ozob, sobre os dois inimigos que estavam mais perto dele. Caiu nos dois homens de armadura negra. A mulher tinha garras afiadas e rugiu como uma fera. O sangue dos dois voou na cara do pós-humano. Ela era uma visão impressionante. Alta, ombros largos, vestia roupas sumárias, vermelhas, claramente com o propósito de evidenciar seu corpo e sua ferocidade. Era musculosa e sua pele era marcada </p>
         </div>
       </section>
     </article>
@@ -120,23 +118,16 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <div class="row text-justify mt-3">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mb-3">por listras, como as de um tigre. Algo na maneira como se movimentava e no som que saíra de sua garganta sugeria um animal selvagem, algo diferente de humano. Ela tinha troféus pendurados na roupa — uma orelha e algo que parecia ser um escalpo. Suas mãos eram recobertas por metal líquido em forma de garras. Sua cabeça era raspada, coberta por tatuagens, e ela ostentava um moicano também feito de metal líquido, afiado como navalha. A guerreira enfiou os dedos pontiagudos de metal líquido na máscara de gás de um agente, </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
-            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
-            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
-            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
-            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
-            sagittis, egestas tellus eget, faucibus .</p>
+          <p>quebrando o visor e perfurando seus olhos. Puxou- -o para perto de si e desferiu uma cabeçada. O moicano penetrou no capacete e rachou o crânio, matando-o na hora. O segundo agente estava com o peito rasgado, vertendo sangue. Com braços trêmulos, apontou a escopeta para a guerreira. Três agentes do DAA vieram por outro lado, fazendo mira contra ela. — Abaixe-se! — foi a vez de Ozob dizer, e ela obedeceu. O pós-humano abriu seu sobretudo e todos que viram aquilo deixaram a boca pender. Entre agentes da polícia corporativa, reguladores e uma </p>
         </div>
       </div>
     </section>
+
+    <!-- Direitos Autorais -->
+    <?php include('texto.php'); ?>
 
   </main>
 

@@ -39,12 +39,12 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
           <h1 tabindex="0" class="display-9 mt-4 mb-0"><?php echo $indie[$ID][0]; ?></h1>
           <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small>
           </blockquote>
-          <p class="text-justify mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum
-            molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum.
-            Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue
-            tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus,
-            scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem.
-            Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+          <p class="text-justify mt-3 mb-4">preparados para problemas, mas os tiros se perderam na algazarra.
+            Gigantescos anúncios luminosos espalhados pela praça propagandeavam as maravilhas das maiores marcas de
+            computadores e robôs, de bancos apoiados por exércitos mercenários e da vida nas colônias espaciais.
+            Mulheres seminuas em imensas imagens eletrônicas se contorciam de forma sensual, aparentemente excitadas por
+            um par de tênis sendo anunciado. Um dirigível sobrevoou a praça, também exibindo anúncios animados em sua
+            superfície, fazendo propaganda ao mesmo tempo em que despejava seu holofote na multidão abaixo. </p>
         </div>
       </Section>
     </article>
@@ -95,20 +95,22 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <div class="row text-justify">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mb-3">Ozob se cobriu de novo com a touca e o sobretudo. Não podia arriscar ser reconhecido. Então
+            notou uma movimentação diferente. A poucas dezenas de metros, dois carros pararam. As pessoas começaram a
+            abrir um círculo, empurrando-se para trás. Algo mecânico começou a ser montado com rapidez no meio do espaço
+            vazio. Então os imensos luminosos da Times Square se apagaram. Um segundo depois, acenderam-se de novo,
+            mostrando a imagem de um rapaz com camiseta rasgada e jeans puído, de pé sobre um grande amplificador
+            sonoro. Ele usava um topete desgrenhado e tinha uma guitarra pendurada nos ombros. Atrás dele, um baterista.
+            A </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mb-3">seu lado, uma mulher de aparência selvagem, que parecia ser sua guarda-costas. Ozob tentou
+            olhar para o círculo vazio, por sobre as cabeças das centenas de pessoas. É claro que a cena retratada nos
+            anúncios eletrônicos era o que se passava ali, em tempo real, no espaço no meio da multidão. Então a Times
+            Square foi tomada por um som ensurdecedor, quando o amplificador explodiu em decibéis. O homem com a
+            guitarra deu um acorde e gritou: — Um, dois, três, quatro! A música começou, alta e agressiva. Os ouvidos de
+            Ozob foram invadidos pela guitarra suja, beirando o desafinado. A bateria rápida marcava um ritmo intenso.
+            No fundo, uma linha </p>
         </div>
       </div>
 
@@ -123,26 +125,33 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <div class="row text-justify">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mt-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mt-3 ">de baixo simples e ligeira — mas nenhum baixista era visível, então ele raciocinou que
+            deveria ser uma inteligência artificial rudimentar, programada para acompanhar os dois músicos. O
+            guitarrista também cantava. Era uma voz grave, nasalada, quase engraçada. Mas plena de revolta. Falando de
+            desespero, falta de oportunidades, necessidade de diversão pura e simples. A Times Square tremeu com o
+            volume, e as pessoas responderam. Os mais jovens imediatamente começaram a pular e se jogar uns contra os
+            outros. Como se aquilo estivesse combinado, como se eles apenas soubessem o que fazer. Pessoas mais velhas
+            ou apenas </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mt-3">sensíveis pareceram hipnotizadas pela melodia. Era simples, raivosa. Não era apenas barulho,
+            estranhamente convidava a dançar e acompanhar a letra. Ozob notou que sorria e abriu caminho com os
+            cotovelos para mais perto do show improvisado. Em pouco mais de dois minutos, a primeira música acabou, tão
+            súbita como tinha começado. — Eu sou Johnny Molotov — apresentou-se o guitarrista e vocalista. — E esta
+            próxima se chama A boneca das emoções. Desta vez o baterista marcou o tempo: — Um, dois, três, quatro! A
+            Times Square explodiu de novo em movimento frenético quando a multidão começou a dançar. Alguns tiravam
+            fotos dos </p>
         </div>
       </div>
     </section>
 
-    <!-- FOOTER -->
-    <?php include('../imports/footer-secundario.php'); ?>
+    <!-- Direitos Autorais -->
+    <?php include('texto.php'); ?>
+
+  </main>
+
+  <!-- FOOTER -->
+  <?php include('../imports/footer-secundario.php'); ?>
 
 </body>
 
