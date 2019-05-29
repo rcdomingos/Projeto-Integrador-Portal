@@ -10,36 +10,42 @@ if (!isset($_GET['noticia'])) {
 
 //ordem para cada noticia vetor ("TITULO", "SUBTITULO", "LINK DA IMAGEM", "ALT DA IMAGEM");
 //Noticias em Portugues
-$noticia1_pt = array("Gusttavo Lima e o sucesso do Momento", "Gusttavo Lima lança single que fará parte de seu novo álbum", "images/noticias/Gustavo-Lima.jpg", "Foto de fulano de tal");
-$noticia2_pt = array("TITULO2", "SUBTITULO2", "images/noticias/slide/slide-01.jpg", "Foto da fulana de tal");
-$noticia3_pt = array("TITULO3", "SUBTITULO3", "LINK DA IMAGEM3", "ALT DA IMAGEM");
-$noticia4_pt = array("TITULO4", "SUBTITULO4", "LINK DA IMAGEM4", "ALT DA IMAGEM");
+$noticia1_pt = array("Ariana Grande anuncia datas da <em>Sweetener World Tour</em> e por enquanto nada de Brasil", "Depois de todos os traumas que passou nos últimos meses, parece que Ariana Grande já está preparada para voltar a trabalhar.", "images/noticias/sweetener-tour.jpg", "Na Imagem,a foto esta de ponta cabeça, ariana grande está olhando serio para cima do seu lado esta escrito a frase Sweetener World Tour");
+$noticia2_pt = array("Allie X Está Melancólica E Pop Na Faixa Inédita 'Tongue Tied'", "Depois de relançar o álbum <em>CollXtion I</em> com a inédita <em>Never Enough</em>, Alexandra Hughes (melhor conhecida como Allie X) prepara novidades para os fãs neste ano.", "images/noticias/alliex.jpg", "na imagem a cantora Allie X usando óculos de sol está olhando para a frente com a mão na boca");
+$noticia3_pt = array("Arctic Monkeys anuncia show no Rio; banda é headliner do Lollapalooza 2019", "A banda britânica volta ao Brasil depois de cinco anos com a turnê do mais recente álbum", "images/noticias/arcticmonkeys.jpg", "LINK DA IMAGEM3", "ALT DA IMAGEM");
+$noticia4_pt = array("Virada Cultural 2019 terá show de Anitta e mais 70 apresentações com tradução em Libras", "'É uma forma dos surdos também pertencerem ao espaço público', diz o intérprete Ricieri Palha, que promete dançar junto.", "images/noticias/viradaCultural.jpeg", "ALT DA IMAGEM");
 $noticia5_pt = array("Daniel Realiza sonho de família em Ibiúna", "Daniel visita familia para atender desejo de garoto que queria cantar", "images/principal/home-1.jpg", "Na imagem uma mulher tira foto junto de sua família com o cantor Daniel. Todos estão sorrindo.");
 $noticia6_pt = array("KATY PERRY JÁ ESTÁ PLANEJANDO SEU PRÓXIMO ÁLBUM", "Não chame de retorno, mas estaria Katy Perry preparando um… retorno?", "images/principal/katyperry.jpg", "Na imagem a cantora Katy Perry se encontra séria. Ao fundo da imagem encontra-se uma parede branca com propagandas.");
 $noticia7_pt = array("The Strokes dá sua primeira entrevista em dez anos", "Integrantes conversaram sobre novidades da banda, Brasil e Internet", "images/principal/home-3.jpg", "Na imagem está o logo da banda The Strokes. O logo contém um círculo e o nome da banda dentro.");
+$noticia8_pt = array("Gusttavo Lima e o sucesso do Momento", "Gusttavo Lima lança single que fará parte de seu novo álbum", "images/noticias/Gustavo-Lima.jpg", "Foto de fulano de tal");
+$noticia9_pt = array("Espetáculo sobre Beethoven mistura pianista com música eletrônica", "Produção da Companhia Duplô contará com treze intérpretes no papel do compositor alemão", "images/noticias/teatro.jpg", "Foto de fulano de tal");
 
 //Noticias em ingles
-$noticia1_en = array("Gusttavo Lima and the success of Moment", "Gusttavo Lima releases single that will be part of his new album", "images/noticias/Gustavo-Lima.jpg", "Photo of so-and-so");
-$noticia2_en = array("TITLE2", "SUBTITLEO2", "LINK DA IMAGEM2");
-$noticia3_en = array("TITLE3", "SUBTITLEO3", "LINK DA IMAGEM3");
-$noticia4_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia1_en = array("Ariana Grande announces dates of the <em> Sweetener World Tour </ em> and for the time being nothing from Brazil", "After all the traumas that have passed in recent months, it seems that Ariana Grande is already prepared to return to work.", "images/noticias/sweetener-tour.jpg", "In the Image, the photo is upside-down, big Aryan is looking serious on his side is written the phrase Sweetener World Tour");
+$noticia2_en = array("Allie X Is Melancholy And Pop In The Unreleased Band 'Tongue Tied'", "After re-releasing the album <em> CollXtion I </ em> with the never-ending <em> Never Enough </ em>, Alexandra Hughes Allie X) prepares news for fans this year.",  "images/noticias/sweetener-tour.jpg", "in the image the singer Allie X wearing sunglasses is looking forward with her hand in her mouth ");
+$noticia3_en = array("Arctic Monkeys announces show in Rio; band is headliner of Lollapalooza 2019", "The British band returns to Brazil after five years with the tour of the most recent album", "images/noticias/arcticmonkeys.jpg",  "LINK DA IMAGEM3");
+$noticia4_en = array("Virada Cultural 2019 will have Anitta show and more 70 presentations with translation in Pounds", "'It's a way for the deaf to belong to the public space as well,' says the interpreter Ricieri Palha, who promises to dance together.", "images/noticias/viradaCultural.jpeg", "LINK DA IMAGEM4");
 $noticia5_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
 $noticia6_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
 $noticia7_en = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia8_en = array("Gusttavo Lima and the success of Moment", "Gusttavo Lima releases single that will be part of his new album", "images/noticias/Gustavo-Lima.jpg", "Photo of so-and-so");
+$noticia9_en = array("Show about Beethoven mixes pianist with electronic music", "Production of the Duplô Company will feature thirteen interpreters in the role of the German composer", "images/noticias/teatro.jpg", "Photo of so-and-so");
 
 //Noticias em espanhol
-$noticia1_es = array("Gusttavo Lima y el éxito del Momento", "Gusttavo Lima lanza single que formará parte de su nuevo álbum", "images/noticias/Gustavo-Lima.jpg", "Foto de fulano de tal");
-$noticia2_es = array("TITULOss2", "SUBTITULOs2", "LINK DA IMAGEM2");
-$noticia3_es = array("TITULOss3", "SUBTITULOs3", "LINK DA IMAGEM3");
-$noticia4_es = array("TITULOss4", "SUBTITULOs4", "LINK DA IMAGEM4");
+$noticia1_es = array("Ariana Grande anuncia fechas de la <em> Sweetener World Tour</em> y por ahora nada de Brasil", "Después de todos los traumas que ha pasado en los últimos meses, parece que Ariana Grande ya está preparada para volver a trabajar.", "images/noticias/sweetener-tour.jpg", "En la imagen, la foto esta de punta cabeza, aria grande está mirando serio hacia arriba de su lado esta escrito la frase Sweetener World Tour");
+$noticia2_es = array("Allie X está melancólica y pop en la banda 'Tongue Tied'", "Después de relanzar el álbum <en> CollXtion I </ em> con la inédita <em> Never Enough </ em>, Alexandra Hughes (mejor conocida como Allie X) prepara las novedades para los fans este año.",  "images/noticias/sweetener-tour.jpg", " en la imagen la cantante Allie X con gafas de sol está mirando adelante con la mano en la boca");
+$noticia3_es = array("Arctic Monkeys anuncia show en Río; La banda es headliner del Lollapalooza 2019", "La banda británica regresa a Brasil después de cinco años con la gira del último álbum", "images/noticias/arcticmonkeys.jpg", "LINK DA IMAGEM3");
+$noticia4_es = array("Virada Cultural 2019 Anitta mostrar y más de 70 presentaciones con Libras traducción", "'Es una forma de los sordos también pertenecer al espacio público', dice el intérprete Ricieri Paja, que promete bailar juntos.", "images/noticias/viradaCultural.jpeg", "LINK DA IMAGEM4");
 $noticia5_es = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
 $noticia6_es = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
 $noticia7_es = array("TITLE4", "SUBTITLEO4", "LINK DA IMAGEM4");
+$noticia8_es = array("Gusttavo Lima y el éxito del Momento", "Gusttavo Lima lanza single que formará parte de su nuevo álbum", "images/noticias/Gustavo-Lima.jpg", "Foto de fulano de tal");
+$noticia9_es = array("Espectáculo sobre Beethoven mezcla pianista con música electrónica", "Producción de la Compañía Duplô contará con trece intérpretes en el papel del compositor alemán", "images/noticias/teatro.jpg", "Foto de fulano de tal");
 
 // Matriz com as noticias
-$noticia_pt = array('1' => $noticia1_pt, '2' => $noticia2_pt, '3' => $noticia3_pt, '4' => $noticia4_pt, '5' => $noticia5_pt, '6' => $noticia6_pt, '7' => $noticia7_pt,);
-$noticia_en = array('1' => $noticia1_en, '2' => $noticia2_en, '3' => $noticia3_en, '4' => $noticia4_en, '5' => $noticia5_en, '6' => $noticia6_en, '7' => $noticia7_en,);
-$noticia_es = array('1' => $noticia1_es, '2' => $noticia2_es, '3' => $noticia3_es, '4' => $noticia4_es, '5' => $noticia5_es, '6' => $noticia6_es, '7' => $noticia7_es,);
+$noticia_pt = array('1' => $noticia1_pt, '2' => $noticia2_pt, '3' => $noticia3_pt, '4' => $noticia4_pt, '5' => $noticia5_pt, '6' => $noticia6_pt, '7' => $noticia7_pt, '8' => $noticia8_pt, '9' => $noticia9_pt,);
+$noticia_en = array('1' => $noticia1_en, '2' => $noticia2_en, '3' => $noticia3_en, '4' => $noticia4_en, '5' => $noticia5_en, '6' => $noticia6_en, '7' => $noticia7_en, '8' => $noticia8_en, '9' => $noticia9_en,);
+$noticia_es = array('1' => $noticia1_es, '2' => $noticia2_es, '3' => $noticia3_es, '4' => $noticia4_es, '5' => $noticia5_es, '6' => $noticia6_es, '7' => $noticia7_es, '8' => $noticia8_es, '9' => $noticia9_es,);
 
 // Matriz com as noticias por idioma
 $noticia = array('PT' => $noticia_pt, 'EN' => $noticia_en, 'ES' => $noticia_es);
@@ -137,10 +143,3 @@ include('imports/head.php');
 </body>
 
 </html>
-
-<!-- Ajuste nas paginas 
-noticiaAtual;
-head
-meta-social-noticia; 
-
--->

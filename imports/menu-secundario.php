@@ -104,11 +104,11 @@ $navheader = '"navheader"';
   <nav id="navprincipal">
     <ul class="nav nav-justified">
       <li class="nav-item">
-        <a href="index.php" title="Home <?php echo $pagina ?>" <?php if ($paginaAtual == 'index.php') {
-                                                                  echo 'class="nav-link paginaAtual  disabled"';
-                                                                } else {
-                                                                  echo 'class="nav-link"';
-                                                                } ?>>
+        <a href="index.php" <?php if ($paginaAtual == 'index.php') {
+                              echo 'class="nav-link paginaAtual  disabled"';
+                            } else {
+                              echo 'class="nav-link"';
+                            } ?>>
           <span class="menu-icon"><i class="fas fa-home "></i></span>
           <span class="menu-text"> <?php echo ucwords($pagina) ?></span>
           <?php if ($paginaAtual == 'index.php') {
@@ -117,11 +117,11 @@ $navheader = '"navheader"';
         </a>
       </li>
       <li class="nav-item">
-        <a href="artistas.php" title="<?php echo $menu_sec[$ID][0] ?>" <?php if ($paginaAtual == 'artistas.php') {
-                                                                          echo 'class="nav-link paginaAtual disabled"';
-                                                                        } else {
-                                                                          echo 'class="nav-link"';
-                                                                        } ?>>
+        <a href="artistas.php" <?php if ($paginaAtual == 'artistas.php') {
+                                  echo 'class="nav-link paginaAtual disabled"';
+                                } else {
+                                  echo 'class="nav-link"';
+                                } ?>>
           <span class="menu-icon"><i class="fas fa-microphone-alt"></i></span>
           <span class="menu-text"><?php echo $menu_sec[$ID][0] ?></span>
           <?php if ($paginaAtual == 'artistas.php') {
@@ -130,11 +130,11 @@ $navheader = '"navheader"';
         </a>
       </li>
       <li class="nav-item">
-        <a href="origem.php" title="<?php echo $menu_sec[$ID][1] ?>" <?php if ($paginaAtual == 'origem.php') {
-                                                                        echo 'class="nav-link paginaAtual disabled"';
-                                                                      } else {
-                                                                        echo 'class="nav-link"';
-                                                                      } ?>>
+        <a href="origem.php" <?php if ($paginaAtual == 'origem.php') {
+                                echo 'class="nav-link paginaAtual disabled"';
+                              } else {
+                                echo 'class="nav-link"';
+                              } ?>>
           <span class="menu-icon"><i class="fas fa-book-open"></i> </span>
           <span class="menu-text"><?php echo $menu_sec[$ID][1] ?></span>
           <?php if ($paginaAtual == 'origem.php') {
@@ -143,11 +143,11 @@ $navheader = '"navheader"';
         </a>
       </li>
       <li class="nav-item">
-        <a href="lancamentos.php" title="<?php echo $menu_sec[$ID][2] ?>" <?php if ($paginaAtual == 'lancamentos.php') {
-                                                                            echo 'class="nav-link paginaAtual disabled"';
-                                                                          } else {
-                                                                            echo 'class="nav-link"';
-                                                                          } ?>>
+        <a href="lancamentos.php" <?php if ($paginaAtual == 'lancamentos.php') {
+                                    echo 'class="nav-link paginaAtual disabled"';
+                                  } else {
+                                    echo 'class="nav-link"';
+                                  } ?>>
           <span class="menu-icon"><i class="fab fa-itunes-note"></i> </span>
           <span class="menu-text"><?php echo $menu_sec[$ID][2] ?></span>
           <?php if ($paginaAtual == 'lancamentos.php') {
@@ -156,11 +156,11 @@ $navheader = '"navheader"';
         </a>
       </li>
       <li class="nav-item">
-        <a href="destaques.php" title="<?php echo $menu_sec[$ID][3] ?>" <?php if ($paginaAtual == 'destaques.php') {
-                                                                          echo 'class="nav-link paginaAtual disabled"';
-                                                                        } else {
-                                                                          echo 'class="nav-link"';
-                                                                        } ?>>
+        <a href="destaques.php" <?php if ($paginaAtual == 'destaques.php') {
+                                  echo 'class="nav-link paginaAtual disabled"';
+                                } else {
+                                  echo 'class="nav-link"';
+                                } ?>>
           <span class="menu-icon"><i class="fas fa-clipboard-list"></i></span>
           <span class="menu-text"><?php echo $menu_sec[$ID][3] ?></span>
           <?php if ($paginaAtual == 'destaques.php') {
@@ -169,11 +169,11 @@ $navheader = '"navheader"';
         </a>
       </li>
       <li class="nav-item">
-        <a href="marcos.php" title="<?php echo $menu_sec[$ID][4] ?>" <?php if ($paginaAtual == 'marcos.php') {
-                                                                        echo 'class="nav-link paginaAtual disabled"';
-                                                                      } else {
-                                                                        echo 'class="nav-link"';
-                                                                      } ?>>
+        <a href="marcos.php" <?php if ($paginaAtual == 'marcos.php') {
+                                echo 'class="nav-link paginaAtual disabled"';
+                              } else {
+                                echo 'class="nav-link"';
+                              } ?>>
           <span class="menu-icon"><i class="fas fa-bookmark"></i></span>
           <span class="menu-text"><?php echo $menu_sec[$ID][4] ?></span>
           <?php if ($paginaAtual == 'marcos.phpp') {

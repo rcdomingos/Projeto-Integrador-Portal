@@ -1,11 +1,11 @@
 <?php
 $contato_pt = array(
   "Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", "Formulario", "Clique e Preencha",
-  "Endereço de email", "Nome", "Sobrenome", "Enviar", "Limpar", "Seu email", "Desenho representativo de uma pessoa."
+  "Endereço de email", "Nome", "Sobrenome", "Enviar", "Limpar", "Seu E-mail", "Desenho representativo de uma pessoa."
 );
 $contato_en = array(
   "Music Portal", "Contact Us", "Telephone", "Message", "Form", "Click and Fill in",
-  "Email Address", "First Name", "Last Name", "Send", "Clear", "Your email", "Representative drawing of a person."
+  "Email Address", "First Name", "Last Name", "Send", "Clear", "Your E-mail", "Representative drawing of a person."
 );
 $contato_es = array(
   "Portal de Musica", "Contáctenos", "Teléfono", "Mensaje", "Formulario", "Haga Clic y Rellene",
@@ -113,21 +113,21 @@ include('imports/head.php');
           <form class="collapse" id="fomulario" name="formulario" method="post" action="formulario.php">
             <div class=" form-group">
               <label for="email" class="text-white"><?php echo $contato[$ID][6]; ?></label>
-              <input type="email" class="form-control" name="email" placeholder="<?php echo $contato[$ID][11]; ?>">
+              <input type="email" class="form-control" name="email" aria-label="Campo Digite seu e-mail" placeholder="<?php echo $contato[$ID][11]; ?>">
             </div>
             <div class="form-row">
               <div class="col">
                 <label for="nome" class="text-white"><?php echo $contato[$ID][7]; ?></label>
-                <input type="text" class="form-control" name="nome" placeholder="<?php echo $contato[$ID][7]; ?>">
+                <input type="text" class="form-control" name="nome" aria-label="Campo Digite seu nome" placeholder="<?php echo $contato[$ID][7]; ?>">
               </div>
               <div class="col">
                 <label for="sobrenome" class="text-white"><?php echo $contato[$ID][8]; ?></label>
-                <input type="text" class="form-control" name="sobrenome" placeholder="<?php echo $contato[$ID][8]; ?>">
+                <input type="text" class="form-control" name="sobrenome" aria-label="Campo Digite seu sobrenome" placeholder="<?php echo $contato[$ID][8]; ?>">
               </div>
             </div>
             <div class="form-group mt-3">
               <label for="mensagem" class="text-white"><?php echo $contato[$ID][3]; ?></label>
-              <textarea name="mensagem" class="form-control" rows="3"> </textarea>
+              <textarea name="mensagem" class="form-control" aria-label="Campo Digite sua Mensagem" rows="3"> </textarea>
             </div>
             <div class="form-group">
               <button type="submit" class="btn btn-primary" name="btn-enviar" aria-label="Enviar o Formulário"><?php echo $contato[$ID][9]; ?></button>
