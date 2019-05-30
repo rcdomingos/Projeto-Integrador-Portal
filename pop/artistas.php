@@ -29,19 +29,19 @@ include('../imports/idioma.php');
         <article class="container">
             <div class="row pt-4">
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                <img tabindex="0"class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                     <h2 tabindex="0"class="display-9 mb-0 text-center">Lady Gaga</h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Stefani Joanne Angelina Germanotta</small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop[$ID][0]?></p>  
                 </section>
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/justin-art.jpg" alt="Foto do cantor Justin Bieber em premiação">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/justin-art.jpg" alt="Foto do cantor Justin Bieber em premiação">
                     <h2 tabindex="0"class="display-9 mb-0 text-center">Justin Bieber</h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Justin Drew Bieber</small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop[$ID][1]?></p>
                 </section>
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/rihanna-art.jpg" alt="Foto da cantora Rihanna para sua capa de album de 2019">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/rihanna-art.jpg" alt="Foto da cantora Rihanna para sua capa de album de 2019">
                     <h2 tabindex="0"class="display-9 mb-0 text-center">Rihanna</h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Robyn Rihanna Fenty</small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop [$ID][2]?></p> 
@@ -50,19 +50,19 @@ include('../imports/idioma.php');
 
                 <div class="row pt-4">
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                     <h2 tabindex="0" class="display-9 mb-0 text-center">Lady Gaga</h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Stefani Joanne Angelina Germanotta</small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop[$ID][0]?></p>  
                 </section>
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/justin-art.jpg" alt="Foto do cantor Justin Bieber em premiação">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/justin-art.jpg" alt="Foto do cantor Justin Bieber em premiação">
                     <h2 tabindex="0" class="display-9 mb-0 text-center">Justin Bieber</h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Justin Drew Bieber</small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop[$ID][1]?></p>
                 </section>
                 <section class="col-lg-4 col-md-4 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/rihanna-art.jpg" alt="Foto da cantora Rihanna para sua capa de album de 2019">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/rihanna-art.jpg" alt="Foto da cantora Rihanna para sua capa de album de 2019">
                     <h2 tabindex="0" class="display-9 mb-0 text-center">Rihanna</h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted">Robyn Rihanna Fenty</small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop [$ID][2]?></p> 
