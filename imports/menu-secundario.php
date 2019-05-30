@@ -44,7 +44,7 @@ $navheader = '"navheader"';
 // echo '<nav id='.$navheader .' class="navbar navbar-light">';
 ?>
 
-<div div id="topo" class="skippy">
+<div id="topo" class="skippy">
   <a class="sr-only sr-only-focusable" href="#content">
     <div class="container">
       <span class="skiplink-text">Pular para conteúdo principal</span>

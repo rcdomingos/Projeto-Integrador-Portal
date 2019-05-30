@@ -45,223 +45,172 @@ include('imports/head.php');
 ?>
 
 <body>
-  <!-- Menu top das paginas -->
-  <?php
+    <!-- Menu top das paginas -->
+    <?php
   include('imports/menu.php');
   ?>
-  <!-- Conteúdo do pagina -->
-  <main id="content">
-    <div class="container">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators my-carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <article class="carousel-item active">
-            <div class="first-slide slide-carrocel slide-1"></div>
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1 tabindex="0"><?php echo $home[$ID][0] ?></h1>
-                <p><?php echo $home[$ID][1] ?></p>
-                <p><?php echo $home[$ID][2] ?></p>
-              </div>
-            </div>
-          </article>
-          <section class="carousel-item">
-            <div class="second-slide slide-carrocel slide-2"></div>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1 tabindex="0"><?php echo $home[$ID][3] ?></h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-sm btn-outline-light" href="<?php echo "ranking.php" ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
-              </div>
-            </div>
-          </section>
-          <section class="carousel-item">
-            <div class="third-slide slide-carrocel slide-3"></div>
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1 tabindex="0"><?php echo $home[$ID][4] ?></h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-sm btn-outline-light" href="<?php echo "indicacoes.php" ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
-              </div>
-            </div>
-          </section>
-          <section class="carousel-item">
-            <div class="four-slide slide-carrocel slide-4"></div>
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1 tabindex="0"><?php echo $home[$ID][5] ?></h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ,ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-sm btn-outline-light" href="<?php echo "cifras.php" ?>" role="button" tabindex="-1"><?php echo $home[$ID][6] ?></a></p>
-              </div>
-            </div>
-          </section>
-        </div>
-        <a tabindex="0" class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a tabindex="0" class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-
-      </div>
-    </div>
-    <div class="container mt-5">
-      <!-- As colun com os testos das Noticias -->
-      <aside class="art-home mt-3">
-        <div class="row">
-          <div class="col">
-            <h2 tabindex="0"><?php echo $home[$ID][7] ?></h2>
-            <p><a href="<?php echo "noticias.php" ?>" tabindex="0"><?php echo $home[$ID][8] ?></a></p>
-          </div>
-        </div>
-        <div class="row text-center home-geral">
-          <div class="col-12 col-lg-4">
-            <a href="./noticiaAtual.php?noticia=5"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt='<?php echo $home[$ID][23] ?>'></a>
-            <h2 tabindex="0"><?php echo $home[$ID][9] ?></h2>
-            <p tabindex="0">Daniel visita familia para atender desejo de garoto que sonha em ser cantor sertanejo. <span class="badge badge-info" tabindex="0"><?php echo $home[$ID][12] ?></span></p>
-          </div>
-          <div class="col-12 col-lg-4">
-            <a href="./noticiaAtual.php?noticia=6"><img class="rounded img-fluid" src="images/principal/katyperry.jpg" alt='<?php echo $home[$ID][24] ?>'></a>
-            <h2 tabindex="0"><?php echo $home[$ID][10] ?></h2>
-            <p tabindex="0">Não chame de retorno, mas estaria Katy Perry preparando um… retorno?.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
-          </div>
-          <div class="col-12 col-lg-4">
-            <a href="./noticiaAtual.php?noticia=7"><img class="rounded img-fluid" src="images/principal/home-3.jpg" alt='<?php echo $home[$ID][25] ?>'></a>
-            <h2 tabindex="0"><?php echo $home[$ID][11] ?></h2>
-            <p tabindex="0">Integrantes conversaram sobre novidades da banda, Brasil e Internet.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
-          </div>
-        </div>
-      </aside>
-    </div><!-- /.container -->
-    <div class="container mt-5">
-      <div class="row">
-        <!--Section com o resumo dos rankings -->
-        <div class="col-lg-4 mt-2">
-          <section class="rank p-3 mb-5 rounded">
+    <!-- Conteúdo do pagina -->
+    <main id="content">
+            <article class="home-principal">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-light text-center mt-5">
+                            <h1 tabindex="0" id="texto1home"><strong><?php echo $home[$ID][0] ?></strong></h1>
+                            <p  tabindex="0" id="texto2home"><?php echo $home[$ID][1] ?></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        <div class="container mt-5">
+            <!-- As colun com os testos das Noticias -->
+            <aside class="art-home mt-3">
+                <div class="row">
+                    <div class="col">
+                        <h2 tabindex="0"><?php echo $home[$ID][7] ?></h2>
+                        <p><a href="<?php echo "noticias.php" ?>" tabindex="0"><?php echo $home[$ID][8] ?></a></p>
+                    </div>
+                </div>
+                <div class="row text-center home-geral">
+                    <div class="col-12 col-lg-4">
+                        <a href="./noticiaAtual.php?noticia=5"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt='<?php echo $home[$ID][23] ?>'></a>
+                        <h2 tabindex="0"><?php echo $home[$ID][9] ?></h2>
+                        <p tabindex="0">Daniel visita familia para atender desejo de garoto que sonha em ser cantor sertanejo. <span class="badge badge-info" tabindex="0"><?php echo $home[$ID][12] ?></span></p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <a href="./noticiaAtual.php?noticia=6"><img class="rounded img-fluid" src="images/principal/katyperry.jpg" alt='<?php echo $home[$ID][24] ?>'></a>
+                        <h2 tabindex="0"><?php echo $home[$ID][10] ?></h2>
+                        <p tabindex="0">Não chame de retorno, mas estaria Katy Perry preparando um… retorno?.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <a href="./noticiaAtual.php?noticia=7"><img class="rounded img-fluid" src="images/principal/home-3.jpg" alt='<?php echo $home[$ID][25] ?>'></a>
+                        <h2 tabindex="0"><?php echo $home[$ID][11] ?></h2>
+                        <p tabindex="0">Integrantes conversaram sobre novidades da banda, Brasil e Internet.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
+                    </div>
+                </div>
+            </aside>
+        </div><!-- /.container -->
+        <div class="container mt-5">
             <div class="row">
-              <div class="col">
-                <h2 class="h4 text-center" tabindex="0"><?php echo $home[$ID][14] ?></h2>
-              </div>
+                <!--Section com o resumo dos rankings -->
+                <div class="col-lg-4 mt-2">
+                    <section class="rank p-3 mb-5 rounded">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="h4 text-center" tabindex="0"><?php echo $home[$ID][14] ?></h2>
+                            </div>
+                        </div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-5">
+                                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][26] ?>'>
+                                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][20] ?></p>
+                            </div>
+                            <div class="col-7">
+                                <ol tabindex="0">
+                                    <li class="r-item">Lorem ipsum dolor sit amet</li>
+                                    <li class="r-item">Consectetur adipiscing elit</li>
+                                    <li class="r-item">Suspendisse aliquam felis</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-5">
+                                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][28] ?>'>
+                                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][21] ?></p>
+                            </div>
+                            <div class="col-7">
+                                <ol tabindex="0">
+                                    <li class="r-item">Dui sodales euismod</li>
+                                    <li class="r-item">Vestibulum mollis justo</li>
+                                    <li class="r-item">At tortor suscipit</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-5">
+                                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][29] ?>'>
+                                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][22] ?></p>
+                            </div>
+                            <div class="col-7">
+                                <ol tabindex="0">
+                                    <li class="r-item">In viverra libero laoreet</li>
+                                    <li class="r-item">Integer sit amet massa</li>
+                                    <li class="r-item">Molestie tortor non</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p><a href="<?php echo "ranking.php" ?>" tabindex="0"><?php echo $home[$ID][15] ?></a></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- section com as sugestões de musicas -->
+                <div class="col-lg-8">
+                    <div class="row">
+                        <section class="home-indica">
+                            <div class="container-fluid">
+                                <h2 tabindex="0"><?php echo $home[$ID][16] ?></h2>
+                                <p><a href="<?php echo "indicacoes.php" ?>" tabindex="0"><?php echo $home[$ID][17] ?></a></p>
+                                <!-- Linha 1 da sugestão -->
+                                <div class="row justify-content-md-center text-center">
+                                    <div class="col-6 col-md-4">
+                                        <img tabindex="0" class="rounded img-fluid" src="images/hip-hop/home4.jpg" alt='<?php echo $home[$ID][30] ?>'>
+                                        <p tabindex="0">The Weeknd</p>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                        <img tabindex="0" class="rounded img-fluid" src="images/principal/home-ladygaga.jpg" alt='<?php echo $home[$ID][31] ?>'>
+                                        <p tabindex="0">Lady Gaga</p>
+                                    </div>
+                                    <div class="no-display col-6 col-md-4">
+                                        <img tabindex="0" class="rounded img-fluid" src="images/indie/imagine-dragons-destaques.jpg" alt='<?php echo $home[$ID][32] ?>'>
+                                        <p tabindex="0">Imagine Dragons</p>
+                                    </div>
+                                </div>
+                                <!-- Linha 2 da sugestão -->
+                                <div class="row justify-content-md-center align-items-center text-center">
+                                    <div class="col-6 col-md-4">
+                                        <img tabindex="0" class="rounded img-fluid" src="images/jazz/milesDavis.jpg" alt='<?php echo $home[$ID][33] ?>'>
+                                        <p tabindex="0">Miles Davis</p>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                        <img tabindex="0" class="rounded img-fluid" src="images/sertanejo/lancamento-01.jpg" alt='<?php echo $home[$ID][34] ?>'>
+                                        <p tabindex="0">Luan Santana</p>
+                                    </div>
+                                    <div class="no-display col-6 col-md-4">
+                                        <img tabindex="0" class="rounded img-fluid" src="images/principal/home-8.jpg" alt='<?php echo $home[$ID][35] ?>'>
+                                        <p tabindex="0">Zé Neto e Cristiano</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row no-gutters mb-md-4 mb-lg-0">
+                        <div class="col-12">
+                            <section class="playlists">
+                                <h3 tabindex="0"><?php echo $home[$ID][18] ?></h3>
+                                <p tabindex="0"><?php echo $home[$ID][19] ?></p>
+                                <div class="row text-center">
+                                    <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+                                        <a href="https://www.spotify.com/br" target="_blank">
+                                            <img class="rounded img-fluid" src="images/principal/spotify.jpg" alt='<?php echo $home[$ID][36] ?>'>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+                                        <a href="https://www.deezer.com/br/" target="_blank">
+                                            <img class="rounded img-fluid" src="images/principal/deezer.jpg" alt='<?php echo $home[$ID][37] ?>'>
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row no-gutters align-items-center">
-              <div class="col-5">
-                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][26] ?>'>
-                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][20] ?></p>
-              </div>
-              <div class="col-7">
-                <ol tabindex="0">
-                  <li class="r-item">Lorem ipsum dolor sit amet</li>
-                  <li class="r-item">Consectetur adipiscing elit</li>
-                  <li class="r-item">Suspendisse aliquam felis</li>
-                </ol>
-              </div>
-            </div>
-            <div class="row no-gutters align-items-center">
-              <div class="col-5">
-                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][28] ?>'>
-                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][21] ?></p>
-              </div>
-              <div class="col-7">
-                <ol tabindex="0">
-                  <li class="r-item">Dui sodales euismod</li>
-                  <li class="r-item">Vestibulum mollis justo</li>
-                  <li class="r-item">At tortor suscipit</li>
-                </ol>
-              </div>
-            </div>
-            <div class="row no-gutters align-items-center">
-              <div class="col-5">
-                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][29] ?>'>
-                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][22] ?></p>
-              </div>
-              <div class="col-7">
-                <ol tabindex="0">
-                  <li class="r-item">In viverra libero laoreet</li>
-                  <li class="r-item">Integer sit amet massa</li>
-                  <li class="r-item">Molestie tortor non</li>
-                </ol>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <p><a href="<?php echo "ranking.php" ?>" tabindex="0"><?php echo $home[$ID][15] ?></a></p>
-              </div>
-            </div>
-          </section>
         </div>
-        <!-- section com as sugestões de musicas -->
-        <div class="col-lg-8">
-          <div class="row">
-            <section class="home-indica">
-              <div class="container-fluid">
-                <h2 tabindex="0"><?php echo $home[$ID][16] ?></h2>
-                <p><a href="<?php echo "indicacoes.php" ?>" tabindex="0"><?php echo $home[$ID][17] ?></a></p>
-                <!-- Linha 1 da sugestão -->
-                <div class="row justify-content-md-center text-center">
-                  <div class="col-6 col-md-4">
-                    <img tabindex="0" class="rounded img-fluid" src="images/hip-hop/home4.jpg" alt='<?php echo $home[$ID][30] ?>'>
-                    <p tabindex="0">The Weeknd</p>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <img tabindex="0" class="rounded img-fluid" src="images/principal/home-ladygaga.jpg" alt='<?php echo $home[$ID][31] ?>'>
-                    <p tabindex="0">Lady Gaga</p>
-                  </div>
-                  <div class="no-display col-6 col-md-4">
-                    <img tabindex="0" class="rounded img-fluid" src="images/indie/imagine-dragons-destaques.jpg" alt='<?php echo $home[$ID][32] ?>'>
-                    <p tabindex="0">Imagine Dragons</p>
-                  </div>
-                </div>
-                <!-- Linha 2 da sugestão -->
-                <div class="row justify-content-md-center align-items-center text-center">
-                  <div class="col-6 col-md-4">
-                    <img tabindex="0" class="rounded img-fluid" src="images/jazz/milesDavis.jpg" alt='<?php echo $home[$ID][33] ?>'>
-                    <p tabindex="0">Miles Davis</p>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <img tabindex="0" class="rounded img-fluid" src="images/sertanejo/lancamento-01.jpg" alt='<?php echo $home[$ID][34] ?>'>
-                    <p tabindex="0">Luan Santana</p>
-                  </div>
-                  <div class="no-display col-6 col-md-4">
-                    <img tabindex="0" class="rounded img-fluid" src="images/principal/home-8.jpg" alt='<?php echo $home[$ID][35] ?>'>
-                    <p tabindex="0">Zé Neto e Cristiano</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="row no-gutters mb-md-4 mb-lg-0">
-            <div class="col-12">
-              <section class="playlists">
-                <h3 tabindex="0"><?php echo $home[$ID][18] ?></h3>
-                <p tabindex="0"><?php echo $home[$ID][19] ?></p>
-                <div class="row text-center">
-                  <div class="col-12 col-sm-6 mb-3 mb-sm-0">
-                    <a href="https://www.spotify.com/br" target="_blank">
-                      <img class="rounded img-fluid" src="images/principal/spotify.jpg" alt='<?php echo $home[$ID][36] ?>'>
-                    </a>
-                  </div>
-                  <div class="col-12 col-sm-6 mb-3 mb-sm-0">
-                    <a href="https://www.deezer.com/br/" target="_blank">
-                      <img class="rounded img-fluid" src="images/principal/deezer.jpg" alt='<?php echo $home[$ID][37] ?>'>
-                    </a>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  <!-- importando o footer da pagina -->
-  <?php
+    </main>
+    <!-- importando o footer da pagina -->
+    <?php
   include('imports/footer.php');
   ?>
 </body>

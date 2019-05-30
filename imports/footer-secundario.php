@@ -157,7 +157,7 @@ $footer = array('PT' => $footer_pt, 'EN' => $footer_en, 'ES' => $footer_es);
     </div>
     <div class="row copy">
       <div class="col-12">
-        <p tabindex="0" tabindex="0"><small> <?php echo $footer[$ID][2] ?></small> </p>
+        <p tabindex="0"><small> <?php echo $footer[$ID][2] ?></small> </p>
       </div>
     </div>
   </div>
