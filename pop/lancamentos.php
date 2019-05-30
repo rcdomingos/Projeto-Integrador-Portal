@@ -16,7 +16,7 @@ $titlePagina = array('PT' => "Pop | Lançamentos", 'EN' => "Pop | Releases", 'ES
     include('../imports/menu-secundario.php');
   ?>
     <!-- Conteudo da pagina  -->
-    <main>
+    <main id="content">
     <article class="container">
       <div class="row text-center">
           <div class="col-lg-12">

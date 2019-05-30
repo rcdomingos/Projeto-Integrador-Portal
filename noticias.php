@@ -1,7 +1,28 @@
 <?php
-$noticias_pt = array("Quentinhas", "Curiosidades", "Novidades", "Na imagem várias pessoas estão dançando em uma balada", "Há 2 horas atrás", "Na imagem um clarinete está em cima de um livro de partituras", "Há 1 dia atrás");
-$noticias_en = array("Hot news", "Curiosities", "News", "In the picture many people are dancing in a night club", "2 hours ago", "In the picture one clarinet is on a book of partiture", "1 day ago");
-$noticias_es = array("Noticias calientes", "Curiosidades", "Noticias", "En la imagen varias personas están bailando en una balada", "Hace 2 horas", "En la foto un clarinete está en un libro de partituras", "Hace 1 día");
+$noticias_pt = array(
+  "Quentinhas", "Curiosidades", "Novidades", "Na imagem várias pessoas estão dançando em uma balada", "Há 2 horas atrás",
+  "Na imagem um clarinete está em cima de um livro de partituras", "Há 1 dia atrás", "Ariana Grande anuncia datas da <em>'Sweetener World Tour'</em> e por enquanto nada de Brasil",
+  "Depois de todos os traumas que passou nos últimos meses, parece que Ariana Grande já está preparada para voltar a trabalha.", "Allie X Está Melancólica E Pop Na Faixa Inédita 'Tongue Tied'",
+  "Arctic Monkeys anuncia show no Rio; banda é headliner do Lollapalooza 2019", "Virada Cultural 2019 terá show de Anitta e mais 70 apresentações com tradução em Libras",
+  "'É uma forma dos surdos também pertencerem ao espaço público', diz o intérprete Ricieri Palha, que promete dançar junto.", "Espetáculo sobre Beethoven mistura pianista com música eletrônica",
+  "Produção da Companhia Duplô contará com treze intérpretes no papel do compositor alemão", "Gusttavo Lima e o sucesso do Momento", "Gusttavo Lima está prestes a gravar seu sétimo DVD de carreira. Nesta sexta-feira (10), o cantor divulgou um trecho do que está por vir neste novo projeto do cantor.",
+);
+$noticias_en = array(
+  "Hot news", "Curiosities", "News", "In the picture many people are dancing in a night club", "2 hours ago",
+  "In the picture one clarinet is on a book of partiture", "1 day ago", "Ariana Grande announces dates of the <em> 'Sweetener World Tour' </em> and for the time being nothing from Brazil",
+  "After all the traumas that have passed in recent months, it seems that Ariana Grande is already prepared to return to work.", "Allie X Is Melancholy And Pop In The Unreleased Band 'Tongue Tied'",
+  "Arctic Monkeys announces show in Rio; band is headliner of Lollapalooza 2019", "Virada Cultural 2019 will have Anitta show and more 70 presentations with translation in Pounds",
+  "'It's a way for the deaf to belong to the public space as well,' says the interpreter Ricieri Palha, who promises to dance together.", "Show about Beethoven mixes pianist with electronic music",
+  "Production of the Duplô Company will feature thirteen interpreters in the role of the German composer", "Gusttavo Lima and the success of Moment", "Gusttavo Lima releases single that will be part of his new album",
+);
+$noticias_es = array(
+  "Noticias calientes", "Curiosidades", "Noticias", "En la imagen varias personas están bailando en una balada", "Hace 2 horas",
+  "En la foto un clarinete está en un libro de partituras", "Hace 1 día", "Ariana Grande anuncia fechas de la <em> Sweetener World Tour</em> y por ahora nada de Brasil",
+  "Después de todos los traumas que ha pasado en los últimos meses, parece que Ariana Grande ya está preparada para volver a trabajar.", "Allie X está melancólica y pop en la banda 'Tongue Tied'",
+  "Arctic Monkeys anuncia show en Río; La banda es headliner del Lollapalooza 2019", "Virada Cultural 2019 Anitta mostrar y más de 70 presentaciones con Libras traducción",
+  "'Es una forma de los sordos también pertenecer al espacio público', dice el intérprete Ricieri Paja, que promete bailar juntos.", "Espectáculo sobre Beethoven mezcla pianista con música electrónica",
+  "Producción de la Compañía Duplô contará con trece intérpretes en el papel del compositor alemán", "Gusttavo Lima y el éxito del Momento", "Gusttavo Lima lanza single que formará parte de su nuevo álbum",
+);
 $noticias = array('PT' => $noticias_pt, 'EN' => $noticias_en, 'ES' => $noticias_es);
 ?>
 <?php
@@ -23,7 +44,7 @@ include('imports/head.php');
   <!--NAV ENDS-->
 
   <!--ARTICLE-->
-  <div class="container">
+  <div id="content" class="container">
     <div class="row mb-4">
       <div class="col-sm-12 col-md-12 col-lg-7 mt-4">
         <article id="imagemnoticias">
@@ -31,9 +52,9 @@ include('imports/head.php');
             <h2 class="titulonoticias"><?php echo $noticias[$ID][0] ?></h2>
           </a>
           <a href="./noticiaAtual.php?noticia=1" tabindex="0">
-            <p class="textonoticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+            <p class="textonoticias"><?php echo $noticias[$ID][7] ?></p>
           </a>
-          <p id="textonoticias2" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac risus et arcu.</p>
+          <p id="textonoticias2" tabindex="0"> <?php echo $noticias[$ID][8] ?></p>
         </article>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-5 mt-4">
@@ -42,7 +63,7 @@ include('imports/head.php');
             <h2 class="titulonoticias"><?php echo $noticias[$ID][1] ?></h2>
           </a>
           <a href="./noticiaAtual.php?noticia=2" tabindex="0">
-            <p class="textolateralnoticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+            <p class="textolateralnoticias"><?php echo $noticias[$ID][9] ?></p>
           </a>
         </aside>
         <aside id="imagem3noticias">
@@ -50,7 +71,7 @@ include('imports/head.php');
             <h2 class="titulonoticias"><?php echo $noticias[$ID][2] ?></h2>
           </a>
           <a href="./noticiaAtual.php?noticia=3" tabindex="0">
-            <p class="textolateralnoticias">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis </p>
+            <p class="textolateralnoticias"><?php echo $noticias[$ID][10] ?></p>
           </a>
         </aside>
       </div>
@@ -61,22 +82,34 @@ include('imports/head.php');
       </div>
       <article class="col-sm-12 col-md-12 col-lg-7 mt-4">
         <a href="./noticiaAtual.php?noticia=4" tabindex="0">
-          <p class="titulo4">Lorem ipsum dolor: Cit amet, consectetur adipiscing elit</p>
+          <p class="titulo4"><?php echo $noticias[$ID][11] ?></p>
         </a>
-        <p class="paragrafo6" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
-        <p tabindex="0"><small><?php echo $noticias[$ID][4] ?></small></p>
+        <p class="paragrafo6" tabindex="0"><?php echo $noticias[$ID][12] ?></p>
+        <p class="mt-5"><small><?php echo $noticias[$ID][4] ?></small></p>
       </article>
     </div>
     <div class="row mt-4 mb-4 linhanot">
       <div class="col-sm-12 col-md-12 col-lg-5 mb-4">
-        <img src="images/noticias/clarinete.jpg" class="img-fluid ajusteimagem w-100" alt="<?php echo $noticias[$ID][5] ?>" tabindex="0">
+        <img src="images/noticias/teatro.jpg" class="img-fluid ajusteimagem w-100" alt="<?php echo $noticias[$ID][5] ?>" tabindex="0">
       </div>
       <article class="col-sm-12 col-md-12 col-lg-7 mt-4">
-        <a href="./noticiaAtual.php?noticia=5" tabindex="0">
-          <p class="titulo4">Lorem ipsum dolor: Cit amet, consectetur adipiscing elit</p>
+        <a href="./noticiaAtual.php?noticia=9" tabindex="0">
+          <p class="titulo4"><?php echo $noticias[$ID][13] ?></p>
         </a>
-        <p class="paragrafo6" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel fermentum odio, nec rutrum libero.</p>
-        <p tabindex="0"><small><?php echo $noticias[$ID][6] ?></small></p>
+        <p class="paragrafo6" tabindex="0"><?php echo $noticias[$ID][14] ?></p>
+        <p class="mt-5"><small><?php echo $noticias[$ID][6] ?></small></p>
+      </article>
+    </div>
+    <div class="row mt-4 mb-4 linhanot">
+      <div class="col-sm-12 col-md-12 col-lg-5 mb-4">
+        <img src="images/noticias/Gustavo-Lima.jpg" class="img-fluid ajusteimagem w-100" alt="<?php echo $noticias[$ID][5] ?>" tabindex="0">
+      </div>
+      <article class="col-sm-12 col-md-12 col-lg-7 mt-4">
+        <a href="./noticiaAtual.php?noticia=8" tabindex="0">
+          <p class="titulo4"><?php echo $noticias[$ID][15] ?></p>
+        </a>
+        <p class="paragrafo6 " tabindex="0"><?php echo $noticias[$ID][16] ?></p>
+        <p class="mt-5"><small><?php echo $noticias[$ID][6] ?></small></p>
       </article>
     </div>
   </div>

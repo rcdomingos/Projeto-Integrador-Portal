@@ -23,7 +23,7 @@ $titlePagina = array('PT' => "Pop | Marcos", 'EN' => "Pop | Mark", 'ES' => "Pop 
     include('../imports/menu-secundario.php');
   ?>
     <!-- Conteudo da pagina  -->
-    <main>
+    <main id="content">
     <article class="container my-5 my-md-5 my-lg-5 my-xl-5">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">

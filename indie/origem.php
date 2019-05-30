@@ -43,14 +43,13 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
           <h1 tabindex="0" class="display-9 mb-0"> <?php echo $indie[$ID][0]; ?> </h1>
           <blockquote class="blockquote mt-0"><small class="text-muted"><?php echo $indie[$ID][1]; ?></small>
           </blockquote>
-          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in mollis mi.
-            Aenean nec consectetur nisl, et dictum sapien. Sed sed nisi quis augue rhoncus hendrerit. Sed quis tortor ac
-            nunc elementum lacinia eget at orci. Duis id lectus ut arcu tincidunt efficitur. Duis quis erat ultricies,
-            consequat nisi eget, porta augue. Duis placerat a ligula nec convallis. Sed mollis consequat ipsum eget
-            sagittis. Vivamus ut est magna. Phasellus tincidunt leo rutrum, porta urna ac, consectetur dui. Phasellus
-            elit augue, vulputate ut fringilla a, tempus nec nulla. Vivamus id laoreet eros. Fusce ultricies justo in
-            volutpat ultrices. Etiam enim dui, rhoncus et vehicula nec, maximus ut odio. Ut malesuada nulla velit, at
-            consectetur massa faucibus et.</p>
+          <p class="text-justify">Se esconder para a aglomeração da Times Square. Era um dos poucos pontos da Cidade
+            Baixa ainda reconhecível como a Nova York dos séculos anteriores. A praça estava permanentemente cheia, a
+            aglomeração era como uma boate com entrada barata. Há décadas as divisões entre calçadas e ruas haviam sido
+            descartadas. Carros antigos e novos disputavam espaço com pedestres se empurrando, viciados jogados pelo
+            chão, mendigos fazendo malabarismos na esperança de ganhar uns trocados, casais em uma rápida transa
+            furtiva. Os prédios decadentes e dilapidados haviam se transformado em territórios de gangues e repúblicas
+            de imigrantes ilegais vindos de todos os cantos da Terra e além. </p>
         </div>
       </section>
     </article>
@@ -106,31 +105,34 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <div class="row text-justify">
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+          <p class="mb-3">As lojas e os restaurantes continuavam resistindo, pois as corporações podiam tolerar qualquer
+            coisa, exceto uma queda nos lucros. Ozob passou pela fortaleza que era a franquia de uma famosa lanchonete.
+            O símbolo de arcadas amarelas era protegido por ninhos de metralhadoras. Atrás de grades fortificadas,
+            atendentes com armaduras listradas de vermelho e branco sorriam com armas na mão, oferecendo aumentar o
+            tamanho de um lanche gorduroso por apenas mais cento e cinquenta dólares. Os habitantes da Cidade Baixa
+            tinham desejos, mas não tinham </p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+          <p class="mb-3">dinheiro, e as franquias da Times Square se prontificavam para satisfazer suas vontades ao
+            mesmo tempo em que os ameaçavam caso tentassem tomar os produtos à força. Correndo pela multidão, tentando
+            localizar os reguladores por sobre o ombro, Ozob esbarrou na grande estátua plástica do palhaço que era
+            símbolo da cadeia de lanchonetes. A agressão foi detectada e dois aten- dentes sorridentes e fortemente
+            armados deixaram a franquia-fortaleza, gritando: — Posso ajudá-lo? E — Fique longe, por gentileza, filho da
+            puta! Ozob estava vestindo um </p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+          <p class="mb-5">sobretudo de tecido sintético, escondia a cabeça com uma touca negra. Abriu a vestimenta e
+            mostrou o rosto, num sorriso furioso. Lado a lado com o totem corporativo do palhaço, foi uma visão macabra,
+            e os dois atendentes perderam seus sorrisos. — Estou tendo um dia de merda — disse Ozob. — Mas o de vocês
+            vai ser ainda pior. Abriu o sobretudo e mostrou o colete que usava. Cheio de explosivos. Os dois atendentes
+            deram tiros de advertência para cima e correram de volta à segurança da franquia-fortaleza. Os funcionários
+            das lojas à volta se armaram, </p>
         </div>
       </div>
     </section>
+
+    <!-- Direitos Autorais -->
+    <?php include('texto.php'); ?>
 
   </main>
 

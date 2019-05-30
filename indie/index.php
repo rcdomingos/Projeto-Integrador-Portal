@@ -1,7 +1,7 @@
 <?php
-$indie_pt = array("Mundo Indie","Tudo que você precisa saber em um só lugar"  ,"Criolo","Conheça o novo álbum Espiral de Ilusão" ,"Emicida","10 anos de Triunfo!" ,"Flora Matos","O legado do Pretin"  ,"Artista do Ano"    ,'Conheça Djonga a mais nova revelação do rap br',"1","2","3","4");
-$indie_en = array("Indie World","All you need to know in one place"           ,"Criolo","Meet the new album Espiral de Ilusão"   ,"Emicida","10 years of Triunfo!","Flora Matos","The legacy of Pretin","Artist of the Year",'Meet Djonga the newest revelation of rap br'   ,"1","2","3","4");
-$indie_es = array("Mondo Indie","Todo lo que necesitas saber en un solo lugar","Criolo","Conoce el nuevo álbum Espiral de Ilusão","Emicida","10 años de Triunfo!" ,"Flora Matos","El legado del Pretin","Artista del Año"   ,'Conoce a la nueva revelación de rap br'        ,"1","2","3","4");
+$indie_pt = array("Mundo Indie","Tudo que você precisa saber em um só lugar"  ,"Criolo","Conheça o novo álbum Espiral de Ilusão" ,"Emicida","10 anos de Triunfo!" ,"Flora Matos","O legado do Pretin"  ,"Artista do Ano"    ,'Conheça Djonga a mais nova revelação do rap br'," Mais sobre Djonga");
+$indie_en = array("Indie World","All you need to know in one place"           ,"Criolo","Meet the new album Espiral de Ilusão"   ,"Emicida","10 years of Triunfo!","Flora Matos","The legacy of Pretin","Artist of the Year",'Meet Djonga the newest revelation of rap br'   ,"More about Djonga");
+$indie_es = array("Mondo Indie","Todo lo que necesitas saber en un solo lugar","Criolo","Conoce el nuevo álbum Espiral de Ilusão","Emicida","10 años de Triunfo!" ,"Flora Matos","El legado del Pretin","Artista del Año"   ,'Conoce a la nueva revelación de rap br'        ," Más sobre Djonga");
 $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 ?>
 
@@ -37,12 +37,13 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <section class="row text-justify">
         <div class="col-lg-12">
-          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mb-0">— sabe como os palhaços surgiram? — o criador perguntou. O recém-nascido fez que não. Seu
+            corpo era adulto. Alto, musculoso, bruto. Feito para trabalho pesado. As mãos e os pés eram grandes, cada
+            dedo como um martelo. Mas era um recém-nascido. Tinha algumas memórias. Sabia falar e compreender o que o
+            criador e seus irmãos diziam. Sabia, especialmente, o que era um palhaço. Mas não fazia ideia de como sabia
+            disso. E não sabia como os palhaços haviam surgido. — Palhaços surgiram para nos fazer rir — disse o
+            criador, com um sorriso no rosto. Por alguma razão, o sorriso não reconfortava. O recém-nascido sentiu medo
+            ao ver aquela boca larga, torta, de lábios finos e secos.</p>
         </div>
       </section>
     </article>
@@ -100,20 +101,18 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <section class="row text-justify">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mb-3">Os dentes amarelos e falhos. Os olhos que não sorriam com o rosto, mas se mantinham estáticos,
+            esbugalhados, fixados nele com intensidade. Não era possível parar de olhar o criador, mas ele repugnava.
+            Era seu pai, era o chefe da família. Merecia respeito. Todas essas noções estavam impregnadas no
+            recém-nascido, vindas de algum lugar que ele não conhecia. O criador mancou até ele. Sua corcunda
+            dificultava que se movimentasse. Chegou bem perto. </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
-            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
-            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
-            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
-            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
-            sagittis, egestas tellus eget, faucibus .</p>
+          <p>Foi possível sentir seu hálito acre. — Crianças indesejadas eram vendidas para o circo — o criador
+            continuou a explicação. — Algumas, que fossem boas crianças, que fossem espertas e ágeis, eram treinadas.
+            Viravam malabaristas. Domadores. Mágicos. Eram boas crianças e viravam bons adultos. O recém-nascido engoliu
+            em seco. As imagens de todos aqueles artistas vieram a sua mente, acompanhando a fala de seu pai. Ele nunca
+            os vira, mas de alguma forma sabia o que eram. </p>
         </div>
       </section>
 
@@ -128,30 +127,33 @@ $indie = array('PT' => $indie_pt, 'EN' => $indie_en, 'ES' => $indie_es);
 
       <div class="row mt-0 mb-3">
         <div class="col-12">
-          <a href="https://www.instagram.com/djongador/" target="_blank" class="text-body"><u>Mais sobre o
-              cantor.</u></a>
+          <a href="https://www.instagram.com/djongador/" target="_blank"
+            class="text-body"><u><?php echo $indie[$ID][10]; ?></u></a>
         </div>
       </div>
 
       <section class="row text-justify">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor.
-            Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam
-            lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor,
-            imperdiet quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque
-            accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et
-            pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus .</p>
+          <p class="mb-3">— Mas e as crianças ruins? E aquelas crianças que não sabiam fazer nada? Que eram burras,
+            vagarosas? O recém-nascido se sentiu mal ao ouvir aquilo. De alguma forma, teve uma lembrança de ser
+            rejeitado. De ser inadequado para alguma coisa. Ele não sabia há quanto tempo estava vivo. Não lembrava de
+            nada além daquela sala escura, cheia de máquinas e de partes de corpos. De seu pai e de seus irmãos. Será
+            que sempre estivera ali? Será que ali nascera, há poucas horas ou poucos minutos? Mas então como já fora
+            rejeitado? — As crianças ruins só podiam nos fazer rir </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id
-            ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a
-            est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet quis, luctus
-            sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in.
-            Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam
-            sagittis, egestas tellus eget, faucibus .</p>
+          <p>— disse o criador. — Elas viravam palhaços. O criador segurou o rosto do recém-nascido. Sua mão era fraca e
+            fedia a mofo. Mas o recém-nascido, muito mais forte, não conseguia resistir. Apenas ficou parado, sentindo
+            dor, enquanto os dedos magros se afundaram em suas bochechas. Apertaram-nas contra os dentes até que ele
+            sentisse o gosto ferroso de sangue. — As pessoas gostavam de rir das crianças ruins, porque elas mereciam.
+            Então o mestre do picadeiro as tornava mais engraçadas. O criador pegou um cano de ferro. — Quebravam suas
+            pernas —</p>
         </div>
       </section>
     </section>
+
+    <!-- Direitos Autorais -->
+    <?php include('texto.php'); ?>
 
   </main>
 
