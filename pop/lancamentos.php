@@ -43,13 +43,13 @@ $titlePagina = array('PT' => "Pop | Lançamentos", 'EN' => "Pop | Releases", 'ES
       
     </section>
     <section class="col-lg-4 col-md-4 col-sm-12 pt-3">
-                    <img class="card-img mb-3 shadow img-fluid" src="../images/pop/rihanna-art.jpg"  alt="Foto da cantora Lady Gaga em preto e branco">
+                    <img tabindex="0" class="card-img mb-3 shadow img-fluid" src="../images/pop/rihanna-art.jpg"  alt="Foto da cantora Rihanna">
                     <h2 tabindex="0" class="display-7 mb-0 text-center">Lorem Ipsun</h2>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio.</p>
                 </section>
 
                 <section class="col-lg-4 col-md-4 col-sm-12 pt-3">
-                <img class="card-img mb-3 shadow img-fluid" src="../images/pop/beyonce-art.jpg"  alt="Foto da cantora Lady Gaga em preto e branco">
+                <img tabindex="0" class="card-img mb-3 shadow img-fluid" src="../images/pop/beyonce-art.jpg"  alt="Foto da cantora Beyonce">
                     <h2 tabindex="0" class="display-7 mb-0 text-center">Lorem Ipsun</h2>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio.</p>
                 </section>
@@ -58,13 +58,13 @@ $titlePagina = array('PT' => "Pop | Lançamentos", 'EN' => "Pop | Releases", 'ES
       <div class="row">
     
     <section class="col-lg-4 col-md-4 col-sm-12 pt-3">
-                    <img class="card-img mb-3 shadow img-fluid" src="../images/pop/rihanna-art.jpg"  alt="Foto da cantora Lady Gaga em preto e branco">
+                    <img tabindex="0" class="card-img mb-3 shadow img-fluid" src="../images/pop/rihanna-art.jpg"  alt="Foto da cantora Rihanna">
                     <h2 tabindex="0" class="display-7 mb-0 text-center">Lorem Ipsun</h2>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio.</p>
                 </section>
 
                 <section class="col-lg-4 col-md-4 col-sm-12 pt-3">
-                <img class="card-img mb-3 shadow img-fluid" src="../images/pop/beyonce-art.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                <img tabindex="0" class="card-img mb-3 shadow img-fluid" src="../images/pop/beyonce-art.jpg" alt="Foto da cantora Beyonce">
                     <h2 tabindex="0" class="display-7 mb-0 text-center">Lorem Ipsun</h2>
                     <p class="mb-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio.</p>
                 </section>

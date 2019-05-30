@@ -47,14 +47,14 @@ $titlePagina = array('PT' => "Pop | Pagina Inicial", 'EN' => "Pop | Home", 'ES' 
         <section class="container">
             <div class="row">
                 <section class="col-lg-6 col-md-6 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                     <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $pop[$ID][4]?></h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $pop [$ID][5]?></small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop [$ID][6]?></p>
                 </section>
 
                 <section class="col-lg-6 col-md-6 col-sm-12">
-                <img class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
+                <img tabindex="0" class="card-img mb-3 shadow" src="../images/pop/gaga-pop.jpg" alt="Foto da cantora Lady Gaga em preto e branco">
                     <h2 tabindex="0" class="display-9 mb-0 text-center"><?php echo $pop[$ID][7]?></h2>
                     <blockquote class="blockquote mt-0 mb-3 text-center"><small class="text-muted"><?php echo $pop[$ID][8]?></small></blockquote>
                     <p class="mb-3 text-justify"><?php echo $pop[$ID][9]?></p>
