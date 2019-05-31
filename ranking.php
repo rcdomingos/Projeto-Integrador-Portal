@@ -34,16 +34,16 @@ include('imports/head.php');
           </div>
           <div class="col-6 col-lg-2 pt-4" tabindex="0">
             <ol>
-              <li><strong>Lorem ipsum</strong></li>
-              <li><strong>Consectetur</strong></li>
-              <li><strong>Suspendisse</strong></li>
-              <li class="text-secondary">Lorem ipsum</li>
-              <li class="text-secondary">Consectetur</li>
-              <li class="text-secondary">Suspendisse</li>
-              <li class="text-secondary">Lorem ipsum</li>
-              <li class="text-secondary">Consectetur a</li>
-              <li class="text-secondary">Suspendisse</li>
-              <li class="text-secondary">Lorem ipsum</li>
+              <li><strong>Shallow now - Lady Gaga(with Badley Cooper)</strong></li>
+              <li><strong>Perfect - Ed Sheeran</strong></li>
+              <li><strong>7 rings - Ariana Grande</strong></li>
+              <li class="text-secondary">Man Down - Rihanna</li>
+              <li class="text-secondary">Without me - Helsey</li>
+              <li class="text-secondary">All of me - John Legend</li>
+              <li class="text-secondary">A thousand years - Christina Perri</li>
+              <li class="text-secondary">Photography - Ed Sheeran</li>
+              <li class="text-secondary">Believer - Imagine Dragons</li>
+              <li class="text-secondary">Say ou won't let go - James Arthur</li>
             </ol>
           </div>
           <div class="col-6 col-lg-2 pt-4 text-center bg-mobile">
@@ -54,16 +54,16 @@ include('imports/head.php');
           </div>
           <div class="col-6 col-lg-2 pt-4 bg-mobile" tabindex="0">
             <ol>
-              <li><strong>Lorem ipsum</strong></li>
-              <li><strong>Consectetur</strong></li>
-              <li><strong>Suspendisse</strong></li>
-              <li class="text-secondary">Lorem ipsum</li>
-              <li class="text-secondary">Consectetur</li>
-              <li class="text-secondary">Suspendisse</li>
-              <li class="text-secondary">Lorem ipsum</li>
-              <li class="text-secondary">Consectetur a</li>
-              <li class="text-secondary">Suspendisse</li>
-              <li class="text-secondary">Lorem ipsum</li>
+              <li><strong>Bored - Billie Eilish</strong></li>
+              <li><strong>Cheap thrills - SIA </strong></li>
+              <li><strong>Knee socks - Arctic Monkeys</strong></li>
+              <li class="text-secondary">Girls like you - Maroon 5</li>
+              <li class="text-secondary">Bad guy - Billie Eilish</li>
+              <li class="text-secondary">Too good at goodbyes - Sam Smith</li>
+              <li class="text-secondary">Naked - James Arthur</li>
+              <li class="text-secondary">The scientist - Coldplay</li>
+              <li class="text-secondary">High hopes - Panic! At The Disco</li>
+              <li class="text-secondary">Someone like you - Adele</li>
             </ol>
           </div>
           <div class="col-6 col-lg-2 text-center pt-4">
@@ -74,16 +74,16 @@ include('imports/head.php');
           </div>
           <div class="col-6 col-lg-2 pt-4" tabindex="0">
             <ol>
-              <li><strong>Lorem ipsum</strong></li>
-              <li><strong>Consectetur</strong></li>
-              <li><strong>Suspendisse</strong></li>
-              <li class="text-secondary">Lorem ipsum</li>
-              <li class="text-secondary">Consectetur</li>
-              <li class="text-secondary">Suspendisse</li>
-              <li class="text-secondary">Lorem ipsum</li>
-              <li class="text-secondary">Consectetur a</li>
-              <li class="text-secondary">Suspendisse</li>
-              <li class="text-secondary">Lorem ipsum</li>
+              <li><strong>Arabella - Arctic Monkeys</strong></li>
+              <li><strong>I wanna be yours - Arctic Monkeys</strong></li>
+              <li><strong>Stop the world I wanna get out with you - Arctic Monkeys</strong></li>
+              <li class="text-secondary">Bohemian rhapsody - Queen</li>
+              <li class="text-secondary">Shape of you - Ed Sheeran</li>
+              <li class="text-secondary">Bad liar - Imagine Dragons</li>
+              <li class="text-secondary">Let her go - Passenger</li>
+              <li class="text-secondary">Ocean eyes - Billie Eilish</li>
+              <li class="text-secondary">Do I wanna know? - Arctic Monkeys</li>
+              <li class="text-secondary">Demons - Imagine Dragons</li>
             </ol>
           </div>
         </div>

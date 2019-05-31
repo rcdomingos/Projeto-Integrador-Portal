@@ -106,9 +106,9 @@ include('imports/head.php');
                             </div>
                             <div class="col-7">
                                 <ol tabindex="0">
-                                    <li class="r-item">Lorem ipsum dolor sit amet</li>
-                                    <li class="r-item">Consectetur adipiscing elit</li>
-                                    <li class="r-item">Suspendisse aliquam felis</li>
+                                    <li><strong>Shallow now - Lady Gaga(with Badley Cooper)</strong></li>
+                                    <li><strong>Perfect - Ed Sheeran</strong></li>
+                                    <li><strong>7 rings - Ariana Grande</strong></li>
                                 </ol>
                             </div>
                         </div>
@@ -119,9 +119,9 @@ include('imports/head.php');
                             </div>
                             <div class="col-7">
                                 <ol tabindex="0">
-                                    <li class="r-item">Dui sodales euismod</li>
-                                    <li class="r-item">Vestibulum mollis justo</li>
-                                    <li class="r-item">At tortor suscipit</li>
+                                    <li><strong>Bored - Billie Eilish</strong></li>
+                                    <li><strong>Cheap thrills - SIA </strong></li>
+                                    <li><strong>Knee socks - Arctic Monkeys</strong></li>
                                 </ol>
                             </div>
                         </div>
@@ -132,9 +132,9 @@ include('imports/head.php');
                             </div>
                             <div class="col-7">
                                 <ol tabindex="0">
-                                    <li class="r-item">In viverra libero laoreet</li>
-                                    <li class="r-item">Integer sit amet massa</li>
-                                    <li class="r-item">Molestie tortor non</li>
+                                    <li><strong>Arabella - Arctic Monkeys</strong></li>
+                                    <li><strong>I wanna be yours - Arctic Monkeys</strong></li>
+                                    <li><strong>Stop the world I wanna get out with you - Arctic Monkeys</strong></li>
                                 </ol>
                             </div>
                         </div>
