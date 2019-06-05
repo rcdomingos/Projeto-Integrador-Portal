@@ -23,7 +23,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
     ?>
     <main id="content">
         <article>
-            <div class="container">
+            <div class="container text-light">
                 <div class="row">
                     <div class="col-12">
                         <h1 tabindex="0" class="text-center p-4"><?php echo $punk[$ID][0] ?></h1>

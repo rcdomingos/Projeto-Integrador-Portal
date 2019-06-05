@@ -24,7 +24,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
     ?>
     <main id="content">
         <article>
-            <div class="container">
+            <div class="container text-light ">
                 <div class="row">
                     <div class="col-12">
                         <h1 class="p-4 text-center" tabindex="0">ARTISTAS</h1>
