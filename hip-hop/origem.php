@@ -21,78 +21,72 @@ include('../imports/head.php');
 ?>
 
 <body>
-    <!--importandoo menu da pagina -->
-    <?php
-    include('../imports/menu-secundario.php');
-    ?>
-    <main id="content">
-        <div class="container">
+  <!--importandoo menu da pagina -->
+  <?php
+  include('../imports/menu-secundario.php');
+  ?>
+  <main id="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid">
+            <div class="row" tabindex="0">
+              <div class="col-12 mt-4 mb-2">
+                <h1 id="preto" class="text-white text-center font-italic font-weight-bold"><?php echo $hiphop[$ID][0] ?></h1>
+              </div>
+            </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="container-fluid">
-                        <div class="row" tabindex="0">
-                            <div class="col-12 mt-4 mb-2">
-                                <h1 class="text-white bg-dark text-center font-italic font-weight-bold"><?php echo $hiphop[$ID][0] ?></h1>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block mt-4" alt="Responsive image">
-                            <div class="mt-4">
-                                <p class="text-center mt-4"><?php echo $hiphop[$ID][7] ?></p>
-                            </div>
-                        </div>
+              <img src="../images/hip-hop/capa.jpg" class="rounded mx-auto d-block mt-4" alt="">
+              <div class="mt-4">
+                <p class="text-center mt-4"><?php echo $hiphop[$ID][7] ?></p>
+              </div>
+            </div>
 
-                        <div class="row">
-                            <div class="col-sm-4 mt-4 mb-4">
-                                <div class="shadow p-3 mb-5 bg-white rounded">
-                                    <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][1] ?></h4>
-                                </div>
-                                <img src="../images/hip-hop/home2.jpg" class="img-fluid mb-4" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                            <div class="col-sm-4 mt-4 mb-4">
-                                <div class="shadow p-3 mb-5 bg-white rounded">
-                                    <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][2] ?></h4>
-                                </div>
-                                <img src="../images/hip-hop/origem.jpg" class="img-fluid mb-4" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                            <div class="col-sm-4 mt-4 mb-4">
-                                <div class="shadow p-3 mb-5 bg-white rounded">
-                                    <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][3] ?></h4>
-                                </div>
-                                <img src="../images/hip-hop/home1.jpg" class="img-fluid mb-4" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4 mt-4 mb-4">
-                                <div class="shadow p-3 mb-5 bg-white rounded">
-                                    <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][4] ?></h4>
-                                </div>
-                                <img src="../images/hip-hop/home1.jpg" class="img-fluid mb-4" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                            <div class="col-sm-4 mt-4 mb-4">
-                                <div class="shadow p-3 mb-5 bg-white rounded">
-                                    <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][5] ?></h4>
-                                </div>
-                                <img src="../images/hip-hop/home2.jpg" class="img-fluid mb-4" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                            <div class="col-sm-4 mt-4 mb-4">
-                                <div class="shadow p-3 mb-5 bg-white rounded">
-                                    <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][6] ?></h4>
-                                </div>
-                                <img src="../images/hip-hop/origem.jpg" class="img-fluid mb-4" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                        </div>
-                    </div>
-    </main>
-    </div>
-    </div>
-    </div>
+            <div class="row">
+              <div class="col-sm-4 mt-4 mb-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][1] ?></h4>
+                </div>
+                <img src="../images/hip-hop/home2.jpg" class="img-fluid mb-4" alt="imagem hiphop">
+              </div>
+              <div class="col-sm-4 mt-4 mb-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][2] ?></h4>
+                </div>
+                <img src="../images/hip-hop/origem.jpg" class="img-fluid mb-4" alt="imagem hiphop">
+              </div>
+              <div class="col-sm-4 mt-4 mb-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][3] ?></h4>
+                </div>
+                <img src="../images/hip-hop/home1.jpg" class="img-fluid mb-4" alt="imagem hiphop">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 mt-4 mb-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][4] ?></h4>
+                </div>
+                <img src="../images/hip-hop/home1.jpg" class="img-fluid mb-4" alt="imagem hiphop">
+              </div>
+              <div class="col-sm-4 mt-4 mb-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][5] ?></h4>
+                </div>
+                <img src="../images/hip-hop/home2.jpg" class="img-fluid mb-4" alt="imagem hiphop">
+              </div>
+              <div class="col-sm-4 mt-4 mb-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                  <h4 class="text-center" tabindex="0"><?php echo $hiphop[$ID][6] ?></h4>
+                </div>
+                <img src="../images/hip-hop/origem.jpg" class="img-fluid mb-4" alt="Imagem hiphop">
+              </div>
+            </div>
+          </div>
+  </main>
+  </div>
+  </div>
+  </div>
 </body>
 <!-- importando o footer da pagina -->
 <?php

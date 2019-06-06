@@ -1,7 +1,7 @@
 <?php
-$hiphop_pt = array("Destaques: Premiações", "O AMA é uma premiação reconhecida mundialmente, ao lado das premiações Grammy e Billboard.", "Comentário de Artistas", "Prêmio");
-$hiphop_en = array("Highlights: Awards", "The AMA is a world-renowned award, alongside the Grammy and Billboard awards.", "Artists Commentary", "Award");
-$hiphop_es = array("Destacados: premios", "El AMA es una premiación reconocida mundialmente, junto a los premios Grammy y Billboard.", "Comentario de Artistas", "Premio");
+$hiphop_pt = array("Destaques: Premiações", "O AMA é uma premiação reconhecida mundialmente, ao lado das premiações Grammy e Billboard.", "Comentário de Artistas", "Prêmio", "Entre as diferentes manifestações artísticas do movimento hip hop, a música se insere como papel primordial para inúmeras variações existentes em nossos dias.");
+$hiphop_en = array("Highlights: Awards", "The AMA is a world-renowned award, alongside the Grammy and Billboard awards.", "Artists Commentary", "Award", "Among the different artistic manifestations of the hip hop movement, music is inserted as a primordial role for the innumerable variations existing in our days.");
+$hiphop_es = array("Destacados: premios", "El AMA es una premiación reconocida mundialmente, junto a los premios Grammy y Billboard.", "Comentario de Artistas", "Premio", "Entre las diferentes manifestaciones artísticas del movimiento hip hop la música se inserta como papel primordial para innumerables variaciones existentes en nuestros días.");
 $hiphop = array('PT' => $hiphop_pt, 'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
@@ -29,7 +29,7 @@ include('../imports/head.php');
     <div class="container">
       <div class="row">
         <div class="col-sm-12 mt-4 mb-4">
-          <h1 class="text-white bg-dark text-center font-italic font-weight-bold" tabindex="0"><?php echo $hiphop[$ID][0] ?></h1>
+          <h1 id="preto" class="text-white bg-dark text-center font-italic font-weight-bold" tabindex="0"><?php echo $hiphop[$ID][0] ?></h1>
           <div class="jumbotron mt-4">
             <h1 class="display-4">American Music Awards</h1>
             <hr class="my-4">
@@ -41,7 +41,7 @@ include('../imports/head.php');
       <div class="container">
         <div class="row">
           <div class="col-sm-7">
-            <h4 class="text-white bg-dark text-center" tabindex="0"><?php echo $hiphop[$ID][2] ?></h4>
+            <h4 id="preto" class="text-white bg-dark text-center" tabindex="0"><?php echo $hiphop[$ID][2] ?></h4>
             <div class="row">
               <div class="col-12 mt-4">
                 <div class="card">
@@ -50,7 +50,7 @@ include('../imports/head.php');
                   </div>
                   <div class="card-body">
                     <blockquote class="blockquote mb-0" tabindex="0">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                      <p><?php echo $hiphop[$ID][4] ?></p>
                       <footer class="blockquote-footer"><cite title="Título da fonte"><?php echo $hiphop[$ID][3] ?></cite></footer>
                     </blockquote>
                   </div>
@@ -66,7 +66,7 @@ include('../imports/head.php');
                   </div>
                   <div class="card-body">
                     <blockquote class="blockquote mb-0" tabindex="0">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                      <p><?php echo $hiphop[$ID][4] ?></p>
                       <footer class="blockquote-footer">Drake <cite title="Título da fonte"><?php echo $hiphop[$ID][3] ?></cite></footer>
                     </blockquote>
                   </div>
@@ -82,7 +82,7 @@ include('../imports/head.php');
                   </div>
                   <div class="card-body">
                     <blockquote class="blockquote mb-0" tabindex="0">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                      <p><?php echo $hiphop[$ID][4] ?></p>
                       <footer class="blockquote-footer">Blackbear <cite title="Título da fonte"><?php echo $hiphop[$ID][3] ?></cite></footer>
                     </blockquote>
                   </div>
@@ -91,7 +91,7 @@ include('../imports/head.php');
             </div>
           </div>
           <div class="col-sm-5 mb-2">
-            <h4 class="text-white bg-dark text-center" tabindex="0"><?php echo $hiphop[$ID][3] ?></h4>
+            <h4 id="preto" class="text-white bg-dark text-center" tabindex="0"><?php echo $hiphop[$ID][3] ?></h4>
             <div class="d-flex align-self-center ">
               <div class="text-center p-2 flex-fill flex flex-column items-center justify-center  w-100">
                 <a href="https://www.theamas.com/" class="btn btn btn-outline-warning btn-lg w-100" title="AMA">
