@@ -45,172 +45,181 @@ include('imports/head.php');
 ?>
 
 <body>
-    <!-- Menu top das paginas -->
-    <?php
+  <!-- Menu top das paginas -->
+  <?php
   include('imports/menu.php');
   ?>
-    <!-- Conteúdo do pagina -->
-    <main id="content">
-            <article class="home-principal">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-light text-center mt-5">
-                            <h1 tabindex="0" id="texto1home"><strong><?php echo $home[$ID][0] ?></strong></h1>
-                            <p  tabindex="0" id="texto2home"><?php echo $home[$ID][1] ?></p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        <div class="container mt-5">
-            <!-- As colun com os testos das Noticias -->
-            <aside class="art-home mt-3">
-                <div class="row">
-                    <div class="col">
-                        <h2 tabindex="0"><?php echo $home[$ID][7] ?></h2>
-                        <p><a href="<?php echo "noticias.php" ?>" tabindex="0"><?php echo $home[$ID][8] ?></a></p>
-                    </div>
-                </div>
-                <div class="row text-center home-geral">
-                    <div class="col-12 col-lg-4">
-                        <a href="./noticiaAtual.php?noticia=5"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt='<?php echo $home[$ID][23] ?>'></a>
-                        <h2 tabindex="0"><?php echo $home[$ID][9] ?></h2>
-                        <p tabindex="0">Daniel visita familia para atender desejo de garoto que sonha em ser cantor sertanejo. <span class="badge badge-info" tabindex="0"><?php echo $home[$ID][12] ?></span></p>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="./noticiaAtual.php?noticia=6"><img class="rounded img-fluid" src="images/principal/katyperry.jpg" alt='<?php echo $home[$ID][24] ?>'></a>
-                        <h2 tabindex="0"><?php echo $home[$ID][10] ?></h2>
-                        <p tabindex="0">Não chame de retorno, mas estaria Katy Perry preparando um… retorno?.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="./noticiaAtual.php?noticia=7"><img class="rounded img-fluid" src="images/principal/home-3.jpg" alt='<?php echo $home[$ID][25] ?>'></a>
-                        <h2 tabindex="0"><?php echo $home[$ID][11] ?></h2>
-                        <p tabindex="0">Integrantes conversaram sobre novidades da banda, Brasil e Internet.<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span></p>
-                    </div>
-                </div>
-            </aside>
-        </div><!-- /.container -->
-        <div class="container mt-5">
-            <div class="row">
-                <!--Section com o resumo dos rankings -->
-                <div class="col-lg-4 mt-2">
-                    <section class="rank p-3 mb-5 rounded">
-                        <div class="row">
-                            <div class="col">
-                                <h2 class="h4 text-center" tabindex="0"><?php echo $home[$ID][14] ?></h2>
-                            </div>
-                        </div>
-                        <div class="row no-gutters align-items-center">
-                            <div class="col-5">
-                                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][26] ?>'>
-                                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][20] ?></p>
-                            </div>
-                            <div class="col-7">
-                                <ol tabindex="0">
-                                    <li><strong>Shallow now - Lady Gaga(with Badley Cooper)</strong></li>
-                                    <li><strong>Perfect - Ed Sheeran</strong></li>
-                                    <li><strong>7 rings - Ariana Grande</strong></li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="row no-gutters align-items-center">
-                            <div class="col-5">
-                                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][28] ?>'>
-                                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][21] ?></p>
-                            </div>
-                            <div class="col-7">
-                                <ol tabindex="0">
-                                    <li><strong>Bored - Billie Eilish</strong></li>
-                                    <li><strong>Cheap thrills - SIA </strong></li>
-                                    <li><strong>Knee socks - Arctic Monkeys</strong></li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="row no-gutters align-items-center">
-                            <div class="col-5">
-                                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][29] ?>'>
-                                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][22] ?></p>
-                            </div>
-                            <div class="col-7">
-                                <ol tabindex="0">
-                                    <li><strong>Arabella - Arctic Monkeys</strong></li>
-                                    <li><strong>I wanna be yours - Arctic Monkeys</strong></li>
-                                    <li><strong>Stop the world I wanna get out with you - Arctic Monkeys</strong></li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <p><a href="<?php echo "ranking.php" ?>" tabindex="0"><?php echo $home[$ID][15] ?></a></p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- section com as sugestões de musicas -->
-                <div class="col-lg-8">
-                    <div class="row">
-                        <section class="home-indica">
-                            <div class="container-fluid">
-                                <h2 tabindex="0"><?php echo $home[$ID][16] ?></h2>
-                                <p><a href="<?php echo "indicacoes.php" ?>" tabindex="0"><?php echo $home[$ID][17] ?></a></p>
-                                <!-- Linha 1 da sugestão -->
-                                <div class="row justify-content-md-center text-center">
-                                    <div class="col-6 col-md-4">
-                                        <img tabindex="0" class="rounded img-fluid" src="images/hip-hop/home4.jpg" alt='<?php echo $home[$ID][30] ?>'>
-                                        <p tabindex="0">The Weeknd</p>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <img tabindex="0" class="rounded img-fluid" src="images/principal/home-ladygaga.jpg" alt='<?php echo $home[$ID][31] ?>'>
-                                        <p tabindex="0">Lady Gaga</p>
-                                    </div>
-                                    <div class="no-display col-6 col-md-4">
-                                        <img tabindex="0" class="rounded img-fluid" src="images/indie/imagine-dragons-destaques.jpg" alt='<?php echo $home[$ID][32] ?>'>
-                                        <p tabindex="0">Imagine Dragons</p>
-                                    </div>
-                                </div>
-                                <!-- Linha 2 da sugestão -->
-                                <div class="row justify-content-md-center align-items-center text-center">
-                                    <div class="col-6 col-md-4">
-                                        <img tabindex="0" class="rounded img-fluid" src="images/jazz/milesDavis.jpg" alt='<?php echo $home[$ID][33] ?>'>
-                                        <p tabindex="0">Miles Davis</p>
-                                    </div>
-                                    <div class="col-6 col-md-4">
-                                        <img tabindex="0" class="rounded img-fluid" src="images/sertanejo/lancamento-01.jpg" alt='<?php echo $home[$ID][34] ?>'>
-                                        <p tabindex="0">Luan Santana</p>
-                                    </div>
-                                    <div class="no-display col-6 col-md-4">
-                                        <img tabindex="0" class="rounded img-fluid" src="images/principal/home-8.jpg" alt='<?php echo $home[$ID][35] ?>'>
-                                        <p tabindex="0">Zé Neto e Cristiano</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="row no-gutters mb-md-4 mb-lg-0">
-                        <div class="col-12">
-                            <section class="playlists">
-                                <h3 tabindex="0"><?php echo $home[$ID][18] ?></h3>
-                                <p tabindex="0"><?php echo $home[$ID][19] ?></p>
-                                <div class="row text-center">
-                                    <div class="col-12 col-sm-6 mb-3 mb-sm-0">
-                                        <a href="https://www.spotify.com/br" target="_blank">
-                                            <img class="rounded img-fluid" src="images/principal/spotify.jpg" alt='<?php echo $home[$ID][36] ?>'>
-                                        </a>
-                                    </div>
-                                    <div class="col-12 col-sm-6 mb-3 mb-sm-0">
-                                        <a href="https://www.deezer.com/br/" target="_blank">
-                                            <img class="rounded img-fluid" src="images/principal/deezer.jpg" alt='<?php echo $home[$ID][37] ?>'>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Conteúdo do pagina -->
+  <main id="content">
+    <article class="home-principal">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-light text-center mt-5">
+            <h1 tabindex="0" id="texto1home"><strong><?php echo $home[$ID][0] ?></strong></h1>
+            <p tabindex="0" id="texto2home"><?php echo $home[$ID][1] ?></p>
+          </div>
         </div>
-    </main>
-    <!-- importando o footer da pagina -->
-    <?php
+      </div>
+    </article>
+    <div class="container mt-5">
+      <!-- As colun com os testos das Noticias -->
+      <aside class="art-home mt-3">
+        <div class="row">
+          <div class="col">
+            <h2 tabindex="0"><?php echo $home[$ID][7] ?></h2>
+            <p><a href="<?php echo "noticias.php" ?>" tabindex="0"><?php echo $home[$ID][8] ?></a></p>
+          </div>
+        </div>
+        <div class="row text-center home-geral">
+          <div class="col-12 col-lg-4 mb-5">
+            <img tabindex="0" class="shadow-sm rounded img-fluid" src="images/principal/home-1.jpg" alt='<?php echo $home[$ID][23] ?>'>
+            <h3 tabindex="0"><?php echo $home[$ID][9] ?></h2>
+              <p tabindex="0">Daniel visita familia para atender desejo de garoto que sonha em ser cantor sertanejo.
+                <!--<span class="badge badge-info" tabindex="0"><?php echo $home[$ID][12] ?></span>-->
+              </p>
+              <a class="btn btn-outline-primary" role="button" aria-label="Clique e veja mais sobre a noticia" href="./noticiaAtual.php?noticia=5"> <?php echo $home[$ID][6] ?></a>
+          </div>
+          <div class="col-12 col-lg-4 mb-5">
+            <img tabindex="0" class="shadow-sm rounded img-fluid" src="images/principal/katyperry.jpg" alt='<?php echo $home[$ID][24] ?>'>
+            <h3 tabindex="0"><?php echo $home[$ID][10] ?></h2>
+              <p tabindex="0">Não chame de retorno, mas estaria Katy Perry preparando um… retorno?
+                <!--<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span>-->
+              </p>
+              <a class="btn btn-outline-primary" role="button" aria-label="Clique e veja mais sobre a noticia" href="./noticiaAtual.php?noticia=6"> <?php echo $home[$ID][6] ?></a>
+          </div>
+          <div class="col-12 col-lg-4 mb-5">
+            <img tabindex="0" class="shadow-sm rounded img-fluid" src="images/principal/home-3.jpg" alt='<?php echo $home[$ID][25] ?>'>
+            <h3 tabindex="0"><?php echo $home[$ID][11] ?></h2>
+              <p tabindex="0">Integrantes conversaram sobre novidades da banda, Brasil e Internet.
+                <!---<span class="badge badge-success" tabindex="0"><?php echo $home[$ID][13] ?></span>-->
+              </p>
+              <a class="btn btn-outline-primary" role="button" aria-label="Clique e veja mais sobre a noticia" href="./noticiaAtual.php?noticia=7"> <?php echo $home[$ID][6] ?></a>
+          </div>
+        </div>
+      </aside>
+    </div><!-- /.container -->
+    <div class="container">
+      <div class="row">
+        <!--Section com o resumo dos rankings -->
+        <div class="col-lg-4 mt-2">
+          <section class="rank p-3 mb-5 rounded">
+            <div class="row">
+              <div class="col">
+                <h2 class="h4 text-center pb-3" tabindex="0"><?php echo $home[$ID][14] ?></h2>
+              </div>
+            </div>
+            <div class="row no-gutters align-items-center pb-3">
+              <div class="col-5">
+                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][26] ?>'>
+                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][20] ?></p>
+              </div>
+              <div class="col-7">
+                <ol tabindex="0">
+                  <li><strong>Shallow now - Lady Gaga(with Badley Cooper)</strong></li>
+                  <li><strong>Perfect - Ed Sheeran</strong></li>
+                  <li><strong>7 rings - Ariana Grande</strong></li>
+                </ol>
+              </div>
+            </div>
+            <div class="row no-gutters align-items-center pb-3">
+              <div class="col-5">
+                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][28] ?>'>
+                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][21] ?></p>
+              </div>
+              <div class="col-7">
+                <ol tabindex="0">
+                  <li><strong>Bored - Billie Eilish</strong></li>
+                  <li><strong>Cheap thrills - SIA </strong></li>
+                  <li><strong>Knee socks - Arctic Monkeys</strong></li>
+                </ol>
+              </div>
+            </div>
+            <div class="row no-gutters align-items-center pb-3">
+              <div class="col-5">
+                <img class="img-fluid" src="images/principal/ranking.png" alt='<?php echo $home[$ID][29] ?>'>
+                <p class="tt-rank" tabindex="0">Top <img src="images/principal/star-solid.png" alt='<?php echo $home[$ID][27] ?>'> 10 <?php echo $home[$ID][22] ?></p>
+              </div>
+              <div class="col-7">
+                <ol tabindex="0">
+                  <li><strong>Arabella - Arctic Monkeys</strong></li>
+                  <li><strong>I wanna be yours - Arctic Monkeys</strong></li>
+                  <li><strong>Stop the world I wanna get out with you - Arctic Monkeys</strong></li>
+                </ol>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p><a class="btn btn-outline-primary btn-sm" role="button" href="<?php echo "ranking.php" ?>" tabindex="0"><?php echo $home[$ID][15] ?></a></p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- section com as sugestões de musicas -->
+        <div class="col-lg-8">
+          <div class="row">
+            <section class="home-indica">
+              <div class="container-fluid">
+                <h2 tabindex="0"><?php echo $home[$ID][16] ?></h2>
+                <p><a href="<?php echo "indicacoes.php" ?>" tabindex="0"><?php echo $home[$ID][17] ?></a></p>
+                <!-- Linha 1 da sugestão -->
+                <div class="row justify-content-md-center text-center">
+                  <div class="col-6 col-md-4">
+                    <img tabindex="0" class="rounded img-fluid" src="images/hip-hop/home4.jpg" alt='<?php echo $home[$ID][30] ?>'>
+                    <p tabindex="0">The Weeknd</p>
+                  </div>
+                  <div class="col-6 col-md-4">
+                    <img tabindex="0" class="rounded img-fluid" src="images/principal/home-ladygaga.jpg" alt='<?php echo $home[$ID][31] ?>'>
+                    <p tabindex="0">Lady Gaga</p>
+                  </div>
+                  <div class="no-display col-6 col-md-4">
+                    <img tabindex="0" class="rounded img-fluid" src="images/indie/imagine-dragons-destaques.jpg" alt='<?php echo $home[$ID][32] ?>'>
+                    <p tabindex="0">Imagine Dragons</p>
+                  </div>
+                </div>
+                <!-- Linha 2 da sugestão -->
+                <div class="row justify-content-md-center align-items-center text-center">
+                  <div class="col-6 col-md-4">
+                    <img tabindex="0" class="rounded img-fluid" src="images/jazz/milesDavis.jpg" alt='<?php echo $home[$ID][33] ?>'>
+                    <p tabindex="0">Miles Davis</p>
+                  </div>
+                  <div class="col-6 col-md-4">
+                    <img tabindex="0" class="rounded img-fluid" src="images/sertanejo/lancamento-01.jpg" alt='<?php echo $home[$ID][34] ?>'>
+                    <p tabindex="0">Luan Santana</p>
+                  </div>
+                  <div class="no-display col-6 col-md-4">
+                    <img tabindex="0" class="rounded img-fluid" src="images/principal/home-8.jpg" alt='<?php echo $home[$ID][35] ?>'>
+                    <p tabindex="0">Zé Neto e Cristiano</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="row no-gutters mb-md-4 mb-lg-0">
+            <div class="col-12">
+              <section class="playlists">
+                <h3 tabindex="0"><?php echo $home[$ID][18] ?></h3>
+                <p tabindex="0"><?php echo $home[$ID][19] ?></p>
+                <div class="row text-center">
+                  <div class="col-12 col-sm-6 mb-3 mb-sm-5">
+                    <a href="https://www.spotify.com/br" target="_blank">
+                      <img class="rounded img-fluid" src="images/principal/spotify.jpg" alt='<?php echo $home[$ID][36] ?>'>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-6 mb-3 mb-sm-5">
+                    <a href="https://www.deezer.com/br/" target="_blank">
+                      <img class="rounded img-fluid" src="images/principal/deezer.jpg" alt='<?php echo $home[$ID][37] ?>'>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- importando o footer da pagina -->
+  <?php
   include('imports/footer.php');
   ?>
 </body>

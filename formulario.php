@@ -39,7 +39,7 @@ include('imports/head.php');
       <button type="button" value="voltar" class="btn btn-secondary btn-lg" onclick="window.history.back();">Voltar</button>
     </div>
     <div class="skippy">
-      <a class="sr-only sr-only-focusable text-light text-center" href="./index.php">Voltar a página Home</a>
+      <a class="sr-only sr-only-focusable text-center" href="./index.php">Voltar a página Home</a>
     </div>
   </main>
   <!-- importando o footer da pagina -->

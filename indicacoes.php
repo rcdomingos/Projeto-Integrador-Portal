@@ -27,13 +27,29 @@ include('imports/head.php');
         <div class=" mt-1 col-md-6">
           <article>
             <h1 tabindex="0"><?php echo $indicacoes[$ID][0] ?></h1>
-            <p tabindex="0">Aqui estão as rádios que nos indicamos para você:</p>
-            <p>* Rádio FM Coca-cola</p>s
-            <p>* Rádio FM Kiss-Online<p>
-            <p>* Rádio Rock FM-Online</p>
-            <p>* Rádio Mix-FM</p>
-            <p>Contamos com a colaboração dessas rádios para sempre manter as informações de músicas e notícias atualizadas no site ou vice-versa. Diante disso todas elas são muito recomendadas por todos os integrantes do site!</p>
-            <p>Acesse os canais online de cada uma e curta todas os sons e novidades do mundo da música!</p>
+            <p class="text-muted"><small>Lista Atualizada em 28 de janeiro de 2019</small></p>
+            <p tabindex="0">De tempos em tempos temos aquela banda que nos excita, aquela música que nos anima, aquele estilo que nos comove.
+              A música tem disso, e por isso não é possível viver sem, mas até a melhor banda e a melhor música enjoa as vezes.
+              Então é preciso descobrir coisa nova. O Brasil tem muitos bons blogs que podem te oferecer novas experiências
+              quando o assunto é música e ainda te trazer notícias dos seus ídolos. Selecionamos os melhores blogs nacionais
+              que falam de música. Confira!</p>
+
+            <P><small><em>*Esta lista deve ter atualizações assim poderemos sempre melhorá-la incluindo ou tirando sites.</em></small> </p>
+
+            <h3><strong><a href="http://www.tenhomaisdiscosqueamigos.com/" target="_blank" rel="noopener">Tenho Mais Discos Que Amigos!</a></strong></h3>
+            <p>Este certamente é um dos blogs de música mais completos do Brasil,
+              nele você encontra notícias, resenhas, entrevistas e muito mais.</p>
+            <h3><strong><a href="http://movethatjukebox.com/" target="_blank" rel="noopener">Move That Jukebox</a></strong></h3>
+            <p>Site com notícias sobre rock e indie rock nacional e internacional. Produz resenhas de shows e faz ótimos comentários sobre novas bandas do cenário brasileiro.</p>
+            <h3><strong><a href="http://monkeybuzz.com.br/" target="_blank" rel="noopener">Monkeybuzz</a></strong></h3>
+            <p>Este é um blog para conhecer novos sons. Você vai encontrar notícias e ficar bem atualizado sobre lançamentos de álbuns.</p>
+            <h3><strong><a href="http://www.embrulhador.com/" target="_blank" rel="noopener">Embrulhador</a></strong></h3>
+            <p>No Embrulhador, blog editado pelo jornalista Ed Félix, a regra é compartilhar sons, cenas, ideias, memórias, opinião sobre música.</p>
+            <h3><strong><a href="http://rollingstone.uol.com.br/" target="_blank" rel="noopener">Rolling Stone Brasil</a></strong></h3>
+            <p>Este é o blog de revista uma das revistas mais famosas do mundo. Você pode encontrar notícias musicais e outras coisas da cultura pop.</p>
+            <h3><strong><a href="http://www.mtv.com.br/musica/" target="_blank" rel="noopener">MTV Brasil</a></strong></h3>
+            <p>A MTV é mundialmente conhecida por ser um canal de cultura dedicado ao público jovem. O blog não é diferente e nele se pode encontrar notícias, listas, e muito mais sobre o mundo da música.</p>
+
           </article>
         </div>
         <div class="col-md-6 mt-1">

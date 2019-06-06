@@ -79,17 +79,17 @@ include('imports/head.php');
             <?php
             if ($ID == 'PT') {
               echo "<p tabindex='0'>RA:2650831813029 - Desenvolvedor</p>";
-              echo '<p><a href="sertanejo/index.php" tabindex="0">Sertanejo</a></p>';
+              echo '<p><a href="jazz/index.php" tabindex="0">Jazz</a></p>';
               echo "<p tabindex='0'>Aluno do curso de Sistemas para Internet, na FATEC São Roque, estou no 2 semestre. Apreendendo  a desenvolver sítios para internet. Responsável por auxiliar no desenvolvimento dos javascripts e PHP do Portal.</p>";
             }
             if ($ID == 'EN') {
               echo "<p tabindex='0'>RA:2650831813029 - Developer</p>";
-              echo '<p><a href="sertanejo/index.php" tabindex="0">Sertanejo</a></p>';
+              echo '<p><a href="jazz/index.php" tabindex="0">Jazz</a></p>';
               echo "<p tabindex='0'>Student of the Internet Systems course at FATEC São Roque, I'm in the 2nd semester. Seizing to develop internet sites. Responsible for assisting in the development of javascripts and PHP of the Portal.</p>";
             }
             if ($ID == 'ES') {
               echo "<p tabindex='0'>RA:2650831813029 - Revelador</p>";
-              echo '<p><a href="sertanejo/index.php" tabindex="0">Sertanejo</a></p>';
+              echo '<p><a href="jazz/index.php" tabindex="0">Jazz</a></p>';
               echo "<p tabindex='0'>Estudiante del curso de Sistemas para Internet, en la FATEC São Roque, estoy en el 2 semestre. Apreciando a desarrollar sitios para Internet. Responsable por auxiliar en el desarrollo de los javascripts y PHP del Portal.</p>";
             }
             ?>
