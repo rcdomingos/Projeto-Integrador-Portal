@@ -60,6 +60,7 @@ $titlePagina = array('PT' => "Pop | Pagina Inicial", 'EN' => "Pop | Home", 'ES' 
                     <p class="mb-3 text-justify"><?php echo $pop[$ID][9]?></p>
                 </section>
             </div>
+            <blockquote class="blockquote"><p class="text-right pr-4"><small class="text-muted">Todas as notícias foram retiradas do site Wikipédia!</small></p></blockquote>
         </section>
     </main>
 

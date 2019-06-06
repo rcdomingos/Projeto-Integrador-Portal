@@ -28,7 +28,7 @@ include('imports/head.php');
           <article>
             <h1 tabindex="0"><?php echo $indicacoes[$ID][0] ?></h1>
             <p tabindex="0">Aqui estão as rádios que nos indicamos para você:</p>
-            <p>* Rádio FM Coca-cola</p>
+            <p>* Rádio FM Coca-cola</p>s
             <p>* Rádio FM Kiss-Online<p>
             <p>* Rádio Rock FM-Online</p>
             <p>* Rádio Mix-FM</p>
