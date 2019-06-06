@@ -68,6 +68,7 @@ include('../imports/idioma.php');
                     <p class="mb-3 text-justify"><?php echo $pop [$ID][2]?></p> 
                 </section>
                 </div>
+                <blockquote class="blockquote"><p class="text-right pr-4"><small class="text-muted">Todas as notícias foram retiradas do site Wikipédia!</small></p></blockquote>
         </article>
     </main>
 
