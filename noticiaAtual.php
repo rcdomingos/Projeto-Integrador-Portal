@@ -96,7 +96,7 @@ include('imports/head.php');
 
           <p><?php echo $noticia[$ID][$NTC][4]?></p>
           <p><?php echo $noticia[$ID][$NTC][5]?></p>
-          <p class="text-right"><small><a href="<?php echo $noticia[$ID][$NTC][6]?>">> Fonte da Noticía <</a></small></p>
+          <p class="text-right"><a href="<?php echo $noticia[$ID][$NTC][6]?>">> Fonte da Noticía <</a></</p>
           
           
         </article>
