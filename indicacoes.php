@@ -27,24 +27,13 @@ include('imports/head.php');
         <div class=" mt-1 col-md-6">
           <article>
             <h1 tabindex="0"><?php echo $indicacoes[$ID][0] ?></h1>
-            <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Arcu felis bibendum ut tristique et egestas quis ipsum
-              suspendisse. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Tincidunt tortor
-              aliquam nulla facilisi cras. Elit ullamcorper dignissim cras tincidunt lobortis. Eu non
-              diam phasellus vestibulum lorem sed risus ultricies tristique. Suspendisse faucibus
-              interdum posuere lorem ipsum. Tempus imperdiet nulla malesuada pellentesque elit eget
-              gravida. Placerat duis ultricies lacus sed. Nec feugiat nisl pretium fusce id velit ut
-              tortor pretium. Dui sapien eget mi proin. Mauris in aliquam sem fringilla. Vestibulum
-              sed arcu non odio. Sit amet nisl suscipit adipiscing bibendum est. Gravida arcu ac tortor
-              dignissim convallis. Malesuada pellentesque elit eget gravida. Praesent semper feugiat nibh
-              sed pulvinar proin gravida hendrerit. Blandit turpis cursus in hac habitasse platea dictumst
-              quisque sagittis. Aliquam malesuada bibendum arcu vitae. Facilisis magna etiam tempor orci eu
-              lobortis. Lectus quam id leo in vitae turpis massa sed elementum. Volutpat blandit aliquam
-              etiam erat velit. Porttitor lacus luctus accumsan tortor posuere. Eget velit aliquet sagittis id.
-              Eget aliquet nibh praesent tristique. In est ante in nibh mauris cursus mattis molestie.
-              In iaculis nunc sed augue lacus viverra vitae. Massa ultricies mi quis hendrerit. Diam vel quam
-              elementum pulvinar. Sagittis orci a scelerisque purus. Adipiscing tristique risus nec feugiat
-              in fermentum. Orci dapibus ultrices in iaculis nunc.</p>
+            <p tabindex="0">Aqui estão as rádios que nos indicamos para você:</p>
+            <p>* Rádio FM Coca-cola</p>
+            <p>* Rádio FM Kiss-Online<p>
+            <p>* Rádio Rock FM-Online</p>
+            <p>* Rádio Mix-FM</p>
+            <p>Contamos com a colaboração dessas rádios para sempre manter as informações de músicas e notícias atualizadas no site ou vice-versa. Diante disso todas elas são muito recomendadas por todos os integrantes do site!</p>
+            <p>Acesse os canais online de cada uma e curta todas os sons e novidades do mundo da música!</p>
           </article>
         </div>
         <div class="col-md-6 mt-1">
