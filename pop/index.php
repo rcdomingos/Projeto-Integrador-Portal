@@ -32,7 +32,7 @@ $titlePagina = array('PT' => "Pop | Pagina Inicial", 'EN' => "Pop | Home", 'ES' 
                 <p class="text-black-50"><?php echo $pop[$ID][1]?></p>
             </blockquote>
         <div class="card text-white">
-                <img class="card-img shadow" src="../images/pop/five-pop.jpg" alt="Foto dos integrantes da bando Marron Five">
+                <img tabindex="0" class="card-img shadow" src="../images/pop/five-pop.jpg" alt="Foto dos integrantes da bando Maroon Five">
             </div>
         </section>
 
