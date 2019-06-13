@@ -1052,48 +1052,20 @@ div.icone-contato {
 
 /************************* AJUSTE PUNK ***************************************/
 /*PÃGINA punk*/
+
 #headerpunk {
-  background: rgba(0, 0, 0, 1);
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(231, 56, 39, 1)));
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-  background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(231, 56, 39, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#e73827', GradientType=1);
+  background: red;
 }
 
 #headerpunk a {
   color: #fff;
 }
 
-.legenda {
-  position: relative;
-  bottom: 120px;
-  left: 20px;
-  color: white;
-}
-
 .artistas {
   border-top: 50px;
 }
 
-.corpopunk {
-  background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  ;
 
-}
-
-.figure-caption {
-  position: relative;
-  top: -70px;
-  color: white;
-}
 
 #importancia3 {
   background-color: black;
@@ -1104,6 +1076,18 @@ div.icone-contato {
   position: relative;
   top: -20px;
 }
+
+
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+
+}
+
+
 /************* AJUSTE PAGINAS JAZZ *********************************/
 #headerjazz {
   background: #bdc3c7; /* fallback for old browsers */
