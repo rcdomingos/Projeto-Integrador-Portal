@@ -1,7 +1,7 @@
 <?php
-$punk_pt = array("Marcos","Voltar ao topo");
-$punk_en = array("Marck","Back to the top");
-$punk_es = array("Marcas","Volver al principio");
+$punk_pt = array("MARCOS","Voltar ao topo");
+$punk_en = array("MARCK","Back to the top");
+$punk_es = array("HITOS","Volver al principio");
 $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 
 ?>
@@ -34,12 +34,12 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed nec tellus auctor, vehicula diam vel, faucibus sapien. Morbi dictum, dui et vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis. Pellentesque in risus vestibulum sem lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus. Mauris tincidunt elit nec ex sagittis laoreet. Vestibulum sed mattis dui. lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus. lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus.</p>
                     </div>
                     <div class="col-lg-3">
-                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-kaos64.jpg">
+                        <img alt="banda Kaos 64 em um show" tabindex="0" class="img-fluid" src="../images/punk/mini-kaos64.jpg">
                     </div>
                 </div>
                 <div class="row linha-punk">
                     <div class="col-lg-3">
-                        <img alt="Lorem ipsum dolor sit amet." tabindex="0" class="img-fluid" src="../images/punk/mini-ulster.jpg">
+                        <img alt="Banda Ulster, todos em pé com sacos preto na cabeça" tabindex="0" class="img-fluid" src="../images/punk/mini-ulster.jpg">
                     </div>
                     <div class="col-lg-9">
                         <p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in erat vitae dui tristique mattis. Sed nec tellus auctor, vehicula diam vel, faucibus sapien. Morbi dictum, dui et vestibulum egestas, enim eros luctus purus, sit amet laoreet urna nunc sed turpis. Pellentesque in risus vestibulum sem lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus. lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus. lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus. lacinia dictum vitae quis leo. Phasellus nulla erat, fringilla in tortor quis, convallis egestas urna. Sed semper ante sit amet est vestibulum, eu maximus arcu cursus.</p>

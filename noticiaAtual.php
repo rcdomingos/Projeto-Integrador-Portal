@@ -88,7 +88,7 @@ include('imports/head.php');
             <p class="lead"><?php echo $noticia[$ID][$NTC][1] ?></p>
           </header>
           <!-- Imagem da noticia -->
-          <img class="mx-auto d-block img-fluid shadow-sm mb-3" src="<?php echo $noticia[$ID][$NTC][2] ?>" alt="<?php echo $noticia[$ID][$NTC][3] ?>">
+          <img tabindex="0" class="mx-auto d-block img-fluid shadow-sm mb-3" src="<?php echo $noticia[$ID][$NTC][2] ?>" alt="<?php echo $noticia[$ID][$NTC][3] ?>">
           <!-- Informações da noticia -->
           <p class="text-muted"><small><i class="fas fa-history"></i> 10 de abril de 2019 | 19h25 - <strong><?php echo $partesPagina[$ID][0] ?></strong> Karina Lucindo | <strong><?php echo $partesPagina[$ID][1] ?></strong> <?php echo $partesPagina[$ID][2] ?> </small> </p>
 

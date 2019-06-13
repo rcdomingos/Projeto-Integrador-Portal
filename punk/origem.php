@@ -30,7 +30,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <img alt="#" class=" img-fluid mx-auto d-block p-2" src="../images/punk/imagem-punk-origem.jpg" tabindex="0" alt="Lorem ipsum dolor sit amet.">
+                    <img alt="#" class=" img-fluid mx-auto d-block p-2" src="../images/punk/imagem-punk-origem.jpg" tabindex="0" alt="Na foto  Punks Ingleses estão em um aglomerado, um olha para a câmera e aponta para as costas do outro que tem o símbolo da banda Sex Pistols.">
                 </div>
                 <div class="row">
                     <div class="text-center">

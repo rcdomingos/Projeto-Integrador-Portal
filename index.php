@@ -1,6 +1,6 @@
 <?php
 $home_pt = array(
-  'O Seu Portal da Música', 'Os melhores artistas e as musicas mais tocadas no momento você encontra aqui no Ecletic.Music.', "Navegue pelo site e aproveite todo o conteúdo feito para você que adora e curte boa musica.",
+  'O Seu Portal da Música', 'Os melhores artistas e as músicas mais tocadas no momento você encontra aqui no Ecletic.Music.', "Navegue pelo site e aproveite todo o conteúdo feito para você que adora e curte boa musica.",
   'As músicas do Momento', "Aumente o Som e ouça nossas indicações", "Quer tocar aquela Musica?", "Veja Mais", "Notícias e Novidades", "Fique por dentro das novidades do Mundo da Música", "Daniel Realiza sonho de família em Ibiúna",
   "O novo sucesso da Katy Perry", "The Strokes dá sua primeira entrevista em dez anos", "Noticias", "Novidades", "As melhores músicas", "classificação completa", "Curte boa Música?", "Confira então nossas indicações", "Playlists",
   "Confira nossas playlists com as melhores seleções", "semanal", "mensal", "anual", "Na imagem uma mulher tira foto junto de sua família com o cantor Daniel. Todos estão sorrindo.", "Na imagem a cantora Katy Perry se encontra séria. Ao fundo da imagem encontra-se uma parede branca com propagandas.",

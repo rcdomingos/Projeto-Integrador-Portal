@@ -1,7 +1,7 @@
 <?php
-$punk_pt = array("Artista", "Música","Destaques", "Voltar ao topo");
-$punk_en = array("Artist", "Music","Highlights", "Back to the top");
-$punk_es = array("Artistas", "musica","Reflejos", "Volver al principio");
+$punk_pt = array("Artista", "Música","DESTAQUES", "Voltar ao topo");
+$punk_en = array("Artist", "Music","HIGHLIGHTS", "Back to the top");
+$punk_es = array("Artistas", "Musica","REFLEJOS", "Volver al principio");
 
 $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
 
@@ -88,19 +88,19 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="p-3 col-lg-6">
-                                <img class="img-fluid" src="../images/punk/mini-dri.jpg" tabindex="0" alt="Lorem ipsum dolor sit amet.">
+                                <img class="img-fluid" src="../images/punk/mini-dri.jpg" tabindex="0" alt="Foto da banda Dirty Rotten Inbecilles, uma banda de Thrash Punk Crossover, estao todos olhando para a camera">
                             </div>
                             <div class="p-3 col-lg-6">
 
-                                <img class="img-fluid" src="../images/punk/mini-bad-religion.jpg" tabindex="0" alt="Lorem ipsum dolor sit amet.">
+                                <img class="img-fluid" src="../images/punk/mini-bad-religion.jpg" tabindex="0" alt="Foto de uma banda desconhecida, religião má, zueira">
                             </div>
                         </div>
                         <div class="row">
                             <div class="p-3 col-lg-6">
-                                <img class="img-fluid" src="../images/punk/mini-colera.jpg" tabindex="0" alt="Lorem ipsum dolor sit amet.">
+                                <img class="img-fluid" src="../images/punk/mini-colera.jpg" tabindex="0" alt="Melhor banda de todas, o resto é balela">
                             </div>
                             <div class="p-3 col-lg-6">
-                                <img class="img-fluid" src="../images/punk/mini-rdp.jpg" tabindex="0" alt="Lorem ipsum dolor sit amet.">
+                                <img class="img-fluid" src="../images/punk/mini-rdp.jpg" tabindex="0" alt="Banda do vocalista que é o terror de Dado Dollabela">
                             </div>
                         </div>
                     </div>
